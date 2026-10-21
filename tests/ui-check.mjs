@@ -1,0 +1,174 @@
+import assert from 'node:assert/strict';
+import { mkdir } from 'node:fs/promises';
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { createAppServer } from '../prototype/server.mjs';
+
+const require = createRequire(import.meta.url);
+const { chromium } = require('playwright');
+const artifactDir = fileURLToPath(new URL('../artifacts/', import.meta.url));
+await mkdir(artifactDir, { recursive: true });
+const server = createAppServer();
+await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+const base = `http://127.0.0.1:${server.address().port}`;
+let browser;
+const errors = [];
+const results = [];
+const action = (page, name, id) => page.locator(`[data-action="${name}"]${id ? `[data-${name === 'go' ? 'screen' : 'id'}="${id}"]` : ''}`).first();
+const waitScreen = async (page, screen) => {
+  await page.waitForFunction(value => document.body.dataset.screen === value, screen, { timeout: 10000 });
+};
+const screenshot = async (page, name) => page.screenshot({ path: path.join(artifactDir, name), fullPage: true });
+
+try {
+  browser = await chromium.launch({ headless: true, channel: 'msedge' });
+  const desktopContext = await browser.newContext({ viewport: { width: 1440, height: 1040 } });
+  const page = await desktopContext.newPage();
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto(base);
+  await waitScreen(page, 'home');
+  assert.equal(await page.locator('[data-action="select-preset"]').count(), 3, '首页只有三张主卡片');
+  await screenshot(page, '01-home-desktop.png');
+  results.push('首页三快捷卡和桌面布局');
+
+  await page.locator('[data-action="open-modal"][data-modal="theme"]').first().click();
+  await page.locator('.bottom-sheet [data-action="set-theme"][data-id="food"]').click();
+  await action(page, 'apply-theme').click();
+  await page.waitForSelector('.chip-row [data-id="food"][aria-pressed="true"]');
+  assert.equal(await page.locator('.chip-row [data-id="food"]').getAttribute('aria-pressed'), 'true', '主题确认真正生效');
+  await page.locator('[data-action="open-modal"][data-modal="theme"]').first().click();
+  await page.locator('.bottom-sheet [data-action="set-theme"][data-id="food"]').click();
+  await action(page, 'apply-theme').click();
+  await action(page, 'go', 'profile').click();
+  await page.locator('[data-action="open-modal"][data-modal="nickname"]').first().click();
+  await page.locator('[data-field="nickname"]').fill('去吹风的人');
+  await action(page, 'apply-nickname').click();
+  assert.ok((await page.locator('.phone').innerText()).includes('去吹风的人'), '昵称保存真正生效');
+  await action(page, 'go', 'home').click();
+  results.push('可跳过主题选择与昵称确认');
+
+  await action(page, 'select-preset', 'explore').click();
+  await waitScreen(page, 'game');
+  await screenshot(page, '02-game-desktop.png');
+  await action(page, 'launch').click();
+  await page.waitForSelector('[data-action="skip-animation"]', { timeout: 5000 });
+  await action(page, 'skip-animation').click();
+  await waitScreen(page, 'result');
+  const destinationName = await page.locator('[data-testid="destination-name"]').first().innerText();
+  assert.ok(destinationName.trim(), '实际抽到一个可读目的地');
+  await action(page, 'save-destination').click();
+  await action(page, 'accept-destination').click();
+  await action(page, 'go', 'journeys').click();
+  await waitScreen(page, 'journeys');
+  assert.ok((await page.locator('.phone').innerText()).includes(destinationName), '接受后保存到旅程');
+  await action(page, 'complete-journey').click();
+  assert.ok((await page.locator('.phone').innerText()).includes('已经走过'), '旅程可完成');
+  results.push('个人抽取、跳过动画、收藏、旅程和完成');
+
+  await action(page, 'go', 'home').click();
+  await page.locator('[data-action="open-modal"][data-modal="custom"]').first().click();
+  await page.locator('[data-field="customText"]').fill('我的秘密花园\n我的秘密花园\n另一个想去的地方');
+  await action(page, 'apply-custom').click();
+  await waitScreen(page, 'game');
+  for (const game of ['plane', 'dart', 'aroma', 'sticks']) {
+    await action(page, 'set-game', game).click();
+    await action(page, 'launch').click();
+    await page.waitForSelector('[data-action="skip-animation"]', { timeout: 5000 });
+    await action(page, 'skip-animation').click();
+    await waitScreen(page, 'result');
+    const customName = await page.locator('[data-testid="destination-name"]').first().innerText();
+    assert.ok(['我的秘密花园', '另一个想去的地方'].includes(customName.trim()), `未知自填项 ${game} 可揭晓`);
+    if (game !== 'sticks') {
+      await action(page, 'draw-again').click();
+      await waitScreen(page, 'game');
+    }
+  }
+  results.push('去重自填名单与四种玩法未知资料兜底');
+
+  const memberA = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const memberB = await browser.newContext({ viewport: { width: 390, height: 844 } });
+  const a = await memberA.newPage();
+  const b = await memberB.newPage();
+  a.on('pageerror', error => errors.push(error.message));
+  b.on('pageerror', error => errors.push(error.message));
+  await a.goto(base);
+  await waitScreen(a, 'home');
+  await screenshot(a, '03-home-mobile.png');
+  assert.equal(await a.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true, '手机无横向溢出');
+  await action(a, 'select-preset', 'near').click();
+  await a.waitForSelector('[data-field="originId"]');
+  assert.equal(await a.locator('.bottom-sheet [data-field]').count(), 1, '近途首次只要求一个出发城市');
+  await a.locator('[data-field="originId"]').selectOption('changsha');
+  await action(a, 'apply-origin').click();
+  await waitScreen(a, 'game');
+  await action(a, 'launch').click();
+  await a.waitForSelector('[data-action="skip-animation"]');
+  await action(a, 'skip-animation').click();
+  await waitScreen(a, 'result');
+  results.push('附近模式首次仅补城市，能抽到具体玩点');
+  await action(a, 'go', 'home').click();
+  await action(a, 'set-mode', 'group').click();
+  await action(a, 'select-preset', 'explore').click();
+  await waitScreen(a, 'room');
+  const code = await a.locator('[data-room-code]').first().getAttribute('data-room-code');
+  assert.ok(code, '有真实可加入的房间邀请码');
+  await b.goto(`${base}/?room=${encodeURIComponent(code)}`);
+  await b.waitForSelector('[data-field="inviteCode"]');
+  await b.locator('[data-field="nickname"]').fill('小林');
+  await action(b, 'join-room').click();
+  await waitScreen(b, 'room');
+  await a.waitForFunction(() => document.querySelectorAll('.member-item, [data-member-id]').length >= 2, null, { timeout: 10000 });
+  await a.locator('[data-action="open-modal"][data-modal="custom"]').first().click();
+  await a.locator('[data-field="customText"]').fill('长沙\n北京');
+  await action(a, 'apply-custom').click();
+  await b.waitForFunction(() => document.querySelector('.candidate-chips')?.children.length === 2, null, { timeout: 10000 });
+  await b.locator('[data-action="open-modal"][data-modal="custom"]').first().click();
+  await b.locator('[data-field="customText"]').fill('北京\n杭州');
+  await action(b, 'apply-custom').click();
+  await a.waitForFunction(() => document.querySelector('.room-candidates')?.textContent.includes('杭州'), null, { timeout: 10000 });
+  assert.ok((await a.locator('.candidate-chips').innerText()).includes('长沙'), '甲的独有提名仍在共同池');
+  assert.ok((await a.locator('.candidate-chips').innerText()).includes('杭州'), '乙的独有提名进入共同池');
+  await action(a, 'ready-room').click();
+  await action(b, 'ready-room').click();
+  await a.waitForFunction(() => !document.querySelector('[data-action="draw-room"]')?.disabled, null, { timeout: 10000 });
+  await screenshot(a, '04-room-mobile.png');
+  await action(a, 'draw-room').click();
+  await waitScreen(a, 'game');
+  await b.locator('[data-action="open-modal"][data-modal="custom"]').first().click();
+  await b.locator('[data-field="customText"]').fill('北京\n杭州\n成都');
+  await action(b, 'apply-custom').click();
+  await waitScreen(a, 'room');
+  assert.equal(await action(a, 'ready-room').isDisabled(), false, '朋友改条件后回到房间重新准备');
+  await action(a, 'ready-room').click();
+  await action(b, 'ready-room').click();
+  await a.waitForFunction(() => !document.querySelector('[data-action="draw-room"]')?.disabled, null, { timeout: 10000 });
+  await action(a, 'draw-room').click();
+  await waitScreen(a, 'game');
+  await a.locator('#game-stage').scrollIntoViewIfNeeded();
+  const stageBox = await a.locator('#game-stage').boundingBox();
+  await a.mouse.move(stageBox.x + stageBox.width / 2, stageBox.y + stageBox.height * .65);
+  await a.mouse.down();
+  await a.mouse.move(stageBox.x + stageBox.width / 2, stageBox.y + stageBox.height * .25, { steps: 6 });
+  await a.mouse.up();
+  await waitScreen(a, 'result');
+  await waitScreen(b, 'result');
+  assert.equal(await a.locator('[data-testid="destination-name"]').first().innerText(), await b.locator('[data-testid="destination-name"]').first().innerText(), '两个浏览器成员看到相同结果');
+  await screenshot(a, '05-result-mobile.png');
+  await b.reload();
+  await waitScreen(b, 'result');
+  assert.equal(await a.locator('[data-testid="destination-name"]').first().innerText(), await b.locator('[data-testid="destination-name"]').first().innerText(), '重连恢复同一轮结果');
+  results.push('真实双成员房间、全员准备、同步抽取与重连');
+
+  await action(a, 'draw-again').click();
+  await waitScreen(a, 'room');
+  await waitScreen(b, 'room');
+  assert.equal(await b.locator('[data-action="ready-room"]').isDisabled(), false, '新轮参与者重新准备');
+  results.push('任一成员开启新轮，其他成员回到共同准备');
+
+  assert.deepEqual(errors, [], '所有页面无脚本错误');
+  console.log(JSON.stringify({ status: 'PASS', checks: results, screenshots: artifactDir }, null, 2));
+} finally {
+  await browser?.close();
+  await new Promise(resolve => server.close(resolve));
+}
