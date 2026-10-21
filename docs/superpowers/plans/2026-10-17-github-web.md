@@ -25,8 +25,8 @@ Interfaces:
 - Schema-only Drizzle definitions; root generates migration and configures D1.
 - Route imports `env` from `cloudflare:workers` and passes `env.DB`, origins including `https://wenzo-zwz.github.io`; no authentication UI or dependency on ChatGPT for visitors.
 
-- [ ] Write meaningful failing SQLite-backed tests for persistence/new instance, concurrency/CAS, same round draw, spoofing and CORS/body limits. Run red.
-- [ ] Implement bridge/API/schema/route. Run target tests green and report. Do not edit root config/package or frontend.
+- [x] Write meaningful failing SQLite-backed tests for persistence/new instance, concurrency/CAS, same round draw, spoofing and CORS/body limits. Run red.
+- [x] Implement bridge/API/schema/route. Run target tests green and report. Do not edit root config/package or frontend.
 
 ### Task 2 — Browser website and Pages export (frontend agent)
 
@@ -37,14 +37,15 @@ Interfaces:
 - app imports config, prefixes API paths, stores private `clientToken` (64 lowercase hex from two UUIDs) in existing storage without exposing in render state output/room. Send `x-travel-token` alongside clientId.
 - Invitations construct URL from current pathname, reset query/hash, then room query; preserve GitHub project subpath. Same browser stored identity semantics remain.
 - Build exact static allowlist into `dist-pages/` (no server files, private config, tests or operational docs); include `.nojekyll`, icon/manifest as needed. Existing style/brand retained, replace fake mobile clock/capsule with real web header and approved paper-plane traveler avatar. Do not change four-gesture thresholds.
-- [ ] Write failing build/subpath/secret-exclusion tests.
-- [ ] Implement, validate targeted tests and browser-visible DOM; report. Do not edit backend or root package/config.
+- [x] Write failing build/subpath/secret-exclusion tests.
+- [x] Implement, validate targeted tests and browser-visible DOM; report. Do not edit backend or root package/config.
 
 ### Task 3 — Provisioning, integration and release (root)
 
-- [ ] Set up isolated supplied Sites project and dependencies. Configure D1 binding `DB`, persist native returned Site ID unchanged, obtain public audience for anonymous API as user requested anytime web access.
-- [ ] Generate schema migration, apply locally, run tests and preview. Run existing rule/HTTP/gesture/room UI regressions; adapt only assertions tied to replaced web chrome.
-- [ ] Build Sites via native source helper, commit/push exact source to its remote, package same commit, save version, deploy, check status. Verify anonymous API and independent-member group flow over HTTPS.
-- [ ] Build Pages with verified API origin; local subpath and cross-origin full browser verification. Independent final review and fixes.
-- [ ] Create public `Wenzo-zwz/suixing-chufa`, push full source on main and static output on gh-pages; configure Pages branch through API (no Actions workflow permission needed). Wait for successful Pages build, inspect live mobile homepage, touch draw and group invitation.
-- [ ] Update README with fixed URLs, actual limits and update instructions; finish with verified site/repo links. No blanket uptime or mainland connectivity promises.
+- [x] Set up isolated supplied Sites project and dependencies. Configure D1 binding `DB`, persist native returned Site ID unchanged, obtain public audience for anonymous API as user requested anytime web access.
+- [x] Generate schema migration, apply locally, run tests and preview. Run existing rule/HTTP/gesture/room UI regressions; adapt only assertions tied to replaced web chrome.
+- [x] Build Sites via native source helper, commit/push exact source to its remote, package same commit, save version, deploy, check status. Verify anonymous API and independent-member group flow over HTTPS.
+- [x] Build Pages with verified API origin; local subpath and cross-origin full browser verification. Independent final review and fixes.
+- [x] Create public `Wenzo-zwz/suixing-chufa`, push full source on main and static output on gh-pages; configure Pages branch through API (no Actions workflow permission needed). Wait for successful Pages build, inspect live mobile homepage, touch draw and group invitation.
+- [x] Update README with fixed URLs, actual limits and update instructions; finish with verified site/repo links. No blanket uptime or mainland connectivity promises.
+
