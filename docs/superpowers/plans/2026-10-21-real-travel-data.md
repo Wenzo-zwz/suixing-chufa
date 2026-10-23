@@ -31,8 +31,8 @@ Files: prototype/render.mjs, prototype/styles.css, prototype/app.mjs, prototype/
 
 ### Task 3 — 发布
 
-Files: README.md, docs/deployment-2026-10-21.md。
+Files: README.md, docs/deployment-2026-10-23.md。
 
-- [ ] 构建同一个已核验源代码版本，通过 Sites 源代码助手同步、打包、保存版本并更新原公开云端服务。
-- [ ] 将源代码推送 GitHub main，静态文件更新 gh-pages，等待 Pages 构建。
-- [ ] 从公开 GitHub 页面检查真实资料和独立双浏览器房间流程，记录实际覆盖数量和限制。
+- [x] 构建同一个已核验源代码版本，通过 Sites 源代码助手同步、打包、保存版本并更新原公开云端服务。
+- [x] 将源代码推送 GitHub main，静态文件更新 gh-pages，等待 Pages 构建。
+- [x] 从公开 GitHub 页面检查真实资料和独立双浏览器房间流程，记录实际覆盖数量和限制。
