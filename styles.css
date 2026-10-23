@@ -331,3 +331,29 @@
 .web-share-button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; padding: 7px 11px; border: 1px solid #dbe1d2; border-radius: 10px; background: #fffdf56b; font-size: 11px; color: #61785b; white-space: nowrap; }
 .web-share-button:hover { background: #e7eddf; }
 @media (max-width: 359px) { .header-avatar { width: 36px; height: 36px; border-radius: 12px; } .header-start { gap: 7px; } .web-share-button { padding: 7px 9px; } }
+
+/* Travel facts remain readable inside the scrolling mobile workspace. */
+.travel-guide { display: grid; gap: 19px; padding: 18px 15px; }
+.travel-guide section { min-width: 0; }
+.travel-guide h3 { margin: 0 0 8px; font-size: 14px; color: var(--ink); }
+.travel-guide h4 { margin: 13px 0 5px; font-size: 12px; }
+.travel-guide p, .travel-guide dd, .guide-tips li { font-size: 12px; line-height: 1.95; overflow-wrap: anywhere; }
+.travel-guide p + p { margin-top: 5px; }
+.travel-query-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 5px; }
+.travel-query-links a { display: inline-flex; align-items: center; gap: 4px; padding: 8px 10px; border: 1px solid #d4ddce; border-radius: 8px; font-size: 11px; color: #3d634c; background: #fffcf4; }
+.travel-guide .query-help { font-size: 10px; color: #87907c; }
+.food-guide { margin: 0; display: grid; gap: 12px; }
+.food-guide dt { margin-bottom: 3px; font-size: 12px; font-weight: 600; color: #45674f; }
+.food-guide dd { margin: 0; }
+.guide-itinerary { padding-left: 18px; margin: 0; }
+.guide-itinerary li { padding: 0 0 12px 4px; }
+.guide-itinerary strong { font-size: 12px; }
+.guide-tips { margin: 0; padding-left: 18px; }
+.guide-tips li + li { margin-top: 7px; }
+.guide-sources { margin: 20px 0 12px; border: 1px solid #dde2d4; border-radius: 10px; padding: 12px; color: #64765c; font-size: 11px; overflow-wrap: anywhere; }
+.guide-sources summary { cursor: pointer; line-height: 1.8; }
+.guide-sources summary span { margin-left: 12px; color: #8b947f; font-size: 10px; }
+.guide-sources > div { padding-top: 7px; }
+.guide-sources p + p { margin-top: 12px; }
+.guide-sources small { display: block; line-height: 1.9; margin-top: 4px; font-size: 9px; }
+.guide-sources .source-link { margin: 0; }

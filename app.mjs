@@ -1,5 +1,5 @@
 import { renderApp } from './render.mjs';
-import { presetFilters, parseCustomNames, toggleTheme, rememberDestination } from './client-model.mjs';
+import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from './client-model.mjs';
 import { mountGameInteractions } from './game-interactions.mjs';
 import runtimeConfig from './runtime-config.mjs';
 
@@ -131,6 +131,7 @@ function closeModal() {
 }
 
 function recordResult(destination, drawId, createdAt, round = null) {
+  [destination] = refreshTravelRecords([destination], state.catalog?.destinations);
   state.destination = destination;
   state.resultRound = round;
   state.detailExpanded = false;
@@ -205,7 +206,7 @@ async function startSelection() {
       return;
     }
     if (!pool.candidates.length) {
-      state.error = '这些条件下暂时没有合适的示例目的地，微调一下再试试';
+      state.error = '已收录资料中暂时没有符合全部条件的目的地，微调一下再试试';
       state.screen = 'game';
       return;
     }
@@ -674,6 +675,9 @@ async function boot() {
   try {
     persist();
     state.catalog = await api('/api/catalog');
+    for (const key of ['saved', 'journeys', 'history']) {
+      state[key] = refreshTravelRecords(state[key], state.catalog.destinations);
+    }
     persist();
     await refreshPool();
     const invitation = new URLSearchParams(location.search).get('room');
