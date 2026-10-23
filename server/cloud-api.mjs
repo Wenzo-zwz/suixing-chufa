@@ -1,11 +1,10 @@
 import { createHash, randomUUID, timingSafeEqual } from 'node:crypto';
-import { DESTINATIONS, ORIGINS, THEMES, PROVINCES, PRESETS } from '../prototype/catalog.mjs';
+import { DESTINATIONS, ORIGINS, THEMES, PROVINCES, PRESETS, DISCLAIMER } from '../prototype/catalog.mjs';
 import { candidatePool, drawCandidate, DomainError, RoomStore } from '../prototype/domain.mjs';
 
 const JSON_LIMIT = 64 * 1024;
 const MAX_ATTEMPTS = 10;
 const ALLOWED_HEADERS = ['content-type', 'x-travel-client', 'x-travel-token'];
-const DISCLAIMER = '这是有限的演示目的地目录，并非全国全量资料。当地消费标签为演示参考，不是实际价格承诺，也不含往返交通；距离为地理直线距离。没有接入实时天气、班次、票价或余票，开放与预订可用性请在出发前查询。';
 
 async function requestIdentity(request, db) {
   const publicId = request.headers.get('x-travel-client');
@@ -91,7 +90,7 @@ async function mutateRoom(db, code, action, input) {
     const { row, record, store } = await loadRoom(db, code);
     if (roomId && roomId !== record.room.id) throw roomNotFound();
     roomId = record.room.id;
-    const room = action === 'leave' ? store.leave(code, input.clientId) : store[action](code, input);
+    const room = ['leave', 'read'].includes(action) ? store[action](code, input.clientId) : store[action](code, input);
     const nextRecord = JSON.stringify(store.exportRecord(code));
     if (nextRecord === row.record) return room;
     // The independent revision covers readiness/nicknames; room.id also guards code reuse.
@@ -169,8 +168,8 @@ export async function handleApi(request, db, { allowedOrigins = [] } = {}) {
       const code = rawCode.toUpperCase();
       const clientId = await requestIdentity(request, db);
       if (request.method === 'GET' && !action) {
-        const { store } = await loadRoom(db, code);
-        return json(200, store.read(code, clientId));
+        // Reads also persist a pending round's catalog refresh through the same CAS.
+        return json(200, await mutateRoom(db, code, 'read', { clientId }));
       }
       if (request.method === 'POST' && action) {
         const body = await readJson(request);

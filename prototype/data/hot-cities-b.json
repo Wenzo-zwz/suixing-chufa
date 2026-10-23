@@ -1,0 +1,2598 @@
+[
+  {
+    "id": "nanjing",
+    "name": "南京",
+    "province": "江苏",
+    "coordinates": {
+      "lat": 32.0603,
+      "lng": 118.7969
+    },
+    "themes": [
+      "culture",
+      "urban",
+      "food"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "南京适合把古都遗迹和湖边日常穿插着看：从秦淮河畔的街巷走到明城墙，再用半天进入钟山的树林与陵寝。城区景点能按片区串联，鸭馔和粉丝汤则提供了熟悉城市的另一条线索，行程不必每天都排满。",
+    "highlights": [
+      "秦淮河畔夫子庙街区",
+      "台城与玄武湖城湖景观",
+      "明孝陵神道石刻"
+    ],
+    "foods": [
+      "盐水鸭",
+      "鸭血粉丝汤",
+      "牛肉锅贴"
+    ],
+    "foodGuide": [
+      {
+        "name": "盐水鸭",
+        "description": "以盐卤调味的南京鸭馔，冷食能尝到皮肉的咸鲜；可先点小份，再搭配主食和清淡蔬菜。"
+      },
+      {
+        "name": "鸭血粉丝汤",
+        "description": "鸭血、粉丝与鸭杂放入汤中，口感各异；不吃内脏时，点单前说明需要保留的配料。"
+      },
+      {
+        "name": "牛肉锅贴",
+        "description": "面皮包牛肉馅后煎制，趁热尝酥脆底部；内馅有汁水，入口时放慢些以免烫口。"
+      }
+    ],
+    "seasons": [
+      "3—4月：春花与湖岸",
+      "10—11月：钟山秋色"
+    ],
+    "climate": "南京四季温差明显，夏季闷热且有集中降雨，冬季湿冷。春秋便于长时间步行；钟山林地与城墙迎风处体感不同，备雨具和可增减的外套。",
+    "travel": "远程可选南京禄口国际机场，衔接机场轨道交通或正规接送；高铁可比较南京南站与南京站，前者连接多条高铁通道，后者靠近玄武湖。核对到达站后，再按酒店所在片区选择接驳，避免把两个车站当成相同地点。",
+    "localTransport": "市区优先地铁串联片区，再步行进入秦淮街巷或湖岸。钟山内部步行距离较长，可按当天服务安排选择接驳；不要只按地图直线距离估算体力。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 秦淮与城墙",
+        "description": "游夫子庙街区，下午选择明城墙一段登临，傍晚回河岸散步。"
+      },
+      {
+        "title": "第2天 · 钟山陵寝",
+        "description": "以明孝陵神道和陵寝建筑为重点，按体力安排林间步行。"
+      },
+      {
+        "title": "第3天 · 玄武湖",
+        "description": "选湖岸与洲堤慢走，午餐尝鸭馔，再按返程车站安排余下时间。"
+      }
+    ],
+    "tips": [
+      "明城墙各段出入口不同，先选定游览段再规划返程。",
+      "秦淮核心街巷节假日客流大，优先乘公共交通进入。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Nanjing",
+        "url": "https://en.wikivoyage.org/wiki/Nanjing",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "南京市政府 · 春季赏花线路",
+        "url": "https://www.nanjing.gov.cn/bmdt/202603/t20260306_5801694.html"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "nanjing-confucius-temple",
+        "name": "夫子庙—秦淮风光带",
+        "coordinates": {
+          "lat": 32.0205,
+          "lng": 118.7889
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "food"
+        ],
+        "art": "town",
+        "description": "沿秦淮河观察桥、岸与街巷，再选感兴趣的科举或儒学展馆进入。白天适合看建筑细节，傍晚可等河面光线变化；周边商铺密集，留一段不赶场的散步时间，能更从容地认识老城空间。",
+        "highlights": [
+          "秦淮河岸",
+          "夫子庙街巷",
+          "科举文化"
+        ],
+        "travel": "从南京城区乘地铁至夫子庙或三山街一带后步行进入。街区跨多条道路，先确定想去的展馆或河岸位置，再选出站口。",
+        "days": "半天",
+        "tips": [
+          "街区漫步与进入展馆是不同安排，逐项核对门票与预约。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanjing",
+            "url": "https://en.wikivoyage.org/wiki/Nanjing",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "nanjing-city-wall",
+        "name": "南京明城墙（台城段）",
+        "coordinates": {
+          "lat": 32.0714,
+          "lng": 118.796
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "city",
+        "description": "把登城路线集中在台城一带，俯看玄武湖与城内街景，观察城砖、垛口及城墙走向。选择走一小段往往比追求长距离更能留意细节，出入口之间有高差，适合穿便于爬台阶的鞋。",
+        "highlights": [
+          "明代城墙",
+          "玄武湖视野",
+          "城砖细节"
+        ],
+        "travel": "从南京城区前往鸡鸣寺、解放门一带，再按导览到台城入口。登城前确认可用出口，游览后可衔接玄武湖与附近地铁。",
+        "days": "2—3小时",
+        "tips": [
+          "城墙遮阴有限，带水和防晒用品；雨天留意湿滑城砖。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanjing",
+            "url": "https://en.wikivoyage.org/wiki/Nanjing",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "nanjing-xuanwu-lake",
+        "name": "玄武湖",
+        "coordinates": {
+          "lat": 32.078,
+          "lng": 118.801
+        },
+        "themes": [
+          "nature",
+          "slow",
+          "outdoor"
+        ],
+        "art": "garden",
+        "description": "湖岸、洲堤与城市天际线在这里相互映衬。可从玄武门进入后选两三个洲串行，找一处湖边座椅停留；不必坚持环湖一周，春日看植被、秋日看开阔水面，都能找到适合慢走的路线。",
+        "highlights": [
+          "洲堤相连",
+          "湖岸步道",
+          "钟山远景"
+        ],
+        "travel": "从南京城区乘地铁至玄武门一带步行入园；若与台城同游，可从解放门方向衔接。以选定入口为导航终点，避免绕湖折返。",
+        "days": "2—4小时",
+        "tips": [
+          "环湖与洲内路线长度差别大，带老人孩子可选短线。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanjing",
+            "url": "https://en.wikivoyage.org/wiki/Nanjing",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "nanjing-ming-xiaoling",
+        "name": "明孝陵",
+        "coordinates": {
+          "lat": 32.0584,
+          "lng": 118.8396
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "从神道石兽开始，顺着陵寝轴线理解明代皇家陵园的布局，再看碑刻和建筑遗存。这里也适合在树林中步行，可将主要时间留给神道与核心陵区，慢慢比较石刻造型，避免只匆匆拍照。",
+        "highlights": [
+          "神道石像生",
+          "明代陵寝布局",
+          "钟山林木"
+        ],
+        "travel": "从南京城区乘地铁至苜蓿园一带，再步行或换乘景区接驳至明孝陵入口。陵区较大，去程就确认回程接驳位置。",
+        "days": "半天",
+        "tips": [
+          "明孝陵与中山陵的门票、预约安排应分别核对。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanjing",
+            "url": "https://en.wikivoyage.org/wiki/Nanjing",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wuhan",
+    "name": "武汉",
+    "province": "湖北",
+    "coordinates": {
+      "lat": 30.5928,
+      "lng": 114.3055
+    },
+    "themes": [
+      "urban",
+      "food",
+      "culture"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "武汉的旅行线索散布在长江和汉江两侧。武昌可看黄鹤楼、楚地文物与东湖，汉口则适合沿江汉路观察近代建筑和商埠街景。早起吃一顿过早，再把每天重点放在同一片区，能更从容地体会三镇各自的气质。",
+    "highlights": [
+      "黄鹤楼远眺长江大桥",
+      "省博楚文化藏品",
+      "东湖湖岸绿道"
+    ],
+    "foods": [
+      "热干面",
+      "三鲜豆皮",
+      "面窝"
+    ],
+    "foodGuide": [
+      {
+        "name": "热干面",
+        "description": "碱水面拌芝麻酱和调味汁，端上来后尽快拌匀；先尝原味，再按习惯添加辣椒或酸豆角。"
+      },
+      {
+        "name": "三鲜豆皮",
+        "description": "蛋皮包裹糯米和肉丁等馅料后煎制，外层微脆、内里软糯；适合配汤饮作早餐。"
+      },
+      {
+        "name": "面窝",
+        "description": "米浆等原料炸成圆形小吃，中间薄脆、边缘松软；趁热品尝，可与热干面少量搭配。"
+      }
+    ],
+    "seasons": [
+      "3—4月：春日湖岸",
+      "10—11月：江滩步行"
+    ],
+    "climate": "武汉夏季高温高湿，江滩和湖边活动应避开午后暴晒，冬季则有湿冷感。春秋适合散步；遇大风或强降雨时减少临水停留，按预警调整户外安排。",
+    "travel": "远程可选武汉天河国际机场，衔接轨道交通或正规车辆进城。铁路需区分武汉站、汉口站和武昌站：不同方向列车停靠不同站，武汉站位于城市东部，汉口站便于进入汉口片区。按到达站与住宿位置规划接驳，不把跨江换乘时间排得太紧。",
+    "localTransport": "地铁适合连接三镇，步行用于江汉路和黄鹤楼周边。轮渡作为额外体验时核对码头及当天运营；东湖范围大，先选入口与游览片区再出发。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 武昌与长江",
+        "description": "早餐吃热干面，游黄鹤楼与周边街巷，下午到江岸看大桥。"
+      },
+      {
+        "title": "第2天 · 楚文化与东湖",
+        "description": "按预约参观省博，下午选择东湖听涛一带散步，不追求环湖。"
+      },
+      {
+        "title": "第3天 · 汉口街区",
+        "description": "走江汉路与近代建筑街区，再向江岸漫步，给跨江返程留余量。"
+      }
+    ],
+    "tips": [
+      "省博热门时段预约紧张，先确认入馆再排其他项目。",
+      "东湖不同入口相距较远，导航时写明片区。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Wuhan",
+        "url": "https://en.wikivoyage.org/wiki/Wuhan",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Wuhan/East",
+        "url": "https://en.wikivoyage.org/wiki/Wuhan/East",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Wuhan/Hankou",
+        "url": "https://en.wikivoyage.org/wiki/Wuhan/Hankou",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "wuhan-yellow-crane-tower",
+        "name": "黄鹤楼",
+        "coordinates": {
+          "lat": 30.5469,
+          "lng": 114.3023
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "从蛇山楼阁眺望长江与武汉长江大桥，再沿园内步道寻找题诗和不同角度的江城景观。可先看楼层展陈，再把时间留给室外眺望；远景受能见度影响，阴晴天气会呈现不同的城市轮廓。",
+        "highlights": [
+          "蛇山楼阁",
+          "长江大桥视野",
+          "诗文线索"
+        ],
+        "travel": "从武汉城区乘地铁到武昌黄鹤楼附近站点，再步行前往所选景区入口。蛇山周边有坡度，预留上坡、安检与休息时间。",
+        "days": "2—3小时",
+        "tips": [
+          "园区与楼内游览范围按当天票务说明核对。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Wuhan/Wuchang",
+            "url": "https://en.wikivoyage.org/wiki/Wuhan/Wuchang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "wuhan-hubei-museum",
+        "name": "湖北省博物馆",
+        "coordinates": {
+          "lat": 30.5618,
+          "lng": 114.3646
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "city",
+        "description": "以楚文化和湖北考古为线索，在青铜器、音乐文物和其他展品之间理解地域历史。先选两类最感兴趣的藏品慢看，再决定是否扩展到其他展厅；越王勾践剑等热门展品前应留出等待时间。",
+        "highlights": [
+          "楚文化文物",
+          "越王勾践剑",
+          "古代礼乐"
+        ],
+        "travel": "从武汉城区乘地铁或公交到东湖路一带，步行至博物馆观众入口。可与东湖听涛区域顺路安排，但应先固定入馆时段。",
+        "days": "半天",
+        "tips": [
+          "通过馆方渠道确认预约、证件与入馆时段。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Wuhan/East",
+            "url": "https://en.wikivoyage.org/wiki/Wuhan/East",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "wuhan-east-lake",
+        "name": "东湖（听涛片区）",
+        "coordinates": {
+          "lat": 30.5695,
+          "lng": 114.3692
+        },
+        "themes": [
+          "nature",
+          "slow",
+          "outdoor"
+        ],
+        "art": "garden",
+        "description": "选择听涛作为认识东湖的起点，沿林荫路观察水面、堤岸和对岸山色。适合在参观博物馆后降低节奏，走一段就坐下休息；想增加骑行时另选合适绿道，不必用一次游览覆盖整个湖区。",
+        "highlights": [
+          "开阔湖面",
+          "听涛湖岸",
+          "城市绿道"
+        ],
+        "travel": "从武汉城区前往湖北省博物馆、东湖路附近，再步行或短程接驳到听涛入口。不同景区相距较远，叫车时写清入口名称。",
+        "days": "半天",
+        "tips": [
+          "湖岸部分路段日晒强，夏季带水并避免连续暴晒。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Wuhan/East",
+            "url": "https://en.wikivoyage.org/wiki/Wuhan/East",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "wuhan-jianghan-road",
+        "name": "江汉路步行街",
+        "coordinates": {
+          "lat": 30.5794,
+          "lng": 114.2854
+        },
+        "themes": [
+          "urban",
+          "culture",
+          "food"
+        ],
+        "art": "city",
+        "description": "从步行街向沿江方向行走，留意商铺之间的近代建筑立面，再转入相邻街巷。这里能同时看到商业街的热闹和老汉口商埠遗存；白天便于看建筑，傍晚适合继续走到江岸，感受街区节奏变化。",
+        "highlights": [
+          "近代建筑",
+          "汉口商业街",
+          "江汉关周边"
+        ],
+        "travel": "从武汉城区乘地铁至江汉路站或循礼门站，按南北方向进入步行街。若继续去江汉关和江滩，保留步行与回程换乘时间。",
+        "days": "2—3小时",
+        "tips": [
+          "建筑内部参观与商铺营业范围不同，尊重使用规则。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Wuhan/Hankou",
+            "url": "https://en.wikivoyage.org/wiki/Wuhan/Hankou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xian",
+    "name": "西安",
+    "province": "陕西",
+    "coordinates": {
+      "lat": 34.3416,
+      "lng": 108.9398
+    },
+    "themes": [
+      "culture",
+      "food",
+      "urban"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "西安适合沿秦、汉、唐和明城的时间线慢慢认识。兵马俑需要单独安排城外半日以上，城内能把城墙、碑林与大雁塔分成两条路线。面食和汤食种类丰富，逛完展馆再坐下来吃一顿，比连续赶景点更能留下古都的日常印象。",
+    "highlights": [
+      "兵马俑考古展示",
+      "城墙与护城河",
+      "大雁塔与碑林"
+    ],
+    "foods": [
+      "肉夹馍",
+      "羊肉泡馍",
+      "凉皮"
+    ],
+    "foodGuide": [
+      {
+        "name": "肉夹馍",
+        "description": "将腊汁肉等夹入烤馍中，面香与肉汁相配；不同店用肉和口味各异，点单可先问清馅料。"
+      },
+      {
+        "name": "羊肉泡馍",
+        "description": "把馍掰碎后与羊肉汤等同煮，汤浓且饱腹；按店家指导掰馍，再少量搭配糖蒜解腻。"
+      },
+      {
+        "name": "凉皮",
+        "description": "凉皮加调味汁和配菜拌食，面皮、米皮做法各异；先说明辣度，与热食搭配时控制份量。"
+      }
+    ],
+    "seasons": [
+      "3—5月：春日访古",
+      "9—10月：秋季步行"
+    ],
+    "climate": "西安冬季寒冷偏干，夏季白天炎热，城墙等开阔区域日照强。春秋适合步行但早晚温差需留意；带水和薄外套，雨天注意城砖与台阶防滑。",
+    "travel": "西安咸阳国际机场适合远程抵达，可衔接轨道交通或正规车辆。高铁多选择西安北站，市区西安站也有铁路服务，买票需核对站名。兵马俑位于临潼方向，与机场、北站和城墙内并非同一片区，城外游览日需预留往返交通余量。",
+    "localTransport": "城内可用地铁连接钟楼、永宁门和大雁塔，再步行进街巷。去临潼另需接驳，最后一段与参观时间一起规划；城墙上游览也要计算下城位置。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 城墙与碑林",
+        "description": "游碑林、书院门，下午在永宁门附近登城，按体力看夕照。"
+      },
+      {
+        "title": "第2天 · 秦代考古",
+        "description": "以兵马俑为重点，留足往返与讲解时间，回市区后安排面食。"
+      },
+      {
+        "title": "第3天 · 大雁塔",
+        "description": "白天游大慈恩寺与大雁塔，下午在周边公共空间散步。"
+      }
+    ],
+    "tips": [
+      "通过博物院官方渠道核对实名票务与有效证件要求。",
+      "清真餐饮与其他肉夹馍店用肉不同，按习惯确认馅料。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Xi'an",
+        "url": "https://en.wikivoyage.org/wiki/Xi'an",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "xian-terracotta-army",
+        "name": "秦始皇帝陵博物院（兵马俑）",
+        "coordinates": {
+          "lat": 34.3841,
+          "lng": 109.2785
+        },
+        "themes": [
+          "culture"
+        ],
+        "art": "city",
+        "description": "沿俑坑展示了解秦代军阵与考古现场，先看整体排列，再观察兵俑的姿态与服饰。建议借助馆方讲解把细节串起来；这里看的是遗址保护和出土文物，留足阅读与等待时间，比快速走完展厅更有收获。",
+        "highlights": [
+          "兵马俑坑",
+          "秦代军阵",
+          "考古保护"
+        ],
+        "travel": "从西安市区前往临潼方向，接驳至博物院观众入口。可比较轨道加地面接驳或正规直达交通，城外往返不宜与多处市区展馆挤在半天。",
+        "days": "半天至一天（含往返）",
+        "tips": [
+          "按官方渠道核对实名票务，拍摄遵守俑坑保护标识。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Xi'an",
+            "url": "https://en.wikivoyage.org/wiki/Xi'an",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "xian-city-wall",
+        "name": "西安城墙（永宁门段）",
+        "coordinates": {
+          "lat": 34.251,
+          "lng": 108.944
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "city",
+        "description": "从永宁门登城，沿垛口看老城道路和城外护城河，感受城墙如何界定城市空间。可选择短距离步行后返回；若考虑骑行，先了解租还点与体力要求，古城砖路面的颠簸也应纳入安排。",
+        "highlights": [
+          "永宁门城楼",
+          "城墙垛口",
+          "护城河"
+        ],
+        "travel": "从西安市区乘地铁至永宁门附近，步行到当天开放的登城入口。先确认下城位置，不把城门外广场与登城检票口混淆。",
+        "days": "2—3小时",
+        "tips": [
+          "完整环城距离长，可只选一段；雨天骑行条件以现场为准。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Xi'an",
+            "url": "https://en.wikivoyage.org/wiki/Xi'an",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "xian-giant-wild-goose",
+        "name": "大雁塔与大慈恩寺",
+        "coordinates": {
+          "lat": 34.218,
+          "lng": 108.959
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "在院落轴线上观察大雁塔的砖塔轮廓，结合玄奘相关线索理解唐代佛教文化。可把寺院参观和周边广场散步分开安排：白天看塔身细节，傍晚再观察片区从安静到热闹的节奏变化。",
+        "highlights": [
+          "唐代砖塔",
+          "寺院轴线",
+          "玄奘文化"
+        ],
+        "travel": "从西安市区乘地铁至大雁塔站，再步行到大慈恩寺入口。寺院、登塔和周边广场的游览范围不同，按所选项目确认位置。",
+        "days": "2—3小时",
+        "tips": [
+          "进入宗教场所保持安静，登塔与入寺票务分别核对。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Xi'an",
+            "url": "https://en.wikivoyage.org/wiki/Xi'an",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "xian-beilin-museum",
+        "name": "西安碑林博物馆",
+        "coordinates": {
+          "lat": 34.2515,
+          "lng": 108.952
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "在碑石间观察书体、刻工与文字内容，将书法欣赏和历史记录放在一起看。先挑几通碑慢读，再沿展陈了解不同年代；即使不熟悉书法，也能从字体结构和石刻保存方式找到观看的切入点。",
+        "highlights": [
+          "历代碑刻",
+          "书法石刻",
+          "孔庙空间"
+        ],
+        "travel": "从西安市区前往文昌门、书院门一带，再步行到博物馆入口。可与永宁门段城墙串联，但应先固定入馆时段和当日开放展区。",
+        "days": "2—3小时",
+        "tips": [
+          "碑石与拓片不可触摸，展区开放以馆方当前公告为准。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Xi'an",
+            "url": "https://en.wikivoyage.org/wiki/Xi'an",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chongqing",
+    "name": "重庆",
+    "province": "重庆",
+    "coordinates": {
+      "lat": 29.563,
+      "lng": 106.5516
+    },
+    "themes": [
+      "urban",
+      "food",
+      "culture"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "重庆的城市体验藏在高差里：同一条街的楼上楼下可能通向不同道路，江岸、轻轨与坡道组成变化的视角。渝中半岛适合看城市夜色，磁器口可放慢脚步看嘉陵江边街巷。把火锅和小面穿插进路线，也给爬坡后的休息留出空间。",
+    "highlights": [
+      "洪崖洞与嘉陵江",
+      "李子坝轨道穿楼",
+      "三峡博物馆巴渝文化"
+    ],
+    "foods": [
+      "重庆小面",
+      "重庆火锅",
+      "酸辣粉"
+    ],
+    "foodGuide": [
+      {
+        "name": "重庆小面",
+        "description": "面条拌入麻辣调味与配菜，可选汤面或干拌；先讲清辣度及是否要花椒，再趁热拌匀。"
+      },
+      {
+        "name": "重庆火锅",
+        "description": "围锅涮煮肉类、蔬菜和豆制品，红汤麻辣浓郁；按承受程度选锅底，生熟食物分开夹取。"
+      },
+      {
+        "name": "酸辣粉",
+        "description": "粉条配酸辣汤汁，常加花生和芽菜，口感弹滑；有花生等过敏情况时，点单前说明。"
+      }
+    ],
+    "seasons": [
+      "3—4月：江城春日",
+      "10—11月：步道江岸"
+    ],
+    "climate": "重庆湿度较高，夏季炎热，冬季常有阴冷与雾。春秋更适合坡道漫步；江边、桥上和楼间风感不同，雨后石阶湿滑，备薄外套与防滑鞋。",
+    "travel": "远程可选重庆江北国际机场，衔接轨道交通进入城区。铁路按车票区分重庆北站、重庆西站等，两站位置和接驳方向不同，北站还需确认进出站广场。若住渝中老街或陡坡附近，抵达前看清车辆可到的下客位置，避免拖箱爬长阶。",
+    "localTransport": "轨道交通适合跨江与跨片区，老街内部多靠步行与短程打车。导航距离短也可能有长阶和高差；叫车时写明道路层级或附近明显建筑。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 渝中江岸",
+        "description": "从解放碑周边走到洪崖洞，先认清上下层道路，傍晚在安全步道看江景。"
+      },
+      {
+        "title": "第2天 · 文博与轨道",
+        "description": "上午参观三峡博物馆，下午到李子坝观察列车进出站。"
+      },
+      {
+        "title": "第3天 · 磁器口",
+        "description": "沿主街与支巷慢走，看看码头方向地形，再安排一碗小面。"
+      }
+    ],
+    "tips": [
+      "地图上很近的地点，仍要核对电梯、楼梯和道路层级。",
+      "不为拍夜景停留在车道或桥梁禁停位置。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Chongqing",
+        "url": "https://en.wikivoyage.org/wiki/Chongqing",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Chongqing/Yuzhong",
+        "url": "https://en.wikivoyage.org/wiki/Chongqing/Yuzhong",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Chongqing/Shapingba",
+        "url": "https://en.wikivoyage.org/wiki/Chongqing/Shapingba",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "chongqing-hongyadong",
+        "name": "洪崖洞",
+        "coordinates": {
+          "lat": 29.561,
+          "lng": 106.575
+        },
+        "themes": [
+          "urban",
+          "culture",
+          "food"
+        ],
+        "art": "town",
+        "description": "从不同高度看临江建筑群与嘉陵江的关系，比只在楼内逛更能理解山城地形。白天先熟悉上下层出口，傍晚到开放的江岸步道看整体轮廓；餐饮与商铺是商业体验，按个人兴趣选择即可。",
+        "highlights": [
+          "临江建筑群",
+          "嘉陵江",
+          "上下层道路"
+        ],
+        "travel": "从重庆城区乘轨道至小什字或临江门附近，再步行前往。洪崖洞上下层对应不同道路，返程叫车前确认自己所在层和路名。",
+        "days": "2—3小时",
+        "tips": [
+          "晚间可能限流，按现场指引绕行，不在车道停留。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Chongqing/Yuzhong",
+            "url": "https://en.wikivoyage.org/wiki/Chongqing/Yuzhong",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "chongqing-liziba",
+        "name": "李子坝轨道观景平台",
+        "coordinates": {
+          "lat": 29.5513,
+          "lng": 106.5323
+        },
+        "themes": [
+          "urban"
+        ],
+        "art": "city",
+        "description": "在站外观景区域看列车穿过建筑，再走近观察轨道、住宅与坡地道路如何共存。适合安排短暂停留，感受立体交通的尺度；也可乘车经过观察进站过程，但要保持正常通行，不在车门旁聚集。",
+        "highlights": [
+          "轨道穿楼",
+          "立体交通",
+          "坡地城市"
+        ],
+        "travel": "从重庆城区乘轨道交通2号线至李子坝，按标识到地面观景区。车站与观景区之间有高差，沿步行设施通行，不直接横穿车道。",
+        "days": "约1小时",
+        "tips": [
+          "在观景区内拍摄，不攀栏杆；闸机与扶梯口保持畅通。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Chongqing/Yuzhong",
+            "url": "https://en.wikivoyage.org/wiki/Chongqing/Yuzhong",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "chongqing-three-gorges-museum",
+        "name": "重庆中国三峡博物馆",
+        "coordinates": {
+          "lat": 29.5625,
+          "lng": 106.5504
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "city",
+        "description": "从三峡区域的自然与人文展陈进入巴渝历史，再选青铜器、民俗或城市记忆慢看。馆外广场还能观察人民大礼堂一带的城市空间；用半天消化一两条主题，比快速走遍所有展厅更容易留下印象。",
+        "highlights": [
+          "三峡地域历史",
+          "巴渝文化",
+          "人民广场"
+        ],
+        "travel": "从重庆城区乘轨道到曾家岩及周边站点，再依导向步行至人民路博物馆入口。周围有坡度，预留上行、安检和入馆时间。",
+        "days": "半天",
+        "tips": [
+          "查看馆方预约与临展说明，大礼堂入内为另外项目。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Chongqing/Yuzhong",
+            "url": "https://en.wikivoyage.org/wiki/Chongqing/Yuzhong",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "chongqing-ciqikou",
+        "name": "磁器口古镇",
+        "coordinates": {
+          "lat": 29.5812,
+          "lng": 106.4494
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "food"
+        ],
+        "art": "town",
+        "description": "以嘉陵江边街巷为线索，从热闹主街转入较安静的支巷，看坡道、院落与码头方向的地势。可按口味尝小吃，不必连续排队购物；放慢脚步看看生活性街面，更容易理解古镇与港口的联系。",
+        "highlights": [
+          "嘉陵江古镇",
+          "石板坡巷",
+          "码头记忆"
+        ],
+        "travel": "从重庆城区乘轨道交通1号线至磁器口站，再步行入古镇。内部以步行为主，先确定回程集合点，避免在不同出口互相等待。",
+        "days": "半天",
+        "tips": [
+          "主街高峰拥挤，可错峰看支巷；拍居民住宅内部先征得同意。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Chongqing/Shapingba",
+            "url": "https://en.wikivoyage.org/wiki/Chongqing/Shapingba",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guilin",
+    "name": "桂林",
+    "province": "广西",
+    "coordinates": {
+      "lat": 25.2742,
+      "lng": 110.29
+    },
+    "themes": [
+      "nature",
+      "outdoor",
+      "slow"
+    ],
+    "tier": "comfort",
+    "art": "mountain",
+    "description": "桂林的山水不只在远郊，象鼻山、独秀峰与城中的河湖已经能看出喀斯特地貌的轮廓。把一两处山体或溶洞与江岸散步搭配，既能观察地形，也能保留休息时间；若继续去阳朔，应另留交通与住宿安排，避免每天往返赶路。",
+    "highlights": [
+      "象鼻山临江天然石拱",
+      "芦笛岩溶洞地貌",
+      "独秀峰与靖江王城"
+    ],
+    "foods": [
+      "桂林米粉",
+      "油茶",
+      "荔浦芋扣肉"
+    ],
+    "foodGuide": [
+      {
+        "name": "桂林米粉",
+        "description": "米粉配卤水、肉片和小料，有干拌与汤食等方式；先问店家推荐吃法，再按口味添酸豆角或辣椒。"
+      },
+      {
+        "name": "油茶",
+        "description": "茶叶与姜等炒煮捶打后取汤，常配米花或小食，入口略苦后回香；初尝可先少量点一碗。"
+      },
+      {
+        "name": "荔浦芋扣肉",
+        "description": "芋头与五花肉相间蒸制，芋香吸收肉汁，口感软糯；菜肴较丰厚，适合多人分食并搭配蔬菜。"
+      }
+    ],
+    "seasons": [
+      "4—5月：春末山水",
+      "9—10月：秋日步行"
+    ],
+    "climate": "桂林春夏降雨较多，空气湿润，河岸与山路雨后容易湿滑；夏季还需防晒防闷热。秋季更适合长时间散步，溶洞内外温差明显，可随身备一件薄外套。",
+    "travel": "远程可选桂林两江国际机场，抵达后衔接正规机场交通；铁路有桂林站、桂林北站与桂林西站，站点位置与到市中心的接驳距离不同。市区游可按酒店位置比较车次；去阳朔还需区分阳朔站与阳朔县城，不能将站名视作已抵达核心游览街区。",
+    "localTransport": "桂林市区可用公交与出租车连接景点，象鼻山、王城附近适合步行串联。去芦笛岩需另安排接驳；周边县域山水行程先核对实际距离，不按市区短途估算。",
+    "days": "建议3天，阳朔另加时间",
+    "itinerary": [
+      {
+        "title": "第1天 · 江岸与象山",
+        "description": "游象鼻山，在漓江沿岸散步，傍晚按体力看市中心湖岸。"
+      },
+      {
+        "title": "第2天 · 王城与公园",
+        "description": "上午看靖江王城和独秀峰，下午游七星公园，登高按体力选择。"
+      },
+      {
+        "title": "第3天 · 溶洞",
+        "description": "去芦笛岩看溶洞地貌，返城吃米粉，预留前往机场或车站的时间。"
+      }
+    ],
+    "tips": [
+      "江上游船、竹筏与岸上景点是不同项目，不向无资质揽客者付款。",
+      "汛期先看河流与景区公告，临水步道关闭时及时改走城市路线。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Guilin",
+        "url": "https://en.wikivoyage.org/wiki/Guilin",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "guilin-elephant-trunk-hill",
+        "name": "象鼻山",
+        "coordinates": {
+          "lat": 25.2702,
+          "lng": 110.293
+        },
+        "themes": [
+          "nature",
+          "urban"
+        ],
+        "art": "mountain",
+        "description": "在江岸观察山体石拱与漓江水面的组合，选择不同角度理解象鼻形态，再按体力决定是否登高。这里适合与市中心散步连在一起，慢慢等光线变化；河流水位和能见度会影响照片，不必拘泥于单一机位。",
+        "highlights": [
+          "临江石拱",
+          "漓江水面",
+          "城市山体"
+        ],
+        "travel": "从桂林城区乘公交或出租车到象山景区附近，再依现场导览进入。临江区域入口可能分流，先确认当天开放入口与回程上车点。",
+        "days": "1—2小时",
+        "tips": [
+          "只走开放步道，不到江中石滩或封闭岸线拍照。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guilin",
+            "url": "https://en.wikivoyage.org/wiki/Guilin",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guilin-reed-flute-cave",
+        "name": "芦笛岩",
+        "coordinates": {
+          "lat": 25.3044,
+          "lng": 110.2551
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "mountain",
+        "description": "在洞中观察钟乳石、石笋和溶蚀空间，留意人工灯光之外的岩石形态，理解地下水如何长时间塑造地貌。可跟随现场讲解节奏慢行，走出洞后再看看周边山体，让地表与地下的风景联系起来。",
+        "highlights": [
+          "钟乳石与石笋",
+          "地下岩溶空间",
+          "喀斯特山体"
+        ],
+        "travel": "从桂林城区乘公交或正规车辆前往芦笛路方向的景区入口。景点在市中心西北侧，回程先确认公交停靠位置或车辆接客点。",
+        "days": "2—3小时",
+        "tips": [
+          "洞内潮湿且光线偏暗，穿防滑鞋，不触碰岩溶沉积物。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guilin",
+            "url": "https://en.wikivoyage.org/wiki/Guilin",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guilin-seven-star-park",
+        "name": "七星公园",
+        "coordinates": {
+          "lat": 25.2727,
+          "lng": 110.312
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "garden",
+        "description": "以山体、林荫路和园内人文遗存为线索选一条步行路线，不必将园内所有项目逐项赶完。可以先看地形起伏，再停下来观察石刻与老树；与市中心江岸相比，这里更适合留半天在绿地中慢慢走。",
+        "highlights": [
+          "喀斯特山体",
+          "园林步道",
+          "桂海碑林线索"
+        ],
+        "travel": "从桂林城区乘公交或出租车到七星公园附近，按所选游览路线选择入口。园内范围较大，出发前看导览，避免跨园反复折返。",
+        "days": "半天",
+        "tips": [
+          "园内洞穴、展馆等项目的开放与票务应分别核对。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guilin",
+            "url": "https://en.wikivoyage.org/wiki/Guilin",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guilin-jingjiang-princes-city",
+        "name": "独秀峰·靖江王城",
+        "coordinates": {
+          "lat": 25.2849,
+          "lng": 110.296
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "town",
+        "description": "先沿王城轴线看建筑和院落，再结合独秀峰理解山体与城市历史的关系。对登高有兴趣可按开放路线逐级向上，体力有限则把时间留在王城展陈与园中；这里适合把山水和明代地方历史一并认识。",
+        "highlights": [
+          "靖江王城遗存",
+          "独秀峰",
+          "王城院落"
+        ],
+        "travel": "从桂林城区前往王城路一带，乘公交到附近站点后步行至景区入口。若与江岸同游，可用步行连接老城片区并留出休息。",
+        "days": "半天",
+        "tips": [
+          "独秀峰有较陡台阶，登高前评估体力，雨天尤其注意防滑。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guilin",
+            "url": "https://en.wikivoyage.org/wiki/Guilin",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guangzhou",
+    "name": "广州",
+    "province": "广东",
+    "coordinates": {
+      "lat": 23.1291,
+      "lng": 113.2644
+    },
+    "themes": [
+      "food",
+      "urban",
+      "culture"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "广州适合从一顿早茶开启，再用半天认识一片街区。陈家祠能看岭南建筑工艺，沙面适合树荫下慢走，越秀的山岗与珠江边的现代天际线又呈现另一面。将老城和新城分日安排，更容易在骑楼、茶楼与江岸之间找到自己的节奏。",
+    "highlights": [
+      "陈家祠岭南建筑装饰",
+      "沙面近代建筑街区",
+      "广州塔与珠江天际线"
+    ],
+    "foods": [
+      "虾饺",
+      "肠粉",
+      "云吞面",
+      "艇仔粥"
+    ],
+    "foodGuide": [
+      {
+        "name": "虾饺",
+        "description": "澄面皮包虾馅蒸制，皮薄而带弹性，是早茶常见点心；趁热食用，按人数少量分笼品尝。"
+      },
+      {
+        "name": "肠粉",
+        "description": "米浆蒸成薄皮后卷入肉、虾或蛋等馅料，淋豉油食用；现蒸口感细滑，点单先确认馅料。"
+      },
+      {
+        "name": "云吞面",
+        "description": "细面配云吞与清汤，讲究面条弹性和汤底鲜味；先尝一口原汤，再决定是否添加调味。"
+      },
+      {
+        "name": "艇仔粥",
+        "description": "米粥配鱼片、花生等多种材料，口感柔和且有层次；配料因店而异，有海鲜过敏应先说明。"
+      }
+    ],
+    "seasons": [
+      "3—4月：春日街区",
+      "10—12月：秋冬江岸"
+    ],
+    "climate": "广州夏季长且湿热，春季可能潮湿多雨，台风天气会影响户外与水上活动。秋冬步行较舒适但也有降温；带雨伞、防晒用品和便于增减的薄外套。",
+    "travel": "广州白云国际机场适合远程抵达，可衔接地铁或正规接送。铁路按车票区分广州南站、广州站、广州东站等，广州南站位于番禺，与老城区有接驳距离。先按列车方向选站，再比较酒店与地铁线路；广交会等大型活动期间，住宿与市内交通应更早安排。",
+    "localTransport": "地铁连接老城、新城和交通枢纽，荔湾、越秀等街区内部适合步行。珠江沿线可按兴趣体验有轨电车或正规水上交通，先核对站点与当天服务。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 荔湾工艺与街景",
+        "description": "早茶后看陈家祠，下午到沙面观察建筑，傍晚在江边慢走。"
+      },
+      {
+        "title": "第2天 · 越秀山岗",
+        "description": "游越秀公园，按兴趣看古城墙与镇海楼周边，再安排一顿粥面。"
+      },
+      {
+        "title": "第3天 · 珠江新城",
+        "description": "前往广州塔与珠江两岸公共步道，登塔按预约和天气选择。"
+      }
+    ],
+    "tips": [
+      "茶楼可能另收茶位等费用，点单时先看菜单说明。",
+      "活动旺季跨区交通耗时增加，返程去广州南或机场要留足余量。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Guangzhou",
+        "url": "https://en.wikivoyage.org/wiki/Guangzhou",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Guangzhou/Liwan",
+        "url": "https://en.wikivoyage.org/wiki/Guangzhou/Liwan",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Guangzhou/Yuexiu",
+        "url": "https://en.wikivoyage.org/wiki/Guangzhou/Yuexiu",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Guangzhou/Haizhu",
+        "url": "https://en.wikivoyage.org/wiki/Guangzhou/Haizhu",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "guangzhou-chen-clan-academy",
+        "name": "陈家祠",
+        "coordinates": {
+          "lat": 23.1297,
+          "lng": 113.2406
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "看点集中在屋脊、梁架、门窗与庭院细节，可沿院落逐步观察砖雕、木雕等岭南工艺，再结合馆内展陈理解建筑用途。不要只在正门拍照，抬头看一段装饰、再坐下来比较图案，会更能体会工匠的设计。",
+        "highlights": [
+          "岭南建筑",
+          "屋脊装饰",
+          "传统雕刻"
+        ],
+        "travel": "从广州城区乘地铁到陈家祠站，再按出站导向步行到观众入口。入口与周边广场相邻，先确认检票位置并留出安检时间。",
+        "days": "2—3小时",
+        "tips": [
+          "建筑与展品不可触摸，室内拍摄依标识执行。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guangzhou/Liwan",
+            "url": "https://en.wikivoyage.org/wiki/Guangzhou/Liwan",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guangzhou-shamian",
+        "name": "沙面",
+        "coordinates": {
+          "lat": 23.1105,
+          "lng": 113.2397
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "slow"
+        ],
+        "art": "town",
+        "description": "沿树荫街道观察近代建筑立面、门廊与街心绿地，再走到江边看水岸空间。适合用慢步行串起几个街角，留意建筑说明牌；不少楼宇仍有实际用途，欣赏外观就能获得完整的街区体验，不必逐栋进入。",
+        "highlights": [
+          "近代建筑群",
+          "林荫街道",
+          "珠江岸线"
+        ],
+        "travel": "从广州城区乘地铁到黄沙等附近站点，沿步行设施进入沙面。跨越周边道路时按人行桥和指示通行，再以步行为主游览街区。",
+        "days": "2—3小时",
+        "tips": [
+          "拍摄注意居民与办公人员隐私，勿擅入封闭楼宇。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guangzhou/Liwan",
+            "url": "https://en.wikivoyage.org/wiki/Guangzhou/Liwan",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guangzhou-yuexiu-park",
+        "name": "越秀公园",
+        "coordinates": {
+          "lat": 23.1402,
+          "lng": 113.2642
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "garden",
+        "description": "在城市山岗与湖岸间选一段轻松路线，观察古城墙、镇海楼周边与绿地如何连在一起。园内起伏比地图上更明显，可以边走边休息；有兴趣再安排馆舍参观，单纯沿树荫散步也能看到广州老城的地形。",
+        "highlights": [
+          "城中山岗",
+          "明城墙遗存",
+          "镇海楼周边"
+        ],
+        "travel": "从广州城区乘地铁到越秀公园站附近，再按所选路线入园。公园有不同门区，若计划看镇海楼等节点，先看园内导览确定上坡方向。",
+        "days": "半天",
+        "tips": [
+          "园内有坡与阶梯，婴儿车或行动不便者先确认适合路线。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guangzhou/Yuexiu",
+            "url": "https://en.wikivoyage.org/wiki/Guangzhou/Yuexiu",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guangzhou-canton-tower",
+        "name": "广州塔",
+        "coordinates": {
+          "lat": 23.1067,
+          "lng": 113.3246
+        },
+        "themes": [
+          "urban"
+        ],
+        "art": "city",
+        "description": "可从珠江岸边先看塔身的曲线与两岸天际线，再按天气和兴趣选择登塔。高处适合观察城市道路与江流关系，地面步道则能慢慢等日落；把外观欣赏、观景平台和其他娱乐项目分开选择，行程会更清晰。",
+        "highlights": [
+          "珠江天际线",
+          "塔身结构",
+          "高处城市视野"
+        ],
+        "travel": "从广州城区乘地铁至广州塔站附近，步行到塔下或珠江公共步道。若登塔，按所购项目找入口；只看外观可沿开放江岸安排路线。",
+        "days": "2—3小时",
+        "tips": [
+          "登塔项目、入场时段和天气限制分别核对，远景受能见度影响。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guangzhou/Haizhu",
+            "url": "https://en.wikivoyage.org/wiki/Guangzhou/Haizhu",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fuzhou",
+    "name": "福州",
+    "province": "福建",
+    "coordinates": {
+      "lat": 26.0745,
+      "lng": 119.2965
+    },
+    "themes": [
+      "culture",
+      "food",
+      "slow"
+    ],
+    "tier": "comfort",
+    "art": "town",
+    "description": "福州适合沿坊巷与闽江慢走。三坊七巷的院落可认识闽都人文，上下杭展示商贸街区的肌理，过江后的烟台山又有近代建筑和坡道风景。穿插一段西湖散步，再尝鱼丸与肉燕，能把历史街区和榕城日常放在同一条旅行线上。",
+    "highlights": [
+      "三坊七巷院落",
+      "上下杭商贸街区",
+      "烟台山近代建筑"
+    ],
+    "foods": [
+      "福州鱼丸",
+      "肉燕",
+      "锅边糊"
+    ],
+    "foodGuide": [
+      {
+        "name": "福州鱼丸",
+        "description": "鱼浆做外皮并包入肉馅，煮成汤食，口感弹嫩；丸内汤汁可能烫口，先咬开小口再品尝。"
+      },
+      {
+        "name": "肉燕",
+        "description": "以捶打猪肉等制成薄皮，包馅后煮汤，形似小馄饨；先尝汤与皮的口感，再适量加醋调味。"
+      },
+      {
+        "name": "锅边糊",
+        "description": "米浆沿热锅边烫熟后刮入汤中，米片柔软，常配海鲜等材料；趁热吃，过敏者先问汤底。"
+      }
+    ],
+    "seasons": [
+      "3—4月：坊巷春日",
+      "10—11月：闽江慢走"
+    ],
+    "climate": "福州夏季炎热湿润，强降雨与台风可能影响江岸、山地和交通。春秋更适合街区步行，冬季也会湿冷；随身带雨具，雨后留意石板路和烟台山坡道防滑。",
+    "travel": "远程可选福州长乐国际机场，滨海快线连接机场与福州站，可结合住宿位置安排换乘。铁路主要比较福州站与福州南站：前者便于到鼓楼等老城片区，后者服务城市南侧及部分高铁方向。先核对车票到站，再选择轨道或正规车辆接驳，避免把两个车站混为一处。",
+    "localTransport": "地铁适合连接交通枢纽和主要片区，坊巷、上下杭与烟台山内部以步行为主。过江路线先看桥梁与站点位置，坡道街区尽量轻装，避免拖行李穿巷。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 坊巷与西湖",
+        "description": "上午游三坊七巷，下午沿西湖短线散步，晚餐尝鱼丸与肉燕。"
+      },
+      {
+        "title": "第2天 · 上下杭",
+        "description": "观察会馆与商业街巷，沿水岸慢走，把午后时间留给室内休息。"
+      },
+      {
+        "title": "第3天 · 烟台山",
+        "description": "过江到烟台山，看近代建筑和坡巷，按体力串联观景位置。"
+      }
+    ],
+    "tips": [
+      "三坊七巷公共街巷与收费院落范围不同，按兴趣选馆。",
+      "福州烟台山位于仓山，不要与山东烟台的同名景点混淆。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Fuzhou",
+        "url": "https://en.wikivoyage.org/wiki/Fuzhou",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "福州市政府 · 八一七文化中轴线",
+        "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/lswh/202201/t20220110_4288112.htm"
+      },
+      {
+        "label": "福州市政府 · 滨海快线开通",
+        "url": "https://www.fuzhou.gov.cn/zwgk/gzdt/rcyw/202509/t20250929_5084683.htm"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "fuzhou-three-lanes-seven-alleys",
+        "name": "三坊七巷",
+        "coordinates": {
+          "lat": 26.086,
+          "lng": 119.2945
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "slow"
+        ],
+        "art": "town",
+        "description": "从南后街转进坊巷，观察院门、马鞍墙和天井等建筑细节，再选感兴趣的人物故居或展馆入内。公共街巷适合慢走，院落参观则需要更多阅读时间；避开只逛主街的节奏，更容易理解福州传统居住空间。",
+        "highlights": [
+          "坊巷格局",
+          "闽都院落",
+          "人物故居线索"
+        ],
+        "travel": "从福州城区乘地铁到东街口、南门兜一带，再步行进入坊巷。按想看的院落选择进入方向，老街内部以步行为主。",
+        "days": "半天",
+        "tips": [
+          "部分院落单独管理，入内前确认开放与票务，不擅入民宅。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Fuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Fuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "fuzhou-shangxiahang",
+        "name": "上下杭",
+        "coordinates": {
+          "lat": 26.0482,
+          "lng": 119.303
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "food"
+        ],
+        "art": "town",
+        "description": "沿上杭路、下杭路与水岸慢走，留意会馆、商号和传统建筑之间的关系。这里适合从商贸历史看福州的另一面，再选择一间店坐下休息；街区新业态与旧建筑并存，先读说明牌会比匆匆拍照更有线索。",
+        "highlights": [
+          "商贸街区",
+          "会馆建筑",
+          "水岸街巷"
+        ],
+        "travel": "从福州城区乘地铁到达道站附近，再步行至上下杭。与三坊七巷不在同一小街区，衔接时留出轨道或车辆接驳时间。",
+        "days": "2—3小时",
+        "tips": [
+          "商铺营业与历史建筑开放范围不同，按标识进入。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Fuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Fuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "fuzhou-yantai-mountain",
+        "name": "烟台山历史风貌区",
+        "coordinates": {
+          "lat": 26.0337,
+          "lng": 119.312
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "slow"
+        ],
+        "art": "town",
+        "description": "沿仓山坡道看近代建筑、街角绿地与闽江方向的视野。可以先选一条上坡街巷，再顺势下行到商业街，途中留时间看建筑说明；咖啡与餐饮只是停留方式之一，真正适合慢看的还有街巷高差和树荫。",
+        "highlights": [
+          "近代建筑",
+          "仓山坡巷",
+          "闽江城市视角"
+        ],
+        "travel": "从福州城区乘地铁到上藤等附近站点，再步行进入烟台山片区。导航时写明福州仓山烟台山，先选路线起点再安排上坡。",
+        "days": "半天",
+        "tips": [
+          "坡道与石阶较多，雨后防滑；拍照勿占居民出入口。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Fuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Fuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "fuzhou-west-lake",
+        "name": "福州西湖公园",
+        "coordinates": {
+          "lat": 26.097,
+          "lng": 119.287
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "以湖岸、堤桥和树荫为主线，选择一段短距离散步，观察水面与亭桥的层次。适合放在坊巷参观之后，让步行节奏慢下来；有兴趣可继续了解周边文化场馆，单看湖景也不必把环湖当成必须完成的任务。",
+        "highlights": [
+          "湖岸绿荫",
+          "堤桥景观",
+          "城市休闲"
+        ],
+        "travel": "从福州城区乘公交或正规车辆至西湖公园周边，也可从鼓楼坊巷片区步行接近。选定入园方向后，再规划湖岸路线与返程。",
+        "days": "1—2小时",
+        "tips": [
+          "临水步道遵守护栏与游船安全提示，雨后桥面可能湿滑。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Fuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Fuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kunming",
+    "name": "昆明",
+    "province": "云南",
+    "coordinates": {
+      "lat": 25.0389,
+      "lng": 102.7183
+    },
+    "themes": [
+      "nature",
+      "slow",
+      "food"
+    ],
+    "tier": "comfort",
+    "art": "garden",
+    "description": "昆明适合作为云南旅行的起点，也值得单独住几天。翠湖和讲武堂能步行串联，云南省博物馆提供认识各地历史的线索，西山则把滇池与高原山地连在一起。不要只把城市当作转车站，留一段喝茶、吃米线和看湖的时间更自在。",
+    "highlights": [
+      "翠湖城市公园",
+      "讲武堂近代校舍",
+      "西山远眺滇池"
+    ],
+    "foods": [
+      "过桥米线",
+      "汽锅鸡",
+      "鲜花饼"
+    ],
+    "foodGuide": [
+      {
+        "name": "过桥米线",
+        "description": "以热汤烫熟配料，再加入米线品尝，汤面油层保温且很烫；按店家指导依次放料并确认熟透。"
+      },
+      {
+        "name": "汽锅鸡",
+        "description": "利用汽锅结构蒸制鸡肉，汤汁清鲜，适合慢慢品汤；配料随店家不同，可先问清是否含药膳材料。"
+      },
+      {
+        "name": "鲜花饼",
+        "description": "酥皮包食用花馅的糕点，花香与甜味相配；现烤口感较松酥，作为伴手礼时核对生产与保存说明。"
+      }
+    ],
+    "seasons": [
+      "3—4月：春日城市步行",
+      "11—2月：湖岸冬日"
+    ],
+    "climate": "昆明位于高原，日照和紫外线较强，早晚温差明显，夏季有较集中的降雨。即使白天温和也需防晒，登西山带外套；冬日湖边风大，按当天体感增减衣物。",
+    "travel": "昆明长水国际机场适合远程和省内转机，可衔接轨道交通进城。铁路需区分昆明站与昆明南站：昆明站较靠近中心城区，昆明南站位于呈贡，前往老城需要更多接驳时间。若当天转乘前往云南其他城市的列车，先确认是否跨站并留足时间。",
+    "localTransport": "市内可用地铁串联机场、铁路站和主要片区，翠湖周边步行游览较方便。西山与省博分处不同方向，宜分开安排，不要用直线距离估算高原山地步行。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 翠湖与讲武堂",
+        "description": "在翠湖慢走，步行到云南陆军讲武堂，看近代校舍与展览。"
+      },
+      {
+        "title": "第2天 · 省博",
+        "description": "参观云南省博物馆，以考古和民族历史为线索，午后安排米线与休息。"
+      },
+      {
+        "title": "第3天 · 西山",
+        "description": "前往西山，按体力选择步行、接驳与观景路线，留足下山时间。"
+      }
+    ],
+    "tips": [
+      "冬季观鸟保持距离，不自行投喂来历不明的食物。",
+      "高原日照强，登山当天别因体感凉爽而省略防晒与饮水。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Kunming",
+        "url": "https://en.wikivoyage.org/wiki/Kunming",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "kunming-green-lake",
+        "name": "翠湖公园",
+        "coordinates": {
+          "lat": 25.0488,
+          "lng": 102.7044
+        },
+        "themes": [
+          "nature",
+          "urban",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "沿湖岸和小桥漫步，看看当地人的锻炼、音乐与休闲日常，找树荫下的位置停留一会儿。这里适合与周边历史建筑连成轻松半日，不用追求固定拍照路线；季节不同，水面、荷叶与鸟类的景象也会变化。",
+        "highlights": [
+          "湖岸步道",
+          "城市日常",
+          "季节植被"
+        ],
+        "travel": "从昆明城区乘公交、地铁加步行或短程车辆到翠湖周边。园门方向不同，可按下一站是否去讲武堂选择进入和离开位置。",
+        "days": "1—2小时",
+        "tips": [
+          "不追逐鸟类或翻越临水护栏，观鸟遵循现场提示。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Kunming",
+            "url": "https://en.wikivoyage.org/wiki/Kunming",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "kunming-military-academy",
+        "name": "云南陆军讲武堂旧址",
+        "coordinates": {
+          "lat": 25.0486,
+          "lng": 102.7007
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "先在院落观察黄色校舍与回廊的格局，再顺着展陈认识近代军事教育及相关人物。可与翠湖步行串联，用建筑空间和文献相互对照；看展时选一两条人物线索慢读，会比只在外墙留影更有收获。",
+        "highlights": [
+          "近代校舍",
+          "回廊院落",
+          "军事教育历史"
+        ],
+        "travel": "从昆明城区前往翠湖西路的讲武堂入口，可由翠湖西侧步行衔接。参观前确认观众入口与当前展览开放，避免只到外墙一侧。",
+        "days": "1—2小时",
+        "tips": [
+          "文物建筑内勿触碰展品，拍摄与入内遵守现场标识。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Kunming",
+            "url": "https://en.wikivoyage.org/wiki/Kunming",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "kunming-yunnan-museum",
+        "name": "云南省博物馆",
+        "coordinates": {
+          "lat": 24.9526,
+          "lng": 102.7595
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "city",
+        "description": "以考古出土文物和云南地域历史为线索，看高原各地如何与周边交流。可先挑青铜或民族历史相关展区，再按精力补充其他主题；展厅内容丰富，留半天慢读说明，比短暂停留更能为后续云南旅行建立背景。",
+        "highlights": [
+          "云南考古",
+          "青铜文物",
+          "地域文化"
+        ],
+        "travel": "从昆明城区前往官渡区广福路的博物馆，可用地铁加公交或短程车辆接驳。注意不要导航到曾作省博的老馆建筑。",
+        "days": "半天",
+        "tips": [
+          "行前查看馆方预约、证件和临展规则，确认广福路馆址。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Kunming",
+            "url": "https://en.wikivoyage.org/wiki/Kunming",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "kunming-western-hills",
+        "name": "西山风景区",
+        "coordinates": {
+          "lat": 24.9625,
+          "lng": 102.6305
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "从山林步道逐渐走向能看滇池的位置，观察高原湖面与城市的尺度，再按体力选择龙门等景点。山路、接驳和索道可组成不同强度路线；先想清楚上山与下山方式，留出休息和观景时间，不必追求全走完。",
+        "highlights": [
+          "西山林地",
+          "滇池远景",
+          "龙门石刻线索"
+        ],
+        "travel": "从昆明城区乘地铁到西山公园站一带，再按所选路线接驳或步行上山。索道、景区车辆和步道终点不同，回程前确认衔接位置。",
+        "days": "半天至一天",
+        "tips": [
+          "山路有台阶与临崖段，按体力选线，雷雨时停止登高。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Kunming",
+            "url": "https://en.wikivoyage.org/wiki/Kunming",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guiyang",
+    "name": "贵阳",
+    "province": "贵州",
+    "coordinates": {
+      "lat": 26.647,
+      "lng": 106.6302
+    },
+    "themes": [
+      "food",
+      "nature",
+      "urban"
+    ],
+    "tier": "comfort",
+    "art": "mountain",
+    "description": "贵阳把山地绿意和街头饮食放得很近。市中心可沿南明河看甲秀楼，再去黔灵山走林间路；想了解贵州各地文化，可以留半天进省博。青岩古镇在南部花溪方向，适合另安排一天，让石巷与小吃成为慢下来的理由。",
+    "highlights": [
+      "南明河畔甲秀楼",
+      "黔灵山城市山林",
+      "青岩古镇石巷"
+    ],
+    "foods": [
+      "丝娃娃",
+      "肠旺面",
+      "酸汤鱼"
+    ],
+    "foodGuide": [
+      {
+        "name": "丝娃娃",
+        "description": "薄面皮卷入多种蔬菜丝，再配酸辣蘸水，口感清爽；按个人喜好选菜，蘸水可先少量尝试。"
+      },
+      {
+        "name": "肠旺面",
+        "description": "面条配猪肠、血旺和红油等，味道浓厚，口感层次多；点单说明是否吃内脏以及接受的辣度。"
+      },
+      {
+        "name": "酸汤鱼",
+        "description": "以酸汤煮鱼并配蘸水，酸味鲜明；按人数选择鱼和配菜，注意鱼刺，蘸水辣度可以另行调整。"
+      }
+    ],
+    "seasons": [
+      "5—6月：山城初夏",
+      "9—10月：秋日街巷"
+    ],
+    "climate": "贵阳地处高原山地，夏季相对温和但多雨，冬季湿冷，早晚体感变化明显。山林和石巷雨后易滑，备轻便雨具与外套；户外行程遇雷雨及时转到室内。",
+    "travel": "远程可选贵阳龙洞堡国际机场，衔接轨道交通或正规车辆。铁路需区分贵阳北站、贵阳东站和贵阳站，不同站点到城区的接驳方式与距离不同。市中心住宿可比较车站衔接，若以青岩古镇为重点，还应单独计算前往南部花溪的路程。",
+    "localTransport": "地铁适合连接主要城区和枢纽，甲秀楼周边以步行为主。青岩需另安排地面接驳，黔灵山园内按坡度和体力选路线；雨天步行时间宜多留余量。",
+    "days": "建议3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 河岸与街头",
+        "description": "沿南明河看甲秀楼，走附近街区，午晚餐分着尝丝娃娃与肠旺面。"
+      },
+      {
+        "title": "第2天 · 山林与省博",
+        "description": "黔灵山选轻松路线，另用半天看贵州省博物馆，按预约先后调整顺序。"
+      },
+      {
+        "title": "第3天 · 青岩",
+        "description": "前往青岩古镇，沿石巷与城门慢走，午后留足返程接驳时间。"
+      }
+    ],
+    "tips": [
+      "黔灵山有野生猕猴，不投喂、不逗弄，收好食物和袋子。",
+      "贵阳东站与贵阳北站不能互换，买票后先查实际到站。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Guiyang",
+        "url": "https://en.wikivoyage.org/wiki/Guiyang",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "guiyang-jiaxiu-pavilion",
+        "name": "甲秀楼",
+        "coordinates": {
+          "lat": 26.5717,
+          "lng": 106.7178
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "slow"
+        ],
+        "art": "town",
+        "description": "沿南明河看甲秀楼与桥、岸和街区的关系，先在河边远看轮廓，再走近阅读建筑说明。适合放在抵达后的半日行程，白天观察细节，傍晚看水面与楼影；重点是从河岸理解这座城市，不必把拍照排成任务。",
+        "highlights": [
+          "南明河",
+          "楼阁桥岸",
+          "城市历史线索"
+        ],
+        "travel": "从贵阳城区乘公交或正规车辆到甲秀楼周边，再沿开放河岸步行。桥头和景点入口可能有客流组织，先确认步行过河与返程方向。",
+        "days": "1—2小时",
+        "tips": [
+          "楼内开放范围与河岸漫步不同，入内按现场说明执行。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guiyang",
+            "url": "https://en.wikivoyage.org/wiki/Guiyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guiyang-qianling-mountain",
+        "name": "黔灵山公园",
+        "coordinates": {
+          "lat": 26.5965,
+          "lng": 106.6902
+        },
+        "themes": [
+          "nature",
+          "outdoor",
+          "culture"
+        ],
+        "art": "mountain",
+        "description": "从林荫步道认识贵阳城中的山地环境，可按体力选择湖岸、山路或寺院周边，走累了就停下休息。园内路线有高差，不必把所有山头串起来；观察野生动物时保持距离，把安静看山林作为游览的主线。",
+        "highlights": [
+          "城市山林",
+          "黔灵湖",
+          "弘福寺周边"
+        ],
+        "travel": "从贵阳城区乘公交或正规车辆至黔灵山公园入口，再依园内导览选路线。不同门区与内部山路距离不同，先确定出入口和集合位置。",
+        "days": "半天",
+        "tips": [
+          "不投喂或近距离逗弄猕猴，不在猴群附近展示食物。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guiyang",
+            "url": "https://en.wikivoyage.org/wiki/Guiyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guiyang-qingyan-town",
+        "name": "青岩古镇",
+        "coordinates": {
+          "lat": 26.3325,
+          "lng": 106.6715
+        },
+        "themes": [
+          "culture",
+          "slow",
+          "food"
+        ],
+        "art": "town",
+        "description": "沿城门和石板街巷认识古镇格局，留意石墙、院落以及不同建筑的细节，再选择支巷慢走。青岩适合安排较完整的一段时间，穿插午餐与休息；雨天路面更显光泽，但拍照时也更要注意脚下防滑。",
+        "highlights": [
+          "古镇城门",
+          "石板街巷",
+          "传统院落"
+        ],
+        "travel": "从贵阳市区向南前往花溪区青岩方向，可比较公交换乘或正规车辆。古镇与中心城区有距离，出发前确认回程接驳点和最后一段步行。",
+        "days": "半天至一天（含往返）",
+        "tips": [
+          "石板路雨后湿滑，穿防滑鞋；街区与单独景点的票务范围分别确认。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guiyang",
+            "url": "https://en.wikivoyage.org/wiki/Guiyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "guiyang-guizhou-museum",
+        "name": "贵州省博物馆",
+        "coordinates": {
+          "lat": 26.6477,
+          "lng": 106.6455
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "city",
+        "description": "以贵州历史和地域文化为线索，从文物、服饰或民俗展陈中挑选感兴趣的主题慢看。可以先建立各地文化的地理印象，再继续阅读具体展品说明；这段室内行程也适合与山地步行交替安排，避免连续爬坡。",
+        "highlights": [
+          "贵州历史",
+          "地域文化",
+          "民族文化线索"
+        ],
+        "travel": "从贵阳城区前往观山湖区林城东路，可乘地铁到国际生态会议中心附近，再步行至博物馆观众入口。注意与老城区的交通衔接。",
+        "days": "半天",
+        "tips": [
+          "提前通过馆方渠道核对预约、有效证件和临时闭馆安排。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Guiyang",
+            "url": "https://en.wikivoyage.org/wiki/Guiyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "huangshan",
+    "name": "黄山",
+    "province": "安徽",
+    "coordinates": {
+      "lat": 29.7147,
+      "lng": 118.3376
+    },
+    "themes": [
+      "nature",
+      "culture",
+      "outdoor"
+    ],
+    "tier": "comfort",
+    "art": "mountain",
+    "description": "黄山旅行需要先分清几个地方：屯溪是中心城区，汤口是黄山南大门附近的服务基地，宏村与西递则在黟县。山上适合看花岗岩峰峦和松林，山下可慢读徽州民居。按体力在登山与古村之间取舍，比每天跨片区赶路更舒适。",
+    "highlights": [
+      "黄山峰石与松林",
+      "宏村水系与民居",
+      "西递徽派建筑"
+    ],
+    "foods": [
+      "徽州毛豆腐",
+      "臭鳜鱼",
+      "黄山烧饼"
+    ],
+    "foodGuide": [
+      {
+        "name": "徽州毛豆腐",
+        "description": "豆腐发酵后表面生出细毛，经煎制等方法食用，风味浓郁；初尝可先点小份并按习惯搭配蘸料。"
+      },
+      {
+        "name": "臭鳜鱼",
+        "description": "鳜鱼经腌制发酵后烹调，闻着有特殊气味，入口鲜香；鱼刺仍需仔细挑出，适合多人分食。"
+      },
+      {
+        "name": "黄山烧饼",
+        "description": "小巧酥饼常包梅干菜与肉等馅料，烤后香脆；适合作路上点心，购买伴手礼时核对保存说明。"
+      }
+    ],
+    "seasons": [
+      "4—5月：山林春景",
+      "9—11月：登山与徽州秋色"
+    ],
+    "climate": "黄山市区与高山气候差异大，山上气温更低、风雨雾变化快。春夏降雨多，冬季可能冰雪结冰；登山带防风保暖层与雨具，不把云海、日出当作必定出现的景象。",
+    "travel": "航空可比较黄山屯溪国际机场，铁路常用黄山北站，进出黟县古村也可查询黟县东站等实际车次。黄山北站并不在山顶或汤口，抵达后仍需道路接驳。根据重点选择住屯溪、汤口或黟县，不要把黄山市区与黄山风景区当成步行可达的同一地点。",
+    "localTransport": "屯溪市区用公交与车辆接驳，去汤口、宏村和西递需另查旅游客运。黄山景区内按入口统一换乘，门票、换乘和索道分别确认；山上仍有大量台阶。",
+    "days": "建议3天择重点；深度登山与双村可增至4—5天",
+    "itinerary": [
+      {
+        "title": "第1天 · 屯溪",
+        "description": "抵达后游屯溪老街，认识徽派建筑与地方食物，整理登山轻装行李。"
+      },
+      {
+        "title": "第2天 · 黄山",
+        "description": "按预约入口入山，结合索道与步道选适合体力的路线，给下山留足时间。"
+      },
+      {
+        "title": "第3天 · 黟县古村",
+        "description": "选择宏村或西递作重点；若两村都去，减少各村停留深度并提前确认交通。"
+      }
+    ],
+    "tips": [
+      "登山前核对预约方向、天气、山峰轮休和索道公告。",
+      "山上住宿与汤口住宿相距明显，预订前核对地点，云海日出均取决于天气。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Huangshan",
+        "url": "https://en.wikivoyage.org/wiki/Huangshan",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "黄山市政府 · 徽派建筑经典",
+        "url": "https://www.huangshan.gov.cn/zjhs/rwhz/hpjz/8294051.html"
+      },
+      {
+        "label": "黄山市政府 · 屯溪老街古建保护",
+        "url": "https://www.huangshan.gov.cn/zxzx/zwyw/8408558.html"
+      },
+      {
+        "label": "黄山市政府 · 旅游交通出行信息",
+        "url": "https://www.huangshan.gov.cn/zwgk/public/6615714/12046082.html"
+      },
+      {
+        "label": "黄山旅游官方平台 · 黄山风景区预订须知",
+        "url": "https://www.huangshan.com.cn/detail/ticket?id=7019&m_id=730&page=1"
+      },
+      {
+        "label": "黄山市政府 · 地方风味与旅游服务",
+        "url": "https://www.huangshan.gov.cn/zxzx/zwyw/8413951.html"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "huangshan-scenic-area",
+        "name": "黄山风景区",
+        "coordinates": {
+          "lat": 30.1341,
+          "lng": 118.1638
+        },
+        "themes": [
+          "nature",
+          "outdoor",
+          "culture"
+        ],
+        "art": "mountain",
+        "description": "以峰峦、松林和花岗岩地貌为主线，按体力在观景平台和步道间选择，不必追求走遍所有山峰。即使使用索道，山上仍需上下台阶；预留休息与下山余量，遇到雾景也可以近看松石，不必只等待云海。",
+        "highlights": [
+          "花岗岩峰峦",
+          "高山松林",
+          "山间步道"
+        ],
+        "travel": "从黄山市区或黄山北站先接驳至所选景区门区；南门通常经汤口，再按预约方向换乘景区交通。到达门区后仍有上山及山上步行。",
+        "days": "一天；山上住宿可安排两天",
+        "tips": [
+          "提前预约并核对入口、换乘和索道项目。",
+          "雷雨、冰雪或临时封闭时服从管理，不走未开放路线。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Huangshan",
+            "url": "https://en.wikivoyage.org/wiki/Huangshan",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          },
+          {
+            "label": "黄山旅游官方平台 · 黄山风景区预订须知",
+            "url": "https://www.huangshan.com.cn/detail/ticket?id=7019&m_id=730&page=1"
+          }
+        ],
+        "seasons": [
+          "4—5月：春季山林",
+          "9—11月：秋季登山"
+        ],
+        "climate": "高山区比屯溪明显寒冷，风、雾和降雨变化快，冬季可能结冰。进山带防风保暖层，穿防滑鞋；雷雨或冰雪时按管委会公告调整，云海与日出均不可保证。"
+      },
+      {
+        "id": "huangshan-tunxi-old-street",
+        "name": "屯溪老街",
+        "coordinates": {
+          "lat": 29.7114,
+          "lng": 118.3018
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "food"
+        ],
+        "art": "town",
+        "description": "沿主街观察徽派商铺立面，再转入青石支巷看院门与建筑细节。这里适合在抵达日或返程前慢走，穿插一份烧饼或一顿徽菜；店铺更新与古建筑保护并存，留意说明牌，能看见商业热闹之外的地方记忆。",
+        "highlights": [
+          "徽派商铺",
+          "青石巷道",
+          "徽州风味"
+        ],
+        "travel": "从黄山市区住宿点乘公交、短程车辆或步行到屯溪老街；从黄山北站抵达仍需接驳。老街内部步行，拖箱时宜先去住宿点寄存。",
+        "days": "2—3小时",
+        "tips": [
+          "购买食品先问清计价单位与保存条件，尊重仍在使用的宅院。"
+        ],
+        "sources": [
+          {
+            "label": "黄山市政府 · 屯溪老街古建保护",
+            "url": "https://www.huangshan.gov.cn/zxzx/zwyw/8408558.html"
+          }
+        ]
+      },
+      {
+        "id": "huangshan-hongcun",
+        "name": "宏村",
+        "coordinates": {
+          "lat": 30.0036,
+          "lng": 117.9817
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "slow"
+        ],
+        "art": "town",
+        "description": "从南湖与月沼观察水系如何进入村落，再沿巷道看白墙、黛瓦和民居木作。适合早些到村中慢慢辨认院落结构，而不是只在湖边排队拍照；许多空间仍与居民生活相连，安静走巷更容易感受村落尺度。",
+        "highlights": [
+          "南湖",
+          "月沼水系",
+          "徽派民居"
+        ],
+        "travel": "从黄山北站、屯溪或黟县方向查旅游客运前往宏村，最后步行入村。若与西递同游，先确认两村间衔接，勿假设随到随有直达班车。",
+        "days": "半天至一天",
+        "tips": [
+          "居民院落按开放标识进入，拍摄私人生活空间先征得同意。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Hongcun",
+            "url": "https://en.wikivoyage.org/wiki/Hongcun",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          },
+          {
+            "label": "黄山市政府 · 徽派建筑经典",
+            "url": "https://www.huangshan.gov.cn/zjhs/rwhz/hpjz/8294051.html"
+          }
+        ]
+      },
+      {
+        "id": "huangshan-xidi",
+        "name": "西递",
+        "coordinates": {
+          "lat": 29.9044,
+          "lng": 117.9875
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "沿牌坊与村内巷道认识徽州村落，重点看民居门罩、天井和木石雕刻的安排。可以选择几处开放院落慢看，再回到街巷比较建筑差异；这里适合把注意力放在细节和空间关系，避免只用一张全景照片带过。",
+        "highlights": [
+          "徽派民居",
+          "牌坊",
+          "传统三雕"
+        ],
+        "travel": "从黄山北站、屯溪或黟县方向查询前往西递的旅游客运，必要时在黟县接驳。到村后以步行为主，先确认回程上车点与时间安排。",
+        "days": "半天",
+        "tips": [
+          "石板巷道雨后防滑，建筑内的木雕与陈设不可触碰。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Xidi",
+            "url": "https://en.wikivoyage.org/wiki/Xidi",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          },
+          {
+            "label": "黄山市政府 · 徽派建筑经典",
+            "url": "https://www.huangshan.gov.cn/zjhs/rwhz/hpjz/8294051.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nanchang",
+    "name": "南昌",
+    "province": "江西",
+    "coordinates": {
+      "lat": 28.6829,
+      "lng": 115.8582
+    },
+    "themes": [
+      "culture",
+      "urban",
+      "food"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "南昌可以用赣江和城市历史串起短途旅行。滕王阁适合从楼阁看江城，八一广场与起义纪念馆则提供近代历史的线索。把两岸行程分开安排，再用拌粉与瓦罐汤开启一天，既能看城市地标，也能留出观察街巷生活的时间。",
+    "highlights": [
+      "滕王阁与赣江",
+      "八一起义历史",
+      "秋水广场江岸"
+    ],
+    "foods": [
+      "南昌拌粉",
+      "瓦罐汤",
+      "白糖糕"
+    ],
+    "foodGuide": [
+      {
+        "name": "南昌拌粉",
+        "description": "米粉配酱汁、辣椒及腌菜等拌食，口感爽滑；通常适合搭一份汤，点单时可先说明少辣。"
+      },
+      {
+        "name": "瓦罐汤",
+        "description": "把肉类、蛋或其他材料放入小罐煨制，口味随配料不同；先看当天汤品，有忌口时确认食材。"
+      },
+      {
+        "name": "白糖糕",
+        "description": "糯米等原料制成后炸制、裹糖，外层香甜而内里软糯；趁热少量品尝，作为正餐后的点心。"
+      }
+    ],
+    "seasons": [
+      "3—4月：春日江城",
+      "10—11月：秋日登阁"
+    ],
+    "climate": "南昌夏季高温湿热，春夏降雨较多，冬季有湿冷感。春秋适合江岸步行与登阁，赣江边风感较强；遇强风、暴雨时减少临水停留，带雨具与薄外套。",
+    "travel": "远程可选南昌昌北国际机场，进城按当日可用公共交通或正规接送安排。铁路主要比较南昌站与南昌西站：南昌站更靠近老城区，南昌西站位于城市西侧的高铁片区。住宿选江东老城或红谷滩后，再核对到站和跨江接驳，避免返程时走错站。",
+    "localTransport": "地铁适合连接两岸与铁路枢纽，八一广场、纪念馆和老街片区用步行衔接。赣江宽阔，跨江不宜按地图直线距离估计，夜游后提前规划回酒店线路。",
+    "days": "建议2—3天",
+    "itinerary": [
+      {
+        "title": "第1天 · 古阁与江岸",
+        "description": "上午游滕王阁，下午认识附近老城，傍晚按天气选择江岸散步。"
+      },
+      {
+        "title": "第2天 · 八一历史",
+        "description": "参观八一起义纪念馆，再到八一广场看纪念塔，安排拌粉和瓦罐汤。"
+      },
+      {
+        "title": "第3天 · 红谷滩",
+        "description": "留作秋水广场江岸慢走与返程机动，不把喷泉或灯光活动设为固定承诺。"
+      }
+    ],
+    "tips": [
+      "八一广场与八一起义纪念馆是两个地点，分别规划。",
+      "江岸喷泉、灯光与活动安排易变，出发前看当前公告。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Nanchang",
+        "url": "https://en.wikivoyage.org/wiki/Nanchang",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "南昌市政府 · 南昌八一起义纪念馆",
+        "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "nanchang-tengwang-pavilion",
+        "name": "滕王阁",
+        "coordinates": {
+          "lat": 28.6812,
+          "lng": 115.881
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "结合王勃文章的线索看楼阁展陈，再登临观察赣江、桥梁与两岸城市。可以先看建筑轴线，再慢读展厅，让诗文与真实江面互相参照；日落与夜景受天气和运营安排影响，白天也能完整欣赏阁楼空间。",
+        "highlights": [
+          "赣江视野",
+          "楼阁建筑",
+          "滕王阁序文化"
+        ],
+        "travel": "从南昌城区乘地铁至滕王阁及周边站点后步行接近景区。车站与景区入口并非同一位置，先确认入口方向，留出步行和检票时间。",
+        "days": "2—3小时",
+        "tips": [
+          "日间、夜间与演出项目的票务范围分别核对。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanchang",
+            "url": "https://en.wikivoyage.org/wiki/Nanchang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "nanchang-bayi-square",
+        "name": "八一广场",
+        "coordinates": {
+          "lat": 28.6757,
+          "lng": 115.8977
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "围绕纪念塔、浮雕和广场空间慢走，先看整体布局，再阅读与南昌起义相关的说明。这里也是观察城市公共生活的一处窗口，可与附近街区步行衔接；夏季选择较凉爽时段，能更从容地停留看细节。",
+        "highlights": [
+          "起义纪念塔",
+          "纪念浮雕",
+          "城市广场"
+        ],
+        "travel": "从南昌城区乘地铁至八一广场站，按出站导向进入开放区域。周边主干路较多，遵循地下通道、人行设施与交通信号通行。",
+        "days": "约1小时",
+        "tips": [
+          "纪念性空间保持庄重，仪式或活动期间按现场管理路线通行。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanchang",
+            "url": "https://en.wikivoyage.org/wiki/Nanchang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "nanchang-uprising-memorial",
+        "name": "南昌八一起义纪念馆",
+        "coordinates": {
+          "lat": 28.6769,
+          "lng": 115.8868
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "通过旧址建筑、文献与展陈认识南昌起义，将人物和事件放回当时的城市背景中。可先看基本陈列再观察总指挥部旧址空间，给阅读留足时间；纪念馆与所辖其他旧址并非都在一个院内，需要分别安排。",
+        "highlights": [
+          "起义历史陈列",
+          "总指挥部旧址",
+          "近代建筑空间"
+        ],
+        "travel": "从南昌城区前往中山路一带的主馆，乘地铁至附近站点后步行衔接。先区分主馆与其他革命旧址，按预约信息确定参观入口。",
+        "days": "2—3小时",
+        "tips": [
+          "核对当前预约、证件与开放展区，不沿用早年临时公告。"
+        ],
+        "sources": [
+          {
+            "label": "南昌市政府 · 南昌八一起义纪念馆",
+            "url": "https://www.nc.gov.cn/ncszf/rwfg/202208/ae5ef257ee2049e8842d2b2e7b0db2c7.shtml"
+          }
+        ]
+      },
+      {
+        "id": "nanchang-qiushui-square",
+        "name": "秋水广场",
+        "coordinates": {
+          "lat": 28.6835,
+          "lng": 115.853
+        },
+        "themes": [
+          "urban",
+          "slow"
+        ],
+        "art": "city",
+        "description": "把赣江西岸的江边散步作为重点，看对岸阁楼方向与现代城市轮廓，找一段开放步道慢慢走。这里适合在一日参观后休息，等江面光线变化；即使没有喷泉等活动，也能用江岸视角认识南昌两岸的尺度。",
+        "highlights": [
+          "赣江西岸",
+          "两岸城市景观",
+          "江边步道"
+        ],
+        "travel": "从南昌城区乘地铁到秋水广场附近，再步行至赣江岸。与老城隔江，先安排跨江交通，游览后按实际站点与酒店方向返程。",
+        "days": "1—2小时",
+        "tips": [
+          "喷泉和灯光时间会调整，以当前公告为准；江边大风时减少停留。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Nanchang",
+            "url": "https://en.wikivoyage.org/wiki/Nanchang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zhengzhou",
+    "name": "郑州",
+    "province": "河南",
+    "coordinates": {
+      "lat": 34.7466,
+      "lng": 113.6254
+    },
+    "themes": [
+      "culture",
+      "food",
+      "urban"
+    ],
+    "tier": "comfort",
+    "art": "city",
+    "description": "郑州值得从中原历史而非换乘空隙里慢慢认识。河南博物院把考古文物连成时间线，商城遗址让古城轮廓落到眼前，二七塔则连接铁路与近代城市记忆。想去登封少林寺时另留一天，回城后用烩面或胡辣汤认识当地的日常味道。",
+    "highlights": [
+      "河南博物院中原文物",
+      "郑州商城遗址",
+      "二七纪念塔铁路记忆"
+    ],
+    "foods": [
+      "河南烩面",
+      "胡辣汤",
+      "水煎包"
+    ],
+    "foodGuide": [
+      {
+        "name": "河南烩面",
+        "description": "宽面片在汤中烩煮，常配羊肉和蔬菜等材料，汤鲜且饱腹；用肉不同可先问清，再按口味添辣。"
+      },
+      {
+        "name": "胡辣汤",
+        "description": "带胡椒等香料的浓汤，配料和辣度因店而异；早餐可配少量包点，先尝原汤再加醋。"
+      },
+      {
+        "name": "水煎包",
+        "description": "包子先煎再以水汽焖熟，底部焦香、内馅柔软；刚出锅汤汁较热，咬开后稍等再吃。"
+      }
+    ],
+    "seasons": [
+      "3—5月：春日访古",
+      "9—10月：秋季城市与嵩山"
+    ],
+    "climate": "郑州夏季炎热，冬季较冷偏干，春秋便于城市步行。夏季强降雨会影响户外与交通；登封山区的风和气温与城区不同，登山带外套，雷雨时不走山脊或临崖路线。",
+    "travel": "远程可选郑州新郑国际机场，衔接轨道交通或正规车辆进入城区。铁路需区分郑州东站与郑州站，前者是主要高铁枢纽，后者靠近老城区。登封不是从市内地铁步行就能到的景区，计划少林寺一日游时，应把城际道路往返和末端接驳一起安排。",
+    "localTransport": "地铁适合连接主要枢纽、二七广场与城区片区，河南博物院最后一段可步行或短程接驳。去登封需另查客运或正规车辆，市区与嵩山分日游览更从容。",
+    "days": "建议3天，含登封一日",
+    "itinerary": [
+      {
+        "title": "第1天 · 中原文物",
+        "description": "以河南博物院为重点，慢看考古展陈，午后安排烩面与休息。"
+      },
+      {
+        "title": "第2天 · 商都与铁路记忆",
+        "description": "看商城遗址，再到二七塔与周边街区，比较不同时期的城市空间。"
+      },
+      {
+        "title": "第3天 · 登封",
+        "description": "前往少林寺，以寺院与塔林为主；若增加山地步道，减少其他项目并留足返程。"
+      }
+    ],
+    "tips": [
+      "河南博物院预约和证件要求先核实，热门展品留足观看时间。",
+      "少林寺寺院游览与长距离嵩山徒步强度不同，按体力选路线。"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Zhengzhou",
+        "url": "https://en.wikivoyage.org/wiki/Zhengzhou",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "Wikivoyage · Dengfeng",
+        "url": "https://en.wikivoyage.org/wiki/Dengfeng",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "郑州市政府 · 郑州二七纪念塔",
+        "url": "https://www.zhengzhou.gov.cn/view23/6474468.jhtml"
+      }
+    ],
+    "verifiedAt": "2026-10-21",
+    "spots": [
+      {
+        "id": "zhengzhou-henan-museum",
+        "name": "河南博物院",
+        "coordinates": {
+          "lat": 34.7886,
+          "lng": 113.6731
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "city",
+        "description": "沿中原考古的时间线看青铜、陶瓷等文物，先了解时代背景，再选一两类展品细读说明。展厅信息密集，适合留半天慢看；若对古代音乐感兴趣，可另查馆方相关项目，不把活动和常设展览混为同一安排。",
+        "highlights": [
+          "中原考古",
+          "青铜文物",
+          "历史时间线"
+        ],
+        "travel": "从郑州城区前往农业路博物院，可乘地铁到附近站点后步行或短程接驳。按馆方说明确认观众入口，并给安检和预约核验留时间。",
+        "days": "半天",
+        "tips": [
+          "通过馆方渠道核对预约、证件和当前展区，活动项目另行确认。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Zhengzhou",
+            "url": "https://en.wikivoyage.org/wiki/Zhengzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "zhengzhou-shang-city-ruins",
+        "name": "郑州商城遗址",
+        "coordinates": {
+          "lat": 34.7451,
+          "lng": 113.686
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "garden",
+        "description": "沿保留下来的夯土城垣与遗址公园观察古城尺度，结合说明牌理解商代都城的布局。这里的观看重点是地形和考古线索，未必像复原建筑那样直观；先建立城址轮廓，再在步行中辨认遗存，会更有收获。",
+        "highlights": [
+          "商代城垣",
+          "夯土遗存",
+          "古城格局"
+        ],
+        "travel": "从郑州城区乘地铁至东大街、郑州文庙等周边片区，再步行到选定城垣展示段。遗址并非一个紧凑院落，先确定想看的段落与入口。",
+        "days": "1—2小时",
+        "tips": [
+          "夯土遗迹不可攀爬，沿开放步道观看，不进入保护围栏。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Zhengzhou",
+            "url": "https://en.wikivoyage.org/wiki/Zhengzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      },
+      {
+        "id": "zhengzhou-erqi-tower",
+        "name": "二七纪念塔",
+        "coordinates": {
+          "lat": 34.752,
+          "lng": 113.6582
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "先从广场观察联体双塔的轮廓，再结合展陈认识京汉铁路工人运动和郑州的铁路记忆。周边商业街的日常与纪念性建筑形成不同节奏，适合留一小段慢走；是否入塔按当前开放安排决定，外观也值得仔细观察。",
+        "highlights": [
+          "联体双塔",
+          "铁路工运历史",
+          "二七广场"
+        ],
+        "travel": "从郑州城区乘地铁至二七广场站，沿标识前往纪念塔。周边商业客流与道路交汇较多，按人行设施过街，不在车辆通道停留拍照。",
+        "days": "1—2小时",
+        "tips": [
+          "入塔展览与广场外观游览分别核对，参观纪念空间保持庄重。"
+        ],
+        "sources": [
+          {
+            "label": "郑州市政府 · 郑州二七纪念塔",
+            "url": "https://www.zhengzhou.gov.cn/view23/6474468.jhtml"
+          }
+        ]
+      },
+      {
+        "id": "zhengzhou-shaolin-temple",
+        "name": "少林寺（登封）",
+        "coordinates": {
+          "lat": 34.5078,
+          "lng": 112.9347
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "以寺院轴线和塔林为主线，观察禅宗寺院建筑及历代墓塔，再按体力决定是否增加山地步行。不要把看寺、看演出与长距离登山视为同一强度；留足阅读、休息和返程时间，能更清楚地理解嵩山文化景观。",
+        "highlights": [
+          "寺院建筑",
+          "塔林",
+          "嵩山文化景观"
+        ],
+        "travel": "从郑州市区乘正规客运或车辆前往登封，再接驳少林景区。景点在城外，先安排往返与上车位置，不把市区地铁当作能直达寺院的交通。",
+        "days": "一天（含郑州往返）",
+        "tips": [
+          "演出、索道与山地路线分别核对，雷雨天不安排登高。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Dengfeng",
+            "url": "https://en.wikivoyage.org/wiki/Dengfeng",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ]
+      }
+    ]
+  }
+]

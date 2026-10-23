@@ -354,3 +354,25 @@ test('public catalog and solo draw retain their contracts and health checks actu
   try { assert.equal((await api(empty, '/api/health', { client: null })).status, 503); }
   finally { empty.close(); }
 });
+
+test('concurrent reads persist one pending-room guide migration and stale draw cannot use old budgets', async t => {
+  const db=fixture(t);
+  const {DESTINATIONS}=await import('../prototype/catalog.mjs');
+  const legacy=new RoomStore({catalog:DESTINATIONS.map(item=>({...item,localBudget:{min:100,max:200}}))});
+  const room=legacy.create({clientId:alice.id,filters:{customNames:['长沙','杭州','青岛'],maxBudget:380}});
+  legacy.join(room.inviteCode,{clientId:bob.id});
+  legacy.ready(room.inviteCode,{clientId:alice.id,version:2});legacy.ready(room.inviteCode,{clientId:bob.id,version:2});
+  const before=JSON.stringify(legacy.exportRecord(room.inviteCode));
+  db.sqlite.prepare('INSERT INTO travel_rooms(code,revision,record,updated_at) VALUES(?,1,?,?)').run(room.inviteCode,before,Date.now());
+  const path=`/api/rooms/${room.inviteCode}`;
+  assert.equal((await api(db,path,{client:charlie})).status,403);
+  assert.equal(db.sqlite.prepare('SELECT record FROM travel_rooms WHERE code=?').get(room.inviteCode).record,before,'outsiders cannot persist a migration');
+  db.holdNextRoomReads(2);
+  const reads=await Promise.all([api(db,path),api(db,path,{client:bob})]);
+  for(const response of reads){assert.equal(response.status,200);assert.equal(response.body.version,3);assert.equal(response.body.candidates.length,0);assert.ok(response.body.members.every(item=>!item.ready));}
+  const row=db.sqlite.prepare('SELECT revision,record FROM travel_rooms WHERE code=?').get(room.inviteCode);
+  assert.equal(row.revision,2,'one CAS migration wins');
+  assert.equal(JSON.parse(row.record).room.version,3);
+  assert.equal((await api(db,path+'/draw',{method:'POST',body:{version:2}})).body.code,'VERSION_CONFLICT');
+  assert.equal((await api(db,path)).body.version,3,'a later load does not repeat the version increment');
+});

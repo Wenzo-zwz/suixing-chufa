@@ -37,3 +37,20 @@ test('collecting the same destination twice does not duplicate the collection', 
   assert.equal(rememberDestination([city], city).length, 1);
   assert.equal(rememberDestination([], city).length, 1);
 });
+
+test('refreshing stored travel records removes obsolete facts and preserves journey metadata and custom places', async () => {
+  const model = await import('../prototype/client-model.mjs');
+  assert.equal(typeof model.refreshTravelRecords, 'function');
+  const old = {id:'hangzhou',description:'演示旧资料',localBudget:{min:10,max:20}};
+  const latest = {id:'hangzhou',description:'核对后的西湖资料',localBudget:null,sources:[{url:'https://example.org/source'}]};
+  const custom = {id:'custom-one',name:'我的地点'};
+  const records = [old,{id:'journey-1',destination:old,status:'completed',createdAt:'2025-01-01'},custom];
+  const upgraded = model.refreshTravelRecords(records,[latest]);
+  assert.equal(upgraded[0].description,latest.description);
+  assert.equal(upgraded[0].localBudget,null);
+  assert.deepEqual(upgraded[1].destination,latest);
+  assert.equal(upgraded[1].status,'completed'); assert.equal(upgraded[1].id,'journey-1');
+  assert.equal(upgraded[2],custom);
+  assert.equal(records[0].description,'演示旧资料','stored input is not mutated');
+  assert.deepEqual(model.refreshTravelRecords(records,undefined),records);
+});

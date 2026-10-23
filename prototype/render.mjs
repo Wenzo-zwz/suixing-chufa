@@ -74,7 +74,7 @@ function filterSummary(state, filters = state.filters) {
   const origins = list(state.catalog?.origins);
   const origin = origins.find((item) => item.id === filters?.originId);
   const themes = themeList(state).filter((item) => list(filters?.themeIds).includes(item.id));
-  const segments = [list(filters?.provinces).length ? list(filters.provinces).join('、') : '全国随缘'];
+  const segments = [list(filters?.provinces).length ? list(filters.provinces).join('、') : '已收录地区随缘'];
   if (origin) segments.push(`从${origin.name}出发`);
   if (filters?.maxDistanceKm) segments.push(`${filters.maxDistanceKm} km 内`);
   if (themes.length) segments.push(themes.map((item) => item.label).join(' / '));
@@ -99,8 +99,8 @@ function home(state) {
     <div class="departure-options"><div class="mode-toggle" aria-label="出发方式">${button(icon('user', '', 16) + ' 一个人', 'set-mode', `mode-button ${state.mode === 'solo' ? 'active' : ''}`, 'data-id="solo"')}${button(icon('users', '', 17) + ' 一起决定', 'set-mode', `mode-button ${state.mode === 'group' ? 'active' : ''}`, 'data-id="group"')}</div>${button(icon('sliders', '', 15) + ' 微调一下', 'open-modal', 'text-button', 'data-modal="filters"')}</div>
     <div class="condition-line">${icon('pin', '', 13)}<span>${e(filterSummary(state))}</span></div>
     ${state.mode === 'group' ? button('邀请大家，一起决定 ' + icon('users', '', 18), 'create-room', 'button primary launch-entry', disabled(state.busy)) : ''}
-    <div class="secondary-row">${button('全国随缘，直接抽 ' + icon('sparkles', '', 14), 'quick-random', 'text-button quick-random', disabled(state.busy))}${button('我有备选名单', 'open-modal', 'text-button underlined', 'data-modal="custom"')}</div>
-    <p class="catalog-note">${icon('info', '', 12)} 示例目的地，供你发现灵感</p>
+    <div class="secondary-row">${button('热门城市，直接抽 ' + icon('sparkles', '', 14), 'quick-random', 'text-button quick-random', disabled(state.busy))}${button('我有备选名单', 'open-modal', 'text-button underlined', 'data-modal="custom"')}</div>
+    <p class="catalog-note" data-catalog-coverage>${icon('info', '', 12)} ${e(coverageText(state))}</p>
   </section>`;
 }
 
@@ -136,7 +136,7 @@ function game(state) {
 
 function budgetText(destination) {
   const budget = destination?.localBudget;
-  if (!budget) return '当地消费待了解';
+  if (!budget) return '费用随季节与安排变化';
   if (typeof budget === 'string') return budget;
   if (Array.isArray(budget)) return `¥${budget[0]}–${budget[1]} / 人 / 天`;
   return `¥${budget.min ?? '—'}–${budget.max ?? '—'} / 人 / 天`;
@@ -154,9 +154,10 @@ function result(state) {
     ${state.ritual ? `<aside class="ritual-note"><span>${icon('sparkles', '', 16)}</span><div><strong>这次出发的小记</strong><p>${e(state.ritual)}</p></div></aside>` : ''}
     <div class="section-row result-section-heading"><h2>先认识一下${e(destination.name)}</h2>${button(state.detailExpanded ? '收起 ' + icon('down', 'flip', 14) : '多了解一点 ' + icon('down', '', 14), 'expand-details', 'text-button', `aria-expanded="${Boolean(state.detailExpanded)}"`)}</div>
     <p class="destination-description">${e(destination.description || '这是一处你亲手加入的备选。出发前，花一点时间了解它的交通、开放信息和当地体验。')}</p>
-    ${state.detailExpanded ? `<div class="details-panel"><div><span>季节与气候</span><p>${e(list(destination.seasons).join('、') || '适合季节待了解')} · ${e(destination.climate || '天气需临行查询')}</p></div><div><span>怎么抵达</span><p>${e(destination.travel || '从出发城市查询路线、班次与交通费用')}</p></div><div><span>当地吃点什么</span><p>${e(foods.length ? foods.join('、') : '还没有核实的当地美食资料，期待你自己发现。')}</p></div>${destination.sourceUrl ? `<a class="source-link" href="${safeUrl(destination.sourceUrl)}" target="_blank" rel="noopener noreferrer">${e(destination.sourceLabel || '目的地资料来源')} ${icon('arrow', '', 13)}</a>` : ''}</div>` : ''}
+    ${state.detailExpanded ? travelGuide(destination, foods) : ''}
     <div class="section-row"><h2>到那里，做三件小事</h2><span class="small-script">慢慢来，就很好</span></div><ol class="little-plans">${(highlights.length ? highlights : ['了解当地路线，挑一处想去的地方', '留一点空白，找喜欢的吃食和街角', '把这次出发，记进自己的旅行手账']).map((item, index) => `<li><span>0${index + 1}</span><p>${e(item)}</p>${icon(['leaf', 'sun', 'cup'][index], '', 17)}</li>`).join('')}</ol>
-    <div class="data-note">${icon('info', '', 16)}<p>${e(destination.dataNote || '示例资料，供发现旅行灵感。')}<span>消费参考仅含当地消费；天气、班次、余票与开放信息需在出发前核实。</span></p></div>
+    ${guideSources(destination)}
+    <div class="data-note">${icon('info', '', 16)}<p>${e(destination.dataNote || '资料暂不完整，请在出发前查询。')}<span>班次、票价、天气和开放安排请以运营方最新信息为准。</span></p></div>
     <div class="result-tools">${button(icon('heart', saved ? 'filled-heart' : '', 18) + (saved ? '已收藏' : '收藏灵感'), 'save-destination', `button quiet ${saved ? 'is-saved' : ''}`)}${button(icon('share', '', 18) + ' 分享给朋友', 'copy-share', 'button quiet')}</div>
     ${button('好，就去这里 ' + icon('check', '', 19), 'accept-destination', 'button primary large')}
     ${button(icon('redo', '', 15) + ' 再遇见一个地方', 'draw-again', 'text-button draw-again', disabled(state.busy))}
@@ -164,6 +165,34 @@ function result(state) {
 }
 function safeUrl(value) {
   try { const url = new URL(String(value)); return ['http:', 'https:'].includes(url.protocol) ? e(url.href) : '#'; } catch { return '#'; }
+}
+
+function coverageText(state) {
+  const destinations = list(state.catalog?.destinations);
+  const cities = destinations.filter(item => item.kind === 'city').length;
+  const spots = destinations.filter(item => item.kind === 'spot').length;
+  return cities ? `已整理 ${cities} 座热门城市 · ${spots} 处景点，持续补充` : '热门目的地资料，持续补充';
+}
+
+function travelGuide(destination, foods) {
+  const map = new URL('https://uri.amap.com/search');
+  map.searchParams.set('keyword', destination.name || '');
+  map.searchParams.set('city', destination.city || '');
+  map.searchParams.set('callnative', '0');
+  const foodGuide = list(destination.foodGuide);
+  return `<div class="details-panel travel-guide" data-travel-guide>
+    <section><h3>什么时候去</h3><p>${e(list(destination.seasons).join('、') || '季节资料待补充')}</p><p>${e(destination.climate || '天气需临行查询')}</p></section>
+    <section><h3>${destination.kind === 'spot' ? '从所在城市怎么去' : '怎么抵达这座城'}</h3><p>${e(destination.travel || '从出发城市查询实际路线')}</p>${destination.localTransport ? `<h4>当地怎么走</h4><p>${e(destination.localTransport)}</p>` : ''}<div class="travel-query-links"><a href="${safeUrl(map.href)}" target="_blank" rel="noopener noreferrer">地图查地点与路线 ${icon('arrow', '', 13)}</a><a href="https://www.12306.cn/index/" target="_blank" rel="noopener noreferrer">12306 查铁路班次 ${icon('arrow', '', 13)}</a></div><p class="query-help">打开外部服务查询，未接入实时票务或导航。</p></section>
+    <section><h3>${destination.kind === 'spot' ? `${e(destination.city || '所在城市')}可以吃什么` : '当地吃点什么'}</h3>${foodGuide.length ? `<dl class="food-guide">${foodGuide.map(item => `<div><dt>${e(item.name)}</dt><dd>${e(item.description)}</dd></div>`).join('')}</dl>` : `<p>${e(foods.length ? foods.join('、') : '还没有核实的当地美食资料。')}</p>`}</section>
+    ${list(destination.itinerary).length ? `<section><h3>可以这样安排</h3><ol class="guide-itinerary">${destination.itinerary.map(item => `<li><strong>${e(item.title)}</strong><p>${e(item.description)}</p></li>`).join('')}</ol><p class="query-help">行程为节奏建议，请按预约、体力和实际交通调整。</p></section>` : ''}
+    ${list(destination.tips).length ? `<section><h3>出发前留意</h3><ul class="guide-tips">${destination.tips.map(item => `<li>${e(item)}</li>`).join('')}</ul></section>` : ''}
+  </div>`;
+}
+
+function guideSources(destination) {
+  const sources = list(destination.sources).length ? destination.sources : destination.sourceUrl ? [{url:destination.sourceUrl,label:destination.sourceLabel}] : [];
+  if (!sources.length) return '';
+  return `<details class="guide-sources"><summary>资料来源 · ${sources.length} 项${destination.verifiedAt ? `<span>核对 ${e(destination.verifiedAt)}</span>` : ''}</summary><div>${sources.map(source => `<p><a class="source-link" href="${safeUrl(source.url)}" target="_blank" rel="noopener noreferrer">${e(source.label || '目的地资料来源')} ${icon('arrow', '', 13)}</a>${source.license ? `<small>${e(source.attribution || '')} · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">${e(source.license)}</a> · 内容经整理改写，原页历史记录列出贡献者</small>` : ''}</p>`).join('')}</div></details>`;
 }
 
 function room(state) {
@@ -209,7 +238,7 @@ function filtersModal(state) {
   const provinces = list(state.catalog?.provinces);
   return `<div class="modal-description">让范围更合心意。没选的条件，就交给缘分。</div>${field('这次出发的心情', `<select data-field="preset">${presetList(state).map((preset) => `<option value="${e(preset.id)}"${selected(draft.preset, preset.id)}>${e(fallbackPresets.find((item) => item.id === preset.id)?.title || preset.title)}</option>`).join('')}</select>`)}${field('从哪里出发', `<select data-field="originId"><option value="">先不确定出发城市</option>${origins.map((origin) => `<option value="${e(origin.id)}"${selected(draft.originId, origin.id)}>${e(origin.name)}</option>`).join('')}</select>`, '短途灵感需要出发城市；当前按地理距离筛选。')}
     <div class="field-pair">${field('想去的地方', `<select data-field="kind"><option value="city"${selected(draft.kind, 'city')}>城市</option><option value="spot"${selected(draft.kind, 'spot')}>景点</option></select>`)}${field('距离上限 · km', `<input type="number" min="1" max="6000" step="10" inputmode="numeric" placeholder="不限" data-field="maxDistanceKm" value="${e(draft.maxDistanceKm)}" />`)}</div>
-    ${field('当地消费参考上限 · 元 / 人 / 天', `<input type="number" min="0" max="100000" step="50" inputmode="numeric" placeholder="不限" data-field="maxBudget" value="${e(draft.maxBudget)}" />`, '仅筛选当地消费参考，不包含到达目的地的交通费用。')}
+    ${field('当地消费参考上限 · 元 / 人 / 天', `<input type="number" min="0" max="100000" step="50" inputmode="numeric" placeholder="不限" data-field="maxBudget" value="${e(draft.maxBudget)}" />`, '仅筛选已知费用的目的地；当前资料暂无可靠消费区间，填写上限将排除费用未知项。')}
     <fieldset class="province-field"><legend>去哪里 <span class="optional">不选就是全国随缘</span></legend><div class="province-options">${provinces.map((province) => `<label><input type="checkbox" name="province" value="${e(province)}"${checked(list(draft.provinces).includes(province))} /><span>${e(province)}</span></label>`).join('')}</div></fieldset>
     ${field('出发小游戏', `<select data-field="gameId">${games.map((game) => `<option value="${game.id}"${selected(state.modalDraft?.gameId ?? state.gameId, game.id)}>${game.title}</option>`).join('')}</select>`)}
     ${button('就按这个范围出发 ' + icon('check', '', 17), 'apply-filters', 'button primary modal-submit', disabled(state.busy))}`;
@@ -222,7 +251,7 @@ function modal(state) {
     case 'candidates': {
       const names = state.mode === 'group' && state.room ? list(state.room.candidates).map(item => item.name) : list(state.candidateNames);
       const rejected = state.mode === 'group' && state.room ? list(state.room.rejected) : list(state.rejected);
-      content = `<p class="modal-description">这里是本次抽取的完整候选名单。每个地方都有同样的机会，等概率抽取；玩法不会改变机会。当地消费为演示参考，不含往返交通。</p><h3 class="candidate-section-title">最终候选 · ${names.length} 个</h3>${names.length ? `<ul class="candidate-full-list">${names.map(name => `<li data-candidate-name="${e(name)}">${e(name)}<span>1 / ${names.length}</span></li>`).join('')}</ul>` : '<p class="modal-description">没有符合全部条件的候选，请查看下方原因并微调条件。</p>'}<h3 class="candidate-section-title">本次排除 · ${rejected.length} 个</h3>${rejected.length ? `<ul class="candidate-rejections">${rejected.map(item => `<li data-rejected-name="${e(item.name)}"><strong>${e(item.name)}</strong><p>${e(item.reason)}</p></li>`).join('')}</ul>` : '<p class="modal-description">当前名单没有被条件排除的地方。</p>'}`;
+      content = `<p class="modal-description">这里是本次抽取的完整候选名单。每个地方都有同样的机会，等概率抽取；玩法不会改变机会。资料未提供可靠费用时，不按价格推定目的地。</p><h3 class="candidate-section-title">最终候选 · ${names.length} 个</h3>${names.length ? `<ul class="candidate-full-list">${names.map(name => `<li data-candidate-name="${e(name)}">${e(name)}<span>1 / ${names.length}</span></li>`).join('')}</ul>` : '<p class="modal-description">没有符合全部条件的候选，请查看下方原因并微调条件。</p>'}<h3 class="candidate-section-title">本次排除 · ${rejected.length} 个</h3>${rejected.length ? `<ul class="candidate-rejections">${rejected.map(item => `<li data-rejected-name="${e(item.name)}"><strong>${e(item.name)}</strong><p>${e(item.reason)}</p></li>`).join('')}</ul>` : '<p class="modal-description">当前名单没有被条件排除的地方。</p>'}`;
       break;
     }
     case 'filters': content = filtersModal(state); break;

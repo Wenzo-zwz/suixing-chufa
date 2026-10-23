@@ -99,8 +99,8 @@ function filteredPool(filters, catalog) {
     else if (!filters.customNames.length && item.kind !== filters.kind) reason = '目的地类型不符';
     else if (filters.provinces.length && !filters.provinces.includes(item.province)) reason = '不在所选地区';
     else if (filters.themeIds.length && !filters.themeIds.some(theme => item.themes.includes(theme))) reason = '暂无符合所选主题的资料';
-    else if (!filters.customNames.length && filters.preset === 'enjoy' && item.tier !== 'premium') reason = '不属于此体验意图的演示候选';
-    else if (filters.maxBudget !== null && (!item.localBudget || item.localBudget.max > filters.maxBudget)) reason = '当地消费演示上限超出或未知';
+    else if (!filters.customNames.length && filters.preset === 'enjoy' && item.tier !== 'premium') reason = '不属于此体验意图的候选';
+    else if (filters.maxBudget !== null && (!item.localBudget || item.localBudget.max > filters.maxBudget)) reason = (!item.localBudget ? '暂无可靠消费区间，无法按预算筛选' : '当地消费参考上限超出');
     else if (nearby && (!item.coordinates || distanceKm(origin.coordinates, item.coordinates) > radius)) reason = '超出地理距离范围或坐标未知';
     if (reason) rejected.push({ name: item.name, reason });
     else candidates.push(item);
@@ -108,8 +108,8 @@ function filteredPool(filters, catalog) {
   return {
     candidates, rejected, needsOrigin: false,
     note: nearby
-      ? `演示目录 · 出发城市周边 ${radius} 公里地理直线距离筛选；不等于实时耗时，也不承诺当天往返。当地消费参考不含往返交通。`
-      : '演示目录并非全国全量资料；当地消费为演示参考，不含往返交通，天气、班次与余票需实时查询。'
+      ? `已收录景点 · 出发城市周边 ${radius} 公里地理直线距离筛选；不等于实时耗时，也不承诺当天往返。范围内未收录的地点不会参与抽取。`
+      : '当前为有来源的热门目的地资料，并非全国全量目录；费用未知时不能按预算筛选，天气、班次、票价与余票需另行实时查询。'
   };
 }
 
@@ -146,6 +146,17 @@ export class RoomStore {
 
   importRecord(record) {
     const copy = structuredClone({ room: record.room, drawVersion: record.drawVersion });
+    // An undecided round must use the current catalog, including updated cost facts.
+    // Finished rounds keep their original draw so retries can never pick a new winner.
+    if (copy.room.phase !== 'drawn') {
+      const previous = JSON.stringify(copy.room.candidates);
+      this.#refresh(copy.room, { reset: false });
+      if (previous !== JSON.stringify(copy.room.candidates)) {
+        copy.room.version += 1;
+        copy.room.members.forEach(member => { member.ready = false; });
+        copy.room.phase = 'collecting';
+      }
+    }
     this.#rooms.set(copy.room.inviteCode, copy);
   }
 

@@ -23,7 +23,7 @@ test('catalog and candidate HTTP responses expose the exact preview contract', a
   const catalog = await request('/api/catalog');
   assert.equal(catalog.status, 200);
   assert.deepEqual(Object.keys(catalog.body).sort(), ['destinations', 'origins', 'themes', 'provinces', 'presets', 'disclaimer'].sort());
-  assert.match(catalog.body.disclaimer, /演示/);
+  assert.match(catalog.body.disclaimer, /来源.*核对日期/);
   const nearby = await request('/api/candidates', { method: 'POST', body: { filters: { preset: 'near' } } });
   assert.equal(nearby.status, 200);
   assert.deepEqual(Object.keys(nearby.body).sort(), ['candidates', 'rejected', 'needsOrigin', 'note'].sort());

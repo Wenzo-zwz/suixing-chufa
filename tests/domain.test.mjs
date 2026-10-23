@@ -22,7 +22,7 @@ const fixture = [
 ];
 const member = (clientId, extra = {}) => ({ clientId, nickname: clientId, filters: {}, ...extra });
 
-test('catalog provides honest demo coverage and short trips for common origins', async () => {
+test('catalog provides attributed popular travel guides and short trips for common origins', async () => {
   await domain();
   const { DESTINATIONS, ORIGINS, PRESETS } = await import('../prototype/catalog.mjs');
   const cities = DESTINATIONS.filter(item => item.kind === 'city');
@@ -35,10 +35,10 @@ test('catalog provides honest demo coverage and short trips for common origins',
   assert.deepEqual(PRESETS.map(preset => preset.id), ['near', 'explore', 'enjoy']);
   const fields = ['id', 'name', 'province', 'city', 'kind', 'coordinates', 'themes', 'tier', 'tagline', 'description', 'highlights', 'foods', 'seasons', 'climate', 'travel', 'days', 'localBudget', 'art', 'sourceUrl', 'sourceLabel', 'dataNote'];
   for (const item of DESTINATIONS) {
-    assert.deepEqual(Object.keys(item).sort(), fields.sort());
-    assert.match(item.dataNote, /演示/);
-    assert.match(item.travel, /实时|查询|核实/);
-    if (item.localBudget) assert.match(item.localBudget.label, /演示/);
+    for (const field of fields) assert.ok(Object.hasOwn(item, field), field);
+    assert.match(item.dataNote, /来源|核对/); assert.ok(item.sources.length > 0);
+    assert.ok(item.travel.length >= 25);
+    assert.equal(item.localBudget, null);
   }
 });
 
@@ -321,4 +321,30 @@ test('callers cannot mutate stored room snapshots and repeated joins cannot add 
   const stored = store.read(room.inviteCode, 'a');
   assert.equal(stored.members[0].nickname, 'a');
   assert.equal(stored.candidates.length, 3);
+});
+
+test('pending restored rooms revalidate changed guide facts and reject obsolete readiness and budgets', async () => {
+  const {RoomStore} = await domain();
+  const old = new RoomStore({catalog:fixture});
+  const room = old.create(member('a',{filters:{maxBudget:300}}));
+  old.join(room.inviteCode,member('b',{filters:{maxBudget:300}}));
+  old.ready(room.inviteCode,{clientId:'a',version:2}); old.ready(room.inviteCode,{clientId:'b',version:2});
+  const restored = new RoomStore({catalog:fixture.map(item=>({...item,localBudget:null}))});
+  restored.importRecord(old.exportRecord(room.inviteCode));
+  const current = restored.read(room.inviteCode,'a');
+  assert.equal(current.candidates.length,0);
+  assert.equal(current.version,3); assert.equal(current.phase,'collecting');
+  assert.ok(current.members.every(item=>!item.ready));
+  assert.throws(()=>restored.draw(room.inviteCode,{clientId:'a',version:2}),error=>error.code==='VERSION_CONFLICT');
+  assert.throws(()=>restored.ready(room.inviteCode,{clientId:'a',version:3}),error=>error.code==='NO_CANDIDATES');
+});
+
+test('guide updates never replace an already drawn shared result', async () => {
+  const {RoomStore} = await domain();
+  const old = new RoomStore({catalog:fixture,randomIndex:()=>0});
+  const room = old.create(member('a')); old.join(room.inviteCode,member('b'));
+  old.ready(room.inviteCode,{clientId:'a',version:2});old.ready(room.inviteCode,{clientId:'b',version:2});
+  const drawn=old.draw(room.inviteCode,{clientId:'a',version:2});
+  const restored=new RoomStore({catalog:[]});restored.importRecord(old.exportRecord(room.inviteCode));
+  assert.deepEqual(restored.draw(room.inviteCode,{clientId:'b',version:2}),drawn);
 });

@@ -3,12 +3,11 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readFile, realpath } from 'node:fs/promises';
 import { randomUUID } from 'node:crypto';
-import { DESTINATIONS, ORIGINS, THEMES, PROVINCES, PRESETS } from './catalog.mjs';
+import { DESTINATIONS, ORIGINS, THEMES, PROVINCES, PRESETS, DISCLAIMER } from './catalog.mjs';
 import { candidatePool, drawCandidate, DomainError, RoomStore } from './domain.mjs';
 
 const STATIC_ROOT = fileURLToPath(new URL('.', import.meta.url));
 const JSON_LIMIT = 64 * 1024;
-const DISCLAIMER = '这是有限的演示目的地目录，并非全国全量资料。当地消费标签为演示参考，不是实际价格承诺，也不含往返交通；距离为地理直线距离。没有接入实时天气、班次、票价或余票，开放与预订可用性请在出发前查询。';
 const CONTENT_TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.json': 'application/json; charset=utf-8', '.ico': 'image/x-icon' };
 
 function json(response, status, body) {

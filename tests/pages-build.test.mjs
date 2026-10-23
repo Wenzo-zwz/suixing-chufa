@@ -6,7 +6,7 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import vm from 'node:vm';
-import { presetFilters, parseCustomNames, toggleTheme, rememberDestination } from '../prototype/client-model.mjs';
+import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from '../prototype/client-model.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const builder = path.join(project, 'scripts/build-pages.mjs');
@@ -81,7 +81,7 @@ async function browserClient({ stored = {}, apiBase = 'https://travel-api.exampl
   let uuidIndex = 0;
   const uuids = ['12345678-1234-4123-8123-123456789abc', 'aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa', 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb'];
   const context = vm.createContext({
-    runtimeConfig: { apiBase }, presetFilters, parseCustomNames, toggleTheme, rememberDestination,
+    runtimeConfig: { apiBase }, presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords,
     renderApp: value => { rendered.push(value); return '<main>website</main>'; },
     mountGameInteractions: () => () => {},
     localStorage: { getItem: key => storage.get(key), setItem: (key, value) => storage.set(key, value) },
