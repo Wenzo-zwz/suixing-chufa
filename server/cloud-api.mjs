@@ -1,6 +1,7 @@
 import { createHash, randomUUID, timingSafeEqual } from 'node:crypto';
 import { DESTINATIONS, ORIGINS, THEMES, PROVINCES, PRESETS, DISCLAIMER } from '../prototype/catalog.mjs';
 import { candidatePool, drawCandidate, DomainError, RoomStore } from '../prototype/domain.mjs';
+import { decodeRoomRecord, encodeRoomRecord, ROOM_RECORD_ENCODING } from './room-record-codec.mjs';
 
 const JSON_LIMIT = 64 * 1024;
 const MAX_ATTEMPTS = 10;
@@ -68,7 +69,7 @@ async function createRoom(db, input) {
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt += 1) {
     const store = new RoomStore();
     const room = store.create(input);
-    const record = JSON.stringify(store.exportRecord(room.inviteCode));
+    const record = encodeRoomRecord(store.exportRecord(room.inviteCode));
     const result = await db.prepare('INSERT INTO travel_rooms (code, revision, record, updated_at) VALUES (?, 1, ?, ?) ON CONFLICT(code) DO NOTHING').bind(room.inviteCode, record, Date.now()).run();
     if (result.meta.changes === 1) return room;
   }
@@ -78,25 +79,29 @@ async function createRoom(db, input) {
 async function loadRoom(db, code) {
   const row = await db.prepare('SELECT code, revision, record FROM travel_rooms WHERE code = ?').bind(code).first();
   if (!row) throw roomNotFound();
-  const record = JSON.parse(row.record);
+  const storedRecord = JSON.parse(row.record);
+  const record = decodeRoomRecord(storedRecord);
+  const serializedRecord = JSON.stringify(record);
+  const needsMigration = storedRecord.encoding !== ROOM_RECORD_ENCODING;
   const store = new RoomStore();
   store.importRecord(record);
-  return { row, record, store };
+  return { row, record, store, serializedRecord, needsMigration };
 }
 
 async function mutateRoom(db, code, action, input) {
   let roomId;
   for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt += 1) {
-    const { row, record, store } = await loadRoom(db, code);
+    const { row, record, store, serializedRecord, needsMigration } = await loadRoom(db, code);
     if (roomId && roomId !== record.room.id) throw roomNotFound();
     roomId = record.room.id;
     const room = ['leave', 'read'].includes(action) ? store[action](code, input.clientId) : store[action](code, input);
-    const nextRecord = JSON.stringify(store.exportRecord(code));
-    if (nextRecord === row.record) return room;
+    const nextRecord = store.exportRecord(code);
+    if (!needsMigration && JSON.stringify(nextRecord) === serializedRecord) return room;
+    // The action above validates membership before a legacy record can be migrated.
     // The independent revision covers readiness/nicknames; room.id also guards code reuse.
     const result = room.left
       ? await db.prepare("DELETE FROM travel_rooms WHERE code = ? AND revision = ? AND json_extract(record, '$.room.id') = ?").bind(code, row.revision, roomId).run()
-      : await db.prepare("UPDATE travel_rooms SET record = ?, revision = revision + 1, updated_at = ? WHERE code = ? AND revision = ? AND json_extract(record, '$.room.id') = ?").bind(nextRecord, Date.now(), code, row.revision, roomId).run();
+      : await db.prepare("UPDATE travel_rooms SET record = ?, revision = revision + 1, updated_at = ? WHERE code = ? AND revision = ? AND json_extract(record, '$.room.id') = ?").bind(encodeRoomRecord(nextRecord), Date.now(), code, row.revision, roomId).run();
     if (result.meta.changes === 1) return room;
     // Discard speculative state, including draws, and rerun against the persisted winner.
   }

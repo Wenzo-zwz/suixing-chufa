@@ -5,7 +5,11 @@ import { createHash, randomUUID } from 'node:crypto';
 import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
+import { gunzipSync } from 'node:zlib';
 import { RoomStore } from '../prototype/domain.mjs';
+import { DESTINATIONS } from '../prototype/catalog.mjs';
+import legacyCatalog from './fixtures/catalog-original-180.json' with { type: 'json' };
+import { decodeRoomRecord } from '../server/room-record-codec.mjs';
 
 const ORIGIN = 'https://travel.example';
 const PAGES = 'https://wenzo-zwz.github.io';
@@ -372,7 +376,95 @@ test('concurrent reads persist one pending-room guide migration and stale draw c
   for(const response of reads){assert.equal(response.status,200);assert.equal(response.body.version,3);assert.equal(response.body.candidates.length,0);assert.ok(response.body.members.every(item=>!item.ready));}
   const row=db.sqlite.prepare('SELECT revision,record FROM travel_rooms WHERE code=?').get(room.inviteCode);
   assert.equal(row.revision,2,'one CAS migration wins');
-  assert.equal(JSON.parse(row.record).room.version,3);
+  assert.equal(decodeRoomRecord(JSON.parse(row.record)).room.version,3);
   assert.equal((await api(db,path+'/draw',{method:'POST',body:{version:2}})).body.code,'VERSION_CONFLICT');
   assert.equal((await api(db,path)).body.version,3,'a later load does not repeat the version increment');
+});
+
+function historicalRoom(catalog, rounds, { pending = false } = {}) {
+  const store = new RoomStore({ catalog, randomIndex: () => 0 });
+  let room = store.create({ clientId: alice.id, nickname: '甲', filters: { kind: 'spot', maxDistanceKm: null } });
+  room = store.join(room.inviteCode, { clientId: bob.id, nickname: '乙' });
+  for (let round = 0; round < rounds; round += 1) {
+    store.ready(room.inviteCode, { clientId: alice.id, version: room.version });
+    store.ready(room.inviteCode, { clientId: bob.id, version: room.version });
+    room = store.draw(room.inviteCode, { clientId: alice.id, version: room.version });
+    if (round < rounds - 1 || pending) room = store.next(room.inviteCode, { clientId: alice.id, version: room.version });
+  }
+  return { store, room, record: store.exportRecord(room.inviteCode) };
+}
+
+function enforceD1RowLimit(db) {
+  for (const operation of ['INSERT', 'UPDATE']) db.sqlite.exec(`
+    CREATE TRIGGER limit_room_${operation.toLowerCase()} BEFORE ${operation} ON travel_rooms
+    WHEN length(CAST(NEW.record AS BLOB)) > 2000000
+    BEGIN SELECT RAISE(ABORT, 'D1 row size limit'); END;
+  `);
+}
+
+test('national 600-spot rooms retain all draw history below the D1 row limit', async t => {
+  const db = fixture(t);
+  enforceD1RowLimit(db);
+  const { store, room } = historicalRoom(DESTINATIONS, 26, { pending: true });
+  assert.equal(room.candidates.length, 600);
+  for (const client of [alice, bob]) store.ready(room.inviteCode, { clientId: client.id, version: room.version });
+  const before = store.exportRecord(room.inviteCode);
+  db.sqlite.prepare('INSERT INTO travel_rooms VALUES (?, 1, ?, ?)').run(room.inviteCode, JSON.stringify(before), Date.now());
+  const path = `/api/rooms/${room.inviteCode}`;
+  const drawn = await api(db, path + '/draw', { method: 'POST', body: { version: room.version } });
+  assert.equal(drawn.status, 200, 'the 27th draw must fit the real D1 row limit');
+  assert.equal(drawn.body.history.length, 27);
+  assert.deepEqual(drawn.body.history.slice(0, 26), before.room.history);
+  assert.ok(drawn.body.history.every(item => item.candidateNames.length === 600));
+  assert.deepEqual((await api(db, path + '/draw', { method: 'POST', client: bob, body: { version: room.version } })).body, drawn.body);
+  const row = db.sqlite.prepare('SELECT revision, record FROM travel_rooms WHERE code = ?').get(room.inviteCode);
+  assert.ok(Buffer.byteLength(row.record) < 1950000);
+  assert.equal(JSON.parse(row.record).room.id, room.id, 'CAS generation guard remains SQL-readable');
+  assert.equal((await api(db, path)).status, 200);
+  assert.equal(db.sqlite.prepare('SELECT revision FROM travel_rooms WHERE code = ?').get(room.inviteCode).revision, row.revision, 'unchanged reads do not write');
+  t.diagnostic(`national 27 rounds: ${Buffer.byteLength(JSON.stringify({ room: drawn.body, drawVersion: room.version }))} raw bytes, ${Buffer.byteLength(row.record)} stored bytes`);
+});
+
+test('legacy 180-entry hundred-round rooms migrate only after member authorization without losing history', async t => {
+  const db = fixture(t);
+  enforceD1RowLimit(db);
+  const { room, record } = historicalRoom(legacyCatalog.map(legacy => DESTINATIONS.find(item => item.id === legacy.id)), 100, { pending: true });
+  const before = JSON.stringify(record);
+  assert.ok(Buffer.byteLength(before) < 2000000, 'legacy record was valid in D1');
+  db.sqlite.prepare('INSERT INTO travel_rooms VALUES (?, 1, ?, ?)').run(room.inviteCode, before, Date.now());
+  const path = `/api/rooms/${room.inviteCode}`;
+  assert.equal((await api(db, path, { client: charlie })).status, 403);
+  assert.equal(db.sqlite.prepare('SELECT record FROM travel_rooms WHERE code = ?').get(room.inviteCode).record, before);
+  const migrated = await api(db, path);
+  assert.equal(migrated.status, 200, 'catalog expansion must not make legacy reads exceed D1 limits');
+  assert.equal(migrated.body.candidates.length, 600);
+  assert.deepEqual(migrated.body.history, room.history);
+  const row = db.sqlite.prepare('SELECT revision, record FROM travel_rooms WHERE code = ?').get(room.inviteCode);
+  assert.ok(Buffer.byteLength(row.record) < 1950000);
+  assert.equal((await api(db, path)).body.version, migrated.body.version);
+  assert.equal(db.sqlite.prepare('SELECT revision FROM travel_rooms WHERE code = ?').get(room.inviteCode).revision, row.revision);
+  t.diagnostic(`legacy 100 rounds: ${Buffer.byteLength(before)} legacy bytes, ${Buffer.byteLength(JSON.stringify({ room: migrated.body, drawVersion: null }))} refreshed raw bytes, ${Buffer.byteLength(row.record)} stored bytes`);
+});
+
+test('legacy drawn Chinese custom records migrate losslessly and keep the original draw retry', async t => {
+  const db = fixture(t);
+  const store = new RoomStore({ randomIndex: () => 0 });
+  let room = store.create({ clientId: alice.id, nickname: '中文旅人🙂', filters: { customNames: ['云间小院🙂', '海边·茶馆', '山城夜景'] } });
+  room = store.join(room.inviteCode, { clientId: bob.id, nickname: '同行的乙' });
+  for (let round = 0; round < 3; round += 1) {
+    for (const client of [alice, bob]) store.ready(room.inviteCode, { clientId: client.id, version: room.version });
+    room = store.draw(room.inviteCode, { clientId: alice.id, version: room.version });
+    if (round < 2) room = store.next(room.inviteCode, { clientId: alice.id, version: room.version });
+  }
+  const record = store.exportRecord(room.inviteCode);
+  db.sqlite.prepare('INSERT INTO travel_rooms VALUES (?, 1, ?, ?)').run(room.inviteCode, JSON.stringify(record), Date.now());
+  const path = `/api/rooms/${room.inviteCode}`;
+  assert.deepEqual((await api(db, path)).body, room);
+  const row = db.sqlite.prepare('SELECT revision, record FROM travel_rooms WHERE code = ?').get(room.inviteCode);
+  const wrapper = JSON.parse(row.record);
+  assert.equal(wrapper.encoding, 'gzip-base64-v1');
+  assert.deepEqual(JSON.parse(gunzipSync(Buffer.from(wrapper.data, 'base64')).toString('utf8')), record);
+  assert.equal(wrapper.room.id, record.room.id);
+  assert.deepEqual((await api(db, path + '/draw', { method: 'POST', body: { version: record.drawVersion } })).body, room);
+  assert.equal(db.sqlite.prepare('SELECT revision FROM travel_rooms WHERE code = ?').get(room.inviteCode).revision, row.revision);
 });

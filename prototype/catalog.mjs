@@ -29,7 +29,7 @@ function destination(guide, parent = guide) {
     seasons: guide.seasons || parent.seasons, climate: guide.climate || parent.climate,
     travel: guide.travel, localTransport: kind === 'city' ? guide.localTransport : parent.localTransport,
     days: guide.days, itinerary: guide.itinerary || [], tips: guide.tips,
-    localBudget: null, sources, verifiedAt: parent.verifiedAt,
+    localBudget: null, sources, verifiedAt: guide.verifiedAt || parent.verifiedAt,
     sourceUrl: sources[0].url, sourceLabel: sources[0].label,
     dataNote: '根据列明来源整理；核对日期不代表实时状态。坐标用于地理直线距离筛选，非导航坐标。暂不提供未经核实的消费区间。'
   };

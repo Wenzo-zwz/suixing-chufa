@@ -1,6 +1,6 @@
 # 热门城市资料 A 组：来源与核查记录
 
-核查日期：2026-10-21。数据文件：`prototype/data/hot-cities-a.json`，共 12 城、48 个景点，每城 4 个景点。
+当前数据：20 城、200 个景点，每城 10 个。2026-10-23 扩充 8 城与 152 个景点；12 个原城市及 48 个原景点资料保持原值、原日期。下方 2026-10-21 部分为历史核查记录，本轮来源与边界见文末。
 
 ## 整理方法与授权说明
 
@@ -128,3 +128,204 @@ JSON 解析通过：12 城、48 景，每城 4 景；城市和景点 ID 全局�
 保留原景点 ID：`juzizhou`、`yuelushan`、`jinggang-town`、`summer-palace`、`fragrant-hills`、`olympic-forest`、`west-lake`、`xixi`、`liangzhu-site`、`qingcheng`、`dujiangyan`、`huanglongxi`。
 
 文字长度核对：城市概述 95—112 字符，气候 61—75 字符，交通 99—120 字符，市内交通 61—69 字符；食品说明均为 25—50 字符范围。景点为独立游览文案，不复用父城占位。
+
+
+## 2026-10-23 扩充核查记录
+
+本轮仅扩充 A 组：原 12 城各增加 6 个独立目的地，并新增石家庄、秦皇岛、承德、大同、呼和浩特、长春、泉州、景德镇各 10 景。合计 20 城、200 景；未将景区内部大门、雕塑、广场或别名拆分凑数。岳麓书院与岳麓山为可独立参观的书院及山体，保留各自资料；陶阳里含御窑博物馆整体参观，清源山含老君岩整体参观。
+
+新增城市和景点的 verifiedAt 为 2026-10-23，表示本轮公开资料检索日期。12 原城市与 48 原景点对象及原有日期均保持原值，不把扩充日期写成旧条目重新核查。文字为独立重述与编辑行程建议，未导入来源照片或复制营销段落。Wikivoyage 条目保留 CC BY-SA 4.0 与 Wikivoyage contributors 归属。
+
+本轮实际浏览成功的城市指南、政府文旅名录、场馆官网及交通页面按城市列于下方。来源用于核对地点、所属区域、主要内容与接驳方向；具体票价、班次、开放时间、演出、花期、鸟况和即时可售状态均未写为保证。坐标是近似 WGS 地理示意点，不是实测入口、不提供导航精度保证。
+
+### 本轮易变信息与地理边界
+
+- 呼和浩特博物院新馆：按 2025 年新馆公告使用新华东街 76 号和呼和浩特东站附近接驳，未沿用旧馆的地铁站定位。呼和浩特航空仍说明白塔入口及盛乐拟转场，要求以机票和机场最新公告核对；未将尚待转场的机场写成已运营。
+- 吉林省博物院使用永顺路馆址，未沿用旧馆；上海博物馆明确人民广场馆与东馆，厦门市博物馆明确体育路主馆。
+- 承德塞罕坝、御道口属远距离坝上区域，明确建议 2—3 天并住宿；金山岭和兴隆分属独立县域方向，不承诺当天返回。呼和浩特仅使用本市及土默特左旗哈素海，未借用赤峰或乌兰察布景点。
+- 大理州沙溪与鸡足山、丽江宁蒗泸沽湖与黎明景区、珠海离岛均明确远途、正规接驳及留宿余量。崇武属于泉州惠安，安平桥连接晋江安海与南安水头，未混作古城步行点。
+- 北京景山公园与珠海景山公园，呼和浩特五塔寺与其他城市同名寺庙，泉州开元寺与异地同名场所均通过城市名称或交通文案区分。A 组 200 景名称无完全重复。
+
+### 本轮城市与来源索引
+
+#### 长沙
+
+新增景点：岳麓书院、开福寺、天心阁、长沙简牍博物馆、长沙博物馆、湖南省植物园。
+
+- [Wikivoyage · Changsha](https://en.wikivoyage.org/wiki/Changsha)；CC BY-SA 4.0，Wikivoyage contributors。
+- [湖南省文旅厅 · 长沙景区名录](https://whhlyt.hunan.gov.cn/whhlyt/news/gzdt/202307/t20230710_29397040.html)。
+
+#### 北京
+
+新增景点：天坛公园、北海公园、北京景山公园、雍和宫、中国国家博物馆、八达岭长城。
+
+- [Wikivoyage · Beijing](https://en.wikivoyage.org/wiki/Beijing)；CC BY-SA 4.0，Wikivoyage contributors。
+- [北京市文旅局 · 景点链接列表](https://whlyj.beijing.gov.cn/ggfw/ly/202511/t20251119_4287815.html)。
+
+#### 杭州
+
+新增景点：河坊街、中国茶叶博物馆双峰馆区、中国丝绸博物馆、六和塔、中国京杭大运河博物馆、胡雪岩故居。
+
+- [Wikivoyage · Hangzhou](https://en.wikivoyage.org/wiki/Hangzhou)；CC BY-SA 4.0，Wikivoyage contributors。
+- [浙江省对外交流 · 中国丝绸博物馆](https://www.ezhejiang.gov.cn/2020-06/24/c_501990.htm)。
+
+#### 成都
+
+新增景点：成都武侯祠、杜甫草堂、文殊院、成都博物馆、成都人民公园、宽窄巷子。
+
+- [Wikivoyage · Chengdu](https://en.wikivoyage.org/wiki/Chengdu)；CC BY-SA 4.0，Wikivoyage contributors。
+
+#### 青岛
+
+新增景点：青岛啤酒博物馆、青岛小鱼山公园、信号山公园、中国人民解放军海军博物馆、青岛海底世界、青岛金沙滩。
+
+- [Wikivoyage · Qingdao](https://en.wikivoyage.org/wiki/Qingdao)；CC BY-SA 4.0，Wikivoyage contributors。
+- [青岛啤酒博物馆 · 官网](https://tsingtaomuseum.com/)。
+- [青岛政务网 · 公园名录](https://www.qingdao.gov.cn/yfqd/qdwl/cjfw/wyqgy/)。
+- [青岛海底世界 · 景区介绍](https://www.qdhdworld.com/content.php?cat=41)。
+
+#### 厦门
+
+新增景点：厦门中山路步行街、集美学村、胡里山炮台、厦门市博物馆、五缘湾湿地公园、厦门园林博览苑。
+
+- [Wikivoyage · Xiamen/Xiamen_Island](https://en.wikivoyage.org/wiki/Xiamen/Xiamen_Island)；CC BY-SA 4.0，Wikivoyage contributors。
+- [文化和旅游部 · 厦门A级景区名录与预约提示](https://www.mct.gov.cn/whzx/qgwhxxlb/fj/202004/t20200422_852672.htm)。
+- [厦门市人大 · 集美学村历史街区与园林](https://www.xmrd.gov.cn/rdlz/rdgb/2020/202101/P020241016590869952219.pdf)。
+- [厦门市博物馆 · 官网](https://www.xmmuseum.com/)。
+- [厦门日报 · 五缘湾湿地旅行线路](https://epaper.xmnn.cn/xmrb/20230428/14.pdf)。
+
+#### 三亚
+
+新增景点：大东海、三亚湾、鹿回头风景区、西岛、大小洞天、亚龙湾热带天堂森林公园。
+
+- [Wikivoyage · Sanya](https://en.wikivoyage.org/wiki/Sanya)；CC BY-SA 4.0，Wikivoyage contributors。
+
+#### 大理
+
+新增景点：喜洲古镇、双廊古镇、蝴蝶泉、沙溪古镇、鸡足山、大理白族自治州博物馆。
+
+- [Wikivoyage · Dali](https://en.wikivoyage.org/wiki/Dali)；CC BY-SA 4.0，Wikivoyage contributors。
+- [云南宣传网 · 大理州取景地与交通资料](https://www.ynxc.gov.cn/uploadfile/s61/2024/0419/20240419094718599.pdf)。
+- [Wikivoyage · Shaxi](https://en.wikivoyage.org/wiki/Shaxi)；CC BY-SA 4.0，Wikivoyage contributors。
+- [宾川县政府 · 旅游资源概况](https://www.bc.gov.cn/bcxrmzf/c102300/pc/content/1984818543986839552/content_1984818543986839552.html)。
+
+#### 丽江
+
+新增景点：白沙古镇、玉峰寺、拉市海湿地、丽江泸沽湖、老君山黎明景区、指云寺。
+
+- [Wikivoyage · Lijiang](https://en.wikivoyage.org/wiki/Lijiang)；CC BY-SA 4.0，Wikivoyage contributors。
+- [上海市政府合作交流办 · 玉龙文旅资源推介](https://hzjl.sh.gov.cn/n1309/20260706/32916bdcebc14b16b088deb54f32e576.html)。
+
+#### 苏州
+
+新增景点：苏州博物馆本馆、网师园、狮子林、沧浪亭、寒山寺、同里古镇。
+
+- [Wikivoyage · Suzhou](https://en.wikivoyage.org/wiki/Suzhou)；CC BY-SA 4.0，Wikivoyage contributors。
+
+#### 珠海
+
+新增景点：唐家湾古镇、淇澳岛、东澳岛、外伶仃岛、斗门古街、梅溪牌坊。
+
+- [Wikivoyage · Zhuhai](https://en.wikivoyage.org/wiki/Zhuhai)；CC BY-SA 4.0，Wikivoyage contributors。
+
+#### 上海
+
+新增景点：上海博物馆人民广场馆、上海自然博物馆、朱家角古镇、上海迪士尼度假区、龙华寺、静安寺。
+
+- [Wikivoyage · Shanghai](https://en.wikivoyage.org/wiki/Shanghai)；CC BY-SA 4.0，Wikivoyage contributors。
+- [Wikivoyage · Shanghai/Jing'an](https://en.wikivoyage.org/wiki/Shanghai/Jing'an)；CC BY-SA 4.0，Wikivoyage contributors。
+- [上海市统计局 · 名胜古迹](https://tjj.sh.gov.cn/msly/20180621/0014-216830.html)。
+- [上海市政府 · 上海自然博物馆](https://www.shanghai.gov.cn/nw15343/20250507/94225da25e8b445b8edae2f0c65674a6.html)。
+- [上海青浦区政府 · 朱家角古镇概况](https://www.shqp.gov.cn/zhujj/zjjgk/index.html)。
+- [上海迪士尼度假区 · 官方体验入口](https://www.shanghaidisneyresort.com/zh-cn/experience?group=activities)。
+
+#### 石家庄
+
+新增景点：河北博物院、隆兴寺、赵州桥、柏林禅寺、毗卢寺、苍岩山、西柏坡纪念馆、抱犊寨、于家石头村、河北美术馆。
+
+- [Wikivoyage · Shijiazhuang](https://en.wikivoyage.org/wiki/Shijiazhuang)；CC BY-SA 4.0，Wikivoyage contributors。
+- [石家庄市文旅局 · 古迹旅行资源](https://wglj.sjz.gov.cn/columns/59a00cf0-d551-4bd8-bf00-a9a389a40bdf/202606/22/5ebb6759-ad12-4fd4-bd26-5921735338ba.html)。
+- [石家庄市文旅局 · 文化旅游发展规划](https://wglj.sjz.gov.cn/attachments/1/202506/18/%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E6%96%87%E5%8C%96%E5%92%8C%E6%97%85%E6%B8%B8%E5%8D%81%E5%9B%9B%E4%BA%94%E5%8F%91%E5%B1%95%E8%A7%84%E5%88%9220250618110945985.pdf?sid=)。
+
+#### 秦皇岛
+
+新增景点：山海关天下第一关、老龙头、角山长城、孟姜女庙、鸽子窝公园、老虎石海上公园、碧螺塔海上酒吧公园、秦皇岛博物馆、秦皇求仙入海处、燕塞湖。
+
+- [Wikivoyage · Qinhuangdao](https://en.wikivoyage.org/wiki/Qinhuangdao)；CC BY-SA 4.0，Wikivoyage contributors。
+- [北京旅游网 · 秦皇岛旅游资源](https://www.visitbeijing.com.cn/article/4EVr6lxyoFF)。
+- [北京旅游网 · 山海关景点](https://www.visitbeijing.com.cn/article/4Hj0T8GPIaP?device=amp)。
+- [河北省文旅厅 · 鸽子窝景区](https://whly.hebei.gov.cn/c/2024-07-12/577449.html)。
+- [北京旅游网 · 鸽子窝公园](https://www.visitbeijing.com.cn/article/47Qqv9odXSa)。
+- [北戴河碧螺塔海上酒吧公园 · 官网](https://www.biluota.com/)。
+- [秦皇岛博物馆 · 官网](https://www.qhdbwg.com/)。
+
+#### 承德
+
+新增景点：避暑山庄、普陀宗乘之庙、普宁寺、承德博物馆、磬锤峰、双塔山、金山岭长城、塞罕坝国家森林公园、御道口草原森林风景区、兴隆溶洞。
+
+- [Wikivoyage · Chengde](https://en.wikivoyage.org/wiki/Chengde)；CC BY-SA 4.0，Wikivoyage contributors。
+- [承德市旅游和文化广电局 · 等级景区名录](https://lywh.chengde.gov.cn/col/col268/index.html)。
+- [承德市政府 · 春季旅游线路](https://www.chengde.gov.cn/art/2025/3/31/art_3248_1088432.html)。
+- [北京旅游网 · 兴隆溶洞](https://s.visitbeijing.com.cn/index.php/attraction/118726)。
+- [承德市政府 · 普宁机场接驳](https://www.chengde.gov.cn/art/2020/9/21/art_9944_646301.html)。
+
+#### 大同
+
+新增景点：云冈石窟、华严寺、善化寺、悬空寺、北岳恒山、大同九龙壁、大同市博物馆、大同古城墙、大同土林、大同火山群。
+
+- [Wikivoyage · Datong](https://en.wikivoyage.org/wiki/Datong)；CC BY-SA 4.0，Wikivoyage contributors。
+- [大同市政府 · 人文大同](https://www.dt.gov.cn/dtszf/sqgllssy/202510/2f0c0525819a4af3ae0ba42eb47ad053.shtml)。
+- [大同市政府 · 历史文化名城资源](https://www.dt.gov.cn/dtszf/gsgg/201503/81b3b58715de46fea719e6b4089c17cd.shtml)。
+- [大同市政府 · 文化之城](https://dt.gov.cn/dtszf/stdt/list.shtml)。
+
+#### 呼和浩特
+
+新增景点：大召寺、席力图召、呼和浩特五塔寺、昭君博物院、内蒙古博物院新馆、内蒙古美术馆、内蒙古自然博物馆、绥远城将军衙署、哈素海、乌兰夫纪念馆。
+
+- [Wikivoyage · Hohhot](https://en.wikivoyage.org/wiki/Hohhot)；CC BY-SA 4.0，Wikivoyage contributors。
+- [文化和旅游部 · 呼和浩特博物研学线路](https://www.mct.gov.cn/gtb/index.jsp?url=https%3A%2F%2Fwww.mct.gov.cn%2Fwhzx%2Fqgwhxxlb%2Fnmg%2F202004%2Ft20200430_852900.htm)。
+- [内蒙古博物院公告 · 新馆地址与交通](https://www.baotounews.com.cn/445807/445797/2025/05/39270565.html)。
+- [内蒙古美术馆 · 场馆概况](https://www.amoim.cn/artmuseum/artphone/gy/cggk/index.html)。
+- [内蒙古党史方志网 · 绥远城将军衙署](https://www.nmgqq.com.cn/quqinggailan/jianzhiyange/huhehaote/2021-01-11/20481.html)。
+- [呼和浩特机场 · 机场简介](https://www.hohhotairport.com/content/details_29_277.html)。
+- [新浪转载 · 盛乐机场拟转场通告](https://finance.sina.cn/2026-10-19/detail-inivumai6139968.d.html?vt=4)。
+
+#### 长春
+
+新增景点：伪满皇宫博物院、净月潭、长影旧址博物馆、吉林省博物院、长春世界雕塑园、长春南湖公园、长春市动植物公园、长春北湖国家湿地公园、长影世纪城、长春文庙。
+
+- [Wikivoyage · Changchun](https://en.wikivoyage.org/wiki/Changchun)；CC BY-SA 4.0，Wikivoyage contributors。
+- [吉林省文旅厅 · 长春区域旅游线路](https://whhlyt.jl.gov.cn/ztzl/jlslyxlhxj/gdxl/zcs/zcs_424332/202507/t20250704_9272967.html)。
+- [净月潭景区 · 官网](https://www.jingyuetan.cn/)。
+- [吉林省文旅厅 · 吉林省博物院](https://whhlyt.jl.gov.cn/ggfw/whcg/bwg/201602/t20160225_3107944.html)。
+- [中国旅游报 · 吉林文旅秋季线路](https://www.ctnews.com.cn/paper/att/202009/10/af48af19-5139-4187-8669-9faeaa7437f4.pdf)。
+- [长春市文庙博物馆 · 官网](https://www.cckzwhy.com/)。
+- [吉林省地方志 · 长春市文庙博物馆](https://dfz.jl.gov.cn/jgdg/202512/t20251231_9386303.html)。
+
+#### 泉州
+
+新增景点：泉州开元寺、泉州西街、清源山、清净寺、泉州天后宫、泉州府文庙、泉州海外交通史博物馆、洛阳桥、崇武古城、安平桥。
+
+- [Wikivoyage · Quanzhou](https://en.wikivoyage.org/wiki/Quanzhou)；CC BY-SA 4.0，Wikivoyage contributors。
+- [泉州市政府 · 22处世遗资源](https://www.quanzhou.gov.cn/zfb/xxgk/zfxxgkzl/qzdt/qzyw/202104/t20210409_2541128.htm)。
+- [泉州市政府 · 文旅精品线路](https://www.quanzhou.gov.cn/lyb/lyxw/202107/t20210728_2594816.htm)。
+- [Wikivoyage · Hui'an](https://en.wikivoyage.org/wiki/Hui'an)；CC BY-SA 4.0，Wikivoyage contributors。
+- [Wikivoyage · Jinjiang](https://en.wikivoyage.org/wiki/Jinjiang)；CC BY-SA 4.0，Wikivoyage contributors。
+
+#### 景德镇
+
+新增景点：景德镇中国陶瓷博物馆、古窑民俗博览区、陶阳里历史文化旅游区、陶溪川文创街区、三宝国际陶艺村、湖田古瓷窑址、浮梁古县衙、瑶里古镇、雕塑瓷厂、高岭瓷土矿遗址。
+
+- [Wikivoyage · Jingdezhen](https://en.wikivoyage.org/wiki/Jingdezhen)；CC BY-SA 4.0，Wikivoyage contributors。
+- [景德镇市政府 · 城市旅行线路](https://www.jdz.gov.cn/zjcd/mljdz/)。
+- [景德镇市政府 · 陶阳里御窑景区](https://www.jdz.gov.cn/zjcd/mljdz/sj/t932856.shtml)。
+- [景德镇市政府 · 浮梁古县衙](https://jdz.gov.cn/zjcd/mljdz/sj/t932861.shtml)。
+- [浮梁县政府 · 高岭瓷土矿遗址](https://www.fuliang.gov.cn/zjfl/flrw/whgj/t1092169.shtml)。
+- [景德镇市政府 · 北站客运接驳](https://www.jdz.gov.cn/zwzx/gggs/t1089159.shtml)。
+- [景德镇市政府 · 罗家机场](https://jdz.gov.cn/zjcd/mljdz/sj/t934005.shtml)。
+
+### 本轮结构核验
+
+JSON 可解析；20 个城市、200 个景点，全部每城恰好 10 景，城市和景点共 220 个 ID 全局唯一；原 12 城事实字段与原 48 景对象逐项比较一致。全部景点含坐标、合法 themes/art、40 字以上独立说明、25 字以上交通、2—3 项 highlights、时长、tips 与来源。新增条目日期正确；每城 3 项食品与 foodGuide 名称逐一对应，每项说明不少于 15 字。当前 A 组共 102 个不同来源 URL。
+
+以城市坐标到景点示意点作距离抽查，超过 140 千米的为承德塞罕坝与御道口；对应文案已写长距离交通、住宿与天气余量。距离仅用于发现误归属，不等于道路里程。
