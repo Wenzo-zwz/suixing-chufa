@@ -9,6 +9,7 @@ import { candidatePool, drawCandidate, DomainError, RoomStore } from './domain.m
 const STATIC_ROOT = fileURLToPath(new URL('.', import.meta.url));
 const JSON_LIMIT = 64 * 1024;
 const CONTENT_TYPES = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.json': 'application/json; charset=utf-8', '.ico': 'image/x-icon' };
+const PUBLIC_CATALOG = { destinations: DESTINATIONS, origins: ORIGINS, themes: THEMES, provinces: PROVINCES, presets: PRESETS, disclaimer: DISCLAIMER };
 
 function json(response, status, body) {
   response.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' });
@@ -66,13 +67,19 @@ export function createAppServer() {
   return http.createServer(async (request, response) => {
     try {
       const { pathname } = new URL(request.url, 'http://127.0.0.1');
+      if (pathname === '/catalog.json' && ['GET', 'HEAD'].includes(request.method)) {
+        const bytes = Buffer.from(JSON.stringify(PUBLIC_CATALOG));
+        response.writeHead(200, { 'content-type': 'application/json; charset=utf-8', 'content-length': bytes.length, 'cache-control': 'no-store', 'x-content-type-options': 'nosniff' });
+        response.end(request.method === 'HEAD' ? undefined : bytes);
+        return;
+      }
       if (!pathname.startsWith('/api/')) {
         if (!['GET', 'HEAD'].includes(request.method)) throw new DomainError('此文件路径不支持该方法', 'METHOD_NOT_ALLOWED', 405);
         await serveStatic(request, response, pathname);
         return;
       }
       if (request.method === 'GET' && pathname === '/api/catalog') {
-        json(response, 200, { destinations: DESTINATIONS, origins: ORIGINS, themes: THEMES, provinces: PROVINCES, presets: PRESETS, disclaimer: DISCLAIMER });
+        json(response, 200, PUBLIC_CATALOG);
         return;
       }
       if (request.method === 'POST' && ['/api/candidates', '/api/draw', '/api/rooms'].includes(pathname)) {

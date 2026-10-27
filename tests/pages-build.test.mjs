@@ -7,11 +7,12 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawnSync } from 'node:child_process';
 import vm from 'node:vm';
 import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from '../prototype/client-model.mjs';
+import { localCandidatePool, localDraw, secureRandomUUID } from '../prototype/local-travel.mjs';
 
 const project = fileURLToPath(new URL('../', import.meta.url));
 const builder = path.join(project, 'scripts/build-pages.mjs');
 const avatar = 'assets/brand/suixing-chufa-avatar-v3-plane-rider.png';
-const expectedFiles = ['.nojekyll', 'index.html', 'styles.css', 'app.mjs', 'render.mjs', 'client-model.mjs', 'game-interactions.mjs', 'gesture-model.mjs', 'runtime-config.mjs', avatar].sort();
+const expectedFiles = ['.nojekyll', 'index.html', 'styles.css', 'app.mjs', 'render.mjs', 'client-model.mjs', 'candidate-core.mjs', 'local-travel.mjs', 'catalog.json', 'game-interactions.mjs', 'gesture-model.mjs', 'runtime-config.mjs', avatar].sort();
 const appSource = await readFile(new URL('../prototype/app.mjs', import.meta.url), 'utf8');
 
 async function filesIn(directory, prefix = '') {
@@ -43,6 +44,7 @@ test('Pages export contains only static assets and overwrites stale server or se
     const url = new URL(resource, 'https://wenzo-zwz.github.io/suixing-chufa/');
     assert.ok(url.pathname.startsWith('/suixing-chufa/'), `${resource} keeps the repository subpath`);
     assert.ok(expectedFiles.includes(decodeURIComponent(url.pathname.slice('/suixing-chufa/'.length))));
+    if (/\/(app\.mjs|styles\.css)$/.test(url.pathname)) assert.match(url.search, /^\?v=[a-f0-9]+$/, 'changed releases bypass old mobile asset caches');
   }
 });
 
@@ -81,19 +83,19 @@ async function browserClient({ stored = {}, apiBase = 'https://travel-api.exampl
   let uuidIndex = 0;
   const uuids = ['12345678-1234-4123-8123-123456789abc', 'aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa', 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb'];
   const context = vm.createContext({
-    runtimeConfig: { apiBase }, presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords,
+    runtimeConfig: { apiBase }, presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords, localCandidatePool, localDraw, secureRandomUUID,
     renderApp: value => { rendered.push(value); return '<main>website</main>'; },
     mountGameInteractions: () => () => {},
     localStorage: { getItem: key => storage.get(key), setItem: (key, value) => storage.set(key, value) },
     crypto: { randomUUID: () => uuids[uuidIndex++ % uuids.length] },
     matchMedia: () => ({ matches: false }),
     document: { querySelector: () => root, body: { dataset: {} } },
-    window: { addEventListener: () => {} }, location: new URL(href), URL, URLSearchParams,
+    window: { addEventListener: () => {} }, location: new URL(href), URL, URLSearchParams, AbortController,
     navigator: { clipboard: { writeText: async text => copied.push(text) } },
     performance: { now: () => 0 }, setTimeout: () => 1, clearTimeout: () => {}, setInterval: () => 1, clearInterval: () => {}, console,
     fetch: async (url, options) => {
       requests.push({ url, ...options });
-      return { ok: true, json: async () => String(url).endsWith('/api/catalog') ? { presets: [], origins: [], themes: [], provinces: [] } : { candidates: [] } };
+      return { ok: true, json: async () => String(url).endsWith('catalog.json') ? { destinations: [], presets: [{ id: 'explore', kind: 'city' }], origins: [], themes: [], provinces: [] } : { candidates: [] } };
     }
   });
   const executable = appSource.replace(/^import .*;\r?\n/gm, '').replace(/boot\(\);\s*$/, 'globalThis.bootPromise = boot();');
@@ -106,7 +108,11 @@ test('browser persists a private token, sends it to the configured API and keeps
   const first = await browserClient({ stored: { clientId: 'existing-public-id' } });
   assert.match(first.stored().clientToken, /^[0-9a-f]{64}$/);
   assert.equal(first.stored().clientId, 'existing-public-id');
-  for (const request of first.requests) {
+  assert.equal(first.requests.length, 1, 'personal startup fetches only its same-origin catalog');
+  assert.equal(first.requests[0].url, './catalog.json');
+  assert.equal(first.requests[0].headers, undefined, 'static catalog does not receive private credentials');
+  await vm.runInContext("api('/api/rooms', {});", first.context);
+  for (const request of first.requests.slice(1)) {
     assert.ok(request.url.startsWith('https://travel-api.example/api/'));
     assert.equal(request.headers['x-travel-token'], first.stored().clientToken);
     assert.equal(request.headers['x-travel-client'], 'existing-public-id');
@@ -115,8 +121,10 @@ test('browser persists a private token, sends it to the configured API and keeps
   assert.ok(first.rendered.every(state => !Object.hasOwn(state, 'clientToken')));
   const reloaded = await browserClient({ stored: first.stored(), apiBase: '' });
   assert.equal(reloaded.stored().clientToken, first.stored().clientToken);
-  assert.equal(reloaded.requests[0].url, '/api/catalog');
-  assert.equal(reloaded.requests[0].headers['x-travel-token'], first.stored().clientToken);
+  assert.equal(reloaded.requests[0].url, './catalog.json');
+  await vm.runInContext("api('/api/rooms', {});", reloaded.context);
+  assert.equal(reloaded.requests[1].url, '/api/rooms');
+  assert.equal(reloaded.requests[1].headers['x-travel-token'], first.stored().clientToken);
 });
 
 test('invitations and ordinary shares keep the GitHub project path and clear stale query and fragment', async () => {

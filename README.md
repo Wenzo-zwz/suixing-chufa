@@ -4,6 +4,8 @@
 
 网页入口：<https://wenzo-zwz.github.io/suixing-chufa/>
 
+备用网页入口：<https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/>
+
 源代码：<https://github.com/Wenzo-zwz/suixing-chufa>
 
 这是网页版体验项目，微信小程序稍后单独适配、审核和上线。
@@ -19,7 +21,7 @@
 
 ## 运行方式
 
-GitHub Pages 托管静态页面，云端 Sites Worker 与 D1 提供候选查询、随机结果和多人房间服务。访问网站无需运行本机服务器。
+GitHub Pages 托管静态页面和同版本目的地资料。个人模式在浏览器内筛选并使用安全随机数抽取，无需连接独立云端域名；云端 Sites Worker 与 D1 提供多人房间服务。访问网站无需运行本机服务器。页面初次加载仍需网络，不宣称可完全断网打开。
 
 云端地址：<https://suixing-chufa-cloud.pastelchick11.chatgpt.site>
 
