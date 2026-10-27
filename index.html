@@ -8,11 +8,36 @@
     <title>随性出发 · 下一站，听心的</title>
     <link rel="icon" type="image/png" href="./assets/brand/suixing-chufa-avatar-v3-plane-rider.png" />
     <link rel="apple-touch-icon" href="./assets/brand/suixing-chufa-avatar-v3-plane-rider.png" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=abd29e298813" />
   </head>
   <body>
     <div id="app"><div class="initial-loading"><span class="loading-plane">↗</span><p>装好一点好奇心，马上出发。</p></div></div>
     <noscript>打开 JavaScript 后，就能一起选一个目的地。</noscript>
-    <script type="module" src="./app.mjs"></script>
+    <script>
+      (function () {
+        var ready = false;
+        var timer;
+        function failed() {
+          if (ready) return;
+          clearTimeout(timer);
+          var root = document.getElementById('app');
+          root.innerHTML = '<main class="startup-recovery"><span class="loading-plane">↗</span><h1>随性出发</h1><p>页面暂时没能加载完成，请检查网络后重试。也可以换一个浏览器打开。</p><button class="button primary" data-startup-retry>重新加载</button><a class="button secondary" data-startup-backup hidden>试试备用入口</a></main>';
+          root.querySelector('[data-startup-retry]').onclick = function () { location.reload(); };
+          var backup = root.querySelector('[data-startup-backup]');
+          var alternate = new URL('https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/');
+          if (location.origin !== alternate.origin) {
+            alternate.search = location.search;
+            backup.href = alternate.href;
+            backup.hidden = false;
+          }
+          document.body.dataset.screen = 'startup-error';
+        }
+        window.travelStartupFailed = failed;
+        window.travelStartupReady = function () { ready = true; clearTimeout(timer); };
+        timer = setTimeout(failed, 15000);
+      }());
+    </script>
+    <script type="module" src="./app.mjs?v=abd29e298813" onerror="window.travelStartupFailed()"></script>
+    <script nomodule>window.travelStartupFailed();</script>
   </body>
 </html>

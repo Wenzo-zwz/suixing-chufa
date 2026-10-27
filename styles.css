@@ -357,3 +357,8 @@
 .guide-sources p + p { margin-top: 12px; }
 .guide-sources small { display: block; line-height: 1.9; margin-top: 4px; font-size: 9px; }
 .guide-sources .source-link { margin: 0; }
+.startup-recovery { width: min(100%, 420px); min-height: 100vh; margin: auto; padding: 36px 24px; display: flex; flex-direction: column; justify-content: center; gap: 18px; text-align: center; }
+.startup-recovery p { font-size: 13px; line-height: 1.9; color: var(--muted); }
+.startup-recovery a { text-decoration: none; }
+.startup-recovery [hidden] { display: none; }
+.storage-notice { padding: 10px 12px; margin-bottom: 14px; border: 1px solid var(--line); border-radius: 10px; color: var(--muted); font-size: 11px; line-height: 1.7; background: var(--cream); }

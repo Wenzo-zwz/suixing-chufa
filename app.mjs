@@ -1,24 +1,31 @@
-import { renderApp } from './render.mjs';
-import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from './client-model.mjs';
-import { mountGameInteractions } from './game-interactions.mjs';
-import runtimeConfig from './runtime-config.mjs';
+import { renderApp } from './render.mjs?v=abd29e298813';
+import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from './client-model.mjs?v=abd29e298813';
+import { mountGameInteractions } from './game-interactions.mjs?v=abd29e298813';
+import runtimeConfig from './runtime-config.mjs?v=abd29e298813';
+import { localCandidatePool, localDraw, secureRandomUUID } from './local-travel.mjs?v=abd29e298813';
 
 const storageKey = 'roam-preview-v1';
 const readStored = () => {
-  try { return JSON.parse(localStorage.getItem(storageKey) || '{}'); }
+  try {
+    const value = JSON.parse(localStorage.getItem(storageKey) || '{}');
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  }
   catch { return {}; }
 };
+function secureUUID() {
+  return secureRandomUUID(crypto);
+}
 const stored = readStored();
 const clientToken = /^[0-9a-f]{64}$/.test(stored.clientToken || '')
   ? stored.clientToken
-  : `${crypto.randomUUID()}${crypto.randomUUID()}`.replaceAll('-', '');
+  : `${secureUUID()}${secureUUID()}`.replace(/-/g, '');
 const state = {
   screen: 'home', catalog: null, presetId: 'explore',
   filters: presetFilters('explore', { originId: stored.originId || '', themeIds: [] }),
   gameId: 'plane', destination: null, resultRound: null, poolCount: 0, candidateNames: [],
-  room: null, clientId: stored.clientId || crypto.randomUUID(),
+  room: null, clientId: stored.clientId || secureUUID(),
   nickname: stored.nickname || '旅行者', mode: 'solo',
-  busy: false, revealing: false, ritual: '', endingStartedAt: 0,
+  busy: false, revealing: false, ritual: '', endingStartedAt: 0, storageWarning: false,
   saved: Array.isArray(stored.saved) ? stored.saved : [],
   journeys: Array.isArray(stored.journeys) ? stored.journeys : [],
   history: Array.isArray(stored.history) ? stored.history : [],
@@ -43,14 +50,18 @@ const draftExplicitlySet = new Set();
 let disposeGame = () => {};
 let localRoomRitual = null;
 let endingPose = null;
+let booting = false;
+let userOperation = 0;
 
 function persist() {
-  localStorage.setItem(storageKey, JSON.stringify({
-    clientId: state.clientId, clientToken, nickname: state.nickname,
-    originId: state.filters.originId, saved: state.saved,
-    journeys: state.journeys, history: state.history.slice(0, 100),
-    reduceMotion: state.reduceMotion, roomCode
-  }));
+  try {
+    localStorage.setItem(storageKey, JSON.stringify({
+      clientId: state.clientId, clientToken, nickname: state.nickname,
+      originId: state.filters.originId, saved: state.saved,
+      journeys: state.journeys, history: state.history.slice(0, 100),
+      reduceMotion: state.reduceMotion, roomCode
+    }));
+  } catch { state.storageWarning = true; }
 }
 
 function render() {
@@ -79,19 +90,43 @@ function toast(message) {
 }
 
 async function api(url, body) {
-  const response = await fetch(`${runtimeConfig.apiBase}${url}`, {
-    method: body === undefined ? 'GET' : 'POST',
-    headers: { 'Content-Type': 'application/json', 'x-travel-client': state.clientId, 'x-travel-token': clientToken },
-    ...(body === undefined ? {} : { body: JSON.stringify(body) })
+  if (url === '/api/candidates') return localCandidatePool(body.filters, state.catalog);
+  if (url === '/api/draw') return localDraw(body.filters, state.catalog, { randomUUID: secureUUID });
+  const catalogRequest = url === '/api/catalog';
+  const controller = new AbortController();
+  let timer;
+  const deadline = new Promise((resolve, reject) => {
+    timer = setTimeout(() => {
+      const error = new Error(catalogRequest ? '资料加载超时，请检查网络后重试。' : '共同决定连接超时，个人出发仍可继续。操作可能已完成，请先查看房间当前状态。');
+      error.code = 'REQUEST_TIMEOUT';
+      reject(error);
+      controller.abort();
+    }, 20000);
   });
-  const data = await response.json();
-  if (!response.ok) {
-    const error = new Error(data.error || '暂时没能完成，请再试一次');
-    error.code = data.code;
-    error.status = response.status;
+  try {
+    return await Promise.race([(async () => {
+      const response = await fetch(catalogRequest ? './catalog.json' : `${runtimeConfig.apiBase}${url}`, {
+        method: body === undefined ? 'GET' : 'POST', signal: controller.signal,
+        ...(catalogRequest ? { cache: 'no-store' } : { headers: { 'Content-Type': 'application/json', 'x-travel-client': state.clientId, 'x-travel-token': clientToken } }),
+        ...(body === undefined ? {} : { body: JSON.stringify(body) })
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        const error = new Error(data.error || '暂时没能完成，请再试一次');
+        error.code = data.code;
+        error.status = response.status;
+        throw error;
+      }
+      return data;
+    })(), deadline]);
+  } catch (error) {
+    if (!catalogRequest && !error.status && error.code !== 'REQUEST_TIMEOUT') {
+      throw new Error('共同决定暂时没连上，请检查网络后重试；个人出发仍可继续。');
+    }
     throw error;
+  } finally {
+    clearTimeout(timer);
   }
-  return data;
 }
 
 async function refreshPool() {
@@ -311,7 +346,7 @@ function receiveRoom(room, { restore = false } = {}) {
       state.ritual = myGesture ? localRoomRitual.summary : state.history.find(item => item.drawId === drawId)?.ritual || '';
       if (!myGesture) { state.endingStartedAt = 0; endingPose = null; }
       localRoomRitual = null;
-      recordResult(room.destination, drawId, room.history?.at(-1)?.createdAt, room.round);
+      recordResult(room.destination, drawId, room.history?.[room.history.length - 1]?.createdAt, room.round);
       if (restore) { state.screen = 'result'; state.revealing = false; render(); }
       else showReveal();
       return;
@@ -524,6 +559,7 @@ async function share() {
 async function handleAction(action, element) {
   state.error = '';
   switch (action) {
+    case 'retry-boot': return boot();
     case 'select-preset': return usePreset(element.dataset.id);
     case 'quick-random':
       state.presetId = 'explore';
@@ -571,7 +607,7 @@ async function handleAction(action, element) {
     case 'accept-destination':
       if (!state.destination) return;
       if (!state.journeys.some(item => item.destination.id === state.destination.id && item.status === 'planned')) {
-        state.journeys.unshift({ id: crypto.randomUUID(), destination: state.destination, status: 'planned', createdAt: new Date().toISOString() });
+        state.journeys.unshift({ id: secureUUID(), destination: state.destination, status: 'planned', createdAt: new Date().toISOString() });
       }
       persist(); toast('出发邮戳已盖好，旅程已保存'); return;
     case 'expand-details': state.detailExpanded = !state.detailExpanded; render(); return;
@@ -620,6 +656,7 @@ root.addEventListener('click', async event => {
   const element = event.target.closest('[data-action]');
   if (!element || element.disabled) return;
   if (state.busy && !['skip-animation','close-modal'].includes(element.dataset.action)) return;
+  userOperation += 1;
   const action = element.dataset.action;
   const writes = ['join-room', 'ready-room', 'next-round', 'leave-room', 'draw-again'];
   const edits = ['apply-filters', 'apply-theme', 'apply-custom', 'apply-nickname'];
@@ -634,11 +671,13 @@ root.addEventListener('click', async event => {
 root.addEventListener('input', event => {
   const field = event.target.dataset.field;
   if (!field) return;
+  userOperation += 1;
   state.modalDraft[field] = event.target.type === 'checkbox' ? event.target.checked : event.target.value;
   if (state.modal) draftExplicitlySet.add(field);
 });
 
 root.addEventListener('change', event => {
+  if (event.target.dataset.field || event.target.name === 'province') userOperation += 1;
   if (event.target.name === 'province') {
     state.modalDraft.provinces = [...root.querySelectorAll('input[name="province"]:checked')].map(input => input.value);
     draftExplicitlySet.add('provinces');
@@ -671,35 +710,72 @@ window.addEventListener('pageshow', event => {
   if (roomCode && state.mode === 'group') { startPolling(); pollRoom(); }
 });
 
+async function restoreSavedRoom(invitation) {
+  const token = { session: roomSession, code: roomCode, operation: userOperation };
+  const current = () => token.session === roomSession && token.code === roomCode && token.operation === userOperation;
+  try {
+    const room = await requestRoom(`/api/rooms/${encodeURIComponent(token.code)}`);
+    if (!room || !current()) return;
+    state.screen = 'room';
+    receiveRoom(room, { restore: true });
+    startPolling();
+  } catch (error) {
+    if (!current()) return;
+    if ([403, 404].includes(error.status)) {
+      roomCode = ''; persist();
+      if (invitation) { state.mode = 'group'; openModal('join'); }
+    } else {
+      state.error = '上次同行暂时未连上，个人出发仍可继续。';
+      render();
+    }
+  }
+}
+
 async function boot() {
+  if (booting) return;
+  booting = true;
+  root.innerHTML = '<div class="initial-loading"><span class="loading-plane">↗</span><p>装好一点好奇心，马上出发。</p></div>';
+  document.body.dataset.screen = 'loading';
   try {
     persist();
     state.catalog = await api('/api/catalog');
+    const catalog = state.catalog;
+    if (!catalog || !['destinations', 'origins', 'themes', 'provinces', 'presets'].every(key => Array.isArray(catalog[key]))
+      || !catalog.destinations.every(item => item && typeof item.id === 'string' && typeof item.name === 'string' && Array.isArray(item.themes) && ['city', 'spot'].includes(item.kind))
+      || !catalog.origins.every(item => item && typeof item.id === 'string' && item.coordinates && Number.isFinite(item.coordinates.lat) && Number.isFinite(item.coordinates.lng))
+      || !catalog.presets.every(item => item && typeof item.id === 'string' && ['city', 'spot'].includes(item.kind))) {
+      throw new Error('旅行资料不完整，请重新加载。');
+    }
     for (const key of ['saved', 'journeys', 'history']) {
       state[key] = refreshTravelRecords(state[key], state.catalog.destinations);
     }
     persist();
     await refreshPool();
     const invitation = new URLSearchParams(location.search).get('room');
-    if (roomCode && (!invitation || invitation.toUpperCase() === roomCode)) {
-      try {
-        state.screen = 'room';
-        receiveRoom(await requestRoom(`/api/rooms/${encodeURIComponent(roomCode)}`), { restore: true });
-        startPolling();
-      } catch {
-        roomCode = ''; state.room = null; state.mode = 'solo'; state.screen = 'home'; persist();
-        if (invitation) openModal('join');
-      }
-    } else if (invitation) {
+    const restore = roomCode && (!invitation || invitation.toUpperCase() === roomCode);
+    if (invitation && !restore) {
       state.mode = 'group';
       openModal('join');
     }
     render();
+    if (restore) void restoreSavedRoom(invitation);
   } catch (error) {
-    root.innerHTML = '<main style="padding:40px;font-family:sans-serif"><h1>随性出发</h1><p>出发服务暂时没连上，请刷新再试。</p></main>';
+    root.innerHTML = '<main class="startup-recovery"><span class="loading-plane">↗</span><h1>随性出发</h1><p>旅行资料暂时没能加载，请检查网络后重试。</p><p data-startup-detail></p><button class="button primary" data-action="retry-boot">重新连接</button><a class="button secondary" data-startup-backup hidden>试试备用入口</a></main>';
+    const detail = root.querySelector('[data-startup-detail]');
+    if (detail && error.message.includes('超时')) detail.textContent = '连接超时，请稍后重试。';
+    const backup = root.querySelector('[data-startup-backup]');
+    const alternate = new URL('https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/');
+    if (backup && location.origin !== alternate.origin) {
+      alternate.search = location.search;
+      backup.href = alternate.href;
+      backup.hidden = false;
+    }
     document.body.dataset.screen = 'error';
     console.error(error);
+  } finally {
+    booting = false;
   }
 }
 
+window.travelStartupReady?.();
 boot();
