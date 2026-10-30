@@ -1,0 +1,4352 @@
+[
+  {
+    "id": "kaifeng",
+    "name": "开封",
+    "province": "河南",
+    "themes": [
+      "culture",
+      "food",
+      "slow"
+    ],
+    "description": "开封的旅行线索藏在宋都想象、宗教建筑和老城街巷之间。可在博物馆先建立历史背景，再到龙亭湖畔、铁塔和会馆观察建筑；清明上河园则提供另一种主题游园体验。朱仙镇位于市区以南，应另留公路往返时间。",
+    "highlights": [
+      "宋都文化",
+      "古寺会馆",
+      "汴梁小吃"
+    ],
+    "seasons": [
+      "3—5月春季",
+      "9—11月秋季"
+    ],
+    "climate": "开封四季分明，夏季炎热且降雨较集中，冬季寒冷并有风；春秋适合连续步行。湖岸遮阴有限，夏日把户外安排在早晚，秋季菊花活动期间需为热门街区留出拥挤缓冲。",
+    "travel": "航空可经郑州新郑国际机场，再查城际铁路至宋城路站或使用正规机场接驳。长途高铁主要核对开封北站，普速可查开封站；三站分处不同位置，出站后用公交或正规车辆到老城，勿将宋城路站与开封站混淆。",
+    "localTransport": "老城景点可用公交和步行组合，湖区两岸绕行距离不宜只看直线。开封博物馆在西部新区，朱仙镇在南部县域方向，分别安排接驳，夜游后提前确认回住处的交通。",
+    "days": "建议3天；朱仙镇另加半天至1天",
+    "itinerary": [
+      {
+        "title": "第1天 · 老城南部",
+        "description": "上午开封府，午后大相国寺与山陕甘会馆，傍晚尝老城小吃。"
+      },
+      {
+        "title": "第2天 · 龙亭湖区",
+        "description": "龙亭与天波杨府按兴趣选游，清明上河园留足半天；若看夜演，当日减少其他项目。"
+      },
+      {
+        "title": "第3天 · 文博与古塔",
+        "description": "上午到西部新区看开封博物馆，下午从铁塔或禹王台择一；朱仙镇宜用增加的一天安排。"
+      }
+    ],
+    "tips": [
+      "园林夜演与白天门票的内容可能不同，按官方当期说明选择。",
+      "老城步行多，博物馆和朱仙镇不要夹在短时间转车之间。"
+    ],
+    "coordinates": {
+      "lat": 34.7973,
+      "lng": 114.3076
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "灌汤包",
+        "description": "薄皮包子包入肉馅与汤汁，趁热吃更能体会口感，先小口咬开并留意内汤温度。"
+      },
+      {
+        "name": "鲤鱼焙面",
+        "description": "糖醋鲤鱼搭配细面是常见豫菜组合，可与同行者分食，感受鱼肉和酥面不同质地。"
+      },
+      {
+        "name": "炒凉粉",
+        "description": "凉粉切块后在锅中翻炒并加入调味，外层带焦香，适合在逛老城时少量现吃。"
+      }
+    ],
+    "foods": [
+      "灌汤包",
+      "鲤鱼焙面",
+      "炒凉粉"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Kaifeng",
+        "url": "https://en.wikivoyage.org/wiki/Kaifeng",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+        "url": "https://www.kfdsw.com/index/detail/id/7.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "kaifeng-qingming",
+        "name": "清明上河园",
+        "coordinates": {
+          "lat": 34.8135,
+          "lng": 114.3427
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "清明上河园以宋代城市生活为主题，将街市、水面和演艺空间组织成大型游园路线。先沿水岸认识园区布局，再按兴趣挑选民俗展示或演出，可以看出画作意象如何被转化为当代主题公园。",
+        "highlights": [
+          "宋代街市意象",
+          "园林水面",
+          "民俗演艺"
+        ],
+        "travel": "由开封城区乘公交或正规车辆到龙亭西路景区入口，先核对日游与夜游入口、预约时段及演出安排。",
+        "days": "约半天至1天",
+        "tips": [
+          "演出可能随天气调整，不把固定场次写成必达安排。",
+          "夜演结束离园较集中，提前确认返程集合点。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-xiangguo",
+        "name": "大相国寺",
+        "coordinates": {
+          "lat": 34.7898,
+          "lng": 114.3538
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "大相国寺位于开封老城，院落、殿堂与佛教艺术形成安静的人文参观线索。可先看中轴空间，再留意建筑装饰和宗教陈设，理解古寺与城市生活的联系，参观时给礼佛活动留下空间。",
+        "highlights": [
+          "寺院轴线",
+          "佛教艺术",
+          "老城古寺"
+        ],
+        "travel": "从开封老城乘公交或步行到自由路西段大相国寺，导航正式山门，附近街巷较密，车辆下客后通常仍需步行。",
+        "days": "约1—2小时",
+        "tips": [
+          "殿内是否允许摄影以现场标识为准。",
+          "礼佛区域放低音量，不随意触摸宗教陈设。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          },
+          {
+            "label": "Wikivoyage · Kaifeng",
+            "url": "https://en.wikivoyage.org/wiki/Kaifeng",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-kaifengfu",
+        "name": "开封府",
+        "coordinates": {
+          "lat": 34.7839,
+          "lng": 114.3492
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "开封府用重建府署与主题展陈呈现宋代官署文化，适合沿院落序列观察公共空间和衙署功能。将人物故事与建筑展示结合阅读，比只追逐表演更容易理解景区的叙事，也应区分现存文物与当代复建。",
+        "highlights": [
+          "府署院落",
+          "宋代治理主题",
+          "包公故事"
+        ],
+        "travel": "由开封城区乘公交或正规车辆至包公湖东侧开封府入口，湖边不同门点距离有别，参观前确认实际检票口。",
+        "days": "约2—3小时",
+        "tips": [
+          "这里为主题复建景区，历史细节以展签解释为准。",
+          "表演为可选项目，先查当日安排再决定停留。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-longting",
+        "name": "龙亭公园",
+        "coordinates": {
+          "lat": 34.8084,
+          "lng": 114.3505
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "龙亭公园以高台建筑、湖面与园林道路形成开阔的游览空间，适合从地势与城市格局认识开封的都城记忆。可先绕湖一段，再按体力登台看周边景色，花展期间把观花与建筑观察分开留时。",
+        "highlights": [
+          "龙亭高台",
+          "湖面园林",
+          "都城记忆"
+        ],
+        "travel": "从开封老城乘公交或正规车辆到中山路北段龙亭公园，确认本次开放入口，登台与湖岸游览另留步行时间。",
+        "days": "约2—3小时",
+        "tips": [
+          "高台台阶较多，登临量力安排。",
+          "花展布置与开放范围随活动变化，出发前看园方公告。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          },
+          {
+            "label": "Wikivoyage · Kaifeng",
+            "url": "https://en.wikivoyage.org/wiki/Kaifeng",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-ironpagoda",
+        "name": "铁塔公园",
+        "coordinates": {
+          "lat": 34.8232,
+          "lng": 114.3653
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "铁塔公园的核心是琉璃砖塔，近看塔身纹样与色泽，再拉开距离观察塔与园林的比例，更容易读出建筑细节。这里适合慢步看古塔和周边绿地，不把登塔作为参观成立的前提，具体开放以管理方为准。",
+        "highlights": [
+          "琉璃塔身",
+          "砖雕纹样",
+          "古塔园林"
+        ],
+        "travel": "从开封城区乘公交或正规车辆到铁塔一街公园入口，位置在老城东北，和龙亭湖区之间仍需安排道路接驳。",
+        "days": "约1.5—2.5小时",
+        "tips": [
+          "古塔内部是否开放须查现场公告。",
+          "观察砖雕时勿攀附塔身或跨越保护围栏。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          },
+          {
+            "label": "Wikivoyage · Kaifeng",
+            "url": "https://en.wikivoyage.org/wiki/Kaifeng",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-tianbo",
+        "name": "天波杨府",
+        "coordinates": {
+          "lat": 34.8133,
+          "lng": 114.3486
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "天波杨府以杨家将故事和宋式府邸意象组织园林参观，院落、水景与主题展示适合边走边读。可把人物传说、地方文化和现代景区营造分别理解，再按兴趣看演艺，避免只为某一场表演匆忙穿园。",
+        "highlights": [
+          "杨家将故事",
+          "府邸园林",
+          "主题演艺"
+        ],
+        "travel": "由开封城区乘公交或正规车辆到龙亭北部天波杨府入口，与邻近园区分别验票，步行串联时先核对出入口方向。",
+        "days": "约2小时",
+        "tips": [
+          "人物故事含文学演绎，阅读展陈时留意叙事背景。",
+          "与龙亭相邻但各自参观，购票前确认项目范围。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-shanshangan",
+        "name": "山陕甘会馆",
+        "coordinates": {
+          "lat": 34.799,
+          "lng": 114.3565
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "山陕甘会馆适合细看商帮建筑的石雕、砖雕与木雕，院落尺度并不大，却能从构件读出商人组织和审美趣味。先看整体布局，再选几处装饰比较图案，不需靠很快的拍照打卡完成参观。",
+        "highlights": [
+          "商帮会馆",
+          "三雕装饰",
+          "院落建筑"
+        ],
+        "travel": "从开封老城乘公交或步行到徐府街山陕甘会馆，门前道路较窄，正规车辆下客后按步行导航进入正式入口。",
+        "days": "约1—1.5小时",
+        "tips": [
+          "细部雕刻不要触摸或拓印。",
+          "室内与狭窄门廊拍照时留出他人通行空间。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-museum",
+        "name": "开封博物馆",
+        "coordinates": {
+          "lat": 34.811,
+          "lng": 114.2533
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "开封博物馆新馆在城市西部，适合从历史陈列建立不同朝代开封的时间线，再回看老城遗存。可选宋代城市生活或近现代地方记忆作为重点，展览体量较大，留出安静阅读展签与休息的时间。",
+        "highlights": [
+          "开封历史陈列",
+          "宋都生活",
+          "地方文物"
+        ],
+        "travel": "从老城到郑开大道第六大街附近新馆需公交组合或正规车辆，务必定位新馆，预约和闭馆安排通过馆方渠道核对。",
+        "days": "约半天",
+        "tips": [
+          "使用馆方预约渠道，避免前往迎宾路旧馆址。",
+          "专题展更换频率不同，想看特定展品先查展讯。"
+        ],
+        "sources": [
+          {
+            "label": "河南大学 · 开封市博物馆",
+            "url": "https://hdgx.henu.edu.cn/info/1072/1945.htm"
+          },
+          {
+            "label": "Wikivoyage · Kaifeng",
+            "url": "https://en.wikivoyage.org/wiki/Kaifeng",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-yuwangtai",
+        "name": "禹王台公园",
+        "coordinates": {
+          "lat": 34.7672,
+          "lng": 114.3642
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "禹王台公园在老城东南，以古台、祠庙记忆与林木形成较舒缓的漫步环境。可从园内历史题刻认识治水与文人活动的地方叙事，再沿绿荫道路走一段，适合作为高密度景区之外的半日补充。",
+        "highlights": [
+          "古台历史",
+          "祠庙记忆",
+          "绿荫步道"
+        ],
+        "travel": "从开封城区乘公交或正规车辆到繁塔东街禹王台公园，园门与周边其他文保点分开定位，留出铁路周边道路绕行时间。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "题刻与历史构件按保护标识观赏。",
+          "雨后林下和台阶可能湿滑，选择清晰开放道路。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "kaifeng-qifeng",
+        "name": "朱仙镇启封故园",
+        "coordinates": {
+          "lat": 34.5834,
+          "lng": 114.2625
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "启封故园位于开封南部朱仙镇，以水系、街巷和传统商业意象展示古镇文化。可沿河岸慢走并观察与周边镇区的关系，若想进一步认识木版年画，应另查正规展示或体验安排，不将园内表演当作每天固定内容。",
+        "highlights": [
+          "水岸街巷",
+          "朱仙镇文化",
+          "古镇游园"
+        ],
+        "travel": "从开封中心城区向南到朱仙镇需县域公路接驳，可查客运后转车或预约正规车辆，往返占时明显，避免与晚间高铁紧密衔接。",
+        "days": "约半天；含往返留1天",
+        "tips": [
+          "景区与朱仙镇其他街区并非同一入口，导航核对全名。",
+          "提前确认返城交通，县域末段不按市区叫车便利度估计。"
+        ],
+        "sources": [
+          {
+            "label": "开封党史方志网 · 旅游名胜（来源市政府）",
+            "url": "https://www.kfdsw.com/index/detail/id/7.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "anyang",
+    "name": "安阳",
+    "province": "河南",
+    "themes": [
+      "culture",
+      "outdoor",
+      "food"
+    ],
+    "description": "安阳可以沿甲骨文、商代考古和古建筑三条线认识。殷墟与中国文字博物馆适合各留较完整时段，老城文峰塔和袁林展示不同年代的建筑面貌；汤阴的人文景点在南，林州红旗渠与太行山在西，县域线路宜分日选择。",
+    "highlights": [
+      "殷商与甲骨文",
+      "老城古建筑",
+      "林州太行山水"
+    ],
+    "seasons": [
+      "4—5月春季",
+      "9—10月秋季"
+    ],
+    "climate": "安阳夏季炎热、降雨集中，冬季寒冷干燥；春秋适合城市步行与林州山地游。太行山谷、山脊与城区体感不同，雨后山路需查开放情况，不能用城区天气替代山区判断。",
+    "travel": "可查安阳红旗渠机场实际可售航班，机场位于汤阴方向；也可经郑州新郑国际机场转铁路。高铁使用安阳东站，普速查安阳站，出站后用公交或正规车辆入城；去汤阴和林州须另安排县域接驳。",
+    "localTransport": "城区博物馆与老城可用公交加短程车辆衔接，安阳尚不能按地铁游览规划。汤阴线与林州线方向不同，林州山区景点内部仍有观光车和台阶步行，县城抵达不等于景区到达。",
+    "days": "建议3天；林州深游另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 殷商考古",
+        "description": "把殷墟作为重点，按预约选择博物馆与遗址开放区，下午不再堆叠远郊项目。"
+      },
+      {
+        "title": "第2天 · 文字与老城",
+        "description": "上午中国文字博物馆，下午文峰塔或袁林择一，时间有余再去地方历史博物馆。"
+      },
+      {
+        "title": "第3天 · 汤阴人文",
+        "description": "南下汤阴，安排羑里城与岳飞庙；若偏爱山水，改为林州住一晚，红旗渠与大峡谷分日游。"
+      }
+    ],
+    "tips": [
+      "博物馆新旧馆、遗址开放区预约规则分别核对，不把一个预约等同于所有场所通行。",
+      "林州和汤阴不在城区短程步行范围，按一个方向组织当天路线。"
+    ],
+    "coordinates": {
+      "lat": 36.0971,
+      "lng": 114.3931
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "扁粉菜",
+        "description": "粉条、豆腐与蔬菜在汤中同煮，常配烧饼作为早餐，点单时可按口味调整辣度。"
+      },
+      {
+        "name": "粉浆饭",
+        "description": "以发酵粉浆配米和豆类煮成，带有明显酸香，初尝可先小份体会地方口味。"
+      },
+      {
+        "name": "道口烧鸡",
+        "description": "滑县道口烧鸡以卤制香味和酥软口感见长，外带购买应关注店家储存及食用说明。"
+      }
+    ],
+    "foods": [
+      "扁粉菜",
+      "粉浆饭",
+      "道口烧鸡"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Anyang",
+        "url": "https://en.wikivoyage.org/wiki/Anyang",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "文化和旅游部 · 安阳殷墟文化地标",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hn/202605/t20260518_965867.htm"
+      }
+    ],
+    "spots": [
+      {
+        "id": "anyang-yinxu",
+        "name": "殷墟（含殷墟博物馆）",
+        "coordinates": {
+          "lat": 36.121,
+          "lng": 114.319
+        },
+        "themes": [
+          "culture"
+        ],
+        "art": "city",
+        "description": "殷墟把商代都城遗址与考古陈列联系起来，甲骨、青铜器和墓葬材料让城市历史有了具体证据。博物馆与遗址开放片区应作为同一考古主题整体安排，先理解年代和空间，再选择重点文物细读。",
+        "highlights": [
+          "商代都城",
+          "甲骨文",
+          "考古陈列"
+        ],
+        "travel": "从安阳城区乘公交或正规车辆到预约对应的殷墟博物馆或遗址入口，两者入口与动线不同，按当期票务说明安排接驳。",
+        "days": "约半天至1天",
+        "tips": [
+          "馆区和遗址参观范围分别确认，勿按旧攻略定位。",
+          "考古遗存只在开放区域观看，不进入工作围挡。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 安阳殷墟文化地标",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hn/202605/t20260518_965867.htm"
+          },
+          {
+            "label": "Wikivoyage · Anyang",
+            "url": "https://en.wikivoyage.org/wiki/Anyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-writing",
+        "name": "中国文字博物馆",
+        "coordinates": {
+          "lat": 36.1128,
+          "lng": 114.3873
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "中国文字博物馆从文字载体、构形和使用场景解释汉字发展，也展示不同民族文字与书写文化。可挑甲骨、简牍或印刷中的一个主题追踪变化，再比较文字在日常生活和制度中的不同作用。",
+        "highlights": [
+          "文字演化",
+          "文字载体",
+          "书写文化"
+        ],
+        "travel": "从安阳城区乘公交或正规车辆到人民大道中国文字博物馆，按官方导览预约，宣文馆与徽文馆的参观顺序留出馆间步行。",
+        "days": "约3—4小时",
+        "tips": [
+          "预约时核对同行者证件和馆方入馆规则。",
+          "展厅内容较多，选定主题后再补看其他部分。"
+        ],
+        "sources": [
+          {
+            "label": "中国文字博物馆 · 参观导览",
+            "url": "https://www.wzbwg.com/daolan"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-wenfeng",
+        "name": "天宁寺文峰塔",
+        "coordinates": {
+          "lat": 36.0951,
+          "lng": 114.3448
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "天宁寺文峰塔以独特塔形和砖石装饰成为安阳老城的观察重点。先从院落中看塔的整体比例，再走近阅读雕刻与题记，可把寺院建筑与周边街巷连起来认识；登塔属于另需确认的开放内容。",
+        "highlights": [
+          "古塔形制",
+          "砖雕装饰",
+          "老城寺院"
+        ],
+        "travel": "从安阳城区乘公交到文峰中路一带后步行进入天宁寺景区，正式入口以现场公告为准，老城窄路宜下车步行。",
+        "days": "约1—1.5小时",
+        "tips": [
+          "登塔开放与地面参观分别核对。",
+          "不触摸雕刻或在塔体周围攀爬。"
+        ],
+        "sources": [
+          {
+            "label": "安阳市文物考古研究院 · 景区与开放公告",
+            "url": "https://www.ayswwkgyjy.cn/"
+          },
+          {
+            "label": "Wikivoyage · Anyang",
+            "url": "https://en.wikivoyage.org/wiki/Anyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-yuanlin",
+        "name": "袁林",
+        "coordinates": {
+          "lat": 36.1226,
+          "lng": 114.3509
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "袁林位于安阳北关，将传统陵寝轴线与近代建筑元素放在同一空间中。沿神道、碑亭与庭院看形制变化，再结合人物生平理解民国历史，可把建筑观察与历史评价分开，保留阅读展陈的时间。",
+        "highlights": [
+          "陵寝轴线",
+          "近代建筑",
+          "民国历史"
+        ],
+        "travel": "从安阳城区乘公交或正规车辆到北关区胜利路袁林正式入口，入口在道路末段，导航与下客位置需提前核对。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "陵墓区域保持安静，按规定路线参观。",
+          "建筑细节适合慢看，避免堵住神道和门廊。"
+        ],
+        "sources": [
+          {
+            "label": "安阳市文物考古研究院 · 袁林",
+            "url": "https://www.ayswwkgyjy.cn/article/32/jingqu.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-mansion",
+        "name": "马氏庄园",
+        "coordinates": {
+          "lat": 36.1444,
+          "lng": 114.1123
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "马氏庄园在安阳西部蒋村一带，以成组院落呈现晚清宅第和家族生活。可比较中原民居、四合院与商帮大院的建筑细部，再读马氏家族与近代教育、实业有关的材料，不必逐院快速走完。",
+        "highlights": [
+          "晚清宅第",
+          "院落建筑",
+          "近代家族史"
+        ],
+        "travel": "从安阳城区向西到殷都区蒋村镇马氏庄园需公交组合或正规车辆，和市中心景点距离明显，往返接车位置预先约定。",
+        "days": "约半天",
+        "tips": [
+          "院落通道和门槛较多，穿便于步行的鞋。",
+          "进入开放展室即可，不进入文物维护或办公区域。"
+        ],
+        "sources": [
+          {
+            "label": "河南旅游网 · 马氏庄园",
+            "url": "https://www.uhenan.com/ScenicArea/Content/S1199805941072076801"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-youli",
+        "name": "羑里城",
+        "coordinates": {
+          "lat": 35.9604,
+          "lng": 114.356
+        },
+        "themes": [
+          "culture"
+        ],
+        "art": "city",
+        "description": "羑里城位于汤阴县北部，以周易文化、文王传说和历史遗址展示形成参观主题。可先读遗址与传世叙事的关系，再看院落、碑刻和专题内容，理解地方如何保存与讲述古代思想文化。",
+        "highlights": [
+          "周易文化",
+          "文王故事",
+          "碑刻院落"
+        ],
+        "travel": "从安阳城区南下汤阴县羑里城，查安汤方向客运后接驳或乘正规车辆，与汤阴岳飞庙之间需另安排道路交通。",
+        "days": "约2小时",
+        "tips": [
+          "遗址事实与后世传说分开阅读。",
+          "县域景点末段交通先确认，返程勿只依赖临时叫车。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Anyang",
+            "url": "https://en.wikivoyage.org/wiki/Anyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-yuefei",
+        "name": "汤阴岳飞庙",
+        "coordinates": {
+          "lat": 35.9233,
+          "lng": 114.3508
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "汤阴岳飞庙围绕岳飞生平和历代纪念展开，建筑、碑刻与陈列共同说明人物在地方记忆中的位置。沿院落轴线慢看题额，再挑选几段史料阅读，与周边县城街巷结合可形成紧凑的人文半日。",
+        "highlights": [
+          "岳飞纪念",
+          "历代碑刻",
+          "庙宇院落"
+        ],
+        "travel": "从安阳城区乘铁路或客运到汤阴后再用县城交通到岳飞庙，若与羑里城同游，先安排两处之间的正规车辆接驳。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "安阳所属汤阴岳飞庙与其他城市同名庙宇区分定位。",
+          "碑刻只观赏，不触摸拓印或跨越保护设施。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Anyang",
+            "url": "https://en.wikivoyage.org/wiki/Anyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-redflag",
+        "name": "红旗渠风景区",
+        "coordinates": {
+          "lat": 36.341,
+          "lng": 113.813
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "红旗渠风景区在林州市，以水利工程遗存、山体和相关陈列讲述引水建设。先在纪念展陈理解背景，再按体力走开放渠岸路线，可以同时观察人工水渠与太行地形的关系，多个片区交通应整体安排。",
+        "highlights": [
+          "水利工程",
+          "太行渠岸",
+          "建设历史"
+        ],
+        "travel": "从安阳向西到林州市后，还需继续接驳红旗渠各开放片区；纪念馆与青年洞并非步行相邻，宜留整天并核对景区交通。",
+        "days": "约1天",
+        "tips": [
+          "只走开放渠岸，勿跨入水渠或越过护栏。",
+          "不同片区距离较远，先定参观重点再订返程。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 红旗渠太行大峡谷",
+            "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=34967"
+          },
+          {
+            "label": "Wikivoyage · Anyang",
+            "url": "https://en.wikivoyage.org/wiki/Anyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-taihang",
+        "name": "林州太行大峡谷",
+        "coordinates": {
+          "lat": 36.164,
+          "lng": 113.689
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "林州太行大峡谷以峡谷、溪流和台地视野形成不同层次的山地景观。桃花谷、王相岩等片区作为同一景区整体选择，按照体力安排台阶与观光接驳，慢看岩壁和水流比一天赶遍全部路线更从容。",
+        "highlights": [
+          "太行峡谷",
+          "溪谷步道",
+          "山地台地"
+        ],
+        "travel": "从安阳向西至林州市石板岩镇需较长公路接驳，抵达后按所选片区换乘景交或正规车辆，建议住林州或石板岩并分日游览。",
+        "days": "约1—2天",
+        "tips": [
+          "雨天和雨后查山地步道开放公告。",
+          "部分线路坡陡台阶多，提前确认返程与体力要求。"
+        ],
+        "sources": [
+          {
+            "label": "林州太行大峡谷 · 景区官方网站",
+            "url": "https://www.thdxg.net/"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anyang-museum",
+        "name": "安阳博物馆",
+        "coordinates": {
+          "lat": 36.0834,
+          "lng": 114.3882
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "安阳博物馆适合从地方历史与日常器物补充殷墟之外的城市认识。陶器、青铜器及地方专题展让不同时期的生活形成连续线索，可先看基本陈列再按兴趣看临展，不与中国文字博物馆混淆馆名。",
+        "highlights": [
+          "地方历史",
+          "馆藏器物",
+          "专题展览"
+        ],
+        "travel": "从安阳城区乘公交或正规车辆至文明大道436号馆址，按馆方预约页面核对入口与开放日，和文字博物馆分开定位。",
+        "days": "约2—3小时",
+        "tips": [
+          "常设陈列与临展的开放情况分别核对。",
+          "展厅摄影和随身物品管理遵守馆方标识。"
+        ],
+        "sources": [
+          {
+            "label": "安阳博物馆 · 参观预约",
+            "url": "https://www.aybwg.org/cgyy/"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "zhangye",
+    "name": "张掖",
+    "province": "甘肃",
+    "themes": [
+      "nature",
+      "outdoor",
+      "culture"
+    ],
+    "description": "张掖把河西绿洲、丹霞峡谷和祁连山北麓放在同一行政区域，旅行却需要按方向拆开。城区大佛寺与湿地适合慢看，西部丹霞可组成一日，东部山丹、南部马蹄寺和民乐草原都需较长公路接驳，不能以城区为圆心一天扫完。",
+    "highlights": [
+      "彩色丘陵与丹霞",
+      "河西石窟寺院",
+      "祁连山北麓草原"
+    ],
+    "seasons": [
+      "5—6月初夏",
+      "9—10月初秋"
+    ],
+    "climate": "张掖干燥、日照强、昼夜温差较大，冬季寒冷；草原和祁连山北麓比城区更冷且天气变化快。夏季适合山地草原，春秋看丹霞较舒适，户外准备遮阳、饮水和可增减的外套。",
+    "travel": "航空可查张掖甘州机场，抵达后以机场接驳或正规车辆入城。高铁常用张掖西站，普速查张掖站；山丹县域可查山丹站、山丹马场站的实际停靠，再安排末段车辆，不能默认车站就在景区入口。",
+    "localTransport": "城区公交和正规车辆可连接大佛寺与湿地，县域景点以公路接驳为主。西线丹霞、东北平山湖、南线马蹄寺与东线山丹宜分日，肃南文殊寺在行政辖区西端，通常从酒泉方向衔接更合理。",
+    "days": "建议3天；山丹或肃南西端另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 甘州城区",
+        "description": "上午大佛寺阅读西夏与河西历史，下午湿地散步，避免抵达当天赶长线山路。"
+      },
+      {
+        "title": "第2天 · 西部丹霞",
+        "description": "七彩丹霞与冰沟丹霞按体力组合，保留观光车和候车时间，傍晚回城。"
+      },
+      {
+        "title": "第3天 · 南线石窟",
+        "description": "选择马蹄寺整日往返；若更想走峡谷，则改平山湖，山丹马场与扁都口安排增加的一天。"
+      }
+    ],
+    "tips": [
+      "草原花期、丹霞色彩与光照均随季节天气变化，不把宣传照当作固定景象。",
+      "肃南县地域狭长，文殊寺和马蹄寺不能当作同镇相邻景点。"
+    ],
+    "coordinates": {
+      "lat": 38.9259,
+      "lng": 100.4498
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "搓鱼子",
+        "description": "面团搓成两端尖的小段后烹煮，形似小鱼但主要原料是面粉，可配当地浇头尝试。"
+      },
+      {
+        "name": "牛肉小饭",
+        "description": "将小面丁与牛肉汤和配菜组合，是地方早餐选择之一，适合用热汤开始清晨行程。"
+      },
+      {
+        "name": "炒拨拉",
+        "description": "以羊杂等食材大火翻炒，香味浓郁且口感各异，点餐前可询问具体用料并与同行者分享。"
+      }
+    ],
+    "foods": [
+      "搓鱼子",
+      "牛肉小饭",
+      "炒拨拉"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Zhangye",
+        "url": "https://en.wikivoyage.org/wiki/Zhangye",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "甘肃政务服务网 · 张掖文旅产业简介",
+        "url": "https://zwfw.gansu.gov.cn/zhangye/ztfw/zsyzfwzq/tzzn/art/2023/art_4ee5d987fff74717a64ebee7856018ef.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "zhangye-rainbow",
+        "name": "张掖七彩丹霞",
+        "coordinates": {
+          "lat": 38.981,
+          "lng": 100.067
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "七彩丹霞以连绵彩色丘陵和层理变化见长，站在观景台比较坡面色带、沟谷和远近山形，可以更清楚理解景观尺度。各观景点作为同一景区整体安排，色彩受光线影响，不必为了某个角度越过步道。",
+        "highlights": [
+          "彩色丘陵",
+          "地层色带",
+          "开阔观景台"
+        ],
+        "travel": "从张掖城区向西至临泽方向景区需公路交通，核对北门或实际预约入口，到达后按景区观光车动线游览并预留返程。",
+        "days": "约半天",
+        "tips": [
+          "只在指定观景台与步道活动，地表脆弱不可踩踏。",
+          "日照强且观景台风大，带饮水和外套。"
+        ],
+        "sources": [
+          {
+            "label": "张掖市人民政府 · A级景区",
+            "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html"
+          },
+          {
+            "label": "Wikivoyage · Zhangye",
+            "url": "https://en.wikivoyage.org/wiki/Zhangye",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-binggou",
+        "name": "冰沟丹霞",
+        "coordinates": {
+          "lat": 38.856,
+          "lng": 99.941
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "冰沟丹霞位于肃南康乐一带，以柱状、宫殿状红色岩体和侵蚀形态形成不同于彩色丘陵的景观。沿正式开放台阶比较岩壁轮廓与沟谷走向，适合愿意步行看地貌的人，线路长短按体力选择。",
+        "highlights": [
+          "红色岩柱",
+          "侵蚀地貌",
+          "丹霞步道"
+        ],
+        "travel": "从张掖城区向西南到肃南康乐镇冰沟丹霞，和七彩丹霞入口分开定位，可安排同方向车辆接驳，仍需为两景区间行车留时。",
+        "days": "约3—4小时",
+        "tips": [
+          "先查地质公园及景区公告确认开放路线。",
+          "台阶暴露在日光下，不把往返步行时间压得过短。"
+        ],
+        "sources": [
+          {
+            "label": "张掖世界地质公园 · 公园公告",
+            "url": "https://www.zhangyegeopark.cn/h-nr.html?groupId=25&jpt=4"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-pingshanhu",
+        "name": "平山湖大峡谷",
+        "coordinates": {
+          "lat": 39.043,
+          "lng": 100.835
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "平山湖大峡谷以红褐色沟壑、陡壁和远观平台形成强烈地形对比，深入谷底与只走观景台的体力需求明显不同。可先看全景，再决定下谷路线，狭窄台阶与上升路段应给自己留下足够余量。",
+        "highlights": [
+          "红层峡谷",
+          "谷底步道",
+          "观景平台"
+        ],
+        "travel": "从张掖城区向东北到平山湖景区需公路接驳，抵达后按景区车辆与步行路线选择游程，返城交通和下谷时限提前确认。",
+        "days": "约半天至1天",
+        "tips": [
+          "下谷前了解台阶和返回爬升量，体力不足可只看平台。",
+          "大风或降雨时服从线路调整，不进入未开放岔路。"
+        ],
+        "sources": [
+          {
+            "label": "张掖市人民政府 · A级景区",
+            "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html"
+          },
+          {
+            "label": "Wikivoyage · Zhangye",
+            "url": "https://en.wikivoyage.org/wiki/Zhangye",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-mati",
+        "name": "马蹄石窟群",
+        "coordinates": {
+          "lat": 38.502,
+          "lng": 100.418
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "马蹄石窟群位于肃南祁连山北麓，石窟、崖壁和山地环境共同组成参观体验。不同窟区的开放和体力要求不一，可先理解石窟分布再挑重点参观，把寺院艺术与周边草原视野放在完整半日中观察。",
+        "highlights": [
+          "崖壁石窟",
+          "宗教艺术",
+          "祁连山北麓"
+        ],
+        "travel": "从张掖城区向南到肃南县马蹄藏族乡需较长公路接驳，导航马蹄石窟群正式入口，内部不同片区仍需安排步行或接驳。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "窟内通道可能狭窄陡峭，先确认当前开放窟区。",
+          "壁画塑像不可触碰，拍摄按文物保护要求执行。"
+        ],
+        "sources": [
+          {
+            "label": "张掖市人民政府 · A级景区",
+            "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html"
+          },
+          {
+            "label": "Wikivoyage · Zhangye",
+            "url": "https://en.wikivoyage.org/wiki/Zhangye",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-dafo",
+        "name": "张掖大佛寺",
+        "coordinates": {
+          "lat": 38.9298,
+          "lng": 100.4496
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "张掖大佛寺适合从卧佛、殿堂结构和相关陈列认识西夏及河西宗教文化。先退后观察殿堂与塑像的尺度，再阅读展签，寺院与甘州区博物馆相关内容整体参观，不把同一院落中的展厅拆成独立目的地。",
+        "highlights": [
+          "室内卧佛",
+          "西夏文化",
+          "古寺殿堂"
+        ],
+        "travel": "从张掖城区乘公交、正规车辆或步行到民主西街大佛寺入口，位于城区内，可与附近用餐组合并按馆方公告安排开放时段。",
+        "days": "约2—3小时",
+        "tips": [
+          "殿内摄影规则以现场标识为准。",
+          "安静观赏塑像和壁面，不使用闪光灯或触碰文物。"
+        ],
+        "sources": [
+          {
+            "label": "张掖市政府 · 大佛寺景区",
+            "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/202303/t20230318_1007459_ghb.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-wetland",
+        "name": "张掖国家湿地公园",
+        "coordinates": {
+          "lat": 38.978,
+          "lng": 100.438
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "张掖国家湿地公园展示黑河绿洲水系与芦苇、湖面相接的城市边缘景观。沿开放栈道选择一段慢走，比较水面、植被和远处山地的关系，鸟类出现与季节有关，适合把观察环境作为游览重点。",
+        "highlights": [
+          "绿洲湿地",
+          "芦苇水面",
+          "开放栈道"
+        ],
+        "travel": "从张掖城区向北到湿地公园开放入口可乘公交或正规车辆，公园范围较大，先确定下客和返程点，避免走到距离过远的出口。",
+        "days": "约2—3小时",
+        "tips": [
+          "不投喂鸟类，不离开栈道进入芦苇和浅水区。",
+          "黄昏活动留出回程时间，湿地与城区体感风力有别。"
+        ],
+        "sources": [
+          {
+            "label": "甘肃政务服务网 · 张掖文旅产业简介",
+            "url": "https://zwfw.gansu.gov.cn/zhangye/ztfw/zsyzfwzq/tzzn/art/2023/art_4ee5d987fff74717a64ebee7856018ef.html"
+          },
+          {
+            "label": "Wikivoyage · Zhangye",
+            "url": "https://en.wikivoyage.org/wiki/Zhangye",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-horsefarm",
+        "name": "山丹军马场",
+        "coordinates": {
+          "lat": 38.043,
+          "lng": 101.167
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "山丹军马场位于祁连山北麓山丹县域，草原、山体和牧场生产景观构成开阔视野。游客应以正式开放旅游区域为界，观察牧业与自然环境的关系，骑乘和体验项目按运营方当期安排选择。",
+        "highlights": [
+          "高山草原",
+          "牧场风景",
+          "祁连山视野"
+        ],
+        "travel": "从张掖城区向东南前往山丹军马场需长距离公路交通，也可查山丹马场站停靠后预约末段车，景区入口与车站相距仍远，宜留宿。",
+        "days": "建议1—2天",
+        "tips": [
+          "牧场各场部相距远，预约时确认具体接待片区。",
+          "不擅自接近马群或跨入生产区，草原温差需准备外套。"
+        ],
+        "sources": [
+          {
+            "label": "甘肃政务服务网 · 张掖文旅产业简介",
+            "url": "https://zwfw.gansu.gov.cn/zhangye/ztfw/zsyzfwzq/tzzn/art/2023/art_4ee5d987fff74717a64ebee7856018ef.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-yanzhi",
+        "name": "焉支山",
+        "coordinates": {
+          "lat": 38.528,
+          "lng": 101.306
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "焉支山在山丹县东南，以森林、山地道路和历史文化叙事组成游览内容。可把林间步行与古代河西交通背景结合理解，按开放线路选择登高程度，林下与开阔山坡的体感差异值得预留衣物调整。",
+        "highlights": [
+          "山地森林",
+          "河西历史",
+          "林间步道"
+        ],
+        "travel": "从张掖城区先到山丹县方向再赴焉支山景区，公路往返时间较长，建议与山丹住宿结合，和军马场分别核算接驳距离。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "山林防火期遵守入园管理，不携火种进林。",
+          "登山前查开放范围，遇雨雾避免赶路登高。"
+        ],
+        "sources": [
+          {
+            "label": "山丹县政府 · 焉支山",
+            "url": "https://www.shandan.gov.cn/gysd/whly/jq/202601/t20260119_1499805.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-biandukou",
+        "name": "扁都口生态休闲旅游区",
+        "coordinates": {
+          "lat": 38.239,
+          "lng": 100.944
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "扁都口在民乐县南部，是祁连山通道附近的草原与田野观景区域。可在正规开放平台看山口、农田和远山层次，花田景色随种植与时节变化，旅行重点可以是山口地形与牧农交界的整体景观。",
+        "highlights": [
+          "祁连山口",
+          "草原田野",
+          "山地通道"
+        ],
+        "travel": "从张掖城区向东南经民乐县赴扁都口需长距离公路接驳，可选择沿线正规观景点，勿在国省道随意停靠，返程提前安排。",
+        "days": "约半天至1天",
+        "tips": [
+          "油菜花期受年度种植和气候影响，出发前核对。",
+          "只用开放停车区与步道，不进入农田或牧场围栏。"
+        ],
+        "sources": [
+          {
+            "label": "甘肃政务服务网 · 张掖文旅产业简介",
+            "url": "https://zwfw.gansu.gov.cn/zhangye/ztfw/zsyzfwzq/tzzn/art/2023/art_4ee5d987fff74717a64ebee7856018ef.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zhangye-wenshu",
+        "name": "祁丰文殊寺石窟群",
+        "coordinates": {
+          "lat": 39.636,
+          "lng": 98.413
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "祁丰文殊寺石窟群位于肃南县西端文殊山，石窟与山坡寺院遗存展示河西佛教艺术。这里虽然行政上属于张掖，实际更靠近酒泉一带，适合作为河西走廊跨城旅程的专门一站，按开放窟区深入观察。",
+        "highlights": [
+          "文殊山石窟",
+          "河西佛教艺术",
+          "山地寺院"
+        ],
+        "travel": "从张掖中心城区到肃南祁丰文殊寺距离很远，宜从酒泉方向组织正规车辆末段接驳并增加住宿，不与马蹄寺安排同一短日程。",
+        "days": "约半天；长途交通另计",
+        "tips": [
+          "先向景区确认实际开放窟区和入口。",
+          "不要把肃南同县当成近距离，行前核算长途返程。"
+        ],
+        "sources": [
+          {
+            "label": "张掖市人民政府 · A级景区",
+            "url": "https://www.zhangye.gov.cn/chzy/zyly/ajjq/ghb.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "tianshui",
+    "name": "天水",
+    "province": "甘肃",
+    "themes": [
+      "culture",
+      "nature",
+      "food"
+    ],
+    "description": "天水适合把秦州古城的人文院落与麦积山石窟分日参观。伏羲庙、玉泉观和胡氏民居能串起城市生活与信仰传统，麦积区则通往石窟和林地；甘谷、武山、秦安各有独立石窟或史前遗址，沿线铁路只是接驳的起点。",
+    "highlights": [
+      "麦积山石窟艺术",
+      "秦州古建街巷",
+      "史前与伏羲文化"
+    ],
+    "seasons": [
+      "4—6月春末初夏",
+      "9—10月秋季"
+    ],
+    "climate": "天水处在陇东南，四季分明，城区夏日仍有日晒与闷热时段，冬季较冷。麦积山林地和县域山路气温、降雨与城区不同，春秋步行较适宜，雨季查石窟栈道及山地路线开放公告。",
+    "travel": "铁路高铁主要用天水南站，普速用麦积区天水站，两站均与秦州老城有距离。天水麦积山机场已在2026年6月恢复运行，航空以当期实际可售航班为准，抵达后用正规车辆或可用公交接驳；不将迁建中的中梁机场当作现有到达点。",
+    "localTransport": "秦州与麦积为两个主要城区，可用公交和有轨电车可用区段组合，具体站点行前核对。麦积山、仙人崖、石门分处山地不同位置，甘谷武山秦安各需县域接驳，不把同一大景区名称等同于步行相邻。",
+    "days": "建议3天；县域石窟与遗址另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 秦州古建",
+        "description": "上午伏羲庙，下午胡氏民居与玉泉观按体力选择，晚间用小吃认识老城。"
+      },
+      {
+        "title": "第2天 · 麦积山",
+        "description": "整日安排麦积山石窟往返，预留交通和栈道排队时间，仙人崖仅在交通与体力充分时增加。"
+      },
+      {
+        "title": "第3天 · 南郭与县域择一",
+        "description": "轻松路线选择南郭寺与老城补游；若去甘谷大像山或武山水帘洞，选择一个方向安排整日。"
+      }
+    ],
+    "tips": [
+      "热门石窟的普通开放窟与特殊参观内容有区别，以官方预约说明为准。",
+      "麦积区、秦州区和县域分开规划，行程不要依赖跨区无缝衔接。"
+    ],
+    "coordinates": {
+      "lat": 34.5809,
+      "lng": 105.7249
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "天水麻辣烫",
+        "description": "蔬菜、豆制品和粉条烫熟后加入油泼辣椒等调味，选菜与辣度可以按个人口味调整。"
+      },
+      {
+        "name": "呱呱",
+        "description": "地方淀粉制小吃切块后配调料，口感柔韧，常作为早餐或小吃，初尝可先选小份。"
+      },
+      {
+        "name": "浆水面",
+        "description": "以带酸香的浆水配面条，清爽风味与油辣小吃不同，可询问面条和浇头的具体搭配。"
+      }
+    ],
+    "foods": [
+      "天水麻辣烫",
+      "呱呱",
+      "浆水面"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Tianshui",
+        "url": "https://en.wikivoyage.org/wiki/Tianshui",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "文化和旅游部 · 天水十条旅游线路",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+      },
+      {
+        "label": "甘肃一带一路网 · 天水麦积山机场恢复运行",
+        "url": "https://ydyl.gansu.gov.cn/gsydyl/gswt/sslt/202606/t20260621_37518.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "tianshui-maiji",
+        "name": "麦积山石窟",
+        "coordinates": {
+          "lat": 34.349,
+          "lng": 106.011
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "麦积山石窟在陡崖上保存造像与壁画，山体、栈道和洞窟共同形成独特参观体验。先看整体岩壁再细读开放窟的时代与塑像特点，不同窟区内容不可互相替代，远观与近看都值得留出时间。",
+        "highlights": [
+          "崖壁石窟",
+          "彩塑艺术",
+          "山地栈道"
+        ],
+        "travel": "从天水南站或麦积城区查景区交通，仍需公路前往麦积山游客入口，再按园内接驳和栈道动线参观，秦州出发车程更长。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "栈道较高且上下台阶集中，按体力和恐高程度选择。",
+          "壁画彩塑严禁触摸，拍摄遵守窟区要求。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          },
+          {
+            "label": "Wikivoyage · Tianshui",
+            "url": "https://en.wikivoyage.org/wiki/Tianshui",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-fuxi",
+        "name": "伏羲庙",
+        "coordinates": {
+          "lat": 34.5847,
+          "lng": 105.7139
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "伏羲庙通过院落建筑、古树、祭祀空间和相关陈列展现伏羲文化。可先理解祭祀传统与后世纪念的关系，再看殿堂轴线和地方史资料，相关博物馆内容整体安排，不将同址展厅另算一处景点。",
+        "highlights": [
+          "伏羲文化",
+          "古建院落",
+          "地方陈列"
+        ],
+        "travel": "从秦州城区乘公交或步行到伏羲路庙区，天水南站与天水站抵达者须先安排跨区交通，预约时核对庙区及馆区规则。",
+        "days": "约2—3小时",
+        "tips": [
+          "祭祀活动可能影响局部路线，按现场指引参观。",
+          "古树与建筑构件只看不摸，不跨越围栏。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          },
+          {
+            "label": "Wikivoyage · Tianshui",
+            "url": "https://en.wikivoyage.org/wiki/Tianshui",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-yuquan",
+        "name": "玉泉观",
+        "coordinates": {
+          "lat": 34.5887,
+          "lng": 105.7191
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "玉泉观依城北山势展开，道教建筑、碑刻和层叠院落让人看见宗教空间与地形的结合。沿开放台阶逐层观察布局，可在登高后回望秦州城区，游览节奏宜按坡度调整，雨天减少陡阶停留。",
+        "highlights": [
+          "山地道观",
+          "碑刻院落",
+          "秦州视野"
+        ],
+        "travel": "从秦州城区乘公交或正规车辆至玉泉观山门后步行登阶，老城道路较窄，车辆不能代替内部上坡，留出下山时间。",
+        "days": "约2小时",
+        "tips": [
+          "台阶较多，雨雪天气先查开放情况。",
+          "尊重宗教活动，殿内摄影以标识为准。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          },
+          {
+            "label": "天水市文旅局 · 国庆游天水",
+            "url": "https://www.tianshui.gov.cn/wlj/info/1822/258262.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-nanguo",
+        "name": "南郭寺",
+        "coordinates": {
+          "lat": 34.5621,
+          "lng": 105.7354
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "南郭寺在秦州南山，以古树、院落、北流泉和诗文记忆形成清静的参观线索。可沿寺院院落认识建筑布局，再慢读与杜甫有关的诗刻，把文学中的天水和眼前山城景色对应起来。",
+        "highlights": [
+          "古树寺院",
+          "杜甫诗文",
+          "北流泉"
+        ],
+        "travel": "从秦州城区向南乘公交或正规车辆到南郭寺开放入口，山门到院落仍有步行，返程路线与下客点提前确认。",
+        "days": "约2—3小时",
+        "tips": [
+          "古树根系和泉池周边不跨入保护区域。",
+          "诗碑适合停留阅读，拍照时避免挡住窄路。"
+        ],
+        "sources": [
+          {
+            "label": "天水市文旅局 · 国庆游天水",
+            "url": "https://www.tianshui.gov.cn/wlj/info/1822/258262.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-huhouse",
+        "name": "胡氏民居",
+        "coordinates": {
+          "lat": 34.5804,
+          "lng": 105.7253
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "town",
+        "description": "胡氏民居以明代宅院和传统街巷环境展示秦州地方生活，门窗、院落尺度与木构细部值得慢看。可比较不同院落的功能与空间衔接，再结合展陈认识宅第主人与城市历史，保留居民日常通行空间。",
+        "highlights": [
+          "明代宅院",
+          "木构细节",
+          "秦州街巷"
+        ],
+        "travel": "从秦州老城乘公交后步行至民主西路胡氏民居片区，南北宅院的开放范围与入口按当期公告核对，街巷中不宜久停车辆。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "木构老宅门槛较多，注意脚下高差。",
+          "未开放房间与邻近居民院落不自行进入。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          },
+          {
+            "label": "天水市文旅局 · 国庆游天水",
+            "url": "https://www.tianshui.gov.cn/wlj/info/1822/258262.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-xianrenya",
+        "name": "仙人崖",
+        "coordinates": {
+          "lat": 34.391,
+          "lng": 106.061
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "仙人崖在麦积山石窟东北方向，崖壁寺院、山林与水面形成层次丰富的山地景观。沿开放路线观察建筑如何贴合岩壁，再看林间视野，可按体力选择局部游程，与麦积山石窟之间仍需道路接驳。",
+        "highlights": [
+          "崖壁寺院",
+          "山林步道",
+          "山水视野"
+        ],
+        "travel": "从天水麦积城区乘景区可用交通或正规车辆赴仙人崖，虽同属麦积山大景区但入口不相邻，和麦积山石窟之间预留接驳及候车。",
+        "days": "约半天",
+        "tips": [
+          "崖下与林间台阶潮湿时谨慎通行。",
+          "宗教建筑及石窟按开放范围参观，不走封闭岔路。"
+        ],
+        "sources": [
+          {
+            "label": "麦积山大景区管委会 · 天水旅游攻略",
+            "url": "https://www.tianshui.gov.cn/mjs/info/1483/27022.htm"
+          },
+          {
+            "label": "天水市文旅局 · 国庆游天水",
+            "url": "https://www.tianshui.gov.cn/wlj/info/1822/258262.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-shimen",
+        "name": "石门景区",
+        "coordinates": {
+          "lat": 34.382,
+          "lng": 106.115
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "石门景区以山峰、森林和依山道教建筑组成登高线路，与麦积山石窟的艺术参观体验不同。先确认可走路段再安排上下山，沿途可观察峰脊与植被变化，遇到雨雾时以完成安全下山为优先。",
+        "highlights": [
+          "山峰森林",
+          "道教古建",
+          "登高视野"
+        ],
+        "travel": "从天水麦积区向东南山地赴石门需正规车辆或确认可用的景区接驳，和仙人崖分别定位，山路与登山时间都需单独计入。",
+        "days": "约半天至1天",
+        "tips": [
+          "先查山地景区天气与开放公告，不自行穿越。",
+          "索道与步行的开放情况分别确认，保留返回余量。"
+        ],
+        "sources": [
+          {
+            "label": "麦积山大景区管委会 · 天水旅游攻略",
+            "url": "https://www.tianshui.gov.cn/mjs/info/1483/27022.htm"
+          },
+          {
+            "label": "天水市文旅局 · 国庆游天水",
+            "url": "https://www.tianshui.gov.cn/wlj/info/1822/258262.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-shuilian",
+        "name": "武山水帘洞石窟",
+        "coordinates": {
+          "lat": 34.818,
+          "lng": 104.976
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "水帘洞石窟位于武山县山地，崖面造像、寺院和丹霞环境共同形成历史艺术景观。可从远处看崖壁尺度，再在开放平台观察造像与题记，理解石窟艺术与自然岩体的关系，不进入保护围挡内寻找角度。",
+        "highlights": [
+          "崖面造像",
+          "石窟题记",
+          "丹霞山地"
+        ],
+        "travel": "从天水城区向西赴武山县后还需车辆到水帘洞景区，可查武山铁路或客运再衔接末段，长途往返宜留整日。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "造像和彩绘以文物保护要求为准，禁止触摸。",
+          "县城到景区仍有山地道路，返程车辆提前确认。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-xiangshan",
+        "name": "甘谷大像山",
+        "coordinates": {
+          "lat": 34.722,
+          "lng": 105.321
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "甘谷大像山以山体洞窟中的大佛与山地寺院为参观重点，登阶过程中可以观察佛像、崖壁与县城的空间关系。先了解石窟年代与修缮背景，再按开放路线登临，宗教艺术与山景都适合慢看。",
+        "highlights": [
+          "石窟大佛",
+          "山地寺院",
+          "甘谷城景"
+        ],
+        "travel": "从天水城区向西到甘谷县，可查甘谷站停靠或县域客运再乘正规车辆至大像山，内部登阶另需时间，建议安排完整半日以上。",
+        "days": "约半天至1天",
+        "tips": [
+          "登阶坡度较大，体力不足时缩短路线。",
+          "宗教活动区保持安静，佛像与壁面不可触碰。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "tianshui-dadiwan",
+        "name": "秦安大地湾遗址",
+        "coordinates": {
+          "lat": 34.927,
+          "lng": 105.907
+        },
+        "themes": [
+          "culture"
+        ],
+        "art": "city",
+        "description": "大地湾遗址位于秦安县东北部，史前聚落遗迹与博物馆陈列帮助认识早期居住、制陶和社会生活。先通过展览建立年代概念，再看正式开放的遗址展示，不能把所有考古发掘区都理解为可自由进入的公园。",
+        "highlights": [
+          "史前聚落",
+          "彩陶文化",
+          "考古遗址"
+        ],
+        "travel": "从天水城区到秦安县五营镇大地湾需较长县域公路接驳，县城之后仍有末段车程，建议预约正规车辆并留出整日往返。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "遗址与博物馆实际开放范围分别核对。",
+          "不捡拾地表陶片或进入发掘区，观察以展板和开放设施为界。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 天水十条旅游线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/gs/202404/t20240409_952138.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "leshan",
+    "name": "乐山",
+    "province": "四川",
+    "themes": [
+      "culture",
+      "food",
+      "nature"
+    ],
+    "description": "乐山可先用一天看三江交汇与大佛，再把时间交给市井小吃、苏稽水岸或沙湾文学记忆。峨眉山属于乐山市代管的峨眉山市，适合另留山地游程；犍为、夹江、沐川和峨边景点分处不同方向，不宜全部塞进一次城区周末。",
+    "highlights": [
+      "三江大佛",
+      "峨眉山林寺",
+      "嘉州小吃"
+    ],
+    "seasons": [
+      "3—5月春季",
+      "9—11月秋季"
+    ],
+    "climate": "乐山城区湿润，夏季闷热多雨，冬季常有阴湿体感。峨眉山、黑竹沟与城区海拔和天气差别明显，山上可能雨雾或低温，春秋较适合连续步行，山地行程依开放公告与天气留出弹性。",
+    "travel": "外地航空可经成都双流国际机场或成都天府国际机场，再衔接铁路到乐山站；不将规划机场当成现有航点。乐山站便于进城，峨眉山方向核对峨眉山站或峨眉站，犍为等县域车站到具体景区仍需公路接驳。",
+    "localTransport": "城区公交与正规车辆可连接乐山站、大佛和老城，三江两岸需按桥梁和入口绕行。苏稽、沙湾和夹江分日或分方向组织，峨眉山内部景交与索道另行安排，峨边黑竹沟的山路往返宜留宿。",
+    "days": "建议3天；峨眉山或远郊另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 三江与大佛",
+        "description": "上午乐山大佛，午后老城休息与用餐，傍晚选择开放江岸散步。"
+      },
+      {
+        "title": "第2天 · 苏稽慢游",
+        "description": "到苏稽古镇看水岸街巷并尝跷脚牛肉，返回城区补游，不再跨越多个县域。"
+      },
+      {
+        "title": "第3天 · 峨眉或沙湾",
+        "description": "偏爱山地可赴峨眉山并增加住宿；轻松人文路线可去沙湾郭沫若故居，犍为蒸汽铁路宜另日安排。"
+      }
+    ],
+    "tips": [
+      "大佛登山与游船观看属于不同方式，按当天官方开放情况选择。",
+      "峨眉山山脚到高山区域还有长距离景交，不能按高铁到站时间估算登顶。"
+    ],
+    "coordinates": {
+      "lat": 29.5521,
+      "lng": 103.7656
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "跷脚牛肉",
+        "description": "牛肉和牛杂在鲜汤中烫煮后配蘸料，苏稽一带常见，可按喜好选择部位并搭配主食。"
+      },
+      {
+        "name": "甜皮鸭",
+        "description": "卤制后带甜味外皮的鸭肉适合切块分享，外皮和肉质口感有别，点餐时按人数估量。"
+      },
+      {
+        "name": "钵钵鸡",
+        "description": "将荤素串放入调味汤汁中入味，常见红油和藤椒等风味，按个人口味选择辣度。"
+      }
+    ],
+    "foods": [
+      "跷脚牛肉",
+      "甜皮鸭",
+      "钵钵鸡"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Leshan",
+        "url": "https://en.wikivoyage.org/wiki/Leshan",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "乐山市政府 · 走进乐山",
+        "url": "https://www.leshan.gov.cn/zjls/"
+      },
+      {
+        "label": "乐山市政府 · 大峨眉交旅融合线路",
+        "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "leshan-buddha",
+        "name": "乐山大佛景区",
+        "coordinates": {
+          "lat": 29.544,
+          "lng": 103.7727
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "mountain",
+        "description": "乐山大佛依岷江岸边崖壁开凿，造像、山体和三江汇流的关系值得从不同角度观察。登山参观与水上远观提供不同尺度体验，选择一种也能完整认识主体，不将凌云寺或同景区观景台另拆成景点。",
+        "highlights": [
+          "崖壁大佛",
+          "三江汇流",
+          "凌云山环境"
+        ],
+        "travel": "从乐山站或城区乘公交、正规车辆赴大佛景区指定入口，山地步行与游船上船点分别定位，预约前核对实际开放路线。",
+        "days": "约半天",
+        "tips": [
+          "下行栈道开放受水位天气及管理影响，先查公告。",
+          "游船和登山项目分别确认，勿默认一张预约覆盖。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 乐山大佛景区",
+            "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35049"
+          },
+          {
+            "label": "Wikivoyage · Leshan",
+            "url": "https://en.wikivoyage.org/wiki/Leshan",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-emei",
+        "name": "峨眉山风景名胜区",
+        "coordinates": {
+          "lat": 29.563,
+          "lng": 103.337
+        },
+        "themes": [
+          "nature",
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "峨眉山位于乐山市代管的峨眉山市，寺院、森林和不同海拔山地景观组成完整山岳目的地。可选低山寺院与林间步道，或增加住宿看高山区域，金顶作为山内路线的一部分整体安排，不另凑一景。",
+        "highlights": [
+          "山地森林",
+          "佛教寺院",
+          "不同海拔景观"
+        ],
+        "travel": "从乐山城区乘铁路或公路到峨眉山市、峨眉山站，再接游客中心和园内交通，山脚到高山片区耗时明显，建议住山脚或合规山上住宿。",
+        "days": "建议1—2天",
+        "tips": [
+          "山上雨雾与城区不同，观景不作能见度保证。",
+          "先定低山或高山目标，再核对景交索道与返程时间。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          },
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-moruo",
+        "name": "郭沫若故居",
+        "coordinates": {
+          "lat": 29.4142,
+          "lng": 103.5484
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "郭沫若故居位于沙湾，传统宅院与相关展陈让文学家早年生活有了具体空间。可以从家庭、教育和地方环境三方面读材料，再沿院落看建筑细部，故居及相关纪念内容整体安排，适合留出安静阅读时间。",
+        "highlights": [
+          "沙湾老宅",
+          "文学人物",
+          "早年生活"
+        ],
+        "travel": "从乐山城区向西南到沙湾区郭沫若故居需公路或铁路后末段接驳，核对沙湾馆址，勿与北京同名故居混淆。",
+        "days": "约半天（含接驳）",
+        "tips": [
+          "故居木构门槛较多，注意高差和通行。",
+          "室内展陈及摄影范围以馆方标识为准。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 郭沫若故居",
+            "url": "https://www.leshan.gov.cn/lsswszf/dsyz/da81e1e5edb94f919d8d8f01dde51c13.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-suji",
+        "name": "苏稽古镇",
+        "coordinates": {
+          "lat": 29.5751,
+          "lng": 103.6538
+        },
+        "themes": [
+          "food",
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "苏稽古镇沿河保留街巷和日常商业，适合把水岸散步、院落观察与跷脚牛肉用餐放在一起。热闹餐饮之外，可挑一段公共街道慢走，认识古镇水运与生活空间，居民院落和营业小院需分别尊重接待规则。",
+        "highlights": [
+          "水岸老街",
+          "跷脚牛肉",
+          "院落生活"
+        ],
+        "travel": "从乐山站或城区向西到苏稽镇可查公交或乘正规车辆，下车后步行游览，返程避开餐饮集中时段拥堵并确认上车点。",
+        "days": "约半天",
+        "tips": [
+          "小吃宜少量分食，给正式用餐留空间。",
+          "公共街巷与私宅有别，进小院前确认是否接待。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市中区政府 · 苏稽古镇文旅",
+            "url": "https://www.lsszq.gov.cn/szq/bmdt/2026052516210264367500000.shtml"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-luocheng",
+        "name": "罗城古镇",
+        "coordinates": {
+          "lat": 29.357,
+          "lng": 104.056
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "罗城古镇在犍为县，以船形街道布局和长檐廊空间形成鲜明的场所感。可在公共街道观察茶铺、屋檐与日常交易的关系，坐下休息比急着走完全镇更能体会节奏，拍摄居民前先沟通。",
+        "highlights": [
+          "船形街道",
+          "长檐茶铺",
+          "古镇生活"
+        ],
+        "travel": "从乐山城区向东南赴犍为县罗城镇需县域公路接驳，与犍为县城及嘉阳方向不重合，提前安排往返车辆或核对客运。",
+        "days": "约半天至1天",
+        "tips": [
+          "檐廊中留意居民通行与店家经营，不占桌久拍。",
+          "雨后石板路较滑，穿便于行走的鞋。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-jiayang",
+        "name": "嘉阳·桫椤湖景区",
+        "coordinates": {
+          "lat": 29.208,
+          "lng": 103.826
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "slow"
+        ],
+        "art": "town",
+        "description": "嘉阳·桫椤湖景区在犍为县，以窄轨蒸汽铁路、矿业聚落和湖区植被连接工业记忆与自然环境。小火车与湖区体验根据当期开放选择，芭沟等内部节点整体参观，不把沿线站台分别计为独立景点。",
+        "highlights": [
+          "窄轨铁路",
+          "矿业记忆",
+          "桫椤湖区"
+        ],
+        "travel": "从乐山城区赴犍为县嘉阳景区需公路接驳，先明确火车乘车站与预约项目，火车、游船和镇区步行并非自动衔接，宜留整天。",
+        "days": "约1天",
+        "tips": [
+          "蒸汽火车运行与体验内容以运营方公告为准。",
+          "禁止进入铁路行车区拍照，湖区只走开放设施。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-wenmiao",
+        "name": "犍为文庙",
+        "coordinates": {
+          "lat": 29.2085,
+          "lng": 103.944
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "犍为文庙位于县城，殿堂、院落与石木装饰适合认识地方教育和祭孔传统。先沿中轴看建筑功能，再观察构件与题额，可以把规模有限的参观做得细致，与周边县城用餐或街道散步搭配。",
+        "highlights": [
+          "儒学建筑",
+          "传统院落",
+          "石木装饰"
+        ],
+        "travel": "从乐山城区向南至犍为县城后，再用县城公交或正规车辆到文庙入口，若坐铁路到犍为站仍需较长末段交通。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "殿内摄影和文物保护要求以现场标识为准。",
+          "节庆及活动可能调整院落路线，行前查看开放公告。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-qianfo",
+        "name": "东风堰—千佛岩景区",
+        "coordinates": {
+          "lat": 29.756,
+          "lng": 103.557
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "东风堰—千佛岩景区在夹江青衣江畔，水利工程遗存、崖壁造像和江岸地形形成相互关联的参观内容。可先理解引水与农田的关系，再观察开放区石刻，水利遗产和千佛岩作为同一景区整体游览。",
+        "highlights": [
+          "古堰引水",
+          "崖壁造像",
+          "青衣江岸"
+        ],
+        "travel": "从乐山城区向北到夹江县景区需公路或铁路后末段接驳，正式入口与江岸步道按开放说明选择，避免只导航到河边道路。",
+        "days": "约半天",
+        "tips": [
+          "水边不跨越护栏，不进入运行中的水利设施。",
+          "石刻不可触摸拓印，雨后崖下步道注意防滑。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-heizhugou",
+        "name": "黑竹沟景区",
+        "coordinates": {
+          "lat": 28.833,
+          "lng": 103.026
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "黑竹沟位于峨边彝族自治县，森林、溪流与山地湿地构成清凉而湿润的开放游览环境。游客以正式经营的线路为范围，观察植被与水流变化即可获得完整体验，不把神秘传说当作进入原始林区的理由。",
+        "highlights": [
+          "山地森林",
+          "溪流湿地",
+          "彝乡环境"
+        ],
+        "travel": "从乐山城区向西南经峨边到黑竹沟需较长山地公路接驳，县城到游客入口仍远，建议住峨边或景区周边并预约正规往返交通。",
+        "days": "建议1—2天",
+        "tips": [
+          "只走正式开放游线，禁止自行深入未开放林区。",
+          "山区雨雾和低温变化快，查公告并留返程缓冲。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "leshan-bamboo",
+        "name": "沐川竹海",
+        "coordinates": {
+          "lat": 28.897,
+          "lng": 103.958
+        },
+        "themes": [
+          "nature",
+          "slow",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "沐川竹海以连续竹林、溪谷和山地步道形成绿色景观，适合选择一条清晰的开放路线慢行。留意竹林光线和地形起伏，比追求走完所有节点更适合休闲旅行，林下湿度与城区不同，需安排休息。",
+        "highlights": [
+          "竹林步道",
+          "溪谷景色",
+          "山地绿荫"
+        ],
+        "travel": "从乐山城区向南赴沐川县后还需公路至竹海景区入口，路途和园内步行分开计时，选择正规车辆并提前确认返城交通。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "竹林与溪边路面潮湿，雨天查路线开放。",
+          "不采挖竹笋，不离开游线进入生产或保护林地。"
+        ],
+        "sources": [
+          {
+            "label": "乐山市政府 · 大峨眉交旅融合线路",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337805/6b097a154e6245ba87a9ab912.html"
+          },
+          {
+            "label": "乐山市政府 · 景区名录",
+            "url": "https://www.leshan.gov.cn/lsswszf/zfwj/92337833/0dfccd5523a64c658fa8f0b33.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "zunyi",
+    "name": "遵义",
+    "province": "贵州",
+    "themes": [
+      "culture",
+      "nature",
+      "food"
+    ],
+    "description": "遵义城区可围绕会议旧址读长征历史，近郊再看海龙屯山城与娄山关山势。乌江寨、湄潭茶海、绥阳溶洞提供不同体验；仁怀茅台和赤水丹霞虽然同属遵义市，却是长距离县域旅行，尤其赤水宜独立住宿，不能按市区顺路点安排。",
+    "highlights": [
+      "长征历史",
+      "海龙屯土司遗址",
+      "黔北茶山与丹霞"
+    ],
+    "seasons": [
+      "4—6月春末初夏",
+      "9—11月秋季"
+    ],
+    "climate": "遵义湿润多云，夏季山地相对凉爽但仍有强日照和阵雨，冬季湿冷。赤水低海拔河谷与城区体感不同，山区雨雾会影响路程和景观，春秋适合城市及遗址步行，雨季溶洞与瀑布查开放公告。",
+    "travel": "航空可查遵义新舟机场，去仁怀方向也可核对遵义茅台机场，但两机场不可互换定位。铁路主要查遵义站，部分线路查遵义南站，出站后用公交或正规车辆到城区；赴绥阳、湄潭、仁怀和赤水需继续县域公路接驳。",
+    "localTransport": "城区用公交和短程正规车辆，会议会址周边适合步行。海龙屯与娄山关分别规划往返，湄潭与绥阳按方向选择；赤水距离中心城区很远，建议独立两日，仁怀也不安排成夜游后临时返城。",
+    "days": "建议3天；赤水另留2天，仁怀另留1天",
+    "itinerary": [
+      {
+        "title": "第1天 · 城区历史",
+        "description": "上午遵义会议纪念馆，午后老城街巷与地方用餐，留足展陈阅读时间。"
+      },
+      {
+        "title": "第2天 · 北部遗址",
+        "description": "选择海龙屯或娄山关为重点，体力和接驳允许再增加同方向短停，避免连走两处长阶梯。"
+      },
+      {
+        "title": "第3天 · 乡野择一",
+        "description": "乌江寨、云门囤、湄潭茶海或绥阳溶洞选择一个方向，赤水和仁怀放在增加的行程中。"
+      }
+    ],
+    "tips": [
+      "遵义行政地域较大，赤水、仁怀与新舟机场分处不同方向，住宿随线路调整。",
+      "会址与纪念展陈统一规划，避免为凑点而重复进入同一场馆体系。"
+    ],
+    "coordinates": {
+      "lat": 27.7257,
+      "lng": 106.9272
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "遵义羊肉粉",
+        "description": "米粉配羊肉与汤底，常加入辣椒和香菜等调味，先尝汤再按口味调整更易体会风味。"
+      },
+      {
+        "name": "豆花面",
+        "description": "面条搭配豆花与蘸水，软嫩和筋道口感同时出现，蘸水辣度可以单独控制。"
+      },
+      {
+        "name": "蛋裹辉煌",
+        "description": "薄蛋皮包裹糯米和多种小料，是当地常见街头小吃，馅料组合依店家而异，适合现做现吃。"
+      }
+    ],
+    "foods": [
+      "遵义羊肉粉",
+      "豆花面",
+      "蛋裹辉煌"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Zunyi",
+        "url": "https://en.wikivoyage.org/wiki/Zunyi",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "遵义网 · 遵义文旅周边景区线路",
+        "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+      },
+      {
+        "label": "贵州广播电视台 · 遵义红色旅游线路",
+        "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+      }
+    ],
+    "spots": [
+      {
+        "id": "zunyi-conference",
+        "name": "遵义会议纪念馆",
+        "coordinates": {
+          "lat": 27.686,
+          "lng": 106.921
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "遵义会议纪念馆将会议会址、历史陈列和相关旧址联系起来，适合先读长征的时间线，再观察会址建筑与具体史料。会址和陈列馆作为同一历史参观整体安排，留出阅读与讲解时间，远比匆忙看建筑更有收获。",
+        "highlights": [
+          "会议会址",
+          "长征史料",
+          "历史陈列"
+        ],
+        "travel": "从遵义站或城区乘公交、正规车辆至红花岗区子尹路一带，旧城末段步行，按馆方预约确认会址与陈列开放内容。",
+        "days": "约半天",
+        "tips": [
+          "预约须核对实名信息及入场时段。",
+          "展厅安静阅读，热门旧址通道窄时按现场引导排队。"
+        ],
+        "sources": [
+          {
+            "label": "国家民委 · 遵义会议纪念馆",
+            "url": "https://www.neac.gov.cn/seac/xwzx/202608/1193867.shtml"
+          },
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-hailongtun",
+        "name": "海龙屯",
+        "coordinates": {
+          "lat": 27.855,
+          "lng": 106.832
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "海龙屯在遵义北部山地，以关隘、城墙和土司遗址展示古播州防御体系。先了解杨氏土司与地形关系，再沿开放山路看关门和台地，遗址分布与爬升较多，按体力选择范围即可，不需走遍每座关隘。",
+        "highlights": [
+          "土司城址",
+          "山地关隘",
+          "世界遗产"
+        ],
+        "travel": "从遵义城区向北到汇川区海龙屯游客入口需公路接驳，再按景区交通和山路登临；返城车辆预先安排，不按普通城市公园估时。",
+        "days": "约半天至1天",
+        "tips": [
+          "石阶陡且高差明显，雨后尤其注意脚下。",
+          "遗址墙体不可攀爬，不进入考古或维护围挡。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          },
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-loushan",
+        "name": "娄山关",
+        "coordinates": {
+          "lat": 28.131,
+          "lng": 106.855
+        },
+        "themes": [
+          "culture",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "娄山关以山口地形、战斗遗址与相关陈列展现长征历史，登高时可直观理解关隘的地理位置。可先读展陈再选一段开放山路，将诗词记忆与实际地形对应，演艺属于按当期安排选择的补充内容。",
+        "highlights": [
+          "山口地形",
+          "战斗遗址",
+          "长征陈列"
+        ],
+        "travel": "从遵义城区向北到汇川板桥镇娄山关景区需公路接驳，到游客中心后按景交与步行游线参观，和海龙屯并非同一山路入口。",
+        "days": "约半天至1天",
+        "tips": [
+          "山顶风力与城区不同，准备便于增减的衣物。",
+          "演出与遗址参观的开放和票务分别确认。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          },
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-wujiang",
+        "name": "乌江寨国际旅游度假区",
+        "coordinates": {
+          "lat": 27.438,
+          "lng": 106.892
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "乌江寨在播州区，以山地水岸、聚落建筑和夜间活动组织度假体验。可先沿公共游览路线观察高差和河谷布局，再按兴趣看演艺或手作，建筑场景与运营活动宜分别理解，夜游后住一晚会更从容。",
+        "highlights": [
+          "河谷聚落",
+          "水岸夜景",
+          "文化演艺"
+        ],
+        "travel": "从遵义城区向南到播州区尚嵇镇乌江寨需公路接驳，确认所用入口与停车区；夜游应提前安排住宿或正规返程车辆。",
+        "days": "约半天至1天",
+        "tips": [
+          "夜间演艺可能随天气变化，先核对当日安排。",
+          "山地街巷台阶多，带行李入住时先询问接驳。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          },
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-yunmentun",
+        "name": "云门囤",
+        "coordinates": {
+          "lat": 27.627,
+          "lng": 107.235
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "云门囤以天然石门、河流与两岸山体形成黔北喀斯特景观，适合观察江水如何切穿岩壁。开放步道和水上项目能提供不同视角，按当天运营内容选游，不为追求近水照片走入未经管理的河岸。",
+        "highlights": [
+          "天然石门",
+          "河谷山水",
+          "喀斯特地貌"
+        ],
+        "travel": "从遵义城区向东到新蒲新区三渡镇云门囤需公路接驳，游船及游步道入口按景区说明确认，返城交通与水上项目时段提前安排。",
+        "days": "约半天",
+        "tips": [
+          "水上项目受水情天气影响，先确认是否运营。",
+          "不进入未开放河岸或攀爬岩壁，拍照站在防护设施内。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-teasea",
+        "name": "湄潭中国茶海",
+        "coordinates": {
+          "lat": 27.852,
+          "lng": 107.498
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "中国茶海位于湄潭县，以大面积茶园、起伏山丘与观景设施展示黔北茶乡景观。可从开放平台看茶垄层次，再按接待安排了解制茶和品茶，采摘体验与普通参观分别确认，不把采茶季景色视为全年相同。",
+        "highlights": [
+          "连片茶园",
+          "茶乡山丘",
+          "茶文化"
+        ],
+        "travel": "从遵义城区向东到湄潭县永兴方向中国茶海需县域公路交通，县城之后还有末段车程，可预约正规车辆并留整日往返。",
+        "days": "约半天至1天",
+        "tips": [
+          "采摘只参加获准项目，不自行进入生产茶垄。",
+          "高处观景遮阴少，携带饮水并关注返程时间。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-shuanghe",
+        "name": "绥阳双河洞景区",
+        "coordinates": {
+          "lat": 28.235,
+          "lng": 107.167
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "双河洞景区在绥阳县山地，以地下河谷、溶洞沉积和岩层裂隙形成独特空间。游客选择正式经营的开放洞段即可认识喀斯特环境，地下河谷和地下裂缝等线路整体视作一处目的地，不将洞内节点拆分凑数。",
+        "highlights": [
+          "溶洞沉积",
+          "地下河谷",
+          "喀斯特洞穴"
+        ],
+        "travel": "从遵义城区向东北赴绥阳县双河洞需较长公路接驳，到达后确认所选开放洞段及内部交通，建议整日或住景区周边。",
+        "days": "约1天",
+        "tips": [
+          "只进正式开放洞段，探洞项目另核对接待资质和条件。",
+          "洞内湿滑且温度较低，穿防滑鞋并备薄外套。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          },
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-maotai",
+        "name": "茅台酒镇",
+        "coordinates": {
+          "lat": 27.816,
+          "lng": 106.377
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "茅台酒镇位于仁怀市赤水河边，酿酒产业、历史街巷与长征记忆在这里交织。可沿公共街道和河岸了解酒镇布局，再按预约选择酒文化展示，厂区并非随意可入，饮酒不是体验地方文化的必要环节。",
+        "highlights": [
+          "赤水河岸",
+          "酱酒文化",
+          "历史街巷"
+        ],
+        "travel": "从遵义城区向西到仁怀市茅台镇为较长县域公路线路，可从仁怀接驳，茅台机场也仍需末段车，建议留整日并提前定返程。",
+        "days": "约1天；可住1晚",
+        "tips": [
+          "生产厂区参观须按正式预约，不听信路边揽客承诺。",
+          "品饮项目自愿选择，安排与驾车活动分开。"
+        ],
+        "sources": [
+          {
+            "label": "遵义网 · 遵义文旅周边景区线路",
+            "url": "https://www.zunyiol.cn/index.php?a=show&c=index&catid=10&id=137384&m=content"
+          },
+          {
+            "label": "赤水河谷度假区 · 文旅线路",
+            "url": "https://djq.csdxcn.com/index/xinxifabu/146.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-chishuiwaterfall",
+        "name": "赤水丹霞大瀑布",
+        "coordinates": {
+          "lat": 28.464,
+          "lng": 105.728
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "赤水大瀑布位于遵义所属赤水市，红色岩壁、瀑布和湿润森林形成完整山水景观。可沿开放游线比较远观与近观水流的尺度，景区内观景点整体参观，不与同属赤水但相距较远的其他景区混为一处。",
+        "highlights": [
+          "丹霞瀑布",
+          "湿润森林",
+          "山谷步道"
+        ],
+        "travel": "从遵义中心城区到赤水市需长距离公路交通，抵赤水后仍需赴大瀑布入口，建议以赤水住宿组织两日以上行程，不作为城区一日顺路点。",
+        "days": "约半天；跨城接驳另计",
+        "tips": [
+          "丰水期水雾大，近瀑步道查开放并做好物品防水。",
+          "瀑布水量随季节变化，返程应为景交候车留余量。"
+        ],
+        "sources": [
+          {
+            "label": "贵州广播电视台 · 遵义红色旅游线路",
+            "url": "https://www.gzstv.com/a/026e355e123a4a1a941c118bf7e9d860"
+          },
+          {
+            "label": "赤水河谷度假区 · 文旅线路",
+            "url": "https://djq.csdxcn.com/index/xinxifabu/146.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "zunyi-bingan",
+        "name": "丙安古镇",
+        "coordinates": {
+          "lat": 28.591,
+          "lng": 105.742
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "丙安古镇在赤水河边，以临崖吊脚楼、石板巷道和红色纪念内容形成独立聚落体验。可以先从桥边观察镇体与河岸关系，再慢走公共巷道，居民生活和游客空间并存，不把临河建筑内部都当成开放展馆。",
+        "highlights": [
+          "临河古镇",
+          "吊脚楼",
+          "红色记忆"
+        ],
+        "travel": "从遵义中心城区长途到赤水后，再沿公路到丙安古镇；宜与赤水住宿和丹霞线路组合，古镇桥头下车后主要步行，提前约定返程点。",
+        "days": "约2—3小时；长途另计",
+        "tips": [
+          "雨后石阶与石板路较滑，穿稳妥步行鞋。",
+          "居民住宅先征同意再拍摄或进入，河边不翻越护栏。"
+        ],
+        "sources": [
+          {
+            "label": "赤水丹霞旅游区 · 丙安古镇",
+            "url": "https://www.csdxcn.com/Home/Article/ArticleInfo?aid=97"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "anshun",
+    "name": "安顺",
+    "province": "贵州",
+    "themes": [
+      "nature",
+      "culture",
+      "slow"
+    ],
+    "description": "安顺适合以瀑布、喀斯特洞穴和屯堡聚落组织旅行。黄果树和龙宫分别留出完整游览时段，城区文庙、故居与湖岸可组成轻松一天；平坝屯堡、紫云格凸河和关岭化石群都属安顺，却需按不同县域方向安排接驳。",
+    "highlights": [
+      "黄果树瀑布",
+      "龙宫喀斯特",
+      "屯堡聚落文化"
+    ],
+    "seasons": [
+      "4—6月春末初夏",
+      "9—10月秋季"
+    ],
+    "climate": "安顺湿润多雨，夏季通常较舒适但户外仍需防晒，冬季阴湿偏冷。瀑布水量和洞穴水情随降雨变化，雨季景色与步道开放不能同时保证；春秋适合村寨和城区步行，山地游览准备雨具与薄外套。",
+    "travel": "铁路高铁主要用安顺西站，普速查安顺站，再用公交或正规车辆入城和接驳景区。航空可查安顺黄果树机场实际可售航班，若不适配行程可经贵阳龙洞堡国际机场转高铁；机场名称含黄果树也不等于直接抵达瀑布入口。",
+    "localTransport": "城区文庙、故居和虹山湖可用公交加步行组合。黄果树、龙宫、天龙屯堡、云峰屯堡、紫云格凸河与关岭化石群按方向分日，景区内部观光车、船和步道另留时间，不安排到站后连续赶多个远郊。",
+    "days": "建议3天；紫云或关岭各另加1天",
+    "itinerary": [
+      {
+        "title": "第1天 · 黄果树整日",
+        "description": "按官方预约到黄果树，将大瀑布与同景区各片区整体安排，返程后不再赶夜间长线。"
+      },
+      {
+        "title": "第2天 · 龙宫与城区",
+        "description": "上午龙宫，交通与体力允许时下午回城看王若飞故居或文庙，傍晚虹山湖慢走。"
+      },
+      {
+        "title": "第3天 · 屯堡择线",
+        "description": "天龙屯堡与云峰屯堡按兴趣选择一处为重点，旧州可在同方向交通允许时加入；格凸河另留整日。"
+      }
+    ],
+    "tips": [
+      "黄果树各片区按一个景区整体安排，景交和步道时间不要省略。",
+      "屯堡仍有居民日常生活，地戏与手工体验并非随时提供，先查正式安排。"
+    ],
+    "coordinates": {
+      "lat": 26.2537,
+      "lng": 105.9476
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "裹卷",
+        "description": "薄米皮包入蔬菜等配料后蘸调味汁，口感清爽，馅料和辣度可根据店家供应选择。"
+      },
+      {
+        "name": "破酥包",
+        "description": "包子外皮层次松软，甜咸馅料选择各有不同，适合早餐少量现吃并搭配热饮。"
+      },
+      {
+        "name": "旧州辣子鸡",
+        "description": "鸡肉与辣椒等调料烹制，香味浓郁，是旧州屯堡饮食的代表之一，点单可先询问辣度。"
+      }
+    ],
+    "foods": [
+      "裹卷",
+      "破酥包",
+      "旧州辣子鸡"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Anshun",
+        "url": "https://en.wikivoyage.org/wiki/Anshun",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "安顺市政府 · 旅游产业发展综述",
+        "url": "https://www.anshun.gov.cn/xwzx/asyw/202409/t20240925_85755859.html?isMobile=true"
+      },
+      {
+        "label": "文化和旅游部 · 安顺屯堡之旅",
+        "url": "https://zhuanti.mct.gov.cn/mmyghcyt2023/dcxc/detail/5028.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "anshun-huangguoshu",
+        "name": "黄果树风景名胜区",
+        "coordinates": {
+          "lat": 25.991,
+          "lng": 105.667
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "黄果树景区以瀑布群、河谷与喀斯特地形形成完整游览空间，大瀑布、陡坡塘和天星桥作为同一景区整体选择。不同片区的步行量与候车时间差别明显，可按体力取舍，不必为了走完全部节点压缩休息。",
+        "highlights": [
+          "瀑布群",
+          "喀斯特河谷",
+          "山水步道"
+        ],
+        "travel": "从安顺西站或城区查正规景区交通至黄果树游客中心，抵达后按预约顺序换乘景交，片区之间不能只按步行距离估算。",
+        "days": "约1天",
+        "tips": [
+          "水量和水帘洞等局部开放随水情变化，出发前查公告。",
+          "近瀑水雾使地面湿滑，准备防滑鞋和物品防水袋。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 大明屯堡古风遗韵",
+            "url": "https://zhuanti.mct.gov.cn/xcss2024_xcygj/guizhou/detail/7183.html"
+          },
+          {
+            "label": "Wikivoyage · Anshun",
+            "url": "https://en.wikivoyage.org/wiki/Anshun",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-longgong",
+        "name": "龙宫风景名胜区",
+        "coordinates": {
+          "lat": 26.094,
+          "lng": 105.886
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "龙宫将溶洞、地下水系、山地与田园串成喀斯特游览体验，乘船与步行提供不同观察角度。先了解当前开放洞段再选路线，洞内沉积与水面倒影适合慢看，不把各洞口或码头分作独立目的地。",
+        "highlights": [
+          "地下水系",
+          "溶洞沉积",
+          "山地田园"
+        ],
+        "travel": "从安顺城区向南到龙宫游客入口需公路接驳，船游及步行路线按景区当期开放组织，含内部换乘与排队宜留完整半天。",
+        "days": "约半天至1天",
+        "tips": [
+          "洞内船游受水情影响，先确认运营范围。",
+          "穿防滑鞋，按管理方要求乘船，不触碰洞内沉积物。"
+        ],
+        "sources": [
+          {
+            "label": "贵州省发展改革委 · 2026景区清单",
+            "url": "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/jfcx/zcwj_5642744/202601/P020260121636397885328.pdf"
+          },
+          {
+            "label": "Wikivoyage · Anshun",
+            "url": "https://en.wikivoyage.org/wiki/Anshun",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-tianlong",
+        "name": "天龙屯堡",
+        "coordinates": {
+          "lat": 26.425,
+          "lng": 106.137
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "天龙屯堡在平坝区，以石头民居、街巷与屯堡生活传统展示独特地方文化。可先沿公共街道看建筑，再按正式安排了解地戏或手工，天台山等关联内容作为整片目的地的可选部分，不另外拆分凑景。",
+        "highlights": [
+          "石头民居",
+          "屯堡文化",
+          "地戏传统"
+        ],
+        "travel": "从安顺城区向东北到平坝区天龙镇需公路接驳，可查县域客运后转车或预约正规车辆，古镇与天台山之间还需安排内部交通。",
+        "days": "约半天至1天",
+        "tips": [
+          "地戏表演与民俗体验以当日正式安排为准。",
+          "进入居民院落先征同意，不随意拍摄私人生活。"
+        ],
+        "sources": [
+          {
+            "label": "贵州省发展改革委 · 2026景区清单",
+            "url": "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/jfcx/zcwj_5642744/202601/P020260121636397885328.pdf"
+          },
+          {
+            "label": "文化和旅游部 · 安顺屯堡之旅",
+            "url": "https://zhuanti.mct.gov.cn/mmyghcyt2023/dcxc/detail/5028.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-yunfeng",
+        "name": "云峰屯堡",
+        "coordinates": {
+          "lat": 26.303,
+          "lng": 106.141
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "云峰屯堡由传统村寨群构成，云山屯、本寨等展示石木建筑和明代军屯后裔的生活延续。可选一至两个正式开放村寨细看巷道与宅院，再读博物馆材料，整片屯堡作为一个目的地安排，村寨间需接驳。",
+        "highlights": [
+          "传统村寨群",
+          "石木建筑",
+          "屯堡历史"
+        ],
+        "travel": "从安顺城区向东赴西秀区七眼桥镇云峰屯堡需公路交通，先选游客入口和开放村寨，再确认村寨之间接驳，不按地图直线步行穿村。",
+        "days": "约半天至1天",
+        "tips": [
+          "云山与本寨等片区开放内容和交通分别核对。",
+          "村寨仍有居民，石屋院门未经允许不进入。"
+        ],
+        "sources": [
+          {
+            "label": "贵州省发展改革委 · 2026景区清单",
+            "url": "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/jfcx/zcwj_5642744/202601/P020260121636397885328.pdf"
+          },
+          {
+            "label": "文化和旅游部 · 安顺屯堡之旅",
+            "url": "https://zhuanti.mct.gov.cn/mmyghcyt2023/dcxc/detail/5028.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-getu",
+        "name": "紫云格凸河",
+        "coordinates": {
+          "lat": 25.689,
+          "lng": 106.267
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "格凸河在紫云苗族布依族自治县，以喀斯特峰林、穿洞和河流形成壮阔的山水空间。可按开放游线选择观景和水上体验，洞穴与峭壁保持观赏距离，传统攀岩展示或其他活动不能视作每天必有。",
+        "highlights": [
+          "喀斯特穿洞",
+          "峰林河谷",
+          "水上视角"
+        ],
+        "travel": "从安顺城区向南至紫云县后还需公路赴格凸河景区，距离与山路耗时明显，宜留整日或住紫云，不与黄果树塞在同一天。",
+        "days": "约1天；可住1晚",
+        "tips": [
+          "乘船与洞区开放受天气水情影响，行前核对。",
+          "不自行攀岩或进入未开放洞穴，遵守防护设施边界。"
+        ],
+        "sources": [
+          {
+            "label": "安顺市政府 · 格凸河",
+            "url": "https://www.anshun.gov.cn/zjas/asly/yzas/202401/t20240117_83550334.html?isMobile=true"
+          },
+          {
+            "label": "贵州广播电视台 · 格凸河风景区（来源一码游贵州）",
+            "url": "https://www.gzstv.com/a/63f4d0157ebe4ef4a8f582f4905e4cf5"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-wenmiao",
+        "name": "安顺文庙",
+        "coordinates": {
+          "lat": 26.255,
+          "lng": 105.9225
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "安顺文庙通过传统殿堂、院落与石雕展示黔中地方教育和儒学建筑。近看雕刻的工艺和题额，再退后比较院落轴线，可以在不大的空间里读到细节，和城区街巷散步组合也较从容。",
+        "highlights": [
+          "儒学建筑",
+          "石雕工艺",
+          "古建院落"
+        ],
+        "travel": "从安顺城区乘公交或正规车辆到西秀区中华北路文庙附近后步行，和王若飞故居分别确认入口及开放时间。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "石雕和建筑构件不触摸拓印。",
+          "活动期间局部院落可能调整路线，以馆方指引为准。"
+        ],
+        "sources": [
+          {
+            "label": "贵州省发展改革委 · 2026景区清单",
+            "url": "https://fgw.guizhou.gov.cn/zwgk/xxgkml/zdlyxx/jfcx/zcwj_5642744/202601/P020260121636397885328.pdf"
+          },
+          {
+            "label": "安顺广播电视台 · 文物故事",
+            "url": "https://www.gzastv.cn/ac/b/content_195737.shtml"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-ruofei",
+        "name": "王若飞故居",
+        "coordinates": {
+          "lat": 26.257,
+          "lng": 105.923
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "王若飞故居以传统院落与人物陈列讲述其成长和革命经历，家庭生活空间让历史人物有了可观察的日常背景。可先看生平时间线，再看实物和旧照片，故居与附属陈列作为同一纪念目的地安排。",
+        "highlights": [
+          "人物生平",
+          "传统院落",
+          "历史实物"
+        ],
+        "travel": "从安顺城区乘公交或正规车辆到中华北路王若飞故居，按官方预约页面核对入口与证件，老城末段以步行为主。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "通过故居官方渠道核对开放和预约要求。",
+          "室内摄影遵守展厅标识，不触碰旧物陈设。"
+        ],
+        "sources": [
+          {
+            "label": "王若飞故居 · 官方参观预约",
+            "url": "https://ticket.wangruofei.cn/Index/ticket.html?id=1"
+          },
+          {
+            "label": "安顺广播电视台 · 文物故事",
+            "url": "https://www.gzastv.cn/ac/b/content_195737.shtml"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-jiuzhou",
+        "name": "安顺旧州古镇",
+        "coordinates": {
+          "lat": 26.337,
+          "lng": 106.25
+        },
+        "themes": [
+          "culture",
+          "food",
+          "slow"
+        ],
+        "art": "town",
+        "description": "旧州古镇在西秀区东部，以石板老街、传统民居与屯堡饮食形成缓慢的县镇体验。可挑公共街巷观察院落和商业，再安排一餐辣子鸡，文化活动属于可选内容，不把居民日常生活当成随意进入的展示。",
+        "highlights": [
+          "石板老街",
+          "屯堡民居",
+          "旧州饮食"
+        ],
+        "travel": "从安顺城区向东至西秀区旧州镇需公路接驳，可查县域客运或预约正规车辆，与七眼桥云峰方向组合仍须核算片区间行车。",
+        "days": "约半天至1天",
+        "tips": [
+          "古镇与商业体验开放时间不同，想看特定内容先询问。",
+          "石板路雨后防滑，居民宅院先征同意再进入。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 安顺屯堡之旅",
+            "url": "https://zhuanti.mct.gov.cn/mmyghcyt2023/dcxc/detail/5028.html"
+          },
+          {
+            "label": "安顺市政府 · 旅游产业发展综述",
+            "url": "https://www.anshun.gov.cn/xwzx/asyw/202409/t20240925_85755859.html?isMobile=true"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-fossil",
+        "name": "关岭化石群国家地质公园",
+        "coordinates": {
+          "lat": 25.911,
+          "lng": 105.443
+        },
+        "themes": [
+          "nature",
+          "culture"
+        ],
+        "art": "mountain",
+        "description": "关岭化石群国家地质公园以海生爬行动物和海百合等化石展示古代海洋环境。博物馆与正式开放遗迹展示应结合阅读，先理解生物与地层关系，再看化石保存细节，不能在周边岩层自行采挖纪念。",
+        "highlights": [
+          "古生物化石",
+          "海洋环境",
+          "地层展示"
+        ],
+        "travel": "从安顺城区向西到关岭县新铺一带需较长公路接驳，关岭站或县城下车后仍需末段车辆，建议留整日并事先确认开放。",
+        "days": "约1天（含往返）",
+        "tips": [
+          "化石只按展区观察，禁止采挖或购买来源不明标本。",
+          "馆区与户外展示开放范围分别核对。"
+        ],
+        "sources": [
+          {
+            "label": "贵州文旅在线 · 安顺精品线路",
+            "url": "https://www.gzwlzx.net/p/7919.html"
+          },
+          {
+            "label": "安顺广播电视台 · 文物故事",
+            "url": "https://www.gzastv.cn/ac/b/content_195737.shtml"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "anshun-hongshan",
+        "name": "虹山湖公园",
+        "coordinates": {
+          "lat": 26.264,
+          "lng": 105.932
+        },
+        "themes": [
+          "nature",
+          "urban",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "虹山湖位于安顺城区，以水面、开放步道与周边城市生活形成轻松散步空间。可以选一段岸线看湖景与居民休闲，不必环湖走完，傍晚与城区用餐组合较从容，灯光或文艺活动依当期公告选择。",
+        "highlights": [
+          "城市湖岸",
+          "开放步道",
+          "日常休闲"
+        ],
+        "travel": "从安顺城区乘公交或正规车辆到虹山湖公园开放岸线，公园有不同出入口，先定散步起终点，返程不默认回到原下车点。",
+        "days": "约1—2小时",
+        "tips": [
+          "仅在开放岸线活动，不下水或跨越护栏。",
+          "夜间走有照明的公共步道，活动时间不要套用旧攻略。"
+        ],
+        "sources": [
+          {
+            "label": "安顺市政府 · 旅游产业发展综述",
+            "url": "https://www.anshun.gov.cn/xwzx/asyw/202409/t20240925_85755859.html?isMobile=true"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "liuzhou",
+    "name": "柳州",
+    "province": "广西",
+    "themes": [
+      "food",
+      "urban",
+      "culture"
+    ],
+    "description": "柳州可把柳江两岸的山水城景与工业、考古和文学记忆放在一起看。龙潭与马鞍山适合户外，柳侯和博物馆提供安静的参观时段；鹿寨中渡与三江程阳八寨属于柳州市县域，却离主城区很远，应独立安排一天或增加住宿。",
+    "highlights": [
+      "柳江城市山水",
+      "工业与柳侯文化",
+      "三江侗寨"
+    ],
+    "seasons": [
+      "3—4月春季",
+      "10—11月秋季"
+    ],
+    "climate": "柳州夏季长且湿热，春末至夏季降雨较多，冬季通常较温和但阴雨时体感湿冷。秋季适合江岸与公园步行，春季观花情况随年度气候变化；马鞍山和县域山地路线需查降雨后的开放情况。",
+    "travel": "航空可查柳州白莲机场，出机场后以可用公交、机场接驳或正规车辆入城。铁路主要用柳州站，城市公交和正规车辆可连接各区；去程阳八寨可查三江南站停靠后再转县域交通，不能把柳州站到达等同于已接近三江。",
+    "localTransport": "城区用公交、步行与正规车辆组合，跨柳江需按桥梁位置安排行走。龙潭、马鞍山、馆区和窑埠分片串联，程阳在三江北部远郊，鹿寨中渡也需县域公路接驳，各自预留整日。",
+    "days": "建议3天；三江侗寨另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 文化与柳江",
+        "description": "上午柳侯公园，下午柳州博物馆或工业博物馆择一，傍晚在开放柳江岸线散步。"
+      },
+      {
+        "title": "第2天 · 山水城区",
+        "description": "上午龙潭公园，午后休息，体力充裕时登马鞍山；晚间窑埠古镇用餐。"
+      },
+      {
+        "title": "第3天 · 考古或县域",
+        "description": "轻松路线安排白莲洞与文庙；若去中渡或程阳，选一个县域方向，并为程阳增加住宿。"
+      }
+    ],
+    "tips": [
+      "马鞍山电梯与步行开放规则可能变化，先查公园公告再决定登山方式。",
+      "三江与融水属于长距离县域旅行，本组只收三江程阳，不将村寨安排成城区顺路点。"
+    ],
+    "coordinates": {
+      "lat": 24.3264,
+      "lng": 109.4281
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "柳州螺蛳粉",
+        "description": "米粉配螺蛳风味汤底、酸笋和腐竹等，辣度与酸笋气味较鲜明，可按口味调整配料。"
+      },
+      {
+        "name": "螺蛳鸭脚煲",
+        "description": "鸭脚、螺蛳和配菜同煲，汤味浓郁且适合多人分享，点单时核对实际食材与分量。"
+      },
+      {
+        "name": "马打滚",
+        "description": "糯米制成的小点裹上豆粉，软糯带香甜，适合少量现吃，和咸辣米粉形成不同口味。"
+      }
+    ],
+    "foods": [
+      "柳州螺蛳粉",
+      "螺蛳鸭脚煲",
+      "马打滚"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Liuzhou",
+        "url": "https://en.wikivoyage.org/wiki/Liuzhou",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "中国南方航空 · 柳州目的地",
+        "url": "https://www.csair.com/au/zh/tourguide/before_ready/destination/domestic/liuzhou/"
+      }
+    ],
+    "spots": [
+      {
+        "id": "liuzhou-longtan",
+        "name": "龙潭公园",
+        "coordinates": {
+          "lat": 24.275,
+          "lng": 109.416
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "龙潭公园以喀斯特山体、湖面与植被形成柳州城南的开阔绿地，步道连接不同视角与民族文化展示。可选一段湖岸慢走再观察山形倒影，不需将所有拍摄点走遍，普通散步也能认识城市山水环境。",
+        "highlights": [
+          "喀斯特山水",
+          "湖岸步道",
+          "民族文化展示"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到龙潭公园正式入口，园内距离较长，先定散步范围，回程为步行回门和候车留时间。",
+        "days": "约半天",
+        "tips": [
+          "水面与草坡按公园标识活动，不跨围栏取景。",
+          "雨后路面湿滑，夏季避开正午长时间暴晒。"
+        ],
+        "sources": [
+          {
+            "label": "中国南方航空 · 柳州目的地",
+            "url": "https://www.csair.com/au/zh/tourguide/before_ready/destination/domestic/liuzhou/"
+          },
+          {
+            "label": "柳州文明网 · 城区旅游线路",
+            "url": "https://gxlz.wenming.cn/xzt/2024jieri/3yue3/202404/t20240410_8494167.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-liuhou",
+        "name": "柳侯公园（含柳侯祠）",
+        "coordinates": {
+          "lat": 24.3203,
+          "lng": 109.4185
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "柳侯公园以柳宗元纪念空间、园林水面和城区绿地形成兼具文化与休闲的线路。可先读柳侯祠相关陈列，再沿园路慢步观察纪念建筑与城市生活的关系，祠与园作为同一目的地整体安排。",
+        "highlights": [
+          "柳宗元纪念",
+          "园林水面",
+          "城区绿荫"
+        ],
+        "travel": "从柳州城区乘公交或步行到文惠路柳侯公园，柳侯祠开放与公园公共空间分别核对，附近老城街巷可用步行衔接。",
+        "days": "约2—3小时",
+        "tips": [
+          "祠内展陈摄影与开放日以管理方公告为准。",
+          "公园晨练和日常休闲人多，拍照不占主通道。"
+        ],
+        "sources": [
+          {
+            "label": "Wikivoyage · Liuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Liuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          },
+          {
+            "label": "中国南方航空 · 柳州目的地",
+            "url": "https://www.csair.com/au/zh/tourguide/before_ready/destination/domestic/liuzhou/"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-maanshan",
+        "name": "马鞍山公园",
+        "coordinates": {
+          "lat": 24.301,
+          "lng": 109.4105
+        },
+        "themes": [
+          "nature",
+          "urban",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "马鞍山适合从高处观察柳江弯曲与城区建筑关系，山体台阶和观景平台使登高成为主要体验。可以按体力选择步行或实际开放的辅助设施，夜景与白天视野各有特点，山顶观景不依赖固定灯光时刻。",
+        "highlights": [
+          "柳江城景",
+          "城市山体",
+          "登高平台"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到马鞍山公园正式山脚入口，步行登阶或电梯以当期开放安排为准，预留上下山与排队时间。",
+        "days": "约2—3小时",
+        "tips": [
+          "电梯可能检修或限流，勿把运行写成必然保障。",
+          "山顶平台人多时遵守限流，不倚越护栏。"
+        ],
+        "sources": [
+          {
+            "label": "柳州文明网 · 城区旅游线路",
+            "url": "https://gxlz.wenming.cn/xzt/2024jieri/3yue3/202404/t20240410_8494167.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-industry",
+        "name": "柳州工业博物馆",
+        "coordinates": {
+          "lat": 24.3277,
+          "lng": 109.4378
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "柳州工业博物馆通过机器、工业产品和城市环境治理陈列说明柳州的工业发展。可先追踪一种产品或工艺的变化，再看工业与城市生活的关系，室外大型设备和室内专题展作为同一博物馆整体参观。",
+        "highlights": [
+          "工业设备",
+          "城市工业史",
+          "生态治理"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到文昌桥附近工业博物馆，入口和预约按馆方公告核对，可与柳江东岸街区组合游览。",
+        "days": "约2—3小时",
+        "tips": [
+          "大型设备只在允许区域观赏，不攀爬操作。",
+          "临展与常设展开放范围不同，行前查官方展讯。"
+        ],
+        "sources": [
+          {
+            "label": "柳州工业博物馆 · 官方网站",
+            "url": "https://lzlch.com.cn/home/index/index.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-museum",
+        "name": "柳州博物馆",
+        "coordinates": {
+          "lat": 24.3255,
+          "lng": 109.4164
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "柳州博物馆将地方历史、民族文化与专题收藏放在同一参观空间，适合补充山水和小吃之外的城市认识。可从柳州历史陈列建立时间线，再按兴趣看一项临展，留出安静阅读与馆内休息时间。",
+        "highlights": [
+          "柳州历史",
+          "民族文化",
+          "专题收藏"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到人民广场附近柳州博物馆，核对主馆开放日和入口，勿与柳州工业博物馆混为同一馆址。",
+        "days": "约2—3小时",
+        "tips": [
+          "官方展讯确认想看的临展是否仍在展期。",
+          "展品拍摄、行李和饮食按馆内标识执行。"
+        ],
+        "sources": [
+          {
+            "label": "柳州博物馆 · 官方资讯",
+            "url": "https://www.lzbwg.org.cn/home/index/dynamic.html"
+          },
+          {
+            "label": "Wikivoyage · Liuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Liuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-yaobu",
+        "name": "窑埠古镇",
+        "coordinates": {
+          "lat": 24.311,
+          "lng": 109.4388
+        },
+        "themes": [
+          "culture",
+          "food",
+          "slow"
+        ],
+        "art": "town",
+        "description": "窑埠古镇在柳江东岸，以滨水商业街、民族风格建筑和城市夜间休闲形成游览体验。可沿公共江岸观察码头记忆与现代城市更新，再选择餐饮或小店停留，历史遗存与新建商业建筑宜分别理解。",
+        "highlights": [
+          "滨水街区",
+          "城市更新",
+          "民族风格建筑"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到窑埠古镇指定下客点，东岸商业街范围较大，先确认所去片区，晚间返程按实际拥堵留缓冲。",
+        "days": "约2—3小时",
+        "tips": [
+          "服饰旅拍属于商业服务，消费前明确项目与交付内容。",
+          "公共江岸和商家内部开放不同，不随意进入店铺后场。"
+        ],
+        "sources": [
+          {
+            "label": "广西新闻网 · 窑埠古镇旅游休闲街区",
+            "url": "https://gxxwfb.gxnews.com.cn/article.v2019.php?id=21392851"
+          },
+          {
+            "label": "柳州文明网 · 城区旅游线路",
+            "url": "https://gxlz.wenming.cn/xzt/2024jieri/3yue3/202404/t20240410_8494167.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-wenmiao",
+        "name": "柳州文庙",
+        "coordinates": {
+          "lat": 24.3058,
+          "lng": 109.4284
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "柳州文庙在柳江东岸，以当代恢复的传统建筑空间展示儒学、礼乐与地方文化。可沿中轴看殿堂、院落和江岸位置的关系，再读展陈理解历史沿革，不把建筑外观直接等同于全部原址原物。",
+        "highlights": [
+          "儒学空间",
+          "传统建筑",
+          "柳江东岸"
+        ],
+        "travel": "从柳州城区乘公交或正规车辆到夫子路柳州文庙，再按开放入口步行入内，可与窑埠方向组合但两处之间仍需道路接驳。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "先核对展馆与院落开放时段。",
+          "礼仪活动期间按工作人员引导参观，殿内保持安静。"
+        ],
+        "sources": [
+          {
+            "label": "柳州文明网 · 城区旅游线路",
+            "url": "https://gxlz.wenming.cn/xzt/2024jieri/3yue3/202404/t20240410_8494167.html"
+          },
+          {
+            "label": "Wikivoyage · Liuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Liuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-bailian",
+        "name": "白莲洞洞穴科学博物馆",
+        "coordinates": {
+          "lat": 24.204,
+          "lng": 109.411
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "mountain",
+        "description": "白莲洞以古人类遗址与洞穴科学展示连接考古和自然环境，可先从展陈理解史前生活，再按开放路线观察洞穴与遗址。馆区、遗址和洞内不同部分开放方式可能有别，整体作为一处目的地参观。",
+        "highlights": [
+          "古人类遗址",
+          "洞穴环境",
+          "史前生活"
+        ],
+        "travel": "从柳州城区向南到柳石路白莲洞馆区需公交或正规车辆，行前核对洞内与展馆开放范围，末段步行和返程候车另留时间。",
+        "days": "约半天",
+        "tips": [
+          "洞内路面湿滑，按正式开放路线行走。",
+          "不捡拾石块或进入遗址保护区，展品与沉积物不触碰。"
+        ],
+        "sources": [
+          {
+            "label": "唐山市文旅局 · 广西考古遗址公园名录",
+            "url": "https://whgdhlyj.tangshan.gov.cn/lvyouju/hangyedongtai/20220920/1462491.html"
+          },
+          {
+            "label": "Wikivoyage · Liuzhou",
+            "url": "https://en.wikivoyage.org/wiki/Liuzhou",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-chengyang",
+        "name": "程阳八寨",
+        "coordinates": {
+          "lat": 25.901,
+          "lng": 109.637
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "程阳八寨位于三江侗族自治县林溪镇，以风雨桥、鼓楼和吊脚楼形成连片侗寨景观。可选择正式开放村寨慢走，观察木构营造与社区生活，程阳永济桥作为景区内重点整体参观，不另拆为独立景点。",
+        "highlights": [
+          "侗寨木构",
+          "风雨桥鼓楼",
+          "社区生活"
+        ],
+        "travel": "从柳州城区到三江属于远途县域旅行，可查三江南站列车后转县城交通再赴程阳八寨，车站到景区仍需公路接驳，建议住1晚。",
+        "days": "建议1—2天",
+        "tips": [
+          "进入居民房屋和拍摄村民先征同意。",
+          "歌舞和百家宴按正式活动安排，不默认每天固定举行。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 程阳八寨",
+            "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35025"
+          },
+          {
+            "label": "三江文旅信息服务网 · 程阳八寨交通",
+            "url": "https://sanjiangtourism.cn/nd.jsp?id=29"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "liuzhou-zhongdu",
+        "name": "鹿寨中渡古镇",
+        "coordinates": {
+          "lat": 24.654,
+          "lng": 109.724
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "town",
+        "description": "中渡古镇在鹿寨县西北，以河岸、古街和地方商埠历史形成安静的聚落参观线索。可沿开放公共街道认识建筑与水运关系，再在河岸停留，普通居民生活仍在继续，适合安排较宽松的半日。",
+        "highlights": [
+          "古街河岸",
+          "商埠记忆",
+          "地方民居"
+        ],
+        "travel": "从柳州城区赴鹿寨县中渡镇需县域公路交通，鹿寨县城或铁路站下车后仍需末段接驳，宜预约正规往返车辆并留整日。",
+        "days": "约半天；含往返留1天",
+        "tips": [
+          "河岸只走开放道路，雨季查水情和管理公告。",
+          "传统民居不随意进入，拍照时尊重居民经营与通行。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 桂中民族文化游",
+            "url": "https://zhuanti.mct.gov.cn/guangxi_detail/358.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "yichang",
+    "name": "宜昌",
+    "province": "湖北",
+    "themes": [
+      "nature",
+      "culture",
+      "outdoor"
+    ],
+    "description": "宜昌是进入三峡与清江山水的起点，工程、峡江民俗和巴楚文化可以分日体验。三峡大坝、三峡人家各有独立入口和游览方式，清江画廊在长阳，屈原故里在秭归，当阳与五峰又是另外方向；城区博物馆适合补上地域历史背景。",
+    "highlights": [
+      "三峡水利工程",
+      "峡江与清江风光",
+      "巴楚文化"
+    ],
+    "seasons": [
+      "3—5月春季",
+      "9—11月秋季"
+    ],
+    "climate": "宜昌夏季炎热湿润，降雨会改变江水、瀑布和山地步道状态；冬季阴冷，峡谷与江岸有风。春秋适合户外游览，五峰等山区比城区更凉，航行和景区交通依水情天气调整，不能把城区天气当作所有县域的情况。",
+    "travel": "航空主要到宜昌三峡机场，再查机场接驳或使用正规车辆。铁路可查宜昌东站和已于2025年12月投入运营的宜昌北站，两站分处不同方向；宜昌北位于夷陵龙泉方向，订票后核对住宿与景区接驳，勿沿用只有东站的旧攻略。",
+    "localTransport": "城区公交和BRT可用来衔接馆区、商圈与车站，三峡景区多需专线或正规公路交通。大坝、三峡人家、秭归、长阳、当阳、五峰按方向分日，船游须核对码头和返程方式，不默认船只回到任意城区码头。",
+    "days": "建议3天；长阳、当阳或五峰另加1—2天",
+    "itinerary": [
+      {
+        "title": "第1天 · 城区与峡口",
+        "description": "上午宜昌博物馆建立地域背景，下午三游洞或开放江岸择一，留意两处之间的接驳距离。"
+      },
+      {
+        "title": "第2天 · 三峡工程",
+        "description": "三峡大坝留出完整半日以上，若选择秭归屈原故里需安排跨江接驳，时间不足则独立一天。"
+      },
+      {
+        "title": "第3天 · 山水择一",
+        "description": "三峡人家、三峡大瀑布或长阳清江画廊选择一处整日，五峰柴埠溪和当阳玉泉山另行安排。"
+      }
+    ],
+    "tips": [
+      "三峡大坝、三峡人家与两坝一峡游船属于不同产品，核对真实入口、码头和所含内容。",
+      "长阳、秭归、当阳、五峰均属宜昌，彼此并非近邻，不跨入恩施或重庆景点凑数。"
+    ],
+    "coordinates": {
+      "lat": 30.6919,
+      "lng": 111.2865
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "萝卜饺子",
+        "description": "以萝卜丝等作馅、面糊包裹油炸成形，和水煮饺子口感不同，适合少量现炸现吃。"
+      },
+      {
+        "name": "凉虾",
+        "description": "米制小粒配糖水的甜饮小吃，形似小虾但并非海鲜，可在游览休息时尝试当地风味。"
+      },
+      {
+        "name": "炕土豆",
+        "description": "小土豆煎炕后加辣椒等调味，外层与内部口感不同，点单可询问调味并按人数分食。"
+      }
+    ],
+    "foods": [
+      "萝卜饺子",
+      "凉虾",
+      "炕土豆"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Yichang",
+        "url": "https://en.wikivoyage.org/wiki/Yichang",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "宜昌市文旅局 · A级旅游景区名录（2026年8月）",
+        "url": "https://whly.yichang.gov.cn/content-61371-964057-1.html"
+      },
+      {
+        "label": "宜昌市政府 · 宜昌北站运营",
+        "url": "https://www.yichang.gov.cn/html/zhengwuyizhantong/zhengwuzixun/jinriyaowen/2026/0729/1078473.html"
+      }
+    ],
+    "spots": [
+      {
+        "id": "yichang-dam",
+        "name": "三峡大坝旅游区",
+        "coordinates": {
+          "lat": 30.827,
+          "lng": 111.004
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "city",
+        "description": "三峡大坝旅游区从正式开放观景点展示大坝、船闸与库区的空间关系，适合把工程规模和峡江地形结合观察。各平台和园内节点作为同一目的地整体安排，按管理方规定乘坐景交，不把开放参观等同于进入生产设施。",
+        "highlights": [
+          "水利工程",
+          "坝区视野",
+          "船闸环境"
+        ],
+        "travel": "从宜昌城区向西到夷陵区三斗坪坝区游客入口需公路接驳，按官方预约与入区指引换乘景交，证件和车辆通行要求行前核对。",
+        "days": "约半天至1天",
+        "tips": [
+          "只在开放参观区域活动，不进入运行设施和限制区域。",
+          "景交候车、安检和观景台之间的时间计入行程。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 三峡大坝与屈原故里",
+            "url": "https://www.yichang.gov.cn/content-32045-1001487-1.html"
+          },
+          {
+            "label": "宜昌市政府 · 5A景区",
+            "url": "https://www.yichang.gov.cn/list-56663-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-renjia",
+        "name": "三峡人家风景区",
+        "coordinates": {
+          "lat": 30.789,
+          "lng": 111.148
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "三峡人家在西陵峡江岸，将山水、溪谷和峡江民俗展示组织成综合游览路线。可先看长江与山体关系，再沿正式开放步道进入溪谷，表演与文化展示按当天安排选择，内部各节点作为同一景区整体体验。",
+        "highlights": [
+          "西陵峡江景",
+          "溪谷步道",
+          "峡江民俗"
+        ],
+        "travel": "从宜昌城区向西到夷陵区三峡人家游客接待点，按所选交通方式接公路或景区渡船，出发前核对码头、入口和返程集合点。",
+        "days": "约1天",
+        "tips": [
+          "渡船及江岸路线受天气水情影响，先查公告。",
+          "山地台阶和溪边路面较多，穿防滑步行鞋。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 5A景区",
+            "url": "https://www.yichang.gov.cn/list-56663-1.html"
+          },
+          {
+            "label": "宜昌市文旅局 · A级旅游景区名录（2026年8月）",
+            "url": "https://whly.yichang.gov.cn/content-61371-964057-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-qingjiang",
+        "name": "清江画廊",
+        "coordinates": {
+          "lat": 30.447,
+          "lng": 111.046
+        },
+        "themes": [
+          "nature",
+          "slow"
+        ],
+        "art": "mountain",
+        "description": "清江画廊位于长阳土家族自治县，以库湾、山峰和水上观景形成舒缓的山水体验。可在船上比较两岸地形，再选择实际开放的上岸游览内容，航线和停靠点属于同一景区产品，按当日运营安排取舍。",
+        "highlights": [
+          "清江水景",
+          "两岸峰峦",
+          "土家文化"
+        ],
+        "travel": "从宜昌城区向南到长阳县清江画廊游客码头需公路接驳，先核对所购航线、上船码头和回航安排，不能只定位长阳县城。",
+        "days": "约1天",
+        "tips": [
+          "航线与上岸点随运营水情调整，行前确认所含内容。",
+          "乘船按管理方要求就座和使用防护设施，不伸越栏杆。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 5A景区",
+            "url": "https://www.yichang.gov.cn/list-56663-1.html"
+          },
+          {
+            "label": "宜昌市文旅局 · A级旅游景区名录（2026年8月）",
+            "url": "https://whly.yichang.gov.cn/content-61371-964057-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-waterfall",
+        "name": "三峡大瀑布",
+        "coordinates": {
+          "lat": 30.99,
+          "lng": 111.214
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "三峡大瀑布在夷陵区山谷中，以溪流、层叠瀑布和植被构成步行观景线。可先沿谷地看水流变化，再到开放平台观察主瀑，穿瀑等体验按水情与个人意愿选择，不把水量或开放状态当作全年固定。",
+        "highlights": [
+          "峡谷溪流",
+          "主瀑观景",
+          "山地植被"
+        ],
+        "travel": "从宜昌城区向北到夷陵区黄花镇三峡大瀑布入口需公路接驳，景区内仍有步行和可能的交通换乘，建议留完整半天以上。",
+        "days": "约半天至1天",
+        "tips": [
+          "穿瀑体验开放与否先查公告，防水装备按实际需要准备。",
+          "溪谷道路湿滑，不离开游线靠近急流。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 三峡大瀑布",
+            "url": "https://www.yichang.gov.cn/content-56663-1004049-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-quyuan",
+        "name": "屈原故里文化旅游区",
+        "coordinates": {
+          "lat": 30.824,
+          "lng": 110.982
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "屈原故里文化旅游区在秭归凤凰山，将屈原纪念、峡江迁建文物和库区视野放在同一空间中。先读屈原祠与地方文化的展陈，再看文物迁建与三峡工程的联系，和大坝虽相望却有独立入口及游程。",
+        "highlights": [
+          "屈原纪念",
+          "峡江文物",
+          "库区视野"
+        ],
+        "travel": "从宜昌城区向西至秭归县茅坪凤凰山景区需较长公路接驳，与大坝隔江相望但仍要按道路过江，勿按直线距离估算步行到达。",
+        "days": "约半天至1天",
+        "tips": [
+          "纪念建筑的历史原址与迁建位置分开理解。",
+          "与大坝联游先核对跨江交通和各自入园时段。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 三峡大坝与屈原故里",
+            "url": "https://www.yichang.gov.cn/content-32045-1001487-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-sanyou",
+        "name": "三游洞",
+        "coordinates": {
+          "lat": 30.763,
+          "lng": 111.278
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "三游洞位于西陵峡口崖壁，洞穴、摩崖石刻和下牢溪景观把文学记忆与自然地形联系起来。可先看白居易、苏轼等相关叙事，再观察石刻和峡口视野，开放山路有高差，按体力选择范围。",
+        "highlights": [
+          "摩崖石刻",
+          "文学记忆",
+          "西陵峡口"
+        ],
+        "travel": "从宜昌城区向西北到南津关路三游洞景区可查公交后步行或乘正规车辆，入口到洞区有山地道路，预留上下台阶和返城时间。",
+        "days": "约2—3小时",
+        "tips": [
+          "石刻不可触摸拓印，不越过崖边护栏取景。",
+          "雨后洞区与石阶易滑，先看路线开放提示。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 三游洞",
+            "url": "https://www.yichang.gov.cn/content-56664-1017898-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-chexi",
+        "name": "车溪民俗旅游区",
+        "coordinates": {
+          "lat": 30.608,
+          "lng": 111.018
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "town",
+        "description": "车溪位于点军区土城乡，以传统作坊、民俗展示和山谷自然环境组织游览。可以从农耕工具与水车认识地方生活方式，再按当期安排选择歌舞或体验项目，不把景区内各博物馆和谷地节点拆成多个景点。",
+        "highlights": [
+          "传统作坊",
+          "农耕民俗",
+          "山谷环境"
+        ],
+        "travel": "从宜昌城区跨江向西南到点军区土城乡车溪需公路接驳，查当期正规专线或预约车辆，夜间活动与白天参观的接驳分别确认。",
+        "days": "约半天至1天",
+        "tips": [
+          "演艺与传统工艺演示并非随时举行，先查当日安排。",
+          "生产展示设备只在指导下体验，不自行操作水车机械。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市政府 · 车溪民俗旅游区",
+            "url": "https://www.yichang.gov.cn/content-56664-1004053-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-yuquan",
+        "name": "当阳玉泉山景区",
+        "coordinates": {
+          "lat": 30.788,
+          "lng": 111.706
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "mountain",
+        "description": "玉泉山景区位于当阳市，以玉泉寺、古建筑和山林环境形成独立的人文线路。可先看寺院布局与相关历史，再沿正式开放道路走一段，铁塔和殿堂属于同一景区整体参观，保持宗教场所应有的安静。",
+        "highlights": [
+          "玉泉寺",
+          "古建铁塔",
+          "山林环境"
+        ],
+        "travel": "从宜昌城区向东到当阳市后仍需公路到玉泉山景区，可查当阳或当阳西站实际停靠后接正规车辆，建议安排整日往返。",
+        "days": "约半天；长途交通另计",
+        "tips": [
+          "宗教活动区摄影及进入范围按现场标识。",
+          "文物塔与建筑构件不攀爬触摸，林间只走开放路段。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市文旅局 · A级旅游景区名录（2026年8月）",
+            "url": "https://whly.yichang.gov.cn/content-61371-964057-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-chaibuxi",
+        "name": "柴埠溪大峡谷",
+        "coordinates": {
+          "lat": 30.1,
+          "lng": 111.021
+        },
+        "themes": [
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "柴埠溪大峡谷在五峰土家族自治县，以峰林、崖壁与山地观景步道展示武陵山地景色。可选一个开放片区慢走，比较近处岩柱与远处谷地层次，山地游程和索道选择按体力及当期运营调整。",
+        "highlights": [
+          "峡谷峰林",
+          "崖壁地貌",
+          "山地步道"
+        ],
+        "travel": "从宜昌城区向南到五峰渔洋关一带后再接景区山路，车程较长且不同片区入口有别，宜留整日或在五峰住宿再游。",
+        "days": "建议1—2天",
+        "tips": [
+          "索道与步道开放分别核对，雨雾影响视野时调整计划。",
+          "不离开防护步道靠近崖缘，为下山返程留余量。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌市文旅局 · A级旅游景区名录（2026年8月）",
+            "url": "https://whly.yichang.gov.cn/content-61371-964057-1.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "yichang-museum",
+        "name": "宜昌博物馆",
+        "coordinates": {
+          "lat": 30.675,
+          "lng": 111.365
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "宜昌博物馆从史前考古、巴楚文化和近代开埠等内容解释峡江城市的形成，地质与民俗展陈也能补充山水游览背景。可先选通史陈列建立线索，再看一项专题，馆内不同展厅作为同一目的地整体参观。",
+        "highlights": [
+          "巴楚历史",
+          "峡江民俗",
+          "自然地质"
+        ],
+        "travel": "从宜昌城区或宜昌东站乘公交、正规车辆至伍家岗区求索路1号馆址，官方渠道核对开放和入馆规则，和老城区旧馆址区分。",
+        "days": "约半天",
+        "tips": [
+          "展陈更换可能影响特定藏品展出，先查馆方展讯。",
+          "展厅摄影按标识，随身饮食和行李按馆方规定。"
+        ],
+        "sources": [
+          {
+            "label": "宜昌博物馆 · 官方网站",
+            "url": "https://www.ycbwg.com/"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "xiangyang",
+    "name": "襄阳",
+    "province": "湖北",
+    "themes": [
+      "culture",
+      "food",
+      "slow"
+    ],
+    "description": "襄阳的汉江把古城与樊城相连，城墙、会馆与米芾书法记忆适合慢步串联。古隆中、习家池和鹿门山让三国与诗文有了山水背景，唐城则是影视与演艺体验；南漳水镜庄和春秋寨位于县域，需专门安排往返。",
+    "highlights": [
+      "汉江古城",
+      "三国人文",
+      "诗文书法传统"
+    ],
+    "seasons": [
+      "3—5月春季",
+      "9—11月秋季"
+    ],
+    "climate": "襄阳夏季炎热湿润，冬季寒冷，春秋更适合古城步行和近郊山地游。汉江岸边有风，南漳山地雨后湿滑，春季花景与秋季色彩随年景变化，户外行程带雨具并留出天气调整空间。",
+    "travel": "航空可查襄阳刘集机场，再用机场接驳或正规车辆到市区。高铁主要查东津新区襄阳东站，普速和部分线路查樊城区襄阳站；两站相距较远，住宿和景点接驳应按到达站安排，赴南漳可查南漳站后转县域交通。",
+    "localTransport": "城区公交与正规车辆连接汉江两岸，古城内适合步行，跨江按实际桥梁路线规划。古隆中在城西，博物馆和唐城在城南，鹿门山在东南，南漳水镜庄与春秋寨另留县域公路时间，不把各条线串成无休息一天。",
+    "days": "建议3天；南漳县域另加1天",
+    "itinerary": [
+      {
+        "title": "第1天 · 汉江两岸",
+        "description": "上午襄阳古城和城墙开放段，下午过江看米公祠，傍晚古城用餐。"
+      },
+      {
+        "title": "第2天 · 隆中与南郊择一",
+        "description": "古隆中留出半天以上，下午按体力看黄家湾或休息；若夜游唐城，当日减少长线项目。"
+      },
+      {
+        "title": "第3天 · 博物与诗文",
+        "description": "上午博物馆新馆，下午习家池，鹿门山可替换其中一处；南漳水镜庄或春秋寨放到增加的一天。"
+      }
+    ],
+    "tips": [
+      "唐城是当代影视与演艺景区，参观重点与古城文物建筑不同，按兴趣分配时间。",
+      "襄阳博物馆新馆在城南，勿沿用北街昭明台旧馆址导航；预约及入馆规则行前核对。"
+    ],
+    "coordinates": {
+      "lat": 32.009,
+      "lng": 112.1224
+    },
+    "tier": "comfort",
+    "art": "city",
+    "verifiedAt": "2026-10-27",
+    "foodGuide": [
+      {
+        "name": "襄阳牛肉面",
+        "description": "牛肉或牛杂配碱水面和香辣汤底，是常见早餐选择，可按口味说明辣度并适量添加调料。"
+      },
+      {
+        "name": "襄阳大头菜",
+        "description": "腌制芥菜根形成咸香脆韧口感，可作佐餐小菜，购买时看清包装和储存食用说明。"
+      },
+      {
+        "name": "宜城盘鳝",
+        "description": "以鳝鱼和调味料烹制的地方菜风味浓郁，适合多人用餐时分享，点单先询问分量与辣度。"
+      }
+    ],
+    "foods": [
+      "襄阳牛肉面",
+      "襄阳大头菜",
+      "宜城盘鳝"
+    ],
+    "sources": [
+      {
+        "label": "Wikivoyage · Xiangyang",
+        "url": "https://en.wikivoyage.org/wiki/Xiangyang",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Wikivoyage contributors"
+      },
+      {
+        "label": "湖北省委外事办 · 襄阳概况",
+        "url": "https://www.fohb.gov.cn/info/2022-08/20220810155800_190.html"
+      },
+      {
+        "label": "文化和旅游部 · 襄阳2026精品线路",
+        "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+      }
+    ],
+    "spots": [
+      {
+        "id": "xiangyang-longzhong",
+        "name": "古隆中",
+        "coordinates": {
+          "lat": 31.989,
+          "lng": 112.025
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "古隆中以诸葛亮相关纪念建筑、山林和三国叙事构成完整游览空间。沿开放道路看祠宇与园林的组织，再读历史材料和后世纪念的差别，草庐、牌坊等内部节点整体安排，不另算多个目的地。",
+        "highlights": [
+          "三国叙事",
+          "纪念祠宇",
+          "山林环境"
+        ],
+        "travel": "从襄阳市区向西到古隆中游客入口可查公交或乘正规车辆，预约时核对正式入口与景区交通，内部步行和上下坡时间另计。",
+        "days": "约半天",
+        "tips": [
+          "历史遗迹、后世纪念与复建内容分开阅读。",
+          "景交和登高路线按体力选择，勿仅按入口到达估时。"
+        ],
+        "sources": [
+          {
+            "label": "湖北省委外事办 · 古隆中景区",
+            "url": "https://www.fohb.gov.cn/info/2022-09/20220925112300_775.html"
+          },
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-oldcity",
+        "name": "襄阳古城",
+        "coordinates": {
+          "lat": 32.0107,
+          "lng": 112.1408
+        },
+        "themes": [
+          "culture",
+          "urban",
+          "slow"
+        ],
+        "art": "town",
+        "description": "襄阳古城以城墙、汉江与街巷构成可步行认识的历史空间，北街、夫人城和昭明台周边作为同一古城路线整体安排。可以先看城市与江防关系，再慢走街道观察居民与商业活动，登城开放以当期管理为准。",
+        "highlights": [
+          "古城墙",
+          "汉江城防",
+          "传统街巷"
+        ],
+        "travel": "从襄阳站或襄阳东站乘公交、正规车辆到襄城古城开放入口，老城内主要步行，登城点与下城出口先核对再安排行走。",
+        "days": "约半天",
+        "tips": [
+          "只在开放城墙段活动，不翻越垛口或围栏。",
+          "古城街巷仍有居民通行，摄影和停留不堵门。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "湖北省委外事办 · 襄阳概况",
+            "url": "https://www.fohb.gov.cn/info/2022-08/20220810155800_190.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-tangcity",
+        "name": "唐城影视基地",
+        "coordinates": {
+          "lat": 31.974,
+          "lng": 112.151
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "唐城以唐代建筑意象、影视场景和演艺活动构成当代主题景区，可从街市、宫殿与水面观察场景营造。选择几项当期演出与慢走相结合更从容，景区内门楼和桥梁作为整体路线，不拆作独立景点。",
+        "highlights": [
+          "影视场景",
+          "唐风建筑",
+          "主题演艺"
+        ],
+        "travel": "从襄阳市区向南到襄城区唐城景区可查公交或乘正规车辆，日游夜游分别核对票务与入口，夜演后返程提前安排。",
+        "days": "约半天至1天",
+        "tips": [
+          "演艺日程随天气与运营调整，行前看官方公告。",
+          "夜游散场人多，为返程叫车或候车留缓冲。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "Wikivoyage · Xiangyang",
+            "url": "https://en.wikivoyage.org/wiki/Xiangyang",
+            "license": "CC BY-SA 4.0",
+            "attribution": "Wikivoyage contributors"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-migong",
+        "name": "米公祠",
+        "coordinates": {
+          "lat": 32.024,
+          "lng": 112.149
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "米公祠在樊城汉江边，围绕米芾的书法、鉴藏和历代纪念展开，碑刻与院落适合慢看。可先选几件书迹比较笔画与章法，再观察祠堂空间，把书法传统与汉江商业城区的历史放在一起理解。",
+        "highlights": [
+          "米芾书法",
+          "碑刻院落",
+          "汉江文化"
+        ],
+        "travel": "从襄阳市区乘公交或正规车辆到樊城区沿江路米公祠，和襄阳古城隔江，步行跨江需按开放桥梁另留时间。",
+        "days": "约1.5—2小时",
+        "tips": [
+          "碑刻与书迹只观赏，不触摸拓印。",
+          "临江道路注意车辆和居民通行，入口按现场标识。"
+        ],
+        "sources": [
+          {
+            "label": "湖北省委外事办 · 襄阳概况",
+            "url": "https://www.fohb.gov.cn/info/2022-08/20220810155800_190.html"
+          },
+          {
+            "label": "长江网 · 襄阳市文旅局推荐线路",
+            "url": "https://news.cjn.cn/hbpd_19912/xy_19928/202301/t4422831.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-museum",
+        "name": "襄阳市博物馆（新馆）",
+        "coordinates": {
+          "lat": 31.978,
+          "lng": 112.139
+        },
+        "themes": [
+          "culture",
+          "urban"
+        ],
+        "art": "city",
+        "description": "襄阳博物馆新馆在岘山东侧，通史陈列将史前生活、巴楚交汇和历代地方历史串联起来。可先看一条年代线索，再选青铜器或地方专题深入阅读，馆内不同展厅作为同一目的地安排，预留半天较舒适。",
+        "highlights": [
+          "襄阳通史",
+          "地方文物",
+          "岘山新馆"
+        ],
+        "travel": "从襄阳市区乘公交或正规车辆到襄城区胜利街博物馆新馆，导航确认岘山东侧馆址，勿去昭明台旧馆，入馆规则以馆方当期公告为准。",
+        "days": "约半天",
+        "tips": [
+          "新馆地址以官方当前导航和公告核对。",
+          "特定藏品未必长期展出，想看某展先查馆方展讯。"
+        ],
+        "sources": [
+          {
+            "label": "湖北日报 · 襄阳博物馆新馆",
+            "url": "https://xy.cnhubei.com/content/2024-05/16/content_17899556.html"
+          },
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-xijiachi",
+        "name": "习家池",
+        "coordinates": {
+          "lat": 31.953,
+          "lng": 112.132
+        },
+        "themes": [
+          "culture",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "习家池在襄阳南郊，把古代园林记忆、池水和山麓环境联系起来，现存建筑与历史遗址需配合展陈分辨。可沿开放道路看池与庭院的关系，再读习氏和汉晋人物材料，适合比热门景区更缓慢的停留。",
+        "highlights": [
+          "古园林记忆",
+          "池水庭院",
+          "汉晋文化"
+        ],
+        "travel": "从襄阳市区向南到岘山南麓习家池需公交或正规车辆，和博物馆、唐城同属城南但距离仍明显，片区之间安排道路接驳。",
+        "days": "约2小时",
+        "tips": [
+          "园林水边不跨越护栏，雨后石路防滑。",
+          "历史原貌与后期恢复内容分开理解，按开放范围游览。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "湖北省文旅厅 · 文物保护单位名录",
+            "url": "https://wlt.hubei.gov.cn/bsfw/bmcxfw/wwbhdwml/202306/t20230625_4721281.shtml"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-lumen",
+        "name": "鹿门山景区",
+        "coordinates": {
+          "lat": 31.949,
+          "lng": 112.297
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "鹿门山在襄州东南，孟浩然等诗人记忆、鹿门寺与山林步道形成兼具文学和户外的线路。先了解诗文中的隐居传统，再按体力走一段开放山路，寺院与山内纪念节点作为同一景区整体参观。",
+        "highlights": [
+          "孟浩然诗文",
+          "鹿门寺",
+          "山林步道"
+        ],
+        "travel": "从襄阳城区向东南到襄州区鹿门山景区需公路接驳，可查可用公交组合或预约正规车辆，山内步行和回城时间另留余量。",
+        "days": "约半天至1天",
+        "tips": [
+          "寺院礼佛区保持安静，拍摄按现场要求。",
+          "雨后林间道路湿滑，不走未开放登山捷径。"
+        ],
+        "sources": [
+          {
+            "label": "湖北省委外事办 · 襄阳概况",
+            "url": "https://www.fohb.gov.cn/info/2022-08/20220810155800_190.html"
+          },
+          {
+            "label": "襄阳日报 · 六条精品线路",
+            "url": "https://xyrb.hj.cn/pc/con/202601/05/c158770.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-shuijing",
+        "name": "南漳水镜庄",
+        "coordinates": {
+          "lat": 31.766,
+          "lng": 111.838
+        },
+        "themes": [
+          "culture",
+          "nature"
+        ],
+        "art": "mountain",
+        "description": "水镜庄位于南漳县城附近，以司马徽相关历史叙事、祠堂和山水环境组织参观。可把三国人物故事与地形结合阅读，再沿开放步道观察山壁与庭院，现存纪念设施和历史事件背景应分开理解。",
+        "highlights": [
+          "司马徽故事",
+          "三国文化",
+          "山水庭院"
+        ],
+        "travel": "从襄阳城区向西南到南漳县后还需县城交通至水镜庄，可查南漳站停靠再接正规车辆，跨县往返宜留整日。",
+        "days": "约半天；跨县交通另计",
+        "tips": [
+          "三国文学与史料叙述有差别，结合展签阅读。",
+          "山壁与临水区域按防护路线走，不越栏拍照。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "长江网 · 襄阳市文旅局推荐线路",
+            "url": "https://news.cjn.cn/hbpd_19912/xy_19928/202301/t4422831.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-chunqiuzhai",
+        "name": "南漳春秋寨",
+        "coordinates": {
+          "lat": 31.468,
+          "lng": 111.727
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "outdoor"
+        ],
+        "art": "mountain",
+        "description": "春秋寨在南漳县南部山地，以山脊寨墙、石屋遗存和峡谷环境形成独立的古寨体验。沿正式开放游线观察古寨如何利用地形防御，再按体力选择登高，索道与水上活动属于可选内容，不决定参观是否完整。",
+        "highlights": [
+          "山脊古寨",
+          "石屋遗存",
+          "峡谷地形"
+        ],
+        "travel": "从襄阳城区向西南赴南漳县东巩镇春秋寨需较长公路接驳，南漳县城后仍有山路，建议整日或县域住宿，返程车辆提前约定。",
+        "days": "约1天；可住1晚",
+        "tips": [
+          "山脊遗址石路不平，穿防滑鞋并注意高差。",
+          "索道游船运营与步道开放分别核对，不压缩返程时间。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "襄阳日报 · 六条精品线路",
+            "url": "https://xyrb.hj.cn/pc/con/202601/05/c158770.html"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      },
+      {
+        "id": "xiangyang-huangjiawan",
+        "name": "黄家湾风景区",
+        "coordinates": {
+          "lat": 31.974,
+          "lng": 112.066
+        },
+        "themes": [
+          "culture",
+          "nature",
+          "slow"
+        ],
+        "art": "garden",
+        "description": "黄家湾在襄阳西南近郊，将黄氏人物记忆、山水园林与休闲游览放在同一空间。可先看正式文化展示，再沿湖岸或林间开放道路慢走，项目选择按当期经营情况，不把主题传说当成全部可考史实。",
+        "highlights": [
+          "地方人物文化",
+          "湖岸园林",
+          "近郊休闲"
+        ],
+        "travel": "从襄阳城区向西南到襄城区黄家湾路景区可查公交或乘正规车辆，与古隆中方向接近但入口不相邻，联游仍需安排道路交通。",
+        "days": "约半天",
+        "tips": [
+          "文化陈列与休闲项目开放时间分别确认。",
+          "湖岸只走防护道路，不进入未开放山坡和水边。"
+        ],
+        "sources": [
+          {
+            "label": "文化和旅游部 · 襄阳2026精品线路",
+            "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/hb_7730/202601/t20260113_964100.htm"
+          },
+          {
+            "label": "长江网 · 襄阳市文旅局推荐线路",
+            "url": "https://news.cjn.cn/hbpd_19912/xy_19928/202301/t4422831.htm"
+          }
+        ],
+        "verifiedAt": "2026-10-27"
+      }
+    ]
+  }
+]

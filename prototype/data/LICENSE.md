@@ -1,6 +1,6 @@
 # Travel guide data license and provenance
 
-The travel guide text in `hot-cities-a.json`, `hot-cities-b.json`, and `hot-cities-c.json` is distributed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
+The travel guide text in `hot-cities-a.json`, `hot-cities-b.json`, `hot-cities-c.json`, `hot-cities-d.json`, `hot-cities-e.json`, and `hot-cities-f.json` is distributed under **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.
 
 License: https://creativecommons.org/licenses/by-sa/4.0/
 

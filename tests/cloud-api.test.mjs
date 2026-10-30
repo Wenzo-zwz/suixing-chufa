@@ -9,7 +9,7 @@ import { gunzipSync } from 'node:zlib';
 import { RoomStore } from '../prototype/domain.mjs';
 import { DESTINATIONS } from '../prototype/catalog.mjs';
 import legacyCatalog from './fixtures/catalog-original-180.json' with { type: 'json' };
-import { decodeRoomRecord } from '../server/room-record-codec.mjs';
+import { decodeRoomRecord, encodeRoomRecord } from '../server/room-record-codec.mjs';
 
 const ORIGIN = 'https://travel.example';
 const PAGES = 'https://wenzo-zwz.github.io';
@@ -402,20 +402,21 @@ function enforceD1RowLimit(db) {
   `);
 }
 
-test('national 600-spot rooms retain all draw history below the D1 row limit', async t => {
+test('expanded national spot rooms retain all draw history below the D1 row limit', async t => {
   const db = fixture(t);
   enforceD1RowLimit(db);
   const { store, room } = historicalRoom(DESTINATIONS, 26, { pending: true });
-  assert.equal(room.candidates.length, 600);
+  const spotCount=DESTINATIONS.filter(item=>item.kind==='spot').length;
+  assert.equal(room.candidates.length, spotCount);
   for (const client of [alice, bob]) store.ready(room.inviteCode, { clientId: client.id, version: room.version });
   const before = store.exportRecord(room.inviteCode);
-  db.sqlite.prepare('INSERT INTO travel_rooms VALUES (?, 1, ?, ?)').run(room.inviteCode, JSON.stringify(before), Date.now());
+  db.sqlite.prepare('INSERT INTO travel_rooms VALUES (?, 1, ?, ?)').run(room.inviteCode, encodeRoomRecord(before), Date.now());
   const path = `/api/rooms/${room.inviteCode}`;
   const drawn = await api(db, path + '/draw', { method: 'POST', body: { version: room.version } });
   assert.equal(drawn.status, 200, 'the 27th draw must fit the real D1 row limit');
   assert.equal(drawn.body.history.length, 27);
   assert.deepEqual(drawn.body.history.slice(0, 26), before.room.history);
-  assert.ok(drawn.body.history.every(item => item.candidateNames.length === 600));
+  assert.ok(drawn.body.history.every(item => item.candidateNames.length === spotCount));
   assert.deepEqual((await api(db, path + '/draw', { method: 'POST', client: bob, body: { version: room.version } })).body, drawn.body);
   const row = db.sqlite.prepare('SELECT revision, record FROM travel_rooms WHERE code = ?').get(room.inviteCode);
   assert.ok(Buffer.byteLength(row.record) < 1950000);
@@ -437,7 +438,7 @@ test('legacy 180-entry hundred-round rooms migrate only after member authorizati
   assert.equal(db.sqlite.prepare('SELECT record FROM travel_rooms WHERE code = ?').get(room.inviteCode).record, before);
   const migrated = await api(db, path);
   assert.equal(migrated.status, 200, 'catalog expansion must not make legacy reads exceed D1 limits');
-  assert.equal(migrated.body.candidates.length, 600);
+  assert.equal(migrated.body.candidates.length, DESTINATIONS.filter(item=>item.kind==='spot').length);
   assert.deepEqual(migrated.body.history, room.history);
   const row = db.sqlite.prepare('SELECT revision, record FROM travel_rooms WHERE code = ?').get(room.inviteCode);
   assert.ok(Buffer.byteLength(row.record) < 1950000);

@@ -1,6 +1,9 @@
 import citiesA from './data/hot-cities-a.json' with { type: 'json' };
 import citiesB from './data/hot-cities-b.json' with { type: 'json' };
 import citiesC from './data/hot-cities-c.json' with { type: 'json' };
+import citiesD from './data/hot-cities-d.json' with { type: 'json' };
+import citiesE from './data/hot-cities-e.json' with { type: 'json' };
+import citiesF from './data/hot-cities-f.json' with { type: 'json' };
 
 export const THEMES = [
   { id: 'nature', label: '山海自然' },
@@ -16,7 +19,7 @@ export const PRESETS = [
   { id: 'enjoy', title: '这次想好好享受', subtitle: '住得舒服，吃得讲究，享受一点浪漫', tags: ['品质度假', '自在停留'], kind: 'city', tier: 'premium' }
 ];
 
-const cityGuides = [...citiesA, ...citiesB, ...citiesC];
+const cityGuides = [...citiesA, ...citiesB, ...citiesC, ...citiesD, ...citiesE, ...citiesF];
 const uniqueSources = sources => [...new Map(sources.map(source => [source.url, source])).values()];
 function destination(guide, parent = guide) {
   const kind = guide === parent ? 'city' : 'spot';

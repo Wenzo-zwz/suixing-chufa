@@ -1,15 +1,19 @@
 import test from 'node:test';
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
 import { DESTINATIONS, ORIGINS } from '../prototype/catalog.mjs';
 import { candidatePool } from '../prototype/domain.mjs';
 import { RoomStore } from '../prototype/domain.mjs';
 import baseline from './fixtures/catalog-original-180.json' with {type:'json'};
+import previous from './fixtures/catalog-previous-660.json' with {type:'json'};
+import { encodeRoomRecord } from '../server/room-record-codec.mjs';
 const cities = DESTINATIONS.filter(item => item.kind === 'city');
 
-test('expanded coverage has at least 60 cities and ten independent places per city', () => {
-  assert.ok(cities.length >= 60);
+test('expanded coverage has at least 90 cities and ten independent places per city', () => {
+  assert.ok(cities.length >= 90);
   assert.equal(new Set(cities.map(city=>city.name.trim().normalize('NFKC'))).size,cities.length);
-  assert.ok(DESTINATIONS.filter(item=>item.kind==='spot').length >= 600);
+  assert.ok(DESTINATIONS.filter(item=>item.kind==='spot').length >= 900);
+  for(const id of ['chaozhou','shantou','jieyang','shanwei','huizhou','jiangmen','foshan','zhongshan','zhanjiang','meizhou','weihai','rizhao','zibo','jining','zhangzhou','putian','wenzhou','huzhou','jinhua','jiaxing','kaifeng','anyang','zhangye','tianshui','leshan','zunyi','anshun','liuzhou','yichang','xiangyang']) assert.ok(cities.some(city=>city.id===id),id);
   assert.equal(new Set(DESTINATIONS.map(item => item.id)).size, DESTINATIONS.length);
   for (const city of cities) {
     const spots = DESTINATIONS.filter(item => item.kind === 'spot' && item.cityId === city.id);
@@ -23,7 +27,7 @@ test('expanded coverage has at least 60 cities and ten independent places per ci
 test('published places contain traceable facts and never invented demonstration prices', () => {
   for (const item of DESTINATIONS) {
     assert.equal(item.localBudget, null, item.name);
-    assert.ok(['2026-10-21','2026-10-23'].includes(item.verifiedAt), item.name);
+    assert.ok(['2026-10-21','2026-10-23','2026-10-27','2026-10-31'].includes(item.verifiedAt), item.name);
     assert.ok(item.description.length >= 40, item.name+' description');
     assert.ok(item.travel.length >= 25, item.name+' transport');
     assert.ok(item.sources.length > 0, item.name+' sources');
@@ -43,14 +47,21 @@ test('expanded cities reach all 31 mainland provincial regions', () => {
   assert.deepEqual([...new Set(cities.map(city=>city.province))].sort(),expected.sort());
 });
 
-test('all 180 previously published records retain their identities and original check dates', () => {
+test('all 660 previously published records retain their facts and original check dates', () => {
   for (const original of baseline) {
     const current=DESTINATIONS.find(item=>item.id===original.id);
     assert.ok(current,original.id);
     assert.equal(current.cityId,original.cityId,original.id);
     assert.equal(current.verifiedAt,original.verifiedAt,original.id);
   }
-  for (const current of DESTINATIONS.filter(item=>!baseline.some(old=>old.id===item.id))) assert.equal(current.verifiedAt,'2026-10-23',current.name);
+  for (const original of previous) {
+    const current=DESTINATIONS.find(item=>item.id===original.id);
+    assert.ok(current,original.id);
+    assert.equal(createHash('sha256').update(JSON.stringify(current)).digest('hex'),original.sha256,original.id+' facts stay unchanged');
+  }
+  for (const current of DESTINATIONS.filter(item=>!previous.some(old=>old.id===item.id))) {
+    assert.equal(current.verifiedAt,current.cityId==='meizhou'?'2026-10-31':'2026-10-27',current.name);
+  }
 });
 
 test('national spot rooms fit D1 row storage with room membership and a completed round', () => {
@@ -60,7 +71,7 @@ test('national spot rooms fit D1 row storage with room membership and a complete
   store.ready(room.inviteCode,{clientId:'catalog-size-a',version:room.version});
   store.ready(room.inviteCode,{clientId:'catalog-size-b',version:room.version});
   room=store.draw(room.inviteCode,{clientId:'catalog-size-a',version:room.version});
-  const bytes=Buffer.byteLength(JSON.stringify(store.exportRecord(room.inviteCode)));
+  const bytes=Buffer.byteLength(encodeRoomRecord(store.exportRecord(room.inviteCode)));
   assert.ok(bytes < 1_950_000,`serialized room is ${bytes} bytes`);
 });
 

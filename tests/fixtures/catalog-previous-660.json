@@ -1,0 +1,4622 @@
+[
+  {
+    "id": "changsha",
+    "kind": "city",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6babe7db57361caf8b8dbe2e843bbf926f050b3de9961fbb5fe1404fffe34a7b"
+  },
+  {
+    "id": "beijing",
+    "kind": "city",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b04ab94bc1613177ddd3e707622e3e84164bb59da0d1af13f5803e86e0b7c290"
+  },
+  {
+    "id": "hangzhou",
+    "kind": "city",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4457569ba00e67e93874b503116b436e4dea396fc63419759192fb19405c9cd2"
+  },
+  {
+    "id": "chengdu",
+    "kind": "city",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-21",
+    "sha256": "2b6c70f6028ee99dc68822636df5b1e33b03f7f295bbf50675ff58dd54872664"
+  },
+  {
+    "id": "qingdao",
+    "kind": "city",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9e35dfa54babe5ba342af372a5cf1e9e9fe52638c69f9a66cda4a09cf76dd5d4"
+  },
+  {
+    "id": "xiamen",
+    "kind": "city",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5b3b66bb8f7100c8c9bbf3be696cf6c3eab9f58ae1096fd9f668593ab673f228"
+  },
+  {
+    "id": "sanya",
+    "kind": "city",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a9360457539919e44e1936aa9883b4161e8d49ff061807d3eb4dd81f8d3cea94"
+  },
+  {
+    "id": "dali",
+    "kind": "city",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a9788baed9d5308b19ee6322387b392f47ca6361be64b727bb6d91b16b7f22ae"
+  },
+  {
+    "id": "lijiang",
+    "kind": "city",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "02905bb6cb14e3ff73ef40552a9e899e7305154fc870ddd4f31269933541da49"
+  },
+  {
+    "id": "suzhou",
+    "kind": "city",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4f0cd57c44d7de90036e49c9a2ed51bb4c9663679f88ca83e012434ca7329695"
+  },
+  {
+    "id": "zhuhai",
+    "kind": "city",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "da9f39501f7c6b6be15b63791fd6c7255e4c2b22681792b8ba7b6a47531fb170"
+  },
+  {
+    "id": "shanghai",
+    "kind": "city",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f45174906a2217cf7baeb08de5d1510835056c31e73d2ebe5dfc721228e34e85"
+  },
+  {
+    "id": "shijiazhuang",
+    "kind": "city",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d89047d14b7c529e9bade2989c596a80445a431666f535781252b1295f245c6d"
+  },
+  {
+    "id": "qinhuangdao",
+    "kind": "city",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2b43ab1d6c64b7d7d534a1cf8d0846d4eb8c425d27a102e53d78984cc1f4b577"
+  },
+  {
+    "id": "chengde",
+    "kind": "city",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2373f8a1f31939a7b4c944d39c6392e843c56ae5c5924834fa11b32229d0e532"
+  },
+  {
+    "id": "datong",
+    "kind": "city",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ed63f53e47d19f5705446698dcb8af8259c2c51aad08f5122c6be24087a3ee30"
+  },
+  {
+    "id": "hohhot",
+    "kind": "city",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "19bc79fdc257f3da4bc3e832038e5746599a579de90f3da4b2bc56c08816da28"
+  },
+  {
+    "id": "changchun",
+    "kind": "city",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "74daf141766548e4c6ebaa702366727610b0d426e85b3b2f9df860b9fc67c336"
+  },
+  {
+    "id": "quanzhou",
+    "kind": "city",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "daf79abe237c60de89b015c70b61b6c732fbbff1a4e9dda2f6a4fda4406036b1"
+  },
+  {
+    "id": "jingdezhen",
+    "kind": "city",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e6ceffff3af210e11aee91e0832fb5c2d6712c802b6910b40862d599ea6b881f"
+  },
+  {
+    "id": "nanjing",
+    "kind": "city",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b2be579ca8bc1834b8e464c93566f5dcdf0252295117062a02d4339990211f48"
+  },
+  {
+    "id": "wuhan",
+    "kind": "city",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e3f278749be33d8208a7b07e2767d98428dade476dcb1fba5ea19c350220a220"
+  },
+  {
+    "id": "xian",
+    "kind": "city",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "59e22aa883cf3020155d4e80cf93278865ea02d4e722fb540073d8682c3d763f"
+  },
+  {
+    "id": "chongqing",
+    "kind": "city",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bbd65ae418a4355911619647d0d8abfcc4dc7eb3d367754f254bd3fb210d8ec4"
+  },
+  {
+    "id": "guilin",
+    "kind": "city",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "c7ee0ebede3843571279f894352c38d9f8f90d5869f3c97fb7185329b1664a82"
+  },
+  {
+    "id": "guangzhou",
+    "kind": "city",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "165fa8a15442e36adab36da45722a6d1657f6986f3772e4e182602233213a5ae"
+  },
+  {
+    "id": "fuzhou",
+    "kind": "city",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "be159ff9e6929e7e6b20764843ee1db8939a3a31753fe537db715466cae0197f"
+  },
+  {
+    "id": "kunming",
+    "kind": "city",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5a45d04c099ab2c364e11f28c2ea47cfaf002480f925348f163396bf60bcb5d6"
+  },
+  {
+    "id": "guiyang",
+    "kind": "city",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f1750faad4905c5750db281e35430de77838a3ec72001ca8425513cd49ce1c63"
+  },
+  {
+    "id": "huangshan",
+    "kind": "city",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "01dc1f260a9dd44a7d5cf7527814bacd66a54697a5cf8b1db92901db10e182c8"
+  },
+  {
+    "id": "nanchang",
+    "kind": "city",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6229a886cdae3fc5ed3b59bcf6144845c1009d4d1d607e2a359d53415bd5e0a3"
+  },
+  {
+    "id": "zhengzhou",
+    "kind": "city",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "38b6ecb620b45b03d5ec690e5534c88da226eeff356e9aec307d17796275386c"
+  },
+  {
+    "id": "jiujiang",
+    "kind": "city",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "38f68cdb50a25cf2cad5233b6605c99134ba0b44bb4454d72925bae382523928"
+  },
+  {
+    "id": "ganzhou",
+    "kind": "city",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "11268622dc155b2f1ca3c5175ce9ead3299f915478d90f6a700fc2fccccecf19"
+  },
+  {
+    "id": "taian",
+    "kind": "city",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "dcddef446555653359e5ce0c23169d47301457a111fc0f43b34c412eb062c5bd"
+  },
+  {
+    "id": "yantai",
+    "kind": "city",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4e8503ab5594fc1678a347f274c3265da3cdbbb09027d6675eb99391020d7054"
+  },
+  {
+    "id": "yangzhou",
+    "kind": "city",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b7181d4e2fbd7be8394ce9682faf4e752f71b984bd0f3e81fca2a415b6b35d87"
+  },
+  {
+    "id": "wuxi",
+    "kind": "city",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "66a6eafb5ce53c014a01cca287ba968b09dba47731d238c261a5cd095f70a5fc"
+  },
+  {
+    "id": "ningbo",
+    "kind": "city",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3263a5cddd862ebf9ab4e6cf2f1b528b5156a009fec59c340692f8f97c887a1c"
+  },
+  {
+    "id": "shaoxing",
+    "kind": "city",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "59350bf14e2e6d65d2ab62c20efc5323b34c8911ef4c896c1243c32c5236ccb3"
+  },
+  {
+    "id": "taiyuan",
+    "kind": "city",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5b7a7e799f5cb15c86a11470fb2d9b1cc05c14f76152420b3d192f097f2763f2"
+  },
+  {
+    "id": "shenyang",
+    "kind": "city",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bcd6c6684673b85b651de44d8434a8e84b2eb41c8ff63a470692794f8044f9cd"
+  },
+  {
+    "id": "harbin",
+    "kind": "city",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "c716b70583e329ef05f236c1f3fbfd65af3ab04dc0569fae5b4c52d6982e7108"
+  },
+  {
+    "id": "lanzhou",
+    "kind": "city",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "da009ee24e6241bc7404dc87e110021365556874136013c2a93ccf93b14756c2"
+  },
+  {
+    "id": "tianjin",
+    "kind": "city",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "115564151fe7c5bdfe489be97f73a87c00828f33b2c5b48f04b85484a386376f"
+  },
+  {
+    "id": "shenzhen",
+    "kind": "city",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "17d419408c9ee7139c2451d083190783434b99f4d0dcc0ccd480b32306d2f23a"
+  },
+  {
+    "id": "dalian",
+    "kind": "city",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "79564c7427b01824864f8939c0f75f691f0bcd73fc89207256634beaa78f0c02"
+  },
+  {
+    "id": "jinan",
+    "kind": "city",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d6b5cb1c6434e80584914eafb16da19330695211d3615c5afc7c88230711a888"
+  },
+  {
+    "id": "luoyang",
+    "kind": "city",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a1eee2292b1a2916273b7e812f7fe0d8912327aeb70298302387e97cb65e3361"
+  },
+  {
+    "id": "zhangjiajie",
+    "kind": "city",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-21",
+    "sha256": "33a26b60dd64c522755a4b3a2bf9b450c169a2db6cebc2f199ac5a9edbebdd60"
+  },
+  {
+    "id": "lhasa",
+    "kind": "city",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d8f46f64c9dc2e1127a11244fb70159f4282f9ae1100a548ba925e6d928ed063"
+  },
+  {
+    "id": "dunhuang",
+    "kind": "city",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "47437fa3815360553d18994427e7b8a260e73c1e0136d4f521c3048fa91ff953"
+  },
+  {
+    "id": "nanning",
+    "kind": "city",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "71e5278a15096efdae4f99c2a87c26d4949096701bd8bd08f5dbf1729c7f0743"
+  },
+  {
+    "id": "beihai",
+    "kind": "city",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "94c960f674ac5bc8d10c1378647a3efc58299c4bfbe171bed4d3ac4256502a20"
+  },
+  {
+    "id": "xining",
+    "kind": "city",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "334c40db442cc7e75c816b4f2317c4da11739b483f44bd747374d36549377cbf"
+  },
+  {
+    "id": "yinchuan",
+    "kind": "city",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "119e0fa173173d4318aac9ab707c855b951e9e06271ff547119cd07d9ccd28f1"
+  },
+  {
+    "id": "urumqi",
+    "kind": "city",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "57d8e5f2b18f4d47a7e5f3c4868d6ce74268969a4de0684d8b03d840f9840722"
+  },
+  {
+    "id": "jinghong",
+    "kind": "city",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9391a56082c7cf355a008967c4fea5dc0ae48ffe94498c720058f53069b65257"
+  },
+  {
+    "id": "haikou",
+    "kind": "city",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "481973996d336c2903ae9845c873291af4b86b4164096e445cc450a0ac65ff38"
+  },
+  {
+    "id": "kashgar",
+    "kind": "city",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "537b0b878e5b8d493d6f63a0318f8ce5a56b09d9002c9008c89a6483d95b5439"
+  },
+  {
+    "id": "juzizhou",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a8466c7f5bec0d2809156cecaf36745f3873d5b6f569ee55f6aa1fcdb3a98f8f"
+  },
+  {
+    "id": "yuelushan",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-21",
+    "sha256": "07114d060422d6d436f5d28c106e62b658df6ff7d05c000048ea867cc1bb2e72"
+  },
+  {
+    "id": "jinggang-town",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f505e4c1c2b4edcd8ea090207f5711b0688b6570f0ee272a09b84695319dd5d7"
+  },
+  {
+    "id": "hunan-museum",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5e043b6d4564f086b81734de675beb9be1a5bf54272b725df0e06cd4a6af096f"
+  },
+  {
+    "id": "changsha-yuelu-academy",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "aac7c95747fd0e3ef02a762d6f4b3d3fc3be0bbc7ff36bde00355d2002305b80"
+  },
+  {
+    "id": "changsha-kaifu-temple",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f7c482fbbea66b8e8835c39e4bb539b5bd28cadcb63093f7d4183618258936d7"
+  },
+  {
+    "id": "changsha-tianxin-pavilion",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "808680b4a27769164503d9e4b4b44f32e2eb23e635c42cba334e5976a7b3de66"
+  },
+  {
+    "id": "changsha-bamboo-slips-museum",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ba3d04455b63bfd59a227dc2cb5001512f2e1e4e4f824e36b0cad05a8559fb22"
+  },
+  {
+    "id": "changsha-city-museum",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bb271a186011d9cd89f90f7f9bf05b11d4291e4e30b96fd8e682589d348da01d"
+  },
+  {
+    "id": "changsha-hunan-botanical-garden",
+    "kind": "spot",
+    "cityId": "changsha",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b969b0991ae640c297b96dd181b311d200358d8d0e6ca2d39666ab40e42a8768"
+  },
+  {
+    "id": "summer-palace",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "23f69c5d01f9b9b7c9d8f2ac75ef9b7e7a3c9726c7b10fc34b6adebdbffba24a"
+  },
+  {
+    "id": "fragrant-hills",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bf93f13961bc7fe13623a744ab70f82a16c687c497944226c0d42f5cfca8098e"
+  },
+  {
+    "id": "olympic-forest",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4cca254299bfaf95a1f8847d0d1d60f463318a28547ea2143ccecb4ce195a9fa"
+  },
+  {
+    "id": "palace-museum",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d94699fb6951c8e5d22d5509dc692a25946e620f21294cd176d5c506202056e8"
+  },
+  {
+    "id": "beijing-temple-of-heaven",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f214739a2174013460a67400f364204616dd8e4ccbf9a29a47ffc4b372634d2c"
+  },
+  {
+    "id": "beijing-beihai-park",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "12938ced2dafd2cc4454fc294599c9350626816aae7fbcbff23153d8abc98dfe"
+  },
+  {
+    "id": "beijing-jingshan-park",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "583dfea05750405862bfe6a07e30e081a9b8bb73661fec3dddc16cba322cdf57"
+  },
+  {
+    "id": "beijing-yonghe-temple",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a05ef38c4e9515a72119ac78b931e722d3568cf66fc947b6f73c845fc53d9bac"
+  },
+  {
+    "id": "beijing-national-museum",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b745eedcff4a3a58d7491c5ca17ae1a1de1a3e5fe9adb403bea923f1dee31581"
+  },
+  {
+    "id": "beijing-badaling-great-wall",
+    "kind": "spot",
+    "cityId": "beijing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c2f5f7bb551aa5db3afa43d53206dffcd23cb70a24052b5422dfa686a242f90a"
+  },
+  {
+    "id": "west-lake",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "25c7ef821127cf8c4699becad5ad271efa839812012f6c7db93bb85a52c94d99"
+  },
+  {
+    "id": "xixi",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4b909c0bf5a14752cacb744182937a0014f086c82ad0e484d3523f2efd180558"
+  },
+  {
+    "id": "liangzhu-site",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "98b513a5dac13922255af256ad7f863447712dee278cc06f43768a7f57890869"
+  },
+  {
+    "id": "lingyin-temple",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d6a0c5869a1b6c472e609adf24cb17544e5b2890fa611fa81c89a98ae0c123e4"
+  },
+  {
+    "id": "hangzhou-hefang-street",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "23109f846aa0ed2815f118cf16762e65d727e8ed5c9735427d5d62f9a171a9c4"
+  },
+  {
+    "id": "hangzhou-china-tea-museum",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "299abf33e35899094f292994686779594199bece649f9d3d159e79ef9632ca69"
+  },
+  {
+    "id": "hangzhou-china-silk-museum",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "86c34207134404c2d2b397c6c87b993c201edd57fd3031f93e5f93e45ae59e52"
+  },
+  {
+    "id": "hangzhou-liuhe-pagoda",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9dfd42bf139f54e142357b63eb1e3db6ffe40572425277dbfcb2e4dbd28f12bc"
+  },
+  {
+    "id": "hangzhou-grand-canal-museum",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c832e5f5f0bad6fe422df9086625ef3d97b434945bbcbef9b491051b3a2380e0"
+  },
+  {
+    "id": "hangzhou-hu-xueyan-residence",
+    "kind": "spot",
+    "cityId": "hangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ff5c2b7d8c4f1f96342031084685f2643e6fb90ec9b3b556a739a255f9001c03"
+  },
+  {
+    "id": "qingcheng",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b770ce82fe2b8a86f621b02603d7109fc01c94072d3e3b23fae2b349adc487cd"
+  },
+  {
+    "id": "dujiangyan",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-21",
+    "sha256": "74058d1278a7907316e055afc4aeb88b8033ca58725492569549f3331d0bac54"
+  },
+  {
+    "id": "huanglongxi",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bf94fe4cb3eee22d348cd50fb741a32398f8c2acf978f1863dd65ceffda64983"
+  },
+  {
+    "id": "chengdu-panda-base",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-21",
+    "sha256": "25759b11f78e85ba2faceddaab781afb7eb143a25548d30743617fae6bf49ab3"
+  },
+  {
+    "id": "chengdu-wuhou-shrine",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3f1fdb94fb3fc378d7e88944c4f1ac731001a27f85b2d52f76690b8161d00114"
+  },
+  {
+    "id": "chengdu-dufu-cottage",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5a340ee43e7acfb30d49f7ad64156b511a3c8df69b5985a8a62008661b0137ab"
+  },
+  {
+    "id": "chengdu-wenshu-monastery",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "572fdeb8d81f941904beadb6ffd7b52b83813fdeeb9692f4a2bdc9ca920fe86a"
+  },
+  {
+    "id": "chengdu-city-museum",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cb69c4b88a97df4269478c2302c9c5e20421f043e5e67f32f6c18e1a15cfaaa9"
+  },
+  {
+    "id": "chengdu-people-park",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "95e3b9e8ac18af7861e683dc44a2f39ef2c575f8118ef7f4ec2da987e13ae405"
+  },
+  {
+    "id": "chengdu-kuanzhai-alleys",
+    "kind": "spot",
+    "cityId": "chengdu",
+    "verifiedAt": "2026-10-23",
+    "sha256": "88b8f22c7949ca239940171cddb2cc85a308ab5efc2cdb6384958af523beed0f"
+  },
+  {
+    "id": "zhanqiao",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e56a12e390865f668cdd182fb413a4299b25446af0b2482dcc72d74fc3f66b98"
+  },
+  {
+    "id": "badaguan",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-21",
+    "sha256": "89569591c97fb6289a793acd30753c81c7498715c21c1ad5da0220dc1c9a0ff4"
+  },
+  {
+    "id": "may-fourth-square",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f7e145abc9cdeadc6006948d8b7f1fd2cea0aba5cec63ab88140b2fe3f3d1025"
+  },
+  {
+    "id": "laoshan",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5ef9d0005038727981dbda7a863a286b6a7e51df54c4be4fa1146e9d18f204f6"
+  },
+  {
+    "id": "qingdao-beer-museum",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e6ff87d1f4f3018beb916dbefd3184d4c85fa98037c580d373a702d40215244a"
+  },
+  {
+    "id": "qingdao-xiaoyushan",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9d2a72ed9d8bc4cdaf4db6249d08b4c92dd4291dc0c85b5f0ea61101912ac4e4"
+  },
+  {
+    "id": "qingdao-signal-hill",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c08ee57dc6c9171be18a5e17efd8d2a8b6f1cd1fb799bac5e85e7f20a29c91a0"
+  },
+  {
+    "id": "qingdao-naval-museum",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6a7705acfd4a920def2d94a89f9b78f035ea9946fc32991e51139dbc46c534da"
+  },
+  {
+    "id": "qingdao-underwater-world",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bcac90657b4196c58580161abf37369baeb53ddbb387d4455daba93150952d54"
+  },
+  {
+    "id": "qingdao-golden-beach",
+    "kind": "spot",
+    "cityId": "qingdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e5bcaf6adaa989b2b1e48d8225b6ad6252f6b7ab5b0c34e38848b65cdebc4134"
+  },
+  {
+    "id": "gulangyu",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6a60e886fe1762ec8c20ae6a7d6308ba14190895b7885c075976b368692a95df"
+  },
+  {
+    "id": "nanputuo-temple",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4304c35ea29c154e127948617aa730284bece74bd793b2064d9c56cc27f849f4"
+  },
+  {
+    "id": "huandao-road",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "0de567d3641df93f18ac4c84e26154a44993854901282d2c85282ac17e53a33e"
+  },
+  {
+    "id": "xiamen-botanical-garden",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "75c746f7d7bbf5cdfd7e6c593662b52f855b51cc58698cb87908654551f8a003"
+  },
+  {
+    "id": "xiamen-zhongshan-road",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "013308a161bbb76c5ea28b44041d4e567b071466a613ab64d7d5c4f941b5b764"
+  },
+  {
+    "id": "xiamen-jimei-school-village",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "19e095b37bd88ffa9ff9462ae95248b845681db67a02731ab39ddf2961f8db6f"
+  },
+  {
+    "id": "xiamen-hulishan-fort",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "483eb91fc67ecb45efb967697698e58e90ce106d1353f3bf2ef7abcf4fcb8772"
+  },
+  {
+    "id": "xiamen-city-museum",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2ba03ac603ec2a85f80fbcde433f14f4bbb20ab1c26d4edec7bb1f60d1afb90f"
+  },
+  {
+    "id": "xiamen-wuyuan-wetland",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1531c718fa8240e089a9a0e158edfbf3d22ffafd437e6c0ac3d3107403556f7f"
+  },
+  {
+    "id": "xiamen-garden-expo",
+    "kind": "spot",
+    "cityId": "xiamen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6cfedb7e7a3075e95973b2c8838cb910e9caca80d769bdc31c1bf7395947ffff"
+  },
+  {
+    "id": "yalong-bay",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-21",
+    "sha256": "ae70de485c48b80d22fbabf514593a41e1e5fd007dfc4f627109021edbf83f55"
+  },
+  {
+    "id": "tianya-haijiao",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-21",
+    "sha256": "27c1aaecc784d5b09586b479920690ad9eae79ee1707643155137bf4670e9e2f"
+  },
+  {
+    "id": "nanshan-cultural-zone",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a3e9e1fecea44b85a020923e50e28a3f4b9429b4878fca05af10840eb576c80c"
+  },
+  {
+    "id": "wuzhizhou-island",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bf83c5f33999c4d4b045f176e3e26a0e3567dadc173e38ee92b22c2eff135a4e"
+  },
+  {
+    "id": "sanya-dadonghai",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "829a8cefb0737f030cad73c2ec1285f5154315909dbf68e9a1915ca9aa4c2429"
+  },
+  {
+    "id": "sanya-sanya-bay",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5a19751865f5ddd20c1addade319f96ca15ca6fa7b6c31001be5ae5ff22eee3f"
+  },
+  {
+    "id": "sanya-luhuitou",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4934eff9091c3eea1b9cc4be3ad845170191f6cbaf95d4fc664063c0a5a40a9d"
+  },
+  {
+    "id": "sanya-west-island",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c08d0dd0420df54d6eea0922b6d5c0b754279c49cc13fb7d5e0c94c304788a7c"
+  },
+  {
+    "id": "sanya-daxiaodongtian",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9c2223590f368860004f9de739e196468ed1bc6e4c327bbc381d92de00ba9780"
+  },
+  {
+    "id": "sanya-tropical-paradise-forest",
+    "kind": "spot",
+    "cityId": "sanya",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f9181e4080350e4ddad6d5b3e95cc632941decae74265dc5f0a8e79787ede830"
+  },
+  {
+    "id": "dali-old-town",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-21",
+    "sha256": "7399eec8ae4b8e00b20bfe3740be0a8533f5126389937540d9d02d948e8e3cf5"
+  },
+  {
+    "id": "erhai-lakeside",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b841ac6479997f533468882422ba07da06d586a6446c179acdd8a87d10b1f1f3"
+  },
+  {
+    "id": "cangshan",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-21",
+    "sha256": "33e172166072e658615122f74b6ce741ae60b22bf69f529bb2f33364961c2a33"
+  },
+  {
+    "id": "chongsheng-three-pagodas",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d150aba56dd954e3b931109f5d7a04e61cb546cfa1e293deb13bb45a4870a89e"
+  },
+  {
+    "id": "dali-xizhou-town",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4cb4e6e4d21caa58187f64e7d796b5330b636181aa2d5672969ad15dc20f30df"
+  },
+  {
+    "id": "dali-shuanglang-town",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9ab396df8a8a013536a6a4c95fc5b0da3545ca9ea11fc03c5c7dc2940d4b8ce2"
+  },
+  {
+    "id": "dali-butterfly-spring",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2f9b2068e2d54b601c3499c41d7b8d4c2b7d6621a3573fa6eb11885b85721956"
+  },
+  {
+    "id": "dali-shaxi-town",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "85746439679db79a56183100fe7b2df97e67a787ca36e935e6047629fcdec415"
+  },
+  {
+    "id": "dali-jizu-mountain",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "933bec7172fc5f6dc19bdbec41130c60ac062b1bafb2a213a429a97a4d89be42"
+  },
+  {
+    "id": "dali-prefecture-museum",
+    "kind": "spot",
+    "cityId": "dali",
+    "verifiedAt": "2026-10-23",
+    "sha256": "fbc16e418024b4aede31ea57db81230240a9aaa2da662319bb35b86f4bc7e7f7"
+  },
+  {
+    "id": "lijiang-old-town",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e9081323c3a89248ad4ca4777c9b404fe561369ee358694eab0ebfc792821277"
+  },
+  {
+    "id": "shuhe-old-town",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "391fe8447372b5f706c7b9b8330436b4ff7e85b0417337565c00869aa9f0b80c"
+  },
+  {
+    "id": "black-dragon-pool",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6830d4f6136d6aced95bb70eb67404b8e734445a7f7a8de0baee9bad46a13305"
+  },
+  {
+    "id": "jade-dragon-snow-mountain",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6e358c265ae6008c74e1b0c1e7fc9a217db271367084433bf862b942f2d4a163"
+  },
+  {
+    "id": "lijiang-baisha-town",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cb49f1d6a765c4c891da78d05ef81d4fa5f585926c3bea523f3db0cd135d29c3"
+  },
+  {
+    "id": "lijiang-yufeng-temple",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e6384a8e05438fd8b6646f8e3f7270d4f38b15428b69cf3ab96fa740df7acf9d"
+  },
+  {
+    "id": "lijiang-lashihai-wetland",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "85e0e80e9e3954a5f05bda9409d407ed9d9c3f1be51af2c0e3eba36cab85fe05"
+  },
+  {
+    "id": "lijiang-lugu-lake",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "63df7e294dbcb1b689544bb59a45bde50b9c5276f353b747de0af541123666b1"
+  },
+  {
+    "id": "lijiang-laojunshan-liming",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "203e866559526285e2a7d3ac092157246f3dc9291df832b6e905a1bf7e5d578d"
+  },
+  {
+    "id": "lijiang-zhiyun-monastery",
+    "kind": "spot",
+    "cityId": "lijiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "91ad91cb44c6aac00e0d59054a991c4461c551e758ce9f42b39e2a48f5a1d6cf"
+  },
+  {
+    "id": "humble-administrators-garden",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a7e42e2919c0943b6a84254cce09bee3336fa151733733ed66ac707ae4fc17c4"
+  },
+  {
+    "id": "lingering-garden",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "7e7d8363bea86e9b7eff310071bebbc1caa33783a1144ea2fded05e2cba6ed99"
+  },
+  {
+    "id": "pingjiang-road",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "00ebbf3707480534ad49966ac907e42d96d021f4ab2db839b6f0311f17597fb6"
+  },
+  {
+    "id": "tiger-hill",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "127c81a723323c20bd272bab95e2a6bab69f192bb301ec1fcb7f75a3e651a870"
+  },
+  {
+    "id": "suzhou-suzhou-museum",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3ee9c2eb010f7ef237fea642f098002e70daf32c7b07d1b70fd5cbcbbc3c5257"
+  },
+  {
+    "id": "suzhou-master-nets-garden",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d64b960cc62d95b06c7ba69f64606002ca9201d73d0b8ab28b3c915c25569c56"
+  },
+  {
+    "id": "suzhou-lion-grove",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6eba1836c714280ff58ff59a6389c9ebd4188e2aac2c563c9c70eb4e3654daac"
+  },
+  {
+    "id": "suzhou-canglang-pavilion",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "885b687cccbd49280e8359b7a7858cd6b73336610f9b33a0bb3fedbdeff7c89a"
+  },
+  {
+    "id": "suzhou-hanshan-temple",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "70b4e38e85ac3a6f8cba3f4e9c9abe1adf22ae537be110e1267b71d5865b60f6"
+  },
+  {
+    "id": "suzhou-tongli-town",
+    "kind": "spot",
+    "cityId": "suzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e0fc457f2e77c124f49f918f1bda7d809cc283e9215a595ecc0f37a18fec714d"
+  },
+  {
+    "id": "zhuhai-fisher-girl",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "85e85c4dd6ba641755168d1fbfc003bc5d0992dd64235c97b2475f441268505c"
+  },
+  {
+    "id": "zhuhai-opera-house",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e1e594c04ec3acc15a9ade9eef694137f94dbcca6c79597677e6cc0fbe504f4a"
+  },
+  {
+    "id": "zhuhai-jingshan-park",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4c763daf489134bdcf52a2b2be13fab377394ba6c2d13abffdad9f6737955013"
+  },
+  {
+    "id": "new-yuanming-palace",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d28f874e25ff15150a8030a80935ed20b854da82ff5eb2e504053c93ef9b4117"
+  },
+  {
+    "id": "zhuhai-tangjiawan-town",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a0bf25ab449b507bba8265451f157ff189f5018e92884ee2621a2218356806e8"
+  },
+  {
+    "id": "zhuhai-qiao-island",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e5ee632244ba50d6828f0a062dd83f097b6d892a2983baf88db55e31b15c4a5f"
+  },
+  {
+    "id": "zhuhai-dongao-island",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "20ca8e4e6a057d4d6999b8b0b588ff27683dfe0a011f9ccc7e4a3ba1deaba4be"
+  },
+  {
+    "id": "zhuhai-wailingding-island",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "03798a7cddc73efbd055969e308d4bc73c1803b4cf063269b95d80941179a08c"
+  },
+  {
+    "id": "zhuhai-doumen-old-street",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e3e1462546b842eb5ae5af6b4d9ecd2ee319d4323cb93ca38685131622b93616"
+  },
+  {
+    "id": "zhuhai-meixi-archways",
+    "kind": "spot",
+    "cityId": "zhuhai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a3dfc508ec9e43e329d6d9bc9b51ef81c19106f835087277ef9f02be77608e08"
+  },
+  {
+    "id": "the-bund",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "46154509969db339780e19cc0a4b9c25ff2bf5c87d94b6076f787c6815ff5342"
+  },
+  {
+    "id": "yuyuan-garden",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9f8734423c6301f29eeee8209755d4a23e936b143d2945cece7d278e885e4120"
+  },
+  {
+    "id": "wukang-road",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "28efb918771c92c07ecd27ff0fdc3da98b389064ad6489984754feaedf5901b7"
+  },
+  {
+    "id": "lujiazui-riverside",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a156e7837ea136aaa5e054c2f0742e0dfe1749ccfe93f59a19fbd9a82815f2e7"
+  },
+  {
+    "id": "shanghai-shanghai-museum-peoples-square",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a7566c7b7136050fb537dfa5c8b2b531ffe5c0bd71991f93091435ce9f991891"
+  },
+  {
+    "id": "shanghai-natural-history-museum",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "654f2e8c5708d289a8d7b530d5bd0528b9634d1039ec377c1b139d0a62fc8f2a"
+  },
+  {
+    "id": "shanghai-zhujiajiao-town",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b083b998cfe289c2c7939b2c01f6bbfb946f7ca441aa4ef62db714f4357b3159"
+  },
+  {
+    "id": "shanghai-disney-resort",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c572e9fcfca22ebf1532e8891ff008a6062bf8e8993e5ce49d0e59ce72b1e931"
+  },
+  {
+    "id": "shanghai-longhua-temple",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d4737b499f65dd4209b6b1459fa7f1cff2eb71ed515034b5947e626dfa9a0169"
+  },
+  {
+    "id": "shanghai-jingan-temple",
+    "kind": "spot",
+    "cityId": "shanghai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f1d221ced88dbef8547c66c2e81951492a8a77daed473dbbe33461e8c6dd7052"
+  },
+  {
+    "id": "shijiazhuang-hebei-museum",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "11603e478a6aac462a291a7d61e27d594a5edcf981259043b7091dc58955a7de"
+  },
+  {
+    "id": "shijiazhuang-longxing-temple",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "40d3d04bdea9af0c2de5bd754e11430b5ecd1df4e3b75adef4d108273a09ab5b"
+  },
+  {
+    "id": "shijiazhuang-zhaozhou-bridge",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "355b7ba81f98ca5d7482e3fa4be68a82c92114d2bc62a3d7ed2c824c1291ba7b"
+  },
+  {
+    "id": "shijiazhuang-bailin-monastery",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0bed6b32fa662189cea1111878402c85ebc583ab67335896ace1a57387a2c74e"
+  },
+  {
+    "id": "shijiazhuang-pilu-temple",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d87d09e2c9cf2a79637bf534f32a15859dff36cbff65c97390d76834bc6b6266"
+  },
+  {
+    "id": "shijiazhuang-cangyan-mountain",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "70c26ba2584d31b86f67a70727502d06682ee40a893528150f9148ac56948b0f"
+  },
+  {
+    "id": "shijiazhuang-xibaipo",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9cb311f5686b48e31888fde665e2bccdc5a4f1c74eb20610c0c402ef45908753"
+  },
+  {
+    "id": "shijiazhuang-baodu-village",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4f0771fa4d753958b0585d05e9826adb1884c287cf60f0ed9f521e8a14359c0c"
+  },
+  {
+    "id": "shijiazhuang-yujia-stone-village",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f6b5cf965cb0e25e4480e60637096e109a06912302aabfca0e99c30117433234"
+  },
+  {
+    "id": "shijiazhuang-hebei-art-museum",
+    "kind": "spot",
+    "cityId": "shijiazhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ffad67f70d70fe8ac3f24d11c82cd69946267de755e8c5f220a20bcaf3f9401d"
+  },
+  {
+    "id": "qinhuangdao-first-pass",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "42e3662f7a95a2757060f00c7524122c78158dd5b29b6b8e7e7465785f862dc4"
+  },
+  {
+    "id": "qinhuangdao-old-dragon-head",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b557511ccef772a17dcc48284752b5321fb1b66f5af6ca64122da7da05ab5536"
+  },
+  {
+    "id": "qinhuangdao-jiaoshan-wall",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "710cf93b8bf06875e119673de2e8fd8cf7138260425ed65bd90decc7efc0fa99"
+  },
+  {
+    "id": "qinhuangdao-mengjiangnu-temple",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "180dbbd1deb02c2dbf584f0127c970a61a7cd2bd70c7a33c93d648902e96fae2"
+  },
+  {
+    "id": "qinhuangdao-pigeon-nest",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d2f4040922e985012bf280b437af3956e902445f7e320f9c152be91653a6b882"
+  },
+  {
+    "id": "qinhuangdao-tiger-stone",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9b0d71e33f11fe7bb1bc5e0676d3fc4f3d31c4551a8025840a5ef310b7237968"
+  },
+  {
+    "id": "qinhuangdao-biluota-park",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "92cb0dce3d3596f6dd98a9b8db282940af614ff259df0a23ebc56448972f0dab"
+  },
+  {
+    "id": "qinhuangdao-city-museum",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2ad334edf59221a8d51556ec3cce63b19938c8787fbe1d281e34b8af41ca810a"
+  },
+  {
+    "id": "qinhuangdao-qin-emperor-sea",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "96f5982ab906b9dcdf2cd0ce372f2cfa4c8b307dd1a82c8e6fbfe13f389cf1b8"
+  },
+  {
+    "id": "qinhuangdao-yansai-lake",
+    "kind": "spot",
+    "cityId": "qinhuangdao",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f8ba1a717d949b0bd2b20ea583427a04cad8a987e82004b1453ffbdd371a61fd"
+  },
+  {
+    "id": "chengde-mountain-resort",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cf9d30defd1cfee6b8f4465d3b097a3d099bd12a78a9b297647a2af9e238a5f7"
+  },
+  {
+    "id": "chengde-putuo-zongcheng",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4b3c35850b03788931f6ada668ee7f3ed308ce1b0c460e46eb93d45bdde61cd3"
+  },
+  {
+    "id": "chengde-puning-temple",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "df892fb92cc7a6d42a361ee0745ead32ef13205f6a233809afaaead3d7d555ad"
+  },
+  {
+    "id": "chengde-city-museum",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7f5630e4eefb802c00d838216ae19c3327eb01aa444b7d1a9a48ef7bee3edf46"
+  },
+  {
+    "id": "chengde-qingchui-peak",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "033ef5018ac56e2789c5833f8f3b1febfa05bede29afad7e8cef0f84a3980099"
+  },
+  {
+    "id": "chengde-twin-pagoda-peaks",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7b0a45627329d8c1362b5651af61cb49a9e2bc9238c89d55430d24054e0a7b30"
+  },
+  {
+    "id": "chengde-jinshanling-wall",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e0b464813d61e11a92263d92671f18d2dd4af27f52691344a3fcf3b807b1cd26"
+  },
+  {
+    "id": "chengde-saihanba-forest",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bc48d0064fbf0c02264762834119b38822acb268d8946af0094393d4e1fe97dd"
+  },
+  {
+    "id": "chengde-yudaokou",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5266baccdc1feb79a3fce9c511db3655ccb808f1a9f4b50f8d21687f237687d7"
+  },
+  {
+    "id": "chengde-xinglong-cave",
+    "kind": "spot",
+    "cityId": "chengde",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c0d7690c6be91203e28f55c3014a8ae9bbec3cc33d9ce21f2d07669b6070733c"
+  },
+  {
+    "id": "datong-yungang-grottoes",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "466c29f5a787cb6403a5f6c6cd227d36ee2d39b881c0b72c90396962a83e47df"
+  },
+  {
+    "id": "datong-huayan-monastery",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a479f933c3205b08bd0d92cf230d4284991a394d51d3cb3a0fa6a6362defcb65"
+  },
+  {
+    "id": "datong-shanhua-temple",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "02d258d6a6db80c072e95ca15381e5eac3d7a85010eb833442c818a071684494"
+  },
+  {
+    "id": "datong-hanging-monastery",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f8e1987882a0407647f1353f9f15a177b002eef257f492f781dcbcabcc91b1ec"
+  },
+  {
+    "id": "datong-hengshan-mountain",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bf7271a2d9c884707766bbfc31cd2430a75550f3bed5318c558148bec8e847d7"
+  },
+  {
+    "id": "datong-nine-dragon-screen",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2b30b817e59eb4861792b0c3a9d4ffd05e021a98f196956cbd8af7f988ce6f02"
+  },
+  {
+    "id": "datong-city-museum",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c09da6534d4854e68fe4f099ec972ea3f37360f20c0f5d3bd466dce8ac58dcf4"
+  },
+  {
+    "id": "datong-ancient-city-wall",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "12a3785872fe414b1330fc628f4d67afb2c8261227ad0d770f593a3ed8e7a6cd"
+  },
+  {
+    "id": "datong-earth-forest",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a254d017e06990fa117ec33913476d53d757ae6291ceb304c12f16d554581c9e"
+  },
+  {
+    "id": "datong-volcano-group",
+    "kind": "spot",
+    "cityId": "datong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6dd582770d0e3a9cf45832a40e127c58502a5cc32645f3d9ca262d40c956a6b4"
+  },
+  {
+    "id": "hohhot-dazhao-temple",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "493868e22d1e4a4c8f147484d4953a0f0b931a5c489b8cddf73449e6b547aa0b"
+  },
+  {
+    "id": "hohhot-xilitu-temple",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2740a7821cab1851109c388ae0f697136fee7cc70637870338dcb044dbf2e593"
+  },
+  {
+    "id": "hohhot-five-pagoda-temple",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "96682f1a53cf4c43d07c6f64a16b1eb0fb3b59ca44c3ebb5fc5ebb3a70b10c55"
+  },
+  {
+    "id": "hohhot-zhaojun-museum",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "148740b1e2a4d5775d871a66039b99e3703e5d55f67abf6851b2913eeb96ca36"
+  },
+  {
+    "id": "hohhot-inner-mongolia-museum",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "09c8846ed3d9829fb9071cc18e7775ed11e50ad1880c751bd659fb72b856c42e"
+  },
+  {
+    "id": "hohhot-art-museum",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0b5cb96fed6782d38af1e33759d3ce480c1588d017b49a90bb83f3b8c610d3cd"
+  },
+  {
+    "id": "hohhot-natural-history-museum",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7e989270d0fb5a21267d0b66c4356909b25b38f60f61bccaac67acf5256ba9e2"
+  },
+  {
+    "id": "hohhot-general-office",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bd126aa195a087037310b3e21d294f4e443e3384f107aa26a2741709d8f02dd9"
+  },
+  {
+    "id": "hohhot-hasuhai-lake",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1b1fcfbeaa9845694b7f86b99c03f593222945d207a93cb0fbc9d52851c09a29"
+  },
+  {
+    "id": "hohhot-ulanhu-memorial",
+    "kind": "spot",
+    "cityId": "hohhot",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d4d5f2da6638fcb06bbfbb4719f31107dc794639544c0ab990a115134c32471d"
+  },
+  {
+    "id": "changchun-puppet-palace",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "41c61b6b394f2933cf9ab723c51bd7a7fa13dbf86a62a36ee5ed21da5391f9d0"
+  },
+  {
+    "id": "changchun-jingyuetan",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f08e2b405d057a85ecf64201a13f7b452144464805ec515fd75a5f05d6a230d8"
+  },
+  {
+    "id": "changchun-film-studio-museum",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3d136bbf24dc729acaa5d4068b9b0a7bf815c6e4cef67e1e837691c6912c2d79"
+  },
+  {
+    "id": "changchun-jilin-museum",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ed746080ca1c7bf073979e14c24f9e094721154b1bf4b153f04f487489fcd7b5"
+  },
+  {
+    "id": "changchun-world-sculpture-park",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3b3809b6a3293af5969e768102b12bca5e9bbd335ce98d541293ace18aece645"
+  },
+  {
+    "id": "changchun-south-lake-park",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8b0efdb15fe0c7ad79758e6000a456591af313b306ae6c37aafdfd67643dea4e"
+  },
+  {
+    "id": "changchun-zoological-botanical-park",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cf74f2d542511a38d8e1e5c69b2374f9fe39dc6c8147d9184f257ac786c483ae"
+  },
+  {
+    "id": "changchun-north-lake-wetland",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "07be177407dfb7d8a4d33d2851665ff86782fe01cdfeb903daf452375528920e"
+  },
+  {
+    "id": "changchun-movie-wonderland",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "29715e9a5753422d322c499be76d195bafbdc15635fbe7339396b0c56e60bd01"
+  },
+  {
+    "id": "changchun-confucian-temple",
+    "kind": "spot",
+    "cityId": "changchun",
+    "verifiedAt": "2026-10-23",
+    "sha256": "07d2337cc328df865b2f0c5c30a0cc4bce7f5ba22640ef45eeea0af7e935c9bc"
+  },
+  {
+    "id": "quanzhou-kaiyuan-temple",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7fc2fe15d90608430220e09628dcce4b436d07f6f2aaff5b7f464a9d41402f68"
+  },
+  {
+    "id": "quanzhou-west-street",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d1cebef680aacdca638fcc318a052972d1f0e978eb05a6ffe46c11d6caa5b706"
+  },
+  {
+    "id": "quanzhou-qingyuan-mountain",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a5f5919b28b0c12eb38ea86a5c2c6d56efbfbcb81120f5c99bed3e3596fd939a"
+  },
+  {
+    "id": "quanzhou-qingjing-mosque",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "82b4cfa0e09e89fd90438e44a8796f30828ea1862b735341f0ea85a292051e9a"
+  },
+  {
+    "id": "quanzhou-tianhou-temple",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "45564d1e8bd067607ea63f159fd1af110277aceb82462820953a38fb9c240797"
+  },
+  {
+    "id": "quanzhou-confucian-temple",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "321aab55a35d0ab519700113a0f7f36a83a3b64e801754c7af4d7ebdd4d5b6c0"
+  },
+  {
+    "id": "quanzhou-maritime-museum",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c04ca55e73dd0af063135b72052b9f9ad38511b53a266ae0ff2591fdcf8b0c40"
+  },
+  {
+    "id": "quanzhou-luoyang-bridge",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "20064e23b451e66213516091eae9b7706e12ac3536e14b5df634354b21e053a8"
+  },
+  {
+    "id": "quanzhou-chongwu-town",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "adaf057ae406355066ebc6c852450eca5b41f41f0783a7f0135b56b412902e68"
+  },
+  {
+    "id": "quanzhou-anping-bridge",
+    "kind": "spot",
+    "cityId": "quanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "515daebf3f9f3028962d5ae42d04084a2b713b9934b7e3276f3e733011abbe82"
+  },
+  {
+    "id": "jingdezhen-ceramics-museum",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f539b9c77d8ffb60b04c127c511b887f6b37855c4738f6da1b1fbb263bf36e93"
+  },
+  {
+    "id": "jingdezhen-ancient-kiln",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e86651e0b7abda6c0ac248f95418fe279f752d1efde091dc885fb25b87567ee6"
+  },
+  {
+    "id": "jingdezhen-taoyangli",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a479e2f732ea791325eeda01b57b63242e12f4b73b8d85c147df869b3db4df81"
+  },
+  {
+    "id": "jingdezhen-taoxichuan",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "df84049b7f181a006f7ccd9d0530c227133b413e43353c885667c5501dae3b9b"
+  },
+  {
+    "id": "jingdezhen-sanbao-village",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0ab109711e4ff9881d8379bc6cd4e2c2aaba9cdca866149d71d143198f367f4f"
+  },
+  {
+    "id": "jingdezhen-hutian-kiln-site",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d4165ccc62139284055c46e1019fc0b321efdbf2b435884f44f3603878f50e71"
+  },
+  {
+    "id": "jingdezhen-fuliang-county-office",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "683bcae98fa659485e4bf40031b61bd1e5e5145f091334bdc47cd43260de3d7d"
+  },
+  {
+    "id": "jingdezhen-yaoli-town",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1f5cf36d265e45aa8abb3f4b7d9391bcb6315454e6bb1184723a218bd5fd34a0"
+  },
+  {
+    "id": "jingdezhen-sculpture-porcelain-factory",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1dc10c3d0e551f170e810c89bdd58074542b05a8f9ddcc169dcb751bcb1c75b2"
+  },
+  {
+    "id": "jingdezhen-gaoling-mine-site",
+    "kind": "spot",
+    "cityId": "jingdezhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7b1788a50e9f5c1b752f42c7bab77956b29f52127a41b1140980985f208d2586"
+  },
+  {
+    "id": "nanjing-confucius-temple",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "cf0a75624d5e717c22ff7a564bf338d8ec469b18203244f996fb074702245f7d"
+  },
+  {
+    "id": "nanjing-city-wall",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "54514a0826f71da61f79e9d51c00baf7d4b4aff95a22f53b5e2bb60ddb55a01f"
+  },
+  {
+    "id": "nanjing-xuanwu-lake",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "422fde64d685be5bec9d16dd0c76021d97d01233d4c76bb7abd3d9a57219e111"
+  },
+  {
+    "id": "nanjing-ming-xiaoling",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "13f4a70fc149cb0289e2ee72e393633a31927ee78e4bc52b3a46add0417fa765"
+  },
+  {
+    "id": "nanjing-presidential-palace",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6f77d2a61fb41757613e5f880cfa77e995f84935731268500dd02888b081933a"
+  },
+  {
+    "id": "nanjing-nanjing-museum",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e71f56a393e4d892fc3c0e04cc1091f88e0944118f6c43075fd1d2e1c869c621"
+  },
+  {
+    "id": "nanjing-qixia-mountain",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b6735835502702bf261ec25386ea2c1dc4c9b38a3b54457bbf8a2bf88b32dc31"
+  },
+  {
+    "id": "nanjing-yuhuatai",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6acd69c5b4ec4fa2f152e5739e1415ef6c3b3c0f7c45f0014bd60f52aa927485"
+  },
+  {
+    "id": "nanjing-dabaoen-temple",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e3a63da703e18b10bcc3cbd7db036ce9bc202e59024cb6737a4e7f73b29bf735"
+  },
+  {
+    "id": "nanjing-mochou-lake",
+    "kind": "spot",
+    "cityId": "nanjing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9cd0750205db027633ae04e95a36cdb0390ea4527aba9eacbebb8f9a4fa76f36"
+  },
+  {
+    "id": "wuhan-yellow-crane-tower",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "2e138cea106bcbad0371220be7355de5cec6c976519da25a1be6eafd270b9b93"
+  },
+  {
+    "id": "wuhan-hubei-museum",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "013c47bd9c4f80d9ab7981538b533324cb7eba617db1e0fa6ad8d23c5545f899"
+  },
+  {
+    "id": "wuhan-east-lake",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b8bd9c299300a4145018afbb42a610c4b47d91da4bc9dd2eacc1d4cfc7905bb5"
+  },
+  {
+    "id": "wuhan-jianghan-road",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "fdb9740eac37ddd76a41e686a4d1b2332bd78a42aa732135f50a3fd007afec48"
+  },
+  {
+    "id": "wuhan-qingchuan-pavilion",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6c004e0383b460cdb1eb263b9795890b90f9025720a5b057b7f182207439053c"
+  },
+  {
+    "id": "wuhan-gude-temple",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ddc53e75c28781acc045e3224e5f0d244129b2768102ac690b940155f2d6133b"
+  },
+  {
+    "id": "wuhan-lihuangpi-road",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d577f0b4cb75396bb678ce6ab25433fd8dc2053cce540332db71c5f2fed1d955"
+  },
+  {
+    "id": "wuhan-hankou-riverfront",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4a0eab96fb04a7075344331af971858084cf084230002bbb3e89fb9561494254"
+  },
+  {
+    "id": "wuhan-guiyuan-temple",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f9f49e036c74a4269aae5b1d0f08509187785522da159c87fe95f67f41f772bc"
+  },
+  {
+    "id": "wuhan-wuhan-museum",
+    "kind": "spot",
+    "cityId": "wuhan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ea156f4431828b583bccb356761a8540af97d834324dca3f8f3542890ea110f9"
+  },
+  {
+    "id": "xian-terracotta-army",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "53dd6c5421fbfb2ab79bc6e51f83295605efa4ce782b1bbceb80caa891e4dd97"
+  },
+  {
+    "id": "xian-city-wall",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "019e897f24cdb49a90c17f4deaf22577b8d71655fbfac7dacf9735b5808f96b3"
+  },
+  {
+    "id": "xian-giant-wild-goose",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e963c833b495fd4062213328ed3ba3d0485015f2fd8984409e1151de01289ec4"
+  },
+  {
+    "id": "xian-beilin-museum",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5313f26e1e2069c6cf2db1fbf3a6f4571588745ccf9270c64f2ef27a9252ab15"
+  },
+  {
+    "id": "xian-shaanxi-history-museum",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "97dd1c855357867a849387faa6fa58041009a58801c22f34a76d94122940cbe6"
+  },
+  {
+    "id": "xian-small-wild-goose",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cf2649e8efe87dc5b79124958907be882bd1ee692082367ccd65a4a6a783904c"
+  },
+  {
+    "id": "xian-daming-palace",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "777590365f729eb64c5858936064cab936e6ff9e92e5a06fd400a88f62c9244c"
+  },
+  {
+    "id": "xian-bell-drum-towers",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "31c7a9e74ba480ce55c1976a35e77bf7045393e26d8a1fd818ab478890a49a4c"
+  },
+  {
+    "id": "xian-huaqing-palace",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5da11066a150cf1480769d5e80c18807744c5da0792a556b58d67fb52e65ae91"
+  },
+  {
+    "id": "xian-banpo-museum",
+    "kind": "spot",
+    "cityId": "xian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "74808dc9e1fac73c33b64b1341772cd8fc91b510d5d4eb98775c1d5c821bc068"
+  },
+  {
+    "id": "chongqing-hongyadong",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "6bf15248e54c7f87cb715fe0689307656d223495fd53a5442288cc6cfac4d5e8"
+  },
+  {
+    "id": "chongqing-liziba",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bd453139d278cd06003ed7b4e1cd27aed8c3dc1fb27ce061ffd142fb809b8214"
+  },
+  {
+    "id": "chongqing-three-gorges-museum",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "0dabfb040b4fa29bac37fae2f50c5d35d7d4f8a0909fc3e43d387a1b364d25bd"
+  },
+  {
+    "id": "chongqing-ciqikou",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-21",
+    "sha256": "07f24262141a72b4d9d1c3b58886e969f0317fae7ea624e5c6ad46d279efc164"
+  },
+  {
+    "id": "chongqing-huguang-guild-hall",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "29d411006afd7c2e6302be5dc7637189c8e857c36b784252cbcf2ac9f1f2cc95"
+  },
+  {
+    "id": "chongqing-jiefangbei",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8718ff40c3f0e12cc139332705befb9c72477b6f510c3a6343b0f19e859a90b7"
+  },
+  {
+    "id": "chongqing-shancheng-alley",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "530ef76cb18713c2ca234a069bb4dd314b78db3c29287c0fb64662b0a070dbd2"
+  },
+  {
+    "id": "chongqing-nanshan-tree",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f21219194d244a2ef8f07f2d518dc068fc07cb98c5987ebd23b4dfdfa7285f65"
+  },
+  {
+    "id": "chongqing-chongqing-zoo",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3a19b06b42e3192cf914c63465d92b3b77b5821560c06bb68da1e1d4145e9056"
+  },
+  {
+    "id": "chongqing-nanshan-botanical-garden",
+    "kind": "spot",
+    "cityId": "chongqing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "414e6c9360f6ab1acd78d48651520f1c73d09163a77c95662d97b9275d15019a"
+  },
+  {
+    "id": "guilin-elephant-trunk-hill",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "fed3bb531cdffeba328d66086c039ca4e6bb4bdb3ebd003c55933e6ad4776b8a"
+  },
+  {
+    "id": "guilin-reed-flute-cave",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f7da2300a3645480d533d5bb5e90032af1e463475a618cd5c4c922a063806f44"
+  },
+  {
+    "id": "guilin-seven-star-park",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "c6dcce90d33a57186fb3b5fa54137970d0fa2b67532c75ccfb1a7b6ade2c4a81"
+  },
+  {
+    "id": "guilin-jingjiang-princes-city",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "76561d22205d1d297d9a764053131339949ecaa0831e9db25c3fb5e2034f87a9"
+  },
+  {
+    "id": "guilin-fubo-hill",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "dfdfd6687a2ff1a22121dab53cf49a57ede1ea7eca423e0da83d12d3e65087b0"
+  },
+  {
+    "id": "guilin-diecai-hill",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9a23e3409feaf0877c5502b668dffbdd8ccee9aa49cbda793f2ae7c63faf7e2c"
+  },
+  {
+    "id": "guilin-rongshan-lakes",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c84a6ac333032ce14a601aeb6b0452fe0806c88dedcc30b56185d41e7532852e"
+  },
+  {
+    "id": "guilin-guilin-museum",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0d12ae83c3fc8c2cb5b9d0dde217440a009ca9442c061bc7e435b8f4b738924d"
+  },
+  {
+    "id": "guilin-longji-terraces",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5d6c2304e226332103831abd6b4d6b84bbd60b7db364723b03a54049fe61ef60"
+  },
+  {
+    "id": "guilin-xingping-town",
+    "kind": "spot",
+    "cityId": "guilin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c16c0b1f4234477b7f3475dd620f38c60391f29b41427ad0fa15bc1f2253679d"
+  },
+  {
+    "id": "guangzhou-chen-clan-academy",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "eea3a437efb3c41a75925be15231f3f768fb4eb61b9d255613ce1086f0428592"
+  },
+  {
+    "id": "guangzhou-shamian",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b6b42f99b5c2eb4158e0f2d12520bc93cfe9b1c58f736b1bda5b1c65e2af3182"
+  },
+  {
+    "id": "guangzhou-yuexiu-park",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "fdb50fda9a0b5adfd9efcb7bbd815ff65d4477c02efa7dd8d391bf1aa0d0f235"
+  },
+  {
+    "id": "guangzhou-canton-tower",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "2452c3f3534a36b1c17c4f2bbeaf721097e454308993e40b63a2e1dbdf735451"
+  },
+  {
+    "id": "guangzhou-guangdong-museum",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "576904d77654e8e54c7821d157b0772c37d92abf776303e4281152ba14f2a155"
+  },
+  {
+    "id": "guangzhou-nanyue-king-museum",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4d0e129f56f8963ec06815b8246413eb785e7f369dc683efccb01cb9a575f002"
+  },
+  {
+    "id": "guangzhou-yongqingfang",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bf51ad33c5c475767b580bd5e174d23400d191f93334d1ddbd0b55b7b10b5edc"
+  },
+  {
+    "id": "guangzhou-sun-yat-sen-hall",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4d1d6d65df59040fa84ae80861e954adfe9b78f564531ac9336e62622136c785"
+  },
+  {
+    "id": "guangzhou-sacred-heart-cathedral",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "84db747601cef3aeeb99e60fc64b9afda5c0e52b6b7dcd1b2ce79258110197df"
+  },
+  {
+    "id": "guangzhou-baiyun-mountain",
+    "kind": "spot",
+    "cityId": "guangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2b1551259b43c4dffb66bf3949c33e458204340224c6a323ac27a72ed3a02907"
+  },
+  {
+    "id": "fuzhou-three-lanes-seven-alleys",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a3a43c182db718489737c1c65da2a794f5d3a0d352bdfbc45937b432b3ab12b4"
+  },
+  {
+    "id": "fuzhou-shangxiahang",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "8e99c387d78f7d05e302199179945137880a9553819250212d45ab93b7e14c92"
+  },
+  {
+    "id": "fuzhou-yantai-mountain",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "71fe74035b1d4bcfb41ac828554cdc07a2e7fd0bd24cb6b7bb66d5399a6d2a53"
+  },
+  {
+    "id": "fuzhou-west-lake",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5bf7478a5d31685fd984c01e155aaa24bfb5dce090e4443d24d8389e6066bca6"
+  },
+  {
+    "id": "fuzhou-gu-mountain",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5eadfee808cf01e21d79d542bd9503a6b70aca4c85233285f86e9fd4aad8aac5"
+  },
+  {
+    "id": "fuzhou-wu-mountain",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c1926bc95901ba55e8c59ab85a30692096b705e01f3d0f3f50c7a2cc5b902e7c"
+  },
+  {
+    "id": "fuzhou-fujian-museum",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ce6caf47e7a50d3501847163d58e6d808d5f74337189f0099d08003216c1fabc"
+  },
+  {
+    "id": "fuzhou-hualin-temple",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "027022c8a5d8b294fcf04eda0bafebb45cb4cf6cf847f0126179f2e56714b539"
+  },
+  {
+    "id": "fuzhou-luoxing-pagoda",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bf065073118a2ef71ef8bc1d6a05293a4b2bed1a3f871ab39806df963481a270"
+  },
+  {
+    "id": "fuzhou-shipbuilding-museum",
+    "kind": "spot",
+    "cityId": "fuzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "926bf65c6dd01846d57bee3e508001546d7cf11bc8ae19f19db1e7925c2f23f0"
+  },
+  {
+    "id": "kunming-green-lake",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-21",
+    "sha256": "081be6c22f623a44d45fc56d49c1e8ce79bbd7cfc549157f733b3e37565bf50d"
+  },
+  {
+    "id": "kunming-military-academy",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-21",
+    "sha256": "86e97f4ee4ee9ef61cc3026ca9829933248d92ccc1ed62a3fd28bedd06ef545f"
+  },
+  {
+    "id": "kunming-yunnan-museum",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f80c95baac70bbace649d266390fcf0004e7d3f9ca9511bec81c0faeeae0e1eb"
+  },
+  {
+    "id": "kunming-western-hills",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e7d065aa53c635310090b5801de641077df07278a57ea8b86361765daba1100a"
+  },
+  {
+    "id": "kunming-golden-temple",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d75f3635ca10a08346cf62e6c5ae82d4203f0c464b435da65eeb21113e2b8a37"
+  },
+  {
+    "id": "kunming-daguan-park",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d6cab77abe291e0adcf364affed4f18b5d0ed60c45878f2148a17ac7062a1176"
+  },
+  {
+    "id": "kunming-yuantong-temple",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3428752a834e8d0948796864ed90055e15f2d740761068dbc46fab2bf1b5594b"
+  },
+  {
+    "id": "kunming-botanical-garden",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b0b3a532377c6049712868cfd8cb0233785a7f62d6d5aed60becc199fabb0185"
+  },
+  {
+    "id": "kunming-stone-forest",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1c5e3779bacee2d5986b8aa3b97f52634d8bf7aa96715073e618727971ae1394"
+  },
+  {
+    "id": "kunming-jiuxiang",
+    "kind": "spot",
+    "cityId": "kunming",
+    "verifiedAt": "2026-10-23",
+    "sha256": "92ce02775021fe0bf714fafe57b834e93d5af7b0b33c91db865bfc04c79360d5"
+  },
+  {
+    "id": "guiyang-jiaxiu-pavilion",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "2fa55abe3f22c3b9ed401f65d2104ff477de45fe8c8fbf31ca771bc5ffb3c608"
+  },
+  {
+    "id": "guiyang-qianling-mountain",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "0f3e11d36de1ef11988ded38a06f86210466c3b9320f4df232fcf46810cf70cc"
+  },
+  {
+    "id": "guiyang-qingyan-town",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4b314ad057b243c2f03d8dd440a3c8532547d53dfb63630a0b2190977f43749c"
+  },
+  {
+    "id": "guiyang-guizhou-museum",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "7352b3fcd9da9f7e3a79acf8b9b6d65e2995869063e4d84d94e24cb7eafc203a"
+  },
+  {
+    "id": "guiyang-guanshan-lake",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e7261cc40e4ff63371d13570096e902a775e84d27564977b1d28ccbe941c2f6a"
+  },
+  {
+    "id": "guiyang-guizhou-art-museum",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0e07d0775d70e3ecebdd626c500bb752fc5593271c936632a97e26892a7c7ca9"
+  },
+  {
+    "id": "guiyang-nationalities-museum",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "229b925f0906629b96208179e02d980da04cc6c6f9817278cd0c169c48bbcb54"
+  },
+  {
+    "id": "guiyang-hebin-park",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a93a665a0fd6d3527845ac5e9a79e42eaadec4f9ee1a60b81435f4cf39c57ae4"
+  },
+  {
+    "id": "guiyang-huaxi-park",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1e4eff474ecfc04549815c63dbc773fdd01074f2c4a1011df8dc5e2c49ae3f44"
+  },
+  {
+    "id": "guiyang-tianhetan",
+    "kind": "spot",
+    "cityId": "guiyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a32769c39b7a96f744d6125999be52492154348422e9092575ef49b7f620d581"
+  },
+  {
+    "id": "huangshan-scenic-area",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "121f0a47faa2231dfcb6c797ff312e38be3726396c7da7b88a86af328655006a"
+  },
+  {
+    "id": "huangshan-tunxi-old-street",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5a354935ad74cad9c968c35bdf83a5561344adf92a5f649cb832faff15ec1c73"
+  },
+  {
+    "id": "huangshan-hongcun",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d8772f2ffd7c6f98cd6d29fb0c5c726fb6c84d3e94656e2c83bb0c5be5670b37"
+  },
+  {
+    "id": "huangshan-xidi",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "95f6fdeac93a94bf401b0504245c4ae651d616e965810c2a55a30dc50f92b8eb"
+  },
+  {
+    "id": "huangshan-chengkan",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "77b4050b936b14fddfd2984d8b6de2770a5ce2be5f2a198c26c823ff5d699006"
+  },
+  {
+    "id": "huangshan-tangmo",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "debd057d9870e8042ba45909a9b7b826890bde8a482103c6d77d53e61c83a91d"
+  },
+  {
+    "id": "huangshan-huizhou-ancient-city",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a26f1aff1996c06441c0323e0725300f633f4d078ae5571efcb8264e7c8767ce"
+  },
+  {
+    "id": "huangshan-qiyun-mountain",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f944d21dfee392661de035e842685989c5dad87a069c2eddcbe6767697c4c726"
+  },
+  {
+    "id": "huangshan-nanping-village",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ee11eb23d7abb8cf200f7d35f0017ecd4be6b97de3c8922b79a809a8eb1ab1ae"
+  },
+  {
+    "id": "huangshan-xinan-river-gallery",
+    "kind": "spot",
+    "cityId": "huangshan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3fdec5dac86e4bc2751c17f117269fdb2fe2510197a43c218257f6b8af27d662"
+  },
+  {
+    "id": "nanchang-tengwang-pavilion",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "73239ba555be832667c1a6ff9e5d47f0ea36286807c683c31911b522a8eef8d3"
+  },
+  {
+    "id": "nanchang-bayi-square",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "59dd42f73c5ab62a9ef5c2c67fc926a2b212685c551d2a04e60479d8146de6ea"
+  },
+  {
+    "id": "nanchang-uprising-memorial",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "3163e5f8ce5253798c11602cd6011539751eebfcc4a2dbd4e1692dfb43525037"
+  },
+  {
+    "id": "nanchang-qiushui-square",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e1c011b04fb221f06950c357725b7344e134ca1878757ab67908a9890b6c397d"
+  },
+  {
+    "id": "nanchang-jiangxi-museum",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "72ff85421f4ae194c5a816c180243dd0047c7194f9d33e188e4c35b58728424d"
+  },
+  {
+    "id": "nanchang-haihunhou",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e0dfab8aed60330690f99c527554a71e0e005a71a2a25734ad1a10547a6f9ed1"
+  },
+  {
+    "id": "nanchang-bada-shanren",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "56455eb5b2ac3711798780adbf7b221741a0a31c0310e6ba55a8324f56396880"
+  },
+  {
+    "id": "nanchang-shengjin-pagoda",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e4d4996d878ace5c124e8cbad5aafccba4db758a9c4c292b0317d22e76531028"
+  },
+  {
+    "id": "nanchang-anyi-villages",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9b48692185d77631a0ddc46662b918d3a62bee0b5368d62abf04fe4ce075ed0f"
+  },
+  {
+    "id": "nanchang-meiling",
+    "kind": "spot",
+    "cityId": "nanchang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "81eb97ab37943a490e0fedb90b49b495ca58303785e234f8f326c012f63d286d"
+  },
+  {
+    "id": "zhengzhou-henan-museum",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5209bc9ef41bd818f79fe8f50153540d626d81243bd75ed4a186dec937619948"
+  },
+  {
+    "id": "zhengzhou-shang-city-ruins",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "826046d0600c83a6e7146d42e4dd09520838ec3192442cfa4540f21a5c5278b4"
+  },
+  {
+    "id": "zhengzhou-erqi-tower",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "04859802f30c603b8779de4adac00724d132c36b2791c13e669cda8ea6a889f3"
+  },
+  {
+    "id": "zhengzhou-shaolin-temple",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a087e3437414ba8786b061135cfe1ce9dad45f9c1787b547bb2afb3929462d4b"
+  },
+  {
+    "id": "zhengzhou-zhengzhou-museum",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2bdc62030836b899c627f35e3684f3e17f5cba3ea71da8a3c0ad840a810703a6"
+  },
+  {
+    "id": "zhengzhou-henan-natural-museum",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2bbede9b25cbee4aea3dfc5295236d3ad7ed1f787c0cdf335682b5dd8e92a6e5"
+  },
+  {
+    "id": "zhengzhou-people-park",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "38e358e7aa1002f3d8de4ebcf03e822ac92b58491015563af6b6bf74aa684782"
+  },
+  {
+    "id": "zhengzhou-zhongyue-temple",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "795f5b7399670e9313efcf20350c7bc525986ff361450b84d562561e5e1ed911"
+  },
+  {
+    "id": "zhengzhou-songyang-academy",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b21a01e004349398c31002f1b69136da0d138a7abc6d0ff8c1ae17154308870d"
+  },
+  {
+    "id": "zhengzhou-gao-cheng-observatory",
+    "kind": "spot",
+    "cityId": "zhengzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5f90d3c6162f8a25ee3da29709cf348ebe1cab59c269341de91561db39061559"
+  },
+  {
+    "id": "jiujiang-lushan",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "118bdeaaded77c8aa5c04fef272cece3485ae428abb954d5deab0a7dc25884b4"
+  },
+  {
+    "id": "jiujiang-bailudong-academy",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7e1c510f57a9bd6f7d4a690f54fc83231be53546c739c99a0e36a3319d4434c6"
+  },
+  {
+    "id": "jiujiang-yanshui-pavilion",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ca1ab746003350153acd8705f6027c7320ffa64f8e489c1520dee64e093ad55c"
+  },
+  {
+    "id": "jiujiang-xunyang-tower",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f6c65a6482f328bbb11f79341b0d13690e39a7544742b3fd451c656054772d9d"
+  },
+  {
+    "id": "jiujiang-suojiang-tower",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bd4ccf85d847c33beefe5a66e500924fcf250ab10125716abbafd040160009b9"
+  },
+  {
+    "id": "jiujiang-shizhong-mountain",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3b01f793700d2faf220bf75f9f9323272d863322a29e496d8782be2ea3c76803"
+  },
+  {
+    "id": "jiujiang-donglin-temple",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "94a2b371263d30b12271e0e9f239ed36ccc14b535826d9b38edfcf6f2afaa956"
+  },
+  {
+    "id": "jiujiang-nanshan-park",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "dc0ed099bcc7c2b9d343556c1e4f56707c6ade574ff34ca3fe0b92649f931832"
+  },
+  {
+    "id": "jiujiang-pipa-pavilion",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "426bd7e01adb0c3441d9cd4c5fa3b9d2afaa5414ca1d51b32f7d62b886416554"
+  },
+  {
+    "id": "jiujiang-xiufeng",
+    "kind": "spot",
+    "cityId": "jiujiang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9dfaf212c3430dbd30c0b2a22fe7ab4c621f56333d8b22edce80bc286d2128bd"
+  },
+  {
+    "id": "ganzhou-yugutai",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "79b51b376b34e2b1f62937bc489c96b39610d868db837a2b87cafdfd27cb2257"
+  },
+  {
+    "id": "ganzhou-bajingtai",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "652c02e47e63543c6e3fa576bfcad24fbc78dd2b09c44fba7462cf15c48dc72e"
+  },
+  {
+    "id": "ganzhou-fushougou-museum",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2a40c8f8053b7c67bcf35a88eb26a4a3f96a29d981a8203a6ef55c898d943626"
+  },
+  {
+    "id": "ganzhou-zaoer-lane",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3fb6f137a6d3dabb8a4190b6fcbbe1760fff604e56a1a1371a6d16acdda072a0"
+  },
+  {
+    "id": "ganzhou-confucian-temple",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "28c18b9e88d8899cd22c106536ac56bc7270c60a6a2b71bf75740930b928b257"
+  },
+  {
+    "id": "ganzhou-tongtianyan",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "22bbdb3c376c10a9c6d3c41f10710d07e2533dae2e33e0c719ca786e42ec7ec3"
+  },
+  {
+    "id": "ganzhou-ganzhou-museum",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "142f5248e268a859e76fab2b2730e6336edc8cddc4cd86257fcdb42760a98a8c"
+  },
+  {
+    "id": "ganzhou-qili-town",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9e3a83aebbba68f5c5d20d242f63867a6e9d9c3d74bc71ba2cad6d294f3d1cd2"
+  },
+  {
+    "id": "ganzhou-yangming-lake",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8920550bc643f5d8b1712e9df30db06ad5060945bb0b1ced8895ea29d68cc3b3"
+  },
+  {
+    "id": "ganzhou-guanxi-enclosure",
+    "kind": "spot",
+    "cityId": "ganzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9d6b074aaf3dbadc2b9df76d84440e8d087548a0cec6c12761b68d49b9a93337"
+  },
+  {
+    "id": "taian-mount-tai",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e0fb04edca6f8ea21ada71522e317c08a191e42367bd6bfbcbf2c27759093dfc"
+  },
+  {
+    "id": "taian-dai-temple",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "631320eef6088ea4d2259ddb02fd44c297ef727dc830ab1244d511c3e27488c1"
+  },
+  {
+    "id": "taian-tianping-lake",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4114de7627cea5befdf34ac8396a9509c99c55118bcf3505547466009ca4a74f"
+  },
+  {
+    "id": "taian-tianyi-lake",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "db8814aa984000cdd8dc40d3dcc4c945eb803b64bccb6d80b2ec9d77fd4c81d8"
+  },
+  {
+    "id": "taian-sun-tribe",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "fa3c9d52866cd284223cbced3b4c3ea854f88390d8840a7e91fc6fd456aa0f76"
+  },
+  {
+    "id": "taian-fantawild",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6dccd7e21ad6976afcf70a2499c1db90aa5e3217aadc4d198199fe8e89a501b8"
+  },
+  {
+    "id": "taian-culai-mountain",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1a5dbcfef8f9009089e2f5901a3373504db7e78009cfa40b72f43a9ad1f877c8"
+  },
+  {
+    "id": "taian-dawenkou-site",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2d366b8649c0f6fa4798dbfafdb16d9e70a7ae5021febd088d44d1048f9f72c6"
+  },
+  {
+    "id": "taian-dongping-lake",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0e65b3828729cf70ce97c8bb12284b5ac8e66411637ea44e2e5553a586d66610"
+  },
+  {
+    "id": "taian-xintai-lianhua",
+    "kind": "spot",
+    "cityId": "taian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "25b90a6680c71314a93585a5b862f989ac65af99a83d0ccabf39ad150de76562"
+  },
+  {
+    "id": "yantai-yantai-hill",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c7b3e84a1230b89712237425a85692b80e76895fdcd283f1947827ff1c9be3db"
+  },
+  {
+    "id": "yantai-changyu-museum",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d4bd77596634c4f8555efc085e1b93d52f0146e4818406d4a188cf69862c0001"
+  },
+  {
+    "id": "yantai-yantai-museum",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ac56083d2fe209c81b5ed8abd767f0239cf179ebff0872ebfdf39d50107fffca"
+  },
+  {
+    "id": "yantai-polaris-clock-museum",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8822b78a4eb821cb458d8bff0cffb6b9df674ed759ccfb0da9573f9d0e34f04e"
+  },
+  {
+    "id": "yantai-chaoyang-street",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "726d0b4660fecc138ab85a8399bc622956dc045112b967397c58d638eaffb0ba"
+  },
+  {
+    "id": "yantai-suochengli",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2c929a63eef2a19de787d55ac50957d84d91acbd3d801de4d64c9b89b8b4bc20"
+  },
+  {
+    "id": "yantai-yangma-island",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bb8e2d5459a24ef7f6504670bf45f07c07bf5d899fa215680c6dc9bf3ce9b61f"
+  },
+  {
+    "id": "yantai-penglai-pavilion",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ab87cb46842daef9bc65ade82e56a011ec1b705e8d5d55cb91dbf97fa257cd13"
+  },
+  {
+    "id": "yantai-changdao",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8fb26678f4b75efb6911cf3b21e5eb63d3fd708090e7a4d89a2cd952cf3db9b2"
+  },
+  {
+    "id": "yantai-mou-manor",
+    "kind": "spot",
+    "cityId": "yantai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8c68f9c2575f1c2bdaa3fe5c1d25be9b4bdfba491939deec0c30eb053907bb9d"
+  },
+  {
+    "id": "yangzhou-slender-west-lake",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6b3e722e9023044292bb88b2840cc1c42505860e91a9d7fc9b3e3094debdfe61"
+  },
+  {
+    "id": "yangzhou-ge-garden",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cf755abad35dc5cb851a8597d3b9a58b33912ec0d64b28bef5eb4f515575d748"
+  },
+  {
+    "id": "yangzhou-he-garden",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2aea4d49d47739779eeb5adca3b8ec6978101b5cd28925a443da87252fe0ccde"
+  },
+  {
+    "id": "yangzhou-daming-temple",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4b69cd0c604ca4847de0094e3a2d3b422798a95816f7b3f5673d42d0fb4f6fd0"
+  },
+  {
+    "id": "yangzhou-dongguan-street",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b6773a47d05b14d5ce2640d190817edcfa61245a8314295c61492eb7b837377c"
+  },
+  {
+    "id": "yangzhou-grand-canal-museum",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "92e56abbff4e98c71af4ec56676f7a503b8c69a534d6d0a27251d06bd4af7a8f"
+  },
+  {
+    "id": "yangzhou-han-tomb-museum",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "296d2eab1b08d5916d7432b3525d3c0e766cbcdb2f36bc1c5d1b6a78382fe644"
+  },
+  {
+    "id": "yangzhou-shi-kefa-memorial",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "acd04932c86242841984caecb17c2bda0c94b3df9377bb50befdc6f22480b088"
+  },
+  {
+    "id": "yangzhou-eight-eccentrics",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "141ef1bd6a1b7196c7bac862fb54acdc977a601c3de0e140e5e6c8da5050840c"
+  },
+  {
+    "id": "yangzhou-yangzhou-museum",
+    "kind": "spot",
+    "cityId": "yangzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d58997532a6c04eabe48c0b725b5e55d4c580310b64935ba54a994f9a0b34116"
+  },
+  {
+    "id": "wuxi-yuantouzhu",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "803aaf9a1c840a5de3d5a1bc584d48840b6521585048bf10617d22139c89d08e"
+  },
+  {
+    "id": "wuxi-huishan-town",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "177bdf5421fa2290286b37ef2beb2d94a6f2e1ef5763b5a588ceb90e22cf542e"
+  },
+  {
+    "id": "wuxi-li-garden",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "049a7c5d90b9f9b1ef6c7b7d3761103749f63693f929c5691e110312ea8827e7"
+  },
+  {
+    "id": "wuxi-plum-garden",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0e262bf28cfa09c28921c4833baceb59dae9904094d65c617a8bb2e479b3e5d4"
+  },
+  {
+    "id": "wuxi-nanchang-street",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d9b37f24ffcccab7397e33a332127f11ddb742846a1df490f0b1f844a8b12565"
+  },
+  {
+    "id": "wuxi-donglin-academy",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a86d1a4ce86d7edbb63e03015aa15d9cd545ac7d4721e1470be019e9900edf6a"
+  },
+  {
+    "id": "wuxi-wuxi-museum",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0883be91de2b8716ec3ad9efc69c004c4b08fb8a7859f8f308c418ce8ff65997"
+  },
+  {
+    "id": "wuxi-lingshan",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "983ac0892f8c61e5fee89f739cafc359c47ef2be756cc7681947c4e2d918d0c5"
+  },
+  {
+    "id": "wuxi-nianhua-bay",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "aa366a87f35d9cd344e639ff3d6da70d90fe35fd12e79866bc8072110f3804bd"
+  },
+  {
+    "id": "wuxi-dangkou-town",
+    "kind": "spot",
+    "cityId": "wuxi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4df2fc8bb7dd9edf93cc18ff8b20308524dce0ac3fff553d1ae7b350cf551abc"
+  },
+  {
+    "id": "ningbo-tianyi-pavilion",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8ba28d1a9e84d6dcd312d6cdf80354614211ca45e15b9097db7348a1ad7a489c"
+  },
+  {
+    "id": "ningbo-ningbo-museum",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a9876da0dd5c827949b31903d28edb0471d783bba03d0e55769c32c01405afd7"
+  },
+  {
+    "id": "ningbo-old-bund",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7c3d005105e008e2c46277c915554cb8eaedc687d430b7ef9a434b6e2e9e7683"
+  },
+  {
+    "id": "ningbo-baoguo-temple",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c399dc3a2418a8f6161497dcbb5ac8c70e19f5b8a6660c2218182f730ae0f983"
+  },
+  {
+    "id": "ningbo-tiantong-temple",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8a0bbbc89413ec462103fc6feb1b52f051bc2a9d6d14bb3730c0e13a885fdb1f"
+  },
+  {
+    "id": "ningbo-ayuwang-temple",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "581ff5e34e6abd579bd8fa34acc63077314a82ace372b46ccb38751c1f869391"
+  },
+  {
+    "id": "ningbo-dongqian-lake",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b65d65b58d91fb032ff5ece127e34a5aa92f2da2fd69a95d137e1b0e4b888d8d"
+  },
+  {
+    "id": "ningbo-hemudu-site",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7fdd8ea65617a67370c5e89cf79c0167a7b960b2b10a8116b07587b366ca8c04"
+  },
+  {
+    "id": "ningbo-qiantong-town",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2c545f6fac412a6e39784d7847f4339b20ff89f9547baf5ad6d9551b3ec2b092"
+  },
+  {
+    "id": "ningbo-xikou",
+    "kind": "spot",
+    "cityId": "ningbo",
+    "verifiedAt": "2026-10-23",
+    "sha256": "73685c1b6c5ca8b8bb8152788eb60ff38370184bc2ef4903e7cbdf9daac5186a"
+  },
+  {
+    "id": "shaoxing-luxun-native-place",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9ebb6e0e8272095b11b9b4cd8ff711a992361212f9ed9d9f0958a0c818e4f5f4"
+  },
+  {
+    "id": "shaoxing-shen-garden",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ae7fa7ecdad5e61dbf8718a48192ee79604005dc739bac811a5855c7f4cf8f00"
+  },
+  {
+    "id": "shaoxing-lanting",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "45d224979d58ab05872947b69854c58a4636bf61c5589ed215ff34bcf0f67219"
+  },
+  {
+    "id": "shaoxing-east-lake",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c06fffcc593e6319d4758c9baf2b744b579c9bf25d370cca3dec948eab26a6e6"
+  },
+  {
+    "id": "shaoxing-dayu-mausoleum",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "19679cea7e2da636dafe6fe7f3a33bf73f83df91045ced37a39c6aaa5c8fd838"
+  },
+  {
+    "id": "shaoxing-shusheng-native-place",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f567cd7eeba93693622af3c2af430850e283637dcefd318376377abdaf7e012a"
+  },
+  {
+    "id": "shaoxing-yangming-native-place",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ee48e553c079cfb4c46a5354578a65f3d596c3f7a46c9ac7433232948ef0f9cb"
+  },
+  {
+    "id": "shaoxing-xuwei-art-museum",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "528d072ac8c616f52cfa75c985a13a5f08d58da49599f3042c6af938b5641d65"
+  },
+  {
+    "id": "shaoxing-anchang-town",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a488606d83de80ce488f11b49787b846b13801cd5e70b00738f539b4732bdac9"
+  },
+  {
+    "id": "shaoxing-keyan",
+    "kind": "spot",
+    "cityId": "shaoxing",
+    "verifiedAt": "2026-10-23",
+    "sha256": "142e862a84a4553e68def7de3891ecdf85e919985f450cf23b84fb0bfcd3de0d"
+  },
+  {
+    "id": "taiyuan-jinci",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a9e25ab51a83e8140f2749cc3fae8e4381dcade85318a94b1a6aef96937ec504"
+  },
+  {
+    "id": "taiyuan-shanxi-museum",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "485e91f9547da4a8b00ce79d85655fd249f829292212a3b2fa41ddb149e1b099"
+  },
+  {
+    "id": "taiyuan-twin-pagoda",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "803aed439c9ac38c15127e79f4d991dde66c9e093eb319fb7b81f1dfd1db2d74"
+  },
+  {
+    "id": "taiyuan-fenhe-park",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "19bfacdf07e4091c8fd04ca868df534134ae28c0f75ab0a4ef701cce7d2b8974"
+  },
+  {
+    "id": "taiyuan-chongshan",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f509d0127da8e5960f2f906f5348bbc3f281f290a2883108c206ee2ffb2c9420"
+  },
+  {
+    "id": "taiyuan-coal-museum",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "efc7508c8c454c425fe081baf816d763ebc927cdbc9371dd97c5173cde79e798"
+  },
+  {
+    "id": "taiyuan-yingze-park",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "19fb8209ee7541c84c525b96c3e61faa1be876e94f18bac345c5a3681efc627f"
+  },
+  {
+    "id": "taiyuan-mengshan-buddha",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d23b8ea3529bdcd39cec0b10fd9cd5793982ab327a89f8745316d7cb40b99e0e"
+  },
+  {
+    "id": "taiyuan-longshan-grottoes",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "63336184b28f14c65193a730ef259c4295cfc334963d4f0a435cf018b1a18a1b"
+  },
+  {
+    "id": "taiyuan-taiyuan-museum",
+    "kind": "spot",
+    "cityId": "taiyuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5a354650341b99efc480f4e44a5bbc4542ee78d8b48471230981170e44d1ebb1"
+  },
+  {
+    "id": "shenyang-imperial-palace",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "628b096737c2ed3f2c6fe9b7fdb7eefcaf35fea3caca622afa153dae73341f16"
+  },
+  {
+    "id": "shenyang-zhang-residence",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "fa00b0289c0fbf7e15da49970fe02730894864815d9df1e561db472854fefa00"
+  },
+  {
+    "id": "shenyang-zhaoling",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9e68e17234c9662b08b5af9e7f52f89646550a3af261b91ddbc7d3d8abe5a651"
+  },
+  {
+    "id": "shenyang-zhongjie",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b8aaf62276fd175df5a9074cfe4e8b83ac3eb4901a6f5bb9191ea66d5a6a3752"
+  },
+  {
+    "id": "shenyang-liaoning-museum",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e2254c2b08d2a57c61b4f8064d183e0fa6bcb24fbef93300332cd1817d7b522e"
+  },
+  {
+    "id": "shenyang-918-museum",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8b6b3d2ae8729b438dc3bf8eae4df380f370ade214a5850b9723e45cce8087b7"
+  },
+  {
+    "id": "shenyang-xinle-site",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f581fbfadb5825e025cd7624c9079695cf3bc7e9bc1bc8df6dabd8599486ec77"
+  },
+  {
+    "id": "shenyang-fuling",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "73d270f7a46e95a26de25b0b58af898b318c5fa6244dbcf02bb0e7f97a1f01c5"
+  },
+  {
+    "id": "shenyang-industrial-museum",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d2b11b2bb1968bf71d00727bfcfb819eb7ef0cefca2deb3535ddc6cb24362c90"
+  },
+  {
+    "id": "shenyang-xita",
+    "kind": "spot",
+    "cityId": "shenyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6f2ea9b7cf861b4cb30006a6271a246d51428e3234301b843fbe38c69eb81785"
+  },
+  {
+    "id": "harbin-central-street",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "c5577d9412e64c380d9f0e30bb832bbd9494c22f2e660a8227be7675fc0cbd9a"
+  },
+  {
+    "id": "harbin-saint-sophia",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "fc01ec5fc06c2b5d6e36fc000769eaf5f2950e050a6bdde46198da99d7835bd8"
+  },
+  {
+    "id": "harbin-sun-island",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "09474884b9c584108ecd13b07b90207d0f8c9cdea960bc037f7b333c93592ded"
+  },
+  {
+    "id": "harbin-ice-snow-world",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "1b369a4a877d1390238ed63e138de37db0daa8efcfd415775467f098f3916b79"
+  },
+  {
+    "id": "harbin-laodaowai",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5c8771f31322dcfb2533190a6e8a1feba3010bd329b3c326038d0cd7743da79d"
+  },
+  {
+    "id": "harbin-stalin-park",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "77afda62232f2a5b5c0191c9b2fc9d391410cbc520020d678af958902b8ac520"
+  },
+  {
+    "id": "harbin-zhaolin-park",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "be9d308837fa17e766df8338372cbf6120c64e6d320d255cd629270eeeb14dce"
+  },
+  {
+    "id": "harbin-jile-temple",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a79e3494c0805ac34ed2c2e62763c1a8296f6df07a9d274bc29e1275d6a843e3"
+  },
+  {
+    "id": "harbin-unit731-museum",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7abdf1f7a65f3266c25a5dad74bcfb4d304566219315f6dfb8500689cd361b85"
+  },
+  {
+    "id": "harbin-tiger-park",
+    "kind": "spot",
+    "cityId": "harbin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "49c56494d14277e69ca775c5260c20926cd2a56e8b4f5a498aec14e77655401d"
+  },
+  {
+    "id": "lanzhou-zhongshan-bridge",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "634b75d7fc1a4f84daad2fc3cfa3b19f3eccce5c39051f0593c9a274378a5b7d"
+  },
+  {
+    "id": "lanzhou-gansu-museum",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "2b5646551f8b10775bda6f30451f48b8696db0a942ae0c247e75fea765f35835"
+  },
+  {
+    "id": "lanzhou-baitashan",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "910ed9f2a83981d5f25fa5b5898f62ae494ee058d890f6613c4f791144423bd6"
+  },
+  {
+    "id": "lanzhou-waterwheel",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-21",
+    "sha256": "ebc1e420facecc38e6c267c2a07d79ddc97d6616303df014676a7c5577413278"
+  },
+  {
+    "id": "lanzhou-wuquanshan",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0a5e95eb00b482d6261da326ee08f11c6585bf066384cd71c37a9911872e0638"
+  },
+  {
+    "id": "lanzhou-lanshan",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b962ca6f09df0c132aef43e2bc8c7d6bd6c027de662fc6c72cfff6ce8248900a"
+  },
+  {
+    "id": "lanzhou-baiyun-temple",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "371992ce8cf21ffb74a6413ccfbe66988d04205da982870a66f8e239659d7a32"
+  },
+  {
+    "id": "lanzhou-qingcheng-town",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8aa02b1e77210ed424070726b2e9f40de0fb07435ee14c77647b4a0485be5cd0"
+  },
+  {
+    "id": "lanzhou-xinglongshan",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "683cead80c3344c8551cc04d490d9399101390c86d9a54587b79b40bf5feb23b"
+  },
+  {
+    "id": "lanzhou-hekou-town",
+    "kind": "spot",
+    "cityId": "lanzhou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "18360b20fc91ae1e8245a0055044091bc7792dfb8acc108d40ed53b6fea994eb"
+  },
+  {
+    "id": "tianjin-five-avenues",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9d29cce6b8c674a50a43aeae1c5f9e0ddea269ce6fdbc2b112e5706ec2b15180"
+  },
+  {
+    "id": "tianjin-ancient-culture",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "f8157de88b1046bbc8a7ea1f1c03000d3fa3917e8a71e9915f495fb321608f58"
+  },
+  {
+    "id": "tianjin-italian-style",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b90873054c6dd02b66a65c603abdaa8dedda8410c904999a38dabf108ea82b04"
+  },
+  {
+    "id": "tianjin-tianjin-eye",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-21",
+    "sha256": "53ee9cc8c8d17bfff74a35990f4eb52059b5c460effe7fa7366f17a6d9cf1cee"
+  },
+  {
+    "id": "tianjin-tianjin-museum",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "905567308690e8168e541a5916e1e5bd436da39c08cf9f8ba12a1c626646755f"
+  },
+  {
+    "id": "tianjin-jingyuan",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "789a70f1eff2b1780ddc21380bdf6d6751dc0cf26be3643ea5d745fe2313d690"
+  },
+  {
+    "id": "tianjin-porcelain-house",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4365556c1e6c4554457939f6c7c79859a07643606de75198a9b0044aeb24a51f"
+  },
+  {
+    "id": "tianjin-water-park",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6ce7109ee0fe8b8a6ed6877b5f3c3d581b8f8cf41477ae9c8405e7929b12252d"
+  },
+  {
+    "id": "tianjin-xikai-church",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "05d8d9714e7ee5884dd310ff554a538ef3543c581e6a8fd6108692db2f9d9db6"
+  },
+  {
+    "id": "tianjin-zhou-deng-memorial",
+    "kind": "spot",
+    "cityId": "tianjin",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0fac76771743e7799d033b43e24f61dd3361513230a587e84f61d892b6565f22"
+  },
+  {
+    "id": "shenzhen-lianhuashan",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "998d1048e52a66e7aeff10885000fe3d78e2d0caa2d2abbb15a04d6c1d72606b"
+  },
+  {
+    "id": "shenzhen-shenzhen-bay",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "45e3bba8361b138d253798bd902d38820c29110c5801ced50fc08b366dc0a3e2"
+  },
+  {
+    "id": "shenzhen-nantou",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "e7a3d5f4e37d2929e73780c76d20ce9e9575c71078d7d306aaab3cb02df6da19"
+  },
+  {
+    "id": "shenzhen-window-world",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-21",
+    "sha256": "8fd7ab3452354b7f37a273fdb8088a81eedcc00f6fbd3c4911081c5fcdcbce44"
+  },
+  {
+    "id": "shenzhen-fairy-lake",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "eb47990cf52024acb35d453f3b1cdca522ff8c611840879a33023b1957e3c333"
+  },
+  {
+    "id": "shenzhen-dapeng-fortress",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "eb7e8ca935a22966b7907109cbea81956a01b560aec2c1a42227fff4b44c15af"
+  },
+  {
+    "id": "shenzhen-dafen-village",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c1fb2b9b297d9a00986de6a2e8854b7d8e858ecc2bf23b8300e8c655a38d10b8"
+  },
+  {
+    "id": "shenzhen-wutong-mountain",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ffc6996ab2100ab6bd629c26594ea53f36c772a4f93076de035c222f3d51c0b1"
+  },
+  {
+    "id": "shenzhen-gankeng",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4a8601edcfc2437587fc6336e672adacfcd686fe358239e0828152f51b23dafe"
+  },
+  {
+    "id": "shenzhen-sea-world",
+    "kind": "spot",
+    "cityId": "shenzhen",
+    "verifiedAt": "2026-10-23",
+    "sha256": "49da1c5cfea2b856b0d0b1208cd87225a4119d982914faca1c28d3de1971b030"
+  },
+  {
+    "id": "dalian-xinghai-square",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "30f827e43e22e6f3f2c7bdf6d3ae5378e23003aedcc2257fcb4aaa0495f52160"
+  },
+  {
+    "id": "dalian-bangchuidao",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "4b51017edaa4a851c513e37de12bd04b1bcff3ad0364aead197770e9525577f9"
+  },
+  {
+    "id": "dalian-laohutan",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "79659aa22d6bb02cdcc37d1c08ddbc6715fff9ffa9d16f72ecd6c2fefefedf08"
+  },
+  {
+    "id": "dalian-jinshitan",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-21",
+    "sha256": "658daa1be71044f486174f8291ac219fc026a55eb8c1a651373550cd3bdb1444"
+  },
+  {
+    "id": "dalian-zhongshan-square",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f2e927fbdd91614c049100229f08682e2ef43928bd7a356a0abb4b52767ea6f0"
+  },
+  {
+    "id": "dalian-russian-street",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "29da7a1ef122b017ec97e2175c1a43870c295ef78cc7df9c089d9baa6fd752b6"
+  },
+  {
+    "id": "dalian-dalian-museum",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "fd8d13888bc190aa15e255239f26aafc0ea0d2e1bd008d1c61782173f2d5da17"
+  },
+  {
+    "id": "dalian-natural-history-museum",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "17d907096a1ced44cadd64809884b80bdd24dd2b419fb93a0f90f966ab72c4b0"
+  },
+  {
+    "id": "dalian-lvshun-museum",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "43ce445e685ed706b1a85205617faf92b46768844bb8766f293ed41b6f086136"
+  },
+  {
+    "id": "dalian-forest-zoo",
+    "kind": "spot",
+    "cityId": "dalian",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e54d57b641b30ed130c0bc07d5063702183223c87fb574ca923961f8a0d19565"
+  },
+  {
+    "id": "jinan-baotu-spring",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9bd1c1211f03bbf8fdf968e33dd24372c082daa450a62aada7d313e2ebadd340"
+  },
+  {
+    "id": "jinan-daming-lake",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "3aa75df414fe5364d175251f0f1468a654eaffc7da4b38a08b4d0825c38f1695"
+  },
+  {
+    "id": "jinan-qianfoshan",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "ffdac04cee9a009c160588e7125efd6cca475588bc977fa60ae7aba58ce92489"
+  },
+  {
+    "id": "jinan-shandong-museum",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-21",
+    "sha256": "cbf585483ee8bee5cf2187576961a5566e7bd0ebae746110cb0b06a46006b18d"
+  },
+  {
+    "id": "jinan-black-tiger-spring",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f645c14eaaba376a30d838d4b99d95a515da13bac8b62d81951d6e6a341d5e7b"
+  },
+  {
+    "id": "jinan-five-dragon-pool",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c81bc7dc82f03968630b147d9ad1bd7314f78fa1bc59a878d911120ce710805d"
+  },
+  {
+    "id": "jinan-qushuiting",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1a1b6f9d9d66c3d9ab186f86d0047c985d847ca3ccc9dd6968bc7fcb37b95cca"
+  },
+  {
+    "id": "jinan-shandong-art-museum",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "28efb7aa22966a3a95cf56f6313f89fd0306079e59cba9095d224a4d3294b551"
+  },
+  {
+    "id": "jinan-lingyan-temple",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "63be360d0d4bfa7efba37a77a62c143109e1ad4ac6a13144c25c2882e5b2e459"
+  },
+  {
+    "id": "jinan-baimai-springs",
+    "kind": "spot",
+    "cityId": "jinan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a16b712db204ee7250b942115323e2997f11f5c530314b0132f02ab4a152a07c"
+  },
+  {
+    "id": "luoyang-longmen",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "068bd4098ca34cd74a14b74a7457fbc423673651327c175b476a922a4989a36d"
+  },
+  {
+    "id": "luoyang-white-horse",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "55d1845b10c4f9e54041e7f0d1889d0b22d29614fe1c02ef0321312279e13ad0"
+  },
+  {
+    "id": "luoyang-luoyang-museum",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "b5138f559cdba0ddea22acfbaf5293b9869e4294965ecffc6cb95bb52232c485"
+  },
+  {
+    "id": "luoyang-luoyi",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d30d7cba91f9dcc83daff33f69032c5c1a65021b10f7d13fba43640288883d3c"
+  },
+  {
+    "id": "luoyang-yingtian-gate",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "babde72d9984b26e8597b2eb6d6fdd7bc9c65bc34bf3af66c2e7117949d70925"
+  },
+  {
+    "id": "luoyang-canal-museum",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7a611824b52f59d5e4a9cf7bc858030ef3571af883bd6c7f4463ff085a74137e"
+  },
+  {
+    "id": "luoyang-ancient-tombs",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d9b36008a649e1f3abe51bd22a3fe93a807cdb7cdebce27240a061bd77700ee0"
+  },
+  {
+    "id": "luoyang-guanlin",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "17e415c50a4c1f67c952e57b99d85a1aa423432489eeceb2d6639656998fbd85"
+  },
+  {
+    "id": "luoyang-suitang-botanical",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "eaf422fb1a3dd4477dc12b3e07ae8765e1523a29caa0d7b10fef111189eae5f6"
+  },
+  {
+    "id": "luoyang-hanwei-museum",
+    "kind": "spot",
+    "cityId": "luoyang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "282f91309587be709e194b667c8d625a15e2ab7467190fc33382b7f448dcdc05"
+  },
+  {
+    "id": "zhangjiajie-forest-park",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d5319029d847bd6feae2ee22a5b7e42743baf8dc825df62eb5f113471dd22078"
+  },
+  {
+    "id": "zhangjiajie-tianmen-mountain",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-21",
+    "sha256": "243318f448e69ab4fb0f4ed103dd61ea1c5fc47802c635b8792ee1e80f613c47"
+  },
+  {
+    "id": "zhangjiajie-huanglong-cave",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-21",
+    "sha256": "5440f33cd64a5e8960b707f24ec24e0a881626f83de9ed959bbf746590d9244a"
+  },
+  {
+    "id": "zhangjiajie-baofeng-lake",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-21",
+    "sha256": "d17c8b1d2ac4f81205bd8872bef3d3833e94738aad06e0ea9554837f6cc87b05"
+  },
+  {
+    "id": "zhangjiajie-grand-canyon",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "121090588658cedf42b0d982ce2744ffe288dbf69d54c082e265f3eab70d9050"
+  },
+  {
+    "id": "zhangjiajie-maoyan-river",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "46fe36f9caec959a3c4ce5c0f2985d923e3486badebc1b37ec2f1f02ee2184e2"
+  },
+  {
+    "id": "zhangjiajie-jiutian-cave",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "67f721bcf86b641f3f190f792f7148d26443fcc8ef6b077e7c43be50125b8081"
+  },
+  {
+    "id": "zhangjiajie-tujia-folk-park",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4b111a475f8e624381d1e3fdd98968bf3df8d73a7091adad4f2a904f1de75f9b"
+  },
+  {
+    "id": "zhangjiajie-city-museum",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2db5dac7d0fa299c7a29cb39b0153ea682371a7864568f8099dd29e23b05d2f2"
+  },
+  {
+    "id": "zhangjiajie-helong-memorial",
+    "kind": "spot",
+    "cityId": "zhangjiajie",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7a30240be5e180878a3e5bf7ceb6cbd2f39df3f5039f4f15b6cb0221f6ddda5a"
+  },
+  {
+    "id": "lhasa-potala",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-21",
+    "sha256": "bb0ead524123be9dcf8a0543e8ec91fcbf9556c8c03fd2e3bfae922452a0066f"
+  },
+  {
+    "id": "lhasa-jokhang",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-21",
+    "sha256": "a5cad8bc43644ca3fe5a313266d2d9a2e04722e01c28f74eff500fde61c46f84"
+  },
+  {
+    "id": "lhasa-barkhor",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-21",
+    "sha256": "57871d8062fe688fbcb414191eb8e1e7dab52be0890239351d3bee873688e1be"
+  },
+  {
+    "id": "lhasa-norbulingka",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-21",
+    "sha256": "389de72f433aafa1f2bb04fcd7ab711952c7bbc15396a1e0aebab97d1f69a9c9"
+  },
+  {
+    "id": "lhasa-tibet-museum",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "da3fceca453bedddd44c297ac3b6ecddf4a63b1f8e413d5e08770b069298a81e"
+  },
+  {
+    "id": "lhasa-sera-monastery",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "dc3fd16315c792363107a23e2455d933fc58677655a911de00d46bc856b8eb13"
+  },
+  {
+    "id": "lhasa-drepung-monastery",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "aa67ff66c487dd4a0c0ed6f5276ea5ecf0a6cc2bc303bb4584997b94a4b94eab"
+  },
+  {
+    "id": "lhasa-ramoche",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "26d41e86b5f127fdf8b16e43f545234d4c5fc38fb129cd6dcd50b590ac0a8ea5"
+  },
+  {
+    "id": "lhasa-zongjiao-lukang",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0203e329b6b9f091fe593d676cb87d15e845cfc1d7f41b8f2b03fdaaa68fc05d"
+  },
+  {
+    "id": "lhasa-zaki-temple",
+    "kind": "spot",
+    "cityId": "lhasa",
+    "verifiedAt": "2026-10-23",
+    "sha256": "9e6b76691be96ba36bc303704ae64e5dd39131cf0ab79b1e4d0320504607c6fa"
+  },
+  {
+    "id": "dunhuang-mogao",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "3c4e777c22a2aa09457470e508c26ec4df1cd97606e4b88817d26e49742e2aad"
+  },
+  {
+    "id": "dunhuang-mingsha-crescent",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "47ab8ee55153461365c83c2c82eaef1a92cdeeab903e08e54dde9f94318b5957"
+  },
+  {
+    "id": "dunhuang-dunhuang-museum",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "9488acfca75aad7ad1257537bdc05d49ce150b6dfbe1a51d0ab08ca55834116f"
+  },
+  {
+    "id": "dunhuang-yumen-pass",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-21",
+    "sha256": "3ce3c7b616936e8d850f3ad6770de521947a00c4f7195327b87233ce3603c7cb"
+  },
+  {
+    "id": "dunhuang-yangguan",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6c8afdc026013d813a45cbf57399b57989d86c4e6ac72616a3ac8d6bcfebbdca"
+  },
+  {
+    "id": "dunhuang-yadan",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "45cb2438320b8d9d96b08bd049b574f137859802f01f11972b3963061e17ff2a"
+  },
+  {
+    "id": "dunhuang-west-thousand-buddhas",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "67accba547f4fca401406acdc182e3972e5d13726289ef5d026da3902780da43"
+  },
+  {
+    "id": "dunhuang-shazhou-market",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f792ef2f908645abaf9ee6927c82d36e2fed93a4e9c7cc096a74c43f8ee84091"
+  },
+  {
+    "id": "dunhuang-danghe-river",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "11cc2fc10435cd3e8bc4e5443a0cd5bdff42b846cb151c3da7f00e250efd92fc"
+  },
+  {
+    "id": "dunhuang-film-city",
+    "kind": "spot",
+    "cityId": "dunhuang",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ce1cc90ad870b38a36cfdb8dbe3932bd4be4201017d1756493e7ac5627612793"
+  },
+  {
+    "id": "nanning-qingxiu",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "454185b45f716cefb4a7236fd88205e7b791c1bb28f682883e489914ec89070f"
+  },
+  {
+    "id": "nanning-guangxi-museum",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8f7986f8ff3f88e37b4b0ea3022782adf3e40871dd992db64ce76a240a223099"
+  },
+  {
+    "id": "nanning-ethnology-museum",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1e50b47d1688a7365cb143be1a3b072fd9540e5f0b20f89605a75b93169fb68d"
+  },
+  {
+    "id": "nanning-city-museum",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "50dd3ae106271c375679489ea84b9f214cb7f22fd53d27ba6b8a39abc8f40283"
+  },
+  {
+    "id": "nanning-nanhu",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "80e3159b2f63eeaf439aed370a2af411068fe6365d1bfaa003c829f04090c4fc"
+  },
+  {
+    "id": "nanning-people-park",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "61f0543c3c9a3d946bc0643d3f4a578c04519fbf7a9206f8b95cd211ff76e7ab"
+  },
+  {
+    "id": "nanning-golden-camellia",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a7250292263e461fc338850edc62671c346341c79254b73aee986773420363a6"
+  },
+  {
+    "id": "nanning-old-streets",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "78adcb1ebdd5c3d96ea4688bf6e827a0fd28903ad9fd6fd93573445379ca9cf7"
+  },
+  {
+    "id": "nanning-medicinal-garden",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cb74e49cd614e52f45da8a20e1475fe2dc4cad93b539236ea87d1451518e92d5"
+  },
+  {
+    "id": "nanning-confucius-temple",
+    "kind": "spot",
+    "cityId": "nanning",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1a2691412c1e147220a53f2634a6173a8bb8f9bc9963c752d6721a28e909af2b"
+  },
+  {
+    "id": "beihai-silver-beach",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bc7babe93fedbbab5217c689d74dfb051a72b7149525b799fd5fa2fb834a6813"
+  },
+  {
+    "id": "beihai-old-town",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "88133ac0d4f086da57915ab84ea327d71d30cbcbb38fcab764157a09ac3663b9"
+  },
+  {
+    "id": "beihai-weizhou-island",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "bae9cf6bf8853b36d5b5086223b8f3c13fca7d066aa2928fb6d8eec7fa2e4b1c"
+  },
+  {
+    "id": "beihai-mangrove",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a3466db0b66455f18be170ec59bccd7650e89b00aaa3258b29809ac95ef982eb"
+  },
+  {
+    "id": "beihai-guantouling",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "df46a854ed62d48da9839f520dd38d1851f8f04a5e05846cde75fadf66bce85e"
+  },
+  {
+    "id": "beihai-qiaogang",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0a6068e80c2ca62a158bbaf1a67f55a33eca8c9784639a6a9dc4d89ac4168c8d"
+  },
+  {
+    "id": "beihai-ocean-window",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c128aaa11016c493ec76025e7da6cf7bf7cce567c6457e7a93ac8c63b77fb84f"
+  },
+  {
+    "id": "beihai-garden-expo",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8c7c2d926d70d820aa0a307e4b8f5c933e68f61945930ad7aca2e0e916612c97"
+  },
+  {
+    "id": "beihai-hepu-museum",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7b4c8b9b198ac6ea011c25180e0dc80a5b96ca2ec2ec256fe66f61e8dd6a947b"
+  },
+  {
+    "id": "beihai-maritime-port",
+    "kind": "spot",
+    "cityId": "beihai",
+    "verifiedAt": "2026-10-23",
+    "sha256": "718bb96003f0183a03e0ee49a2f1de2c8b114b26a1d5a5e7736ccd4f68c74bda"
+  },
+  {
+    "id": "xining-kumbum",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4cfe2891e53a3b77c73bbe46c277956d50917edfad4004b6f0116958bed9a620"
+  },
+  {
+    "id": "xining-qinghai-museum",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "462ced1b7243575a07d415fa29c2b805b65e276d5b62b74f623fa9772762bc87"
+  },
+  {
+    "id": "xining-tibetan-culture-museum",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "289d3c0ccb2e206f848464bacbac3c3a37826e3cfe9ffe417b2ac1d2d03cf050"
+  },
+  {
+    "id": "xining-qinghai-art",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d1d5fa16ee5442efaf051f33675e5c388aec861aa7ee6c3f7e9de28f4cc5a208"
+  },
+  {
+    "id": "xining-dongguan-mosque",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1e71418d2a6d6f37e4081fa073cc06b32d9432acfeb89324f8610f0dab36d02d"
+  },
+  {
+    "id": "xining-nanshan-park",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "59d93533c0fa564c47040711412ce09ab291d4b39888646fa7967a8c1c25ff4b"
+  },
+  {
+    "id": "xining-beichan",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "16e7ec97c2a4618cd3dadb3eea4fb7358098cb148a8707ad34da4bdf03e8756d"
+  },
+  {
+    "id": "xining-people-park",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e076fe46a50d219ed11ddb86ffc43909d064d44db18a2d2480566db0166dcc30"
+  },
+  {
+    "id": "xining-plateau-zoo",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c0a7c086f7d277c68e11eac63a36b0c465e80d9786f30dc0b67f394402846bb9"
+  },
+  {
+    "id": "xining-mojia-street",
+    "kind": "spot",
+    "cityId": "xining",
+    "verifiedAt": "2026-10-23",
+    "sha256": "36bbfd8c379170532b45414c3ae15db15a4c47967e00145dcac0adb9aec4b128"
+  },
+  {
+    "id": "yinchuan-western-xia-tombs",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8041b3daad9c6edbf769b0ae0d289660b475e64d47f38309f74744126a0f26c9"
+  },
+  {
+    "id": "yinchuan-helan-rock-art",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "0e6ecdc3bacd5a6ad1242252bb9ddc3e8ac47b49313335b188a390338ff0c954"
+  },
+  {
+    "id": "yinchuan-film-studio",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "5f92e61748c29d0ed1017e7d9a8e3786e067be10aaa45d3c5b6c440515f70a5b"
+  },
+  {
+    "id": "yinchuan-helan-forest",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7bd948f59c7bd8fcab9c16b038abebb01788e210ba415f66d039cca7dbcbdf91"
+  },
+  {
+    "id": "yinchuan-ningxia-museum",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "ba6a03dfa40a3429fee6586f4909d179fbbc8d3b78407ae56a05f4c9a0c19cdf"
+  },
+  {
+    "id": "yinchuan-haibao-pagoda",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "083ca9d0c0c585c06efb087cdb91777082b480365ecfff6ea7ecbd281786aa81"
+  },
+  {
+    "id": "yinchuan-chengtian-pagoda",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b23376c8cd4c2d543d5a30c58f746a4d5c4aa1d716c2a8a6cd1b59359dd8e8a4"
+  },
+  {
+    "id": "yinchuan-lanshan-park",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4b214037a06fb27f29b888483a6a8b00891a51da571ec5c7d39ea39e1dfac167"
+  },
+  {
+    "id": "yinchuan-mingcui-lake",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1fa0625123a30f4425bfd7f107a2451ff67bfeee61316d9b9cfd2fbe73e70cea"
+  },
+  {
+    "id": "yinchuan-moca",
+    "kind": "spot",
+    "cityId": "yinchuan",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a7284894cfd63d498a765a348de53074a25e86729d5d75fee3e49415b389671f"
+  },
+  {
+    "id": "urumqi-xinjiang-museum",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b1400c906c15040657ee2248586b7d04cce3c72f32d44d998dc067e80516ce22"
+  },
+  {
+    "id": "urumqi-hongshan",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3afba52a0022a9d62c267c02c33989d8aa0faf248874e4f61b8d1b7e2c0b1a10"
+  },
+  {
+    "id": "urumqi-shuimogou",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d4ff10878e7eb43986bb12e15ec3e8b8ef78f24c15d91bc9cde8e41fe166404e"
+  },
+  {
+    "id": "urumqi-people-park",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "95e06dd5d55c750baa6d792e5aa35ca434b650ad5443a46fc1c97a12658cfdc8"
+  },
+  {
+    "id": "urumqi-botanical-garden",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "167eabda1341c97f5e3a227341c5b430703fb9d41986207f2ea385c70a68b186"
+  },
+  {
+    "id": "urumqi-city-museum",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "eb4d2c657fcb766f8b5971b95614d6d4a69420493bd28150829bad2bb3f09946"
+  },
+  {
+    "id": "urumqi-grand-bazaar",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2ed3541b895f82a2949f2e273cbcf601ee4298cd50411d20cdc24803e8056448"
+  },
+  {
+    "id": "urumqi-art-museum",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "81552eeb0fa0f96a8d62c93155ceb5f4fa4e521f5726e33d228323e946316447"
+  },
+  {
+    "id": "urumqi-west-baiyanggou",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "637e0981175b59ed4ffcba455dd9fc28b4d785c012e0ab180baee758b3cba18c"
+  },
+  {
+    "id": "urumqi-eighth-route-memorial",
+    "kind": "spot",
+    "cityId": "urumqi",
+    "verifiedAt": "2026-10-23",
+    "sha256": "4483f0e6107b977b1b618dc737fe23b4d0fbb6035f5ac7f96158a897a744cbcf"
+  },
+  {
+    "id": "jinghong-manting",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "679d92c1ac0cbd68847c794d18a8f27de40a09cb321e8f0975ce32982fad17c6"
+  },
+  {
+    "id": "jinghong-zongfo-temple",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a6293e0a97bd82b2339e64942e7027fdcf369705c84ed088169778e692d5429d"
+  },
+  {
+    "id": "jinghong-tropical-flowers",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e39536e04cff3dbdf7fc0b40cb82edb82af8cf3d33c0ed233882c9a047a7a5eb"
+  },
+  {
+    "id": "jinghong-gaozhuang",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f6015fd8238f13c6bbe71b7c39a09490c73f8e322772a9a599728c0537375b3d"
+  },
+  {
+    "id": "jinghong-forest-park",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "7819f592309e1936d87f6ea55832e42c85b89dfe4527ee7b4747fc8b84335976"
+  },
+  {
+    "id": "jinghong-wild-elephant-valley",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "e8051574cb3a760f5680dd143f115809adae2b36bc27027b2915f4cec3331816"
+  },
+  {
+    "id": "jinghong-dai-garden",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cbb5c580fe62ace3d8fb1760691c80e59e17ed6221b5a0b8e35fe022a36e607f"
+  },
+  {
+    "id": "jinghong-jinuo-village",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d69f45909f95009bd23fe418f4f8089ba1f1e1c0e568eedaf85eaaa96a31f1d7"
+  },
+  {
+    "id": "jinghong-manzhang",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "32759e482dfa7f273557888f42565513699a7255c368bfe78aa180118bf8aba7"
+  },
+  {
+    "id": "jinghong-ethnic-museum",
+    "kind": "spot",
+    "cityId": "jinghong",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8569c34f22be78a624dde92228ce5648e2f625b9b3e6f7c61c12367fc783c6fd"
+  },
+  {
+    "id": "haikou-qilou",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f54e4706f17d5a92207351a68e29fd3fceadcb067ef15d49bce13ae5e3a4c385"
+  },
+  {
+    "id": "haikou-wugong-temple",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "b32d84f01b36074a825abd1ab2e646ec4d3d2cdde9922716c48c213eab8e8a77"
+  },
+  {
+    "id": "haikou-hainan-museum",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "a4d6cdec484a024a61ea8cee50d00c42d7af67099754a9b5e3ee13a689115927"
+  },
+  {
+    "id": "haikou-volcano-park",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "154ea6052775dfdb97cc23c4661e32b1b063bc472cc91aade7d7cf038b804dda"
+  },
+  {
+    "id": "haikou-hairui-park",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f9d354e4cad032c96b1d6a6960d609df5a9da4e16d9e292a52d4d3e8daa117a2"
+  },
+  {
+    "id": "haikou-wanlv",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "3966771482c1aabbd8f705a6c7fc83f186f3bb49ef6fccc1bfdb3e844f614c8e"
+  },
+  {
+    "id": "haikou-baishamen",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d695d76cab3d7472fa7339db95e9b4131e51c4c1ec816f0b5ba097eb6f7c5a71"
+  },
+  {
+    "id": "haikou-holiday-beach",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "44df811f8bb2a2a139c8ebad23231bfa72f0d4dea9311f533c72bcefb1d35268"
+  },
+  {
+    "id": "haikou-xiuying-fort",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f2f040025d393ad039c965612065fed810f2731bbb0c161a4fbc35e188e61247"
+  },
+  {
+    "id": "haikou-qiongtai-academy",
+    "kind": "spot",
+    "cityId": "haikou",
+    "verifiedAt": "2026-10-23",
+    "sha256": "f2b8c534735f59698b7823cc0bb96e3bcdfa2c8099966becbc567c969adb70be"
+  },
+  {
+    "id": "kashgar-old-town",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1c4a3e1e64ca2d4da906c62872152cadf9e7b0b3fd265722b6ad1c9cdbe00be7"
+  },
+  {
+    "id": "kashgar-id-kah",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "8a75f18873bfc529cdb86d2ad36eec0496844505c57c4a5a1ffb99d62995ad08"
+  },
+  {
+    "id": "kashgar-xiangfei-garden",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "6337ccedf8f5608e5034c2229ee61a82c0d03c47af81739e00152f203cf68649"
+  },
+  {
+    "id": "kashgar-kashgar-museum",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "cff56a3ee4ba406219d91eb1d8707723b911db8ddd59378ff6a3aef00d14a6b9"
+  },
+  {
+    "id": "kashgar-pantuo-city",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1982fc8332b1ea02f640704dbf84f6045b89504a3ed6f3f9cf311440ca5ce729"
+  },
+  {
+    "id": "kashgar-east-lake",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "2c47b5f8d71bc1c3e3509d8cac8f86f3bad2a86e0e1f299d0da07298439b4b6f"
+  },
+  {
+    "id": "kashgar-people-park",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "65e33b46a76edcb21f1731a706114951ebbd869d41cf27ecddd48d044a5f91cd"
+  },
+  {
+    "id": "kashgar-instrument-village",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "c60723214250ace2b276ce9ad1c1a770396ba8dda27285716f218ada5ed1b311"
+  },
+  {
+    "id": "kashgar-zhangqian-park",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "1ce4d115eaaead69ee6bf9d45d6ab299d561040f6a694b645cb55ca416f88d94"
+  },
+  {
+    "id": "kashgar-dawakun-desert",
+    "kind": "spot",
+    "cityId": "kashgar",
+    "verifiedAt": "2026-10-23",
+    "sha256": "d0ac704cfb52852a878ae7a21255b9638606fb5e1382b2d6fccdbde827df502f"
+  }
+]
