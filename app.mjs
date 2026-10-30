@@ -1,8 +1,8 @@
-import { renderApp } from './render.mjs?v=e4921c07905c';
-import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from './client-model.mjs?v=e4921c07905c';
-import { mountGameInteractions } from './game-interactions.mjs?v=e4921c07905c';
-import runtimeConfig from './runtime-config.mjs?v=e4921c07905c';
-import { localCandidatePool, localDraw, secureRandomUUID } from './local-travel.mjs?v=e4921c07905c';
+import { renderApp } from './render.mjs?v=0a2b8f5f2546';
+import { presetFilters, parseCustomNames, toggleTheme, rememberDestination, refreshTravelRecords } from './client-model.mjs?v=0a2b8f5f2546';
+import { mountGameInteractions } from './game-interactions.mjs?v=0a2b8f5f2546';
+import runtimeConfig from './runtime-config.mjs?v=0a2b8f5f2546';
+import { localCandidatePool, localDraw, secureRandomUUID } from './local-travel.mjs?v=0a2b8f5f2546';
 
 const storageKey = 'roam-preview-v1';
 const readStored = () => {
@@ -764,7 +764,7 @@ async function boot() {
     const detail = root.querySelector('[data-startup-detail]');
     if (detail && error.message.includes('超时')) detail.textContent = '连接超时，请稍后重试。';
     const backup = root.querySelector('[data-startup-backup]');
-    const alternate = new URL('https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/');
+    const alternate = new URL('https://suixing-chufa-cloud.wenzodz.chatgpt.site/web/');
     if (backup && location.origin !== alternate.origin) {
       alternate.search = location.search;
       backup.href = alternate.href;

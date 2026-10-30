@@ -1,1 +1,1 @@
-export default {"apiBase":"https://suixing-chufa-cloud.pastelchick11.chatgpt.site"};
+export default {"apiBase":"https://suixing-chufa-cloud.wenzodz.chatgpt.site"};

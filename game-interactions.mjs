@@ -1,4 +1,4 @@
-import { flightProgress, bowProgress, createSwingTracker, createScratchTracker, clipScratchStroke } from './gesture-model.mjs?v=e4921c07905c';
+import { flightProgress, bowProgress, createSwingTracker, createScratchTracker, clipScratchStroke } from './gesture-model.mjs?v=0a2b8f5f2546';
 
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
 const summaries = {

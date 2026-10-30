@@ -1,4 +1,4 @@
-import { canonicalName, createCandidateEngine, DomainError, drawCandidate } from './candidate-core.mjs?v=e4921c07905c';
+import { canonicalName, createCandidateEngine, DomainError, drawCandidate } from './candidate-core.mjs?v=0a2b8f5f2546';
 
 function secureCrypto(crypto = globalThis.crypto) {
   if (typeof crypto?.getRandomValues !== 'function') {
