@@ -24,7 +24,7 @@
           root.innerHTML = '<main class="startup-recovery"><span class="loading-plane">↗</span><h1>随性出发</h1><p>页面暂时没能加载完成，请检查网络后重试。也可以换一个浏览器打开。</p><button class="button primary" data-startup-retry>重新加载</button><a class="button secondary" data-startup-backup hidden>试试备用入口</a></main>';
           root.querySelector('[data-startup-retry]').onclick = function () { location.reload(); };
           var backup = root.querySelector('[data-startup-backup]');
-          var alternate = new URL('https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/');
+          var alternate = new URL('https://suixing-chufa-cloud.wenzodz.chatgpt.site/web/');
           if (location.origin !== alternate.origin) {
             alternate.search = location.search;
             backup.href = alternate.href;

@@ -231,7 +231,7 @@ try {
       await retry.waitFor();
       const backup = page.locator('[data-startup-backup]');
       const url = new URL(await backup.getAttribute('href'));
-      assert.equal(url.origin, 'https://suixing-chufa-cloud.pastelchick11.chatgpt.site');
+      assert.equal(url.origin, 'https://suixing-chufa-cloud.wenzodz.chatgpt.site');
       assert.equal(url.pathname, '/web/');
       assert.equal(url.searchParams.get('room'), 'AB12');
       assert.equal(await page.locator('#app script').count(), 0, 'query text is never inserted as HTML');
@@ -264,7 +264,7 @@ try {
   });
 
   await scenario('cloud fallback never sends visitors back to itself', async page => {
-    const cloud = 'https://suixing-chufa-cloud.pastelchick11.chatgpt.site';
+    const cloud = 'https://suixing-chufa-cloud.wenzodz.chatgpt.site';
     await page.route(`${cloud}/**`, async route => {
       const url = new URL(route.request().url());
       if (url.pathname.endsWith('/app.mjs')) return route.abort('failed');

@@ -4,7 +4,7 @@
 
 网页入口：<https://wenzo-zwz.github.io/suixing-chufa/>
 
-备用网页入口：<https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/>
+备用网页入口：<https://suixing-chufa-cloud.wenzodz.chatgpt.site/web/>
 
 源代码：<https://github.com/Wenzo-zwz/suixing-chufa>
 
@@ -25,7 +25,7 @@
 
 GitHub Pages 托管静态页面和同版本目的地资料。个人模式在浏览器内筛选并使用安全随机数抽取，无需连接独立云端域名；云端 Sites Worker 与 D1 提供多人房间服务。访问网站无需运行本机服务器。页面初次加载仍需网络，不宣称可完全断网打开。
 
-云端地址：<https://suixing-chufa-cloud.pastelchick11.chatgpt.site>
+云端地址：<https://suixing-chufa-cloud.wenzodz.chatgpt.site>
 
 每个浏览器生成匿名 ID 和私密凭据；服务端只保存凭据哈希。房间信息不会返回私密凭据。房间更新使用数据库版本校验，防止并发操作覆盖成员状态。
 
@@ -54,7 +54,7 @@ npm run test:ui
 npm run test:rooms
 npm run test:gestures
 node tests/travel-data-ui.mjs
-node tests/cloud-live.mjs https://suixing-chufa-cloud.pastelchick11.chatgpt.site
+node tests/cloud-live.mjs https://suixing-chufa-cloud.wenzodz.chatgpt.site
 ```
 
 浏览器检查使用 Playwright 与本机 Edge。规则与接口测试使用 Node 内置测试工具。

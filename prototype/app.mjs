@@ -764,7 +764,7 @@ async function boot() {
     const detail = root.querySelector('[data-startup-detail]');
     if (detail && error.message.includes('超时')) detail.textContent = '连接超时，请稍后重试。';
     const backup = root.querySelector('[data-startup-backup]');
-    const alternate = new URL('https://suixing-chufa-cloud.pastelchick11.chatgpt.site/web/');
+    const alternate = new URL('https://suixing-chufa-cloud.wenzodz.chatgpt.site/web/');
     if (backup && location.origin !== alternate.origin) {
       alternate.search = location.search;
       backup.href = alternate.href;
